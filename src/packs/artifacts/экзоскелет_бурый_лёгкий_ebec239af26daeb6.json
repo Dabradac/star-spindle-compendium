@@ -1,0 +1,56 @@
+{
+  "_id": "ebec239af26daeb6",
+  "_key": "!items!ebec239af26daeb6",
+  "name": "Экзоскелет «Бурый», лёгкий",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "defense": 6,
+    "properties": "Лёгкая, усиленные сервоприводы",
+    "description": "<p>Облегчённый вариант для разведчиков: +3 к силе.</p><p>Клан Медведя. Изоляционизм и оборонительная доктрина: солдаты в экзоскелетах, а в авангарде — тяжёлые бронированные мехи. Попасть в берлогу Медведей с недобрыми намерениями смерти подобно.</p><p><strong>Лёгкая:</strong> Малый вес; +1 к проверкам проворства и скрытности носителя.</p><p><strong>Усиленные сервоприводы:</strong> +2 к проверкам силы.</p>"
+  },
+  "effects": [
+    {
+      "_id": "d6afbffae6d78af5",
+      "_key": "!items.effects!ebec239af26daeb6.d6afbffae6d78af5",
+      "name": "Экзоскелет «Бурый», лёгкий",
+      "img": "icons/svg/shield.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.strength.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": "eaee97b2c8849bab",
+  "sort": 5400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

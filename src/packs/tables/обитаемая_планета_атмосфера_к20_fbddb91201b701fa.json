@@ -1,0 +1,103 @@
+{
+  "_id": "fbddb91201b701fa",
+  "_key": "!tables!fbddb91201b701fa",
+  "name": "Обитаемая планета: атмосфера (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "dd75389c2c6a413e",
+      "_key": "!tables.results!fbddb91201b701fa.dd75389c2c6a413e",
+      "type": "text",
+      "name": "Отсутствует",
+      "description": "",
+      "text": "<strong>Отсутствует</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f6221e36e99ed88e",
+      "_key": "!tables.results!fbddb91201b701fa.f6221e36e99ed88e",
+      "type": "text",
+      "name": "Разреженная",
+      "description": "",
+      "text": "<strong>Разреженная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        6
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "785b87191d2d1fc6",
+      "_key": "!tables.results!fbddb91201b701fa.785b87191d2d1fc6",
+      "type": "text",
+      "name": "Пригодна для дыхания без дополнительной защиты",
+      "description": "",
+      "text": "<strong>Пригодна для дыхания без дополнительной защиты</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        14
+      ],
+      "weight": 8,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "23ad77a4ea06fd93",
+      "_key": "!tables.results!fbddb91201b701fa.23ad77a4ea06fd93",
+      "type": "text",
+      "name": "Плотная",
+      "description": "",
+      "text": "<strong>Плотная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        19
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e73628ee9b9d92e2",
+      "_key": "!tables.results!fbddb91201b701fa.e73628ee9b9d92e2",
+      "type": "text",
+      "name": "Едкая",
+      "description": "",
+      "text": "<strong>Едкая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

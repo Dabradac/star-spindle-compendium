@@ -1,0 +1,103 @@
+{
+  "_id": "445b2aec06cb069c",
+  "_key": "!tables!445b2aec06cb069c",
+  "name": "Обитаемая планета: орбита (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "01921d368f803223",
+      "_key": "!tables.results!445b2aec06cb069c.01921d368f803223",
+      "type": "text",
+      "name": "Ничего",
+      "description": "",
+      "text": "<strong>Ничего</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "1506081d26f01035",
+      "_key": "!tables.results!445b2aec06cb069c.1506081d26f01035",
+      "type": "text",
+      "name": "Пояс астероидов",
+      "description": "",
+      "text": "<strong>Пояс астероидов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        6
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a1febacfeb5664c2",
+      "_key": "!tables.results!445b2aec06cb069c.a1febacfeb5664c2",
+      "type": "text",
+      "name": "Станция / заброшенная станция",
+      "description": "",
+      "text": "<strong>Станция / заброшенная станция</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        14
+      ],
+      "weight": 8,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a3cd29314fabd3bf",
+      "_key": "!tables.results!445b2aec06cb069c.a3cd29314fabd3bf",
+      "type": "text",
+      "name": "Луна / луны",
+      "description": "",
+      "text": "<strong>Луна / луны</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        19
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8426d15696ca7598",
+      "_key": "!tables.results!445b2aec06cb069c.8426d15696ca7598",
+      "type": "text",
+      "name": "Обломки корабля / станции",
+      "description": "",
+      "text": "<strong>Обломки корабля / станции</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

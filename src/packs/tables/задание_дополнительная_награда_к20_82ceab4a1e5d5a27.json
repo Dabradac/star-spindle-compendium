@@ -1,0 +1,343 @@
+{
+  "_id": "82ceab4a1e5d5a27",
+  "_key": "!tables!82ceab4a1e5d5a27",
+  "name": "Задание: дополнительная награда (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Бросьте к20 по каждому столбцу. Начало описания выберите по репутации команды (отрицательная, нейтральная или положительная) и типу задания.</p><p>Стандартная награда — к20 тысяч сверкредитов на всю команду. За задания повышенной сложности можно получить дополнительные награды: модификаторы в скобках складываются, итог — количество бросков к20 по столбцу наград.</p><p>Перед началом задания бросьте к20: на 1–10 добавьте осложнение. Осложнение даёт +2 к модификатору дополнительных наград.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "112d3bdfdcabba47",
+      "_key": "!tables.results!82ceab4a1e5d5a27.112d3bdfdcabba47",
+      "type": "text",
+      "name": "Искренняя благодарность",
+      "description": "",
+      "text": "<strong>Искренняя благодарность</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e2a2721ef4784738",
+      "_key": "!tables.results!82ceab4a1e5d5a27.e2a2721ef4784738",
+      "type": "text",
+      "name": "Знак отличия",
+      "description": "",
+      "text": "<strong>Знак отличия</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "38dea0174e6aa3eb",
+      "_key": "!tables.results!82ceab4a1e5d5a27.38dea0174e6aa3eb",
+      "type": "text",
+      "name": "к6 тысяч сверкредитов каждому участнику",
+      "description": "",
+      "text": "<strong>к6 тысяч сверкредитов каждому участнику</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "00b082298fd86942",
+      "_key": "!tables.results!82ceab4a1e5d5a27.00b082298fd86942",
+      "type": "text",
+      "name": "Снаряжение / провиант",
+      "description": "",
+      "text": "<strong>Снаряжение / провиант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fbbe454ec5abe149",
+      "_key": "!tables.results!82ceab4a1e5d5a27.fbbe454ec5abe149",
+      "type": "text",
+      "name": "Оружие",
+      "description": "",
+      "text": "<strong>Оружие</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "609c466168b56e7a",
+      "_key": "!tables.results!82ceab4a1e5d5a27.609c466168b56e7a",
+      "type": "text",
+      "name": "Броня",
+      "description": "",
+      "text": "<strong>Броня</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3675eaea079b90ba",
+      "_key": "!tables.results!82ceab4a1e5d5a27.3675eaea079b90ba",
+      "type": "text",
+      "name": "Модуль на корабль",
+      "description": "",
+      "text": "<strong>Модуль на корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e7e1b1c0270f2590",
+      "_key": "!tables.results!82ceab4a1e5d5a27.e7e1b1c0270f2590",
+      "type": "text",
+      "name": "Рекомендация команды другому работодателю",
+      "description": "",
+      "text": "<strong>Рекомендация команды другому работодателю</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "24cbc89d8669ce59",
+      "_key": "!tables.results!82ceab4a1e5d5a27.24cbc89d8669ce59",
+      "type": "text",
+      "name": "Важная информация",
+      "description": "",
+      "text": "<strong>Важная информация</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ea3e207ad4aee641",
+      "_key": "!tables.results!82ceab4a1e5d5a27.ea3e207ad4aee641",
+      "type": "text",
+      "name": "Новое задание",
+      "description": "",
+      "text": "<strong>Новое задание</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6199fe15f2839144",
+      "_key": "!tables.results!82ceab4a1e5d5a27.6199fe15f2839144",
+      "type": "text",
+      "name": "Боеприпасы для наземного / корабельного оружия",
+      "description": "",
+      "text": "<strong>Боеприпасы для наземного / корабельного оружия</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9dfbc7cc962368d0",
+      "_key": "!tables.results!82ceab4a1e5d5a27.9dfbc7cc962368d0",
+      "type": "text",
+      "name": "Услуга",
+      "description": "",
+      "text": "<strong>Услуга</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b05d1e1b35b195da",
+      "_key": "!tables.results!82ceab4a1e5d5a27.b05d1e1b35b195da",
+      "type": "text",
+      "name": "Оплата следующего месяца долга за корабль",
+      "description": "",
+      "text": "<strong>Оплата следующего месяца долга за корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9b27cf95d9cb2f80",
+      "_key": "!tables.results!82ceab4a1e5d5a27.9b27cf95d9cb2f80",
+      "type": "text",
+      "name": "Контакт влиятельного человека",
+      "description": "",
+      "text": "<strong>Контакт влиятельного человека</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "19ddf1eacdea5377",
+      "_key": "!tables.results!82ceab4a1e5d5a27.19ddf1eacdea5377",
+      "type": "text",
+      "name": "Улучшение модуля корабля",
+      "description": "",
+      "text": "<strong>Улучшение модуля корабля</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ce4ce3e7e7b04b22",
+      "_key": "!tables.results!82ceab4a1e5d5a27.ce4ce3e7e7b04b22",
+      "type": "text",
+      "name": "Повышение качества предмета снаряжения",
+      "description": "",
+      "text": "<strong>Повышение качества предмета снаряжения</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3e76b3729b130693",
+      "_key": "!tables.results!82ceab4a1e5d5a27.3e76b3729b130693",
+      "type": "text",
+      "name": "Киберимплант / протез",
+      "description": "",
+      "text": "<strong>Киберимплант / протез</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "307806d9b1fcd59b",
+      "_key": "!tables.results!82ceab4a1e5d5a27.307806d9b1fcd59b",
+      "type": "text",
+      "name": "Артефакт",
+      "description": "",
+      "text": "<strong>Артефакт</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d672f1cd80a6b81a",
+      "_key": "!tables.results!82ceab4a1e5d5a27.d672f1cd80a6b81a",
+      "type": "text",
+      "name": "Передовая технология",
+      "description": "",
+      "text": "<strong>Передовая технология</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b2a046879241c9a0",
+      "_key": "!tables.results!82ceab4a1e5d5a27.b2a046879241c9a0",
+      "type": "text",
+      "name": "Любая из указанных наград на выбор группы",
+      "description": "",
+      "text": "<strong>Любая из указанных наград на выбор группы</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "0fe0df15785af6ee",
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

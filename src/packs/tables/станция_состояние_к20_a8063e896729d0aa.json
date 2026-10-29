@@ -1,0 +1,103 @@
+{
+  "_id": "a8063e896729d0aa",
+  "_key": "!tables!a8063e896729d0aa",
+  "name": "Станция: состояние (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "2a6991318f1bd8c1",
+      "_key": "!tables.results!a8063e896729d0aa.2a6991318f1bd8c1",
+      "type": "text",
+      "name": "Еле держится: регулярные разгерметизации отсеков и космический мусор вокруг",
+      "description": "",
+      "text": "<strong>Еле держится: регулярные разгерметизации отсеков и космический мусор вокруг</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "1519f3c4e45dc2ad",
+      "_key": "!tables.results!a8063e896729d0aa.1519f3c4e45dc2ad",
+      "type": "text",
+      "name": "Не хорошее, но и не ужасное",
+      "description": "",
+      "text": "<strong>Не хорошее, но и не ужасное</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        6
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8cd15afb839c2cdf",
+      "_key": "!tables.results!a8063e896729d0aa.8cd15afb839c2cdf",
+      "type": "text",
+      "name": "В целом в порядке",
+      "description": "",
+      "text": "<strong>В целом в порядке</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        14
+      ],
+      "weight": 8,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "81c7f748121ecbc1",
+      "_key": "!tables.results!a8063e896729d0aa.81c7f748121ecbc1",
+      "type": "text",
+      "name": "Регулярно обслуживается экипажем, не без недостатков",
+      "description": "",
+      "text": "<strong>Регулярно обслуживается экипажем, не без недостатков</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        19
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "13a5014edb855eae",
+      "_key": "!tables.results!a8063e896729d0aa.13a5014edb855eae",
+      "type": "text",
+      "name": "Как новенькая",
+      "description": "",
+      "text": "<strong>Как новенькая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

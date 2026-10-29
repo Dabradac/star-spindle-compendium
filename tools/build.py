@@ -2,6 +2,7 @@
 
 Запуск из папки модуля:  python3 tools/build.py
 Затем упаковка в LevelDB: npm run pack
+Обновить главы лора из текста книги: python3 tools/build.py --lore <папка со страницами NNN.txt>
 """
 
 import copy
@@ -16,7 +17,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
-from data import abilities, bestiary, equipment, pregens, ships, specializations, tables, traits  # noqa: E402
+from data import (abilities, artifacts, bestiary, clan_tech, diseases, equipment, generators, pregens,  # noqa: E402
+                  rules, ships, specializations, tables, traits, vehicles)
 
 MODULE_ID = "star-spindle-compendium"
 SRC = ROOT / "src" / "packs"
@@ -36,7 +38,7 @@ ICONS = {
     "shipUpgrade": "icons/svg/upgrade.svg", "cargo": "icons/svg/chest.svg",
 }
 
-STATS = {"coreVersion": "13.345", "systemId": "star-spindle", "systemVersion": "0.3.0"}
+STATS = {"coreVersion": "13.345", "systemId": "star-spindle", "systemVersion": "0.4.0"}
 
 
 def make_id(*parts):
@@ -341,6 +343,131 @@ def build_injuries():
             "description": desc, "code": str(code), "lethal": lethal != "Нет", "deadline": deadline,
             "effect": effect_text, "period": period, "strength": shock
         }, effects=[changes] if changes else None)
+
+    sick = pack.folder("Болезни")
+    for name, mod, period, desc, changes in diseases.PHYSICAL:
+        item(pack, f"{name} ({mod:+d})" if mod else f"{name} (0)", "injury", {
+            "description": p(desc) + p(diseases.RULES), "code": "", "lethal": name == "Червонная чума",
+            "deadline": "", "effect": desc.split("\n")[-1], "period": period, "strength": 0
+        }, folder=sick, effects=[changes] if changes else None, img="icons/svg/poison.svg", key=name)
+    mental = pack.folder("Психические заболевания (+1)", parent=sick)
+    for name, desc in diseases.MENTAL:
+        item(pack, name, "injury", {
+            "description": p(desc) + p(diseases.MENTAL_RULES), "code": "", "lethal": False,
+            "deadline": "", "effect": desc, "period": "3к6", "strength": 0
+        }, folder=mental, img="icons/svg/daze.svg")
+    return pack
+
+
+# --------------------------------------------------------------------------
+#  Артефакты Древних и технологии кланов
+# --------------------------------------------------------------------------
+
+def weapon_system(skill, stats, size_default="standard"):
+    mod, init, dmg, crit, rng, props = stats
+    glossary = {**(equipment.MELEE_PROPERTIES if skill == "melee" else equipment.RANGED_PROPERTIES), **clan_tech.NEW_PROPERTIES}
+    return {
+        **physical(size_from(props, size_default)), "skill": skill, "modifier": mod, "initiative": init,
+        "damage": dmg, "crit": crit, "range": rng,
+        "armorPiercing": 2 if "бронебойн" in props.lower() else 0,
+        "automatic": "автоматическое" in props.lower(),
+        "properties": props, "ammo": {"value": 0, "max": 0},
+        "description": describe_properties(props, glossary)
+    }
+
+
+def build_artifacts():
+    pack = Pack("artifacts")
+    root = pack.folder("Артефакты Древних")
+    for code, name, mod, skills, tokens, charges, kind, desc in artifacts.ARTIFACTS:
+        footer = ul([
+            f"к66: {code}",
+            f"Понимание: проверка науки или культуры с модификатором {mod:+d}" if mod else "Понимание: проверка науки или культуры без модификатора",
+            f"Требуемый навык: {skills or 'нет'}",
+            f"Активация: {tokens} жетон(а) Чернобога Мастеру" if tokens else "Активация не даёт жетонов Чернобога",
+            f"Заряды: {charges}" + (" (при находке — к6 зарядов)" if charges == "многоразовый" else ""),
+        ])
+        text = p(desc) + footer
+        title = f"{name} ({mod:+d})" if mod else f"{name} (0)"
+        img = "icons/svg/mystery-man-black.svg"
+        if kind == "implant":
+            bonus, changes = None, None
+            if name == "Церебральный чип":
+                changes = [("system.attributes.agility.value", 1), ("system.skills.dexterity.bonus", 1)]
+            item(pack, title, "implant", {"description": text, "kind": "cyber", "illegal": False, "price": 0, **bonus_fields(bonus)},
+                 folder=root, effects=[changes] if changes else None, img="icons/svg/lightning.svg", key=name)
+        elif kind == "weapon":
+            if name == "Удочка Древних":
+                system = weapon_system("shooting", (1, 0, 0, 0, "long", "Громоздкое, стационарное"))
+            else:
+                system = weapon_system("shooting", (0, 0, 0, 0, "medium", "Игнорирует броню"))
+            system["description"] = text + system["description"]
+            item(pack, title, "weapon", system, folder=root, img="icons/svg/lightning.svg", key=name)
+        elif kind == "armor":
+            item(pack, title, "armor", {**physical("light"), "defense": 1, "properties": "Защита разума", "description": text},
+                 folder=root, img="icons/svg/lightning.svg", key=name)
+        else:
+            bonus = {"Силовые рукавицы": (2, "strength", False), "Синаптический визор": (2, "shooting", True),
+                     "Разнорабочий": (3, "mechanics", True)}.get(name)
+            item(pack, title, "gear", {**physical("light"), **bonus_fields(bonus), "description": text},
+                 folder=root, img="icons/svg/lightning.svg", key=name)
+
+    tech = pack.folder("Технологии кланов и фракций")
+    for group, intro, entries in clan_tech.GROUPS:
+        folder = pack.folder(group, parent=tech)
+        note = p(f"{group}. {intro}")
+        for kind, name, stats, desc in entries:
+            text = p(desc) + note
+            if kind in ("melee", "ranged"):
+                system = weapon_system("melee" if kind == "melee" else "shooting", stats)
+                system["description"] = text + system["description"]
+                item(pack, name, "weapon", system, folder=folder)
+            elif kind == "armor":
+                defense, props = stats
+                changes = {"Маскировочный костюм «Чешуя»": [("system.skills.stealth.bonus", 3)],
+                           "Экзоскелет «Бурый»": [("system.skills.strength.bonus", 3)],
+                           "Экзоскелет «Бурый», лёгкий": [("system.skills.strength.bonus", 3)]}.get(name)
+                item(pack, name, "armor", {**physical(size_from(props, "light")), "defense": defense, "properties": props,
+                                           "description": text + describe_properties(props, equipment.ARMOR_PROPERTIES)},
+                     folder=folder, effects=[changes] if changes else None)
+            elif kind == "gear":
+                item(pack, name, "gear", {**physical("light"), **bonus_fields(stats), "description": text}, folder=folder)
+            elif kind == "ship_weapon":
+                mod, dmg, crit, rng, dtype, props = stats
+                item(pack, name, "shipWeapon", {
+                    "description": text, "modifier": mod, "damage": dmg, "crit": crit, "range": rng, "damageType": dtype,
+                    "ignoresArmor": False, "location": "turret" if "турельн" in props else "bow", "properties": props,
+                    "price": 0, "ammo": {"value": 0, "max": 0}
+                }, folder=folder)
+            elif kind == "ship_module":
+                item(pack, name, "shipModule", {"description": text, "category": "extra", "state": "normal", "upgrades": ""}, folder=folder)
+            elif kind == "ship_upgrade":
+                item(pack, name, "shipUpgrade", {"description": text, "costPercent": 0}, folder=folder)
+    return pack
+
+
+def build_vehicles():
+    pack = Pack("vehicles")
+    img = "icons/svg/wing.svg"
+
+    def add(name, dur, armor, man, speed, seats, price, note, folder=None):
+        desc = p(note) + p(vehicles.RULES)
+        doc = actor_base(pack, name, "vehicle", {
+            "kind": name, "durability": {"value": dur, "max": dur}, "armor": armor, "maneuverability": man,
+            "speed": speed, "seats": seats, "price": price, "criticals": "", "description": desc
+        }, img, folder=folder)
+        doc["prototypeToken"]["bar1"] = {"attribute": "durability"}
+        doc["prototypeToken"]["bar2"] = {"attribute": None}
+        doc["prototypeToken"]["disposition"] = 0
+        pack.add(doc)
+        return doc
+
+    typical = pack.folder("Типовые ТС", doc_type="Actor")
+    for name, dur, armor, man, speed, seats, price, note in vehicles.VEHICLES:
+        add(name, dur, armor, man, speed, seats, price, note, typical)
+    clan = pack.folder("Технологии кланов", doc_type="Actor")
+    name, dur, armor, man, speed, seats, price, note = clan_tech.MECH
+    add(name, dur, armor, man, speed, seats, price, note, clan)
     return pack
 
 
@@ -626,7 +753,7 @@ def build_bestiary():
 #  Таблицы
 # --------------------------------------------------------------------------
 
-def table(pack, name, formula, rows, description=""):
+def table(pack, name, formula, rows, description="", folder=None):
     tid = make_id(pack.name, "table", name)
     results = []
     for n, (rng, rname, text) in enumerate(rows):
@@ -639,11 +766,11 @@ def table(pack, name, formula, rows, description=""):
     return pack.add({
         "_id": tid, "_key": f"!tables!{tid}", "name": name, "img": "icons/svg/d20-grey.svg",
         "description": description, "formula": formula, "replacement": True, "displayRoll": True,
-        "results": results, "folder": None, "sort": len(pack.docs) * 100, "ownership": {"default": 0}, "flags": {}, "_stats": STATS
+        "results": results, "folder": folder, "sort": len(pack.docs) * 100, "ownership": {"default": 0}, "flags": {}, "_stats": STATS
     })
 
 
-def build_tables(injuries):
+def build_tables(injuries, arts=None):
     pack = Pack("tables")
     d66 = "(1d6 * 10) + 1d6"
     by_name = {d["name"]: d for d in injuries.docs}
@@ -657,30 +784,143 @@ def build_tables(injuries):
     table(pack, "Случайный отсек (к66)", d66, [(r, n, "") for r, n in tables.COMPARTMENTS], tables.COMPARTMENT_NOTE)
     table(pack, "Неудачный прыжок (к66)", d66, [(r, "", html.escape(t)) for r, t in tables.JUMPS])
     table(pack, "Износ корабля (к6)", "1d6", [((n, n), s, html.escape(e)) for n, s, e in tables.WEAR])
+    table(pack, "Критические повреждения ТС (к6)", "1d6", [((n, n), name, html.escape(e)) for n, name, e in vehicles.CRITS])
+    if arts is not None:
+        by_key = {d["name"].rsplit(" (", 1)[0]: d for d in arts.docs}
+        rows = []
+        for code, name, mod, skills, tokens, charges, kind, desc in artifacts.ARTIFACTS:
+            doc = by_key[name]
+            rows.append(((code, code), name, f"@UUID[Compendium.{MODULE_ID}.artifacts.Item.{doc['_id']}]{{{doc['name']}}}"))
+        table(pack, "Артефакты Древних (к66)", d66, rows, "Первый к6 — десятки, второй — единицы.")
+    build_generator_tables(pack, d66)
     return pack
+
+
+def build_generator_tables(pack, d66):
+    gen = pack.folder("Генераторы", doc_type="RollTable")
+    space = pack.folder("Системы и планеты", doc_type="RollTable", parent=gen)
+    one = lambda items: [((i + 1, i + 1), x, "") for i, x in enumerate(items)]
+    table(pack, "Известная система (к20)", "1d20", one(generators.SYSTEMS), folder=space)
+    table(pack, "Звезда (к20)", "1d20", one(generators.STARS), folder=space)
+    table(pack, "Космический объект (к20)", "1d20", [(r, d, html.escape(t)) for r, d, t in generators.BODIES],
+          generators.BODY_NOTE, folder=space)
+    for row, values in generators.PLANET:
+        table(pack, f"Обитаемая планета: {row.lower()} (к20)", "1d20",
+              [(r, v, "") for r, v in zip(generators.PLANET_RANGES, values)], folder=space)
+    table(pack, "Газовый гигант: диаметр (к20)", "1d20", [(r, d, "") for r, d, c in generators.GAS_GIANT], folder=space)
+    table(pack, "Газовый гигант: цвет (к20)", "1d20", [(r, c, "") for r, d, c in generators.GAS_GIANT], folder=space)
+    for i, col in enumerate(("население", "состояние", "назначение (у привратной — всегда привратная)")):
+        table(pack, f"Станция: {col} (к20)", "1d20", [(row[0], row[i + 1], "") for row in generators.STATION], folder=space)
+
+    quests = pack.folder("Задания", doc_type="RollTable", parent=gen)
+    for i, col in enumerate(generators.QUEST_COLUMNS):
+        table(pack, f"Задание: {col.lower()} (к20)", "1d20", [((n + 1, n + 1), row[i], "") for n, row in enumerate(generators.QUESTS)],
+              p(generators.QUEST_RULES), folder=quests)
+
+    meet = pack.folder("Случайные встречи", doc_type="RollTable", parent=gen)
+    for title, columns, data in (("Встреча на планете", generators.PLANET_ENCOUNTER_COLUMNS, generators.PLANET_ENCOUNTERS),
+                                 ("Космическая встреча", generators.SPACE_ENCOUNTER_COLUMNS, generators.SPACE_ENCOUNTERS)):
+        for i, col in enumerate(columns):
+            table(pack, f"{title}: {col.lower()} (к66)", d66, [((c, c), v[i], "") for c, v in sorted(data.items())], folder=meet)
+
+    camp = pack.folder("Лагерь", doc_type="RollTable")
+    table(pack, "Негативные события в лагере (к66)", d66, [(r, t, "") for r, t in rules.CAMP_EVENTS],
+          "Сколько событий может случиться — зависит от качества отдыха.", folder=camp)
+
+    origin = pack.folder("Предыстория", doc_type="RollTable")
+    for title, rows in generators.BACKSTORY:
+        table(pack, title, "1d6", [((n, n), f"{name} ({lvl:+d})" if lvl else f"{name} (0)", html.escape(desc))
+                                   for n, name, desc, lvl in rows],
+              "В скобках — уровень происхождения. Сумма трёх уровней определяет стартовые параметры.", folder=origin)
 
 
 # --------------------------------------------------------------------------
 #  Справочник
 # --------------------------------------------------------------------------
 
+def render_blocks(blocks):
+    out = []
+    for block in blocks:
+        kind = block[0]
+        if kind == "p":
+            out.append(p(block[1]))
+        elif kind == "h":
+            out.append(f"<h3>{html.escape(block[1])}</h3>")
+        elif kind == "ul":
+            out.append(ul(block[1]))
+        elif kind == "table":
+            head = "".join(f"<th>{html.escape(h)}</th>" for h in block[1])
+            body = "".join("<tr>" + "".join(f"<td>{html.escape(c)}</td>" for c in row) + "</tr>" for row in block[2])
+            out.append(f"<table><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table>")
+    return "".join(out)
+
+
+def journal(pack, name, pages, folder=None):
+    jid = make_id(pack.name, "journal", name)
+    docs = []
+    for n, (title, content) in enumerate(pages):
+        pid = make_id(jid, title)
+        docs.append({"_id": pid, "_key": f"!journal.pages!{jid}.{pid}", "name": title, "type": "text",
+                     "text": {"content": content, "format": 1}, "title": {"show": True, "level": 1},
+                     "sort": n * 100, "ownership": {"default": -1}, "flags": {}})
+    return pack.add({"_id": jid, "_key": f"!journal!{jid}", "name": name, "pages": docs, "folder": folder,
+                     "sort": len(pack.docs) * 100, "ownership": {"default": 0}, "flags": {}, "_stats": STATS})
+
+
+def backstory_html():
+    out = p(generators.BACKSTORY_INTRO)
+    for title, rows in generators.BACKSTORY:
+        out += render_blocks([("h", title), ("table", ["к6", "Вариант", "Описание", "Уровень"],
+                                             [[str(n), name, desc, f"{lvl:+d}" if lvl else "0"] for n, name, desc, lvl in rows])])
+    out += render_blocks([("h", "Итог: сумма уровней происхождения"),
+                          ("table", ["Сословие", "Сумма", "Пункты характеристик", "Пункты навыков", "Репутация", "Сверкредиты"],
+                           [[a, b, str(c), str(d), f"{e:+d}" if e else "0", str(f)] for a, b, c, d, e, f in generators.ORIGIN_RESULTS])])
+    return out
+
+
 def build_reference():
     pack = Pack("reference")
-    jid = make_id("reference", "ships")
-    pages = []
+    lore_path = ROOT / "tools" / "data" / "lore.json"
+    lore = json.loads(lore_path.read_text(encoding="utf-8")) if lore_path.exists() else []
 
-    def page(name, content):
-        pid = make_id(jid, name)
-        pages.append({"_id": pid, "_key": f"!journal.pages!{jid}.{pid}", "name": name, "type": "text",
-                      "text": {"content": content, "format": 1}, "title": {"show": True, "level": 1},
-                      "sort": len(pages) * 100, "ownership": {"default": -1}, "flags": {}})
+    page = lambda data: (data[0], render_blocks(data[1]))
+    journal(pack, "Правила: бой, урон и отдых", [page(x) for x in rules.PAGES if x is not rules.CHERNOBOG])
+    journal(pack, "Правила: транспорт", [("Наземный и воздушный транспорт", p(vehicles.RULES)),
+                                         ("Критические повреждения ТС (к6)", render_blocks([("table", ["к6", "Повреждение", "Эффект"],
+                                          [[str(n), name, e] for n, name, e in vehicles.CRITS])]))])
+    journal(pack, "Создание персонажа: предыстория", [("Предыстория", backstory_html())])
 
-    page("Базовые значения кораблей", p(ships.BASE_VALUES))
-    page("Типы корпусов", "".join(f"<h3>{html.escape(n)}</h3>{p(d)}" for n, d in ships.HULLS))
-    page("Изъяны кораблей", p("Изъян действует, только когда Мастер активирует его, потратив жетоны Чернобога.")
-         + "".join(f"<h3>{html.escape(n)}</h3>{p(d)}" for n, d in ships.FLAWS))
-    pack.add({"_id": jid, "_key": f"!journal!{jid}", "name": "Справочник: корабли", "pages": pages,
-              "folder": None, "sort": 0, "ownership": {"default": 0}, "flags": {}, "_stats": STATS})
+    lore_folder = pack.folder("Мир игры", doc_type="JournalEntry")
+    extra = {"Славия": [page(rules.SYSTEMS_OVERVIEW)], "Фракции и кланы": [page(rules.RELATIONS)]}
+    tail = {"Религия": [page(rules.CALENDAR)]}
+    for chapter in lore:
+        pages = extra.get(chapter["journal"], []) + [(x["name"], x["html"]) for x in chapter["pages"]] + tail.get(chapter["journal"], [])
+        journal(pack, chapter["journal"], pages, folder=lore_folder)
+
+    ships_pages = [("Базовые значения кораблей", p(ships.BASE_VALUES)),
+                   ("Типы корпусов", "".join(f"<h3>{html.escape(n)}</h3>{p(d)}" for n, d in ships.HULLS)),
+                   ("Изъяны кораблей", p("Изъян действует, только когда Мастер активирует его, потратив жетоны Чернобога.")
+                    + "".join(f"<h3>{html.escape(n)}</h3>{p(d)}" for n, d in ships.FLAWS))]
+    doc = journal(pack, "Справочник: корабли", ships_pages)
+    # Прежний идентификатор журнала кораблей сохраняется, чтобы не ломать ссылки в мирах.
+    old = make_id("reference", "ships")
+    doc["_id"], doc["_key"] = old, f"!journal!{old}"
+    for pg in doc["pages"]:
+        pid = make_id(old, pg["name"])
+        pg["_id"], pg["_key"] = pid, f"!journal.pages!{old}.{pid}"
+    return pack
+
+
+def build_gm_reference():
+    pack = Pack("gm")
+    page = lambda data: (data[0], render_blocks(data[1]))
+    journal(pack, "Жетоны Чернобога", [page(rules.CHERNOBOG)])
+    journal(pack, "Артефакты Древних: правила", [("Как работают артефакты", p(artifacts.RULES))])
+    gen = [("Задания", p(generators.QUEST_RULES) + p("Таблицы — в компендиуме «Таблицы», папка «Генераторы / Задания».")),
+           ("Системы и планеты", p(generators.BODY_NOTE) + render_blocks([
+               ("h", "Биомы по температуре"), ("table", ["Температура", "Чаще всего встречающиеся биомы"], [list(x) for x in generators.BIOMES])])),
+           ("Случайные встречи", p("Выберите столбец по населённости местности или системы и бросьте к66 по соответствующей таблице."))]
+    journal(pack, "Генераторы случайных событий", gen)
     return pack
 
 
@@ -692,22 +932,32 @@ def write_init_script(tables_pack):
         "shipCrit": ids["Критические повреждения корабля (к66)"],
         "compartment": ids["Случайный отсек (к66)"],
         "jump": ids["Неудачный прыжок (к66)"],
+        "wear": ids["Износ корабля (к6)"],
+        "vehicleCrit": ids["Критические повреждения ТС (к6)"],
     }
     lines = ",\n".join(f'  {k}: "Compendium.{MODULE_ID}.tables.RollTable.{v}"' for k, v in mapping.items())
     (ROOT / "scripts").mkdir(exist_ok=True)
     (ROOT / "scripts" / "init.mjs").write_text(
-        "// Сгенерировано tools/build.py. Подключает таблицы к66 компендиума к настройкам системы.\n"
+        "// Сгенерировано tools/build.py. Подключает таблицы к66 и к6 компендиума к настройкам системы.\n"
         f"const TABLES = {{\n{lines}\n}};\n\n"
         "Hooks.once(\"ready\", async () => {\n"
         "  if (!game.user.isGM || (game.system.id !== \"star-spindle\")) return;\n"
         "  for (const [key, uuid] of Object.entries(TABLES)) {\n"
         "    const setting = `table.${key}`;\n"
+        "    if (!game.settings.settings.has(`star-spindle.${setting}`)) continue;\n"
         "    if (!game.settings.get(\"star-spindle\", setting)) await game.settings.set(\"star-spindle\", setting, uuid);\n"
         "  }\n"
         "});\n", encoding="utf-8")
 
 
 def main():
+    if "--lore" in sys.argv:
+        # Перевод глав лора со страниц книги (папка с файлами NNN.txt, полученными pdftotext).
+        import lore_text
+        pages_dir = sys.argv[sys.argv.index("--lore") + 1]
+        data = lore_text.build_lore(rules.LORE_CHAPTERS, pages_dir)
+        (ROOT / "tools" / "data" / "lore.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print("lore.json обновлён")
     if SRC.exists():
         shutil.rmtree(SRC)
     specs = build_specializations()
@@ -721,11 +971,14 @@ def main():
     parts = build_ship_parts()
     shps = build_ships(parts)
     chars = build_pregens(specs, trts, weap, arm, gear, impl)
-    tabs = build_tables(inj)
+    arts = build_artifacts()
+    vehs = build_vehicles()
+    tabs = build_tables(inj, arts)
     ref = build_reference()
+    gm = build_gm_reference()
     best = build_bestiary()
     write_init_script(tabs)
-    for pack in (specs, abil, trts, weap, arm, gear, impl, inj, parts, shps, chars, tabs, ref, best):
+    for pack in (specs, abil, trts, weap, arm, gear, impl, inj, parts, shps, chars, tabs, ref, best, arts, vehs, gm):
         pack.write()
         print(f"{pack.name:16} {len(pack.docs):4} документов, {len(pack.folders):3} папок")
 

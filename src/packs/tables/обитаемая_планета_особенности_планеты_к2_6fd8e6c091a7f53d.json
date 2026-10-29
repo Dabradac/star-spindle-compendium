@@ -1,0 +1,103 @@
+{
+  "_id": "6fd8e6c091a7f53d",
+  "_key": "!tables!6fd8e6c091a7f53d",
+  "name": "Обитаемая планета: особенности планеты (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "bf64bd2172a3bffe",
+      "_key": "!tables.results!6fd8e6c091a7f53d.bf64bd2172a3bffe",
+      "type": "text",
+      "name": "Множество ресурсов",
+      "description": "",
+      "text": "<strong>Множество ресурсов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "738a13dd8ac4a278",
+      "_key": "!tables.results!6fd8e6c091a7f53d.738a13dd8ac4a278",
+      "type": "text",
+      "name": "Регулярные природные катаклизмы",
+      "description": "",
+      "text": "<strong>Регулярные природные катаклизмы</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        6
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "00998811d93e303b",
+      "_key": "!tables.results!6fd8e6c091a7f53d.00998811d93e303b",
+      "type": "text",
+      "name": "Высокая частота веретенных аномалий",
+      "description": "",
+      "text": "<strong>Высокая частота веретенных аномалий</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        14
+      ],
+      "weight": 8,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "aaacc15623783af1",
+      "_key": "!tables.results!6fd8e6c091a7f53d.aaacc15623783af1",
+      "type": "text",
+      "name": "Полностью водный мир / только подземные источники (зависит от атмосферы и температуры)",
+      "description": "",
+      "text": "<strong>Полностью водный мир / только подземные источники (зависит от атмосферы и температуры)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        19
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "bb4691e885f795d2",
+      "_key": "!tables.results!6fd8e6c091a7f53d.bb4691e885f795d2",
+      "type": "text",
+      "name": "Руины Древних",
+      "description": "",
+      "text": "<strong>Руины Древних</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

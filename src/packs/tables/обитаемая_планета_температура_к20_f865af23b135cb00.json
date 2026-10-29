@@ -1,0 +1,103 @@
+{
+  "_id": "f865af23b135cb00",
+  "_key": "!tables!f865af23b135cb00",
+  "name": "Обитаемая планета: температура (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "743b8e2d2022c351",
+      "_key": "!tables.results!f865af23b135cb00.743b8e2d2022c351",
+      "type": "text",
+      "name": "Низкая",
+      "description": "",
+      "text": "<strong>Низкая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "617655375f273236",
+      "_key": "!tables.results!f865af23b135cb00.617655375f273236",
+      "type": "text",
+      "name": "Пониженная",
+      "description": "",
+      "text": "<strong>Пониженная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        6
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "647ea2f0f07dc75f",
+      "_key": "!tables.results!f865af23b135cb00.647ea2f0f07dc75f",
+      "type": "text",
+      "name": "Умеренная",
+      "description": "",
+      "text": "<strong>Умеренная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        14
+      ],
+      "weight": 8,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "20c40496906a3e65",
+      "_key": "!tables.results!f865af23b135cb00.20c40496906a3e65",
+      "type": "text",
+      "name": "Повышенная",
+      "description": "",
+      "text": "<strong>Повышенная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        19
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "968ae88c976ec01e",
+      "_key": "!tables.results!f865af23b135cb00.968ae88c976ec01e",
+      "type": "text",
+      "name": "Высокая",
+      "description": "",
+      "text": "<strong>Высокая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

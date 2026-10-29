@@ -1,0 +1,343 @@
+{
+  "_id": "5ef8c90d2e03e993",
+  "_key": "!tables!5ef8c90d2e03e993",
+  "name": "Задание: цель находится… (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Бросьте к20 по каждому столбцу. Начало описания выберите по репутации команды (отрицательная, нейтральная или положительная) и типу задания.</p><p>Стандартная награда — к20 тысяч сверкредитов на всю команду. За задания повышенной сложности можно получить дополнительные награды: модификаторы в скобках складываются, итог — количество бросков к20 по столбцу наград.</p><p>Перед началом задания бросьте к20: на 1–10 добавьте осложнение. Осложнение даёт +2 к модификатору дополнительных наград.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "b3b8d012c5ed6d02",
+      "_key": "!tables.results!5ef8c90d2e03e993.b3b8d012c5ed6d02",
+      "type": "text",
+      "name": "В том же / соседнем здании",
+      "description": "",
+      "text": "<strong>В том же / соседнем здании</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7e13833be12649a3",
+      "_key": "!tables.results!5ef8c90d2e03e993.7e13833be12649a3",
+      "type": "text",
+      "name": "В этой же колонии / станции",
+      "description": "",
+      "text": "<strong>В этой же колонии / станции</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "87627c6e67301ac3",
+      "_key": "!tables.results!5ef8c90d2e03e993.87627c6e67301ac3",
+      "type": "text",
+      "name": "В этой же колонии / станции (1)",
+      "description": "",
+      "text": "<strong>В этой же колонии / станции (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "38db76bf1f69f91b",
+      "_key": "!tables.results!5ef8c90d2e03e993.38db76bf1f69f91b",
+      "type": "text",
+      "name": "Недалеко от колонии / станции",
+      "description": "",
+      "text": "<strong>Недалеко от колонии / станции</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6b3b6976e556143e",
+      "_key": "!tables.results!5ef8c90d2e03e993.6b3b6976e556143e",
+      "type": "text",
+      "name": "Недалеко от колонии / станции (1)",
+      "description": "",
+      "text": "<strong>Недалеко от колонии / станции (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7d2f4c37b17fba03",
+      "_key": "!tables.results!5ef8c90d2e03e993.7d2f4c37b17fba03",
+      "type": "text",
+      "name": "На значительном удалении от колонии / станции (1)",
+      "description": "",
+      "text": "<strong>На значительном удалении от колонии / станции (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cfc527b1a3b5921f",
+      "_key": "!tables.results!5ef8c90d2e03e993.cfc527b1a3b5921f",
+      "type": "text",
+      "name": "В этой же системе, близко к вратам",
+      "description": "",
+      "text": "<strong>В этой же системе, близко к вратам</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d71558f4acb05cb6",
+      "_key": "!tables.results!5ef8c90d2e03e993.d71558f4acb05cb6",
+      "type": "text",
+      "name": "В этой же системе, близко к вратам (1)",
+      "description": "",
+      "text": "<strong>В этой же системе, близко к вратам (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d5687cfc49562516",
+      "_key": "!tables.results!5ef8c90d2e03e993.d5687cfc49562516",
+      "type": "text",
+      "name": "В этой же системе, но на значительном удалении от врат (1)",
+      "description": "",
+      "text": "<strong>В этой же системе, но на значительном удалении от врат (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a695c093933c2604",
+      "_key": "!tables.results!5ef8c90d2e03e993.a695c093933c2604",
+      "type": "text",
+      "name": "В этой же системе, но на значительном удалении от врат (2)",
+      "description": "",
+      "text": "<strong>В этой же системе, но на значительном удалении от врат (2)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b89fe065586a16d9",
+      "_key": "!tables.results!5ef8c90d2e03e993.b89fe065586a16d9",
+      "type": "text",
+      "name": "В соседней системе, близко к вратам (1)",
+      "description": "",
+      "text": "<strong>В соседней системе, близко к вратам (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "da3877816f79997e",
+      "_key": "!tables.results!5ef8c90d2e03e993.da3877816f79997e",
+      "type": "text",
+      "name": "В соседней системе, близко к вратам (1)",
+      "description": "",
+      "text": "<strong>В соседней системе, близко к вратам (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f79161c3a5307e57",
+      "_key": "!tables.results!5ef8c90d2e03e993.f79161c3a5307e57",
+      "type": "text",
+      "name": "В соседней системе, на значительном удалении от врат (1)",
+      "description": "",
+      "text": "<strong>В соседней системе, на значительном удалении от врат (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cb82b084cfd723e6",
+      "_key": "!tables.results!5ef8c90d2e03e993.cb82b084cfd723e6",
+      "type": "text",
+      "name": "В соседней системе, на значительном удалении от врат (2)",
+      "description": "",
+      "text": "<strong>В соседней системе, на значительном удалении от врат (2)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "1eea586fa356e12b",
+      "_key": "!tables.results!5ef8c90d2e03e993.1eea586fa356e12b",
+      "type": "text",
+      "name": "В нескольких веретеноузлах, близко к вратам (1)",
+      "description": "",
+      "text": "<strong>В нескольких веретеноузлах, близко к вратам (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e4e6e30bc242d2b8",
+      "_key": "!tables.results!5ef8c90d2e03e993.e4e6e30bc242d2b8",
+      "type": "text",
+      "name": "В нескольких веретеноузлах, близко к вратам (2)",
+      "description": "",
+      "text": "<strong>В нескольких веретеноузлах, близко к вратам (2)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "1b784c99e7e1b790",
+      "_key": "!tables.results!5ef8c90d2e03e993.1b784c99e7e1b790",
+      "type": "text",
+      "name": "В нескольких веретеноузлах, на значительном удалении от врат (2)",
+      "description": "",
+      "text": "<strong>В нескольких веретеноузлах, на значительном удалении от врат (2)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3e63030d2b3afc43",
+      "_key": "!tables.results!5ef8c90d2e03e993.3e63030d2b3afc43",
+      "type": "text",
+      "name": "В нескольких веретеноузлах, на значительном удалении от врат (2)",
+      "description": "",
+      "text": "<strong>В нескольких веретеноузлах, на значительном удалении от врат (2)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fe242f0b4dbdea31",
+      "_key": "!tables.results!5ef8c90d2e03e993.fe242f0b4dbdea31",
+      "type": "text",
+      "name": "На максимальном удалении от текущего местоположения группы, в известной системе с вратами (3)",
+      "description": "",
+      "text": "<strong>На максимальном удалении от текущего местоположения группы, в известной системе с вратами (3)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6b66654965369149",
+      "_key": "!tables.results!5ef8c90d2e03e993.6b66654965369149",
+      "type": "text",
+      "name": "За пределами известных систем, в системе без врат (4)",
+      "description": "",
+      "text": "<strong>За пределами известных систем, в системе без врат (4)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "0fe0df15785af6ee",
+  "sort": 2600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "82e31ca622a835e2",
+  "_key": "!items!82e31ca622a835e2",
+  "name": "Пистолет Куровски-С",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": 3,
+    "damage": 2,
+    "crit": 2,
+    "range": "medium",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Лёгкое, глушитель, полимерные материалы, лазерный целеуказатель, коллиматорный прицел, безотказное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p>Коммуна. Сдерживающий фактор для соседей Коммуны — термоядерные торпеды станции «Союз». Алексей Куровски развивает дело отца: элитные части Коммуны вооружены линейкой «Куровски-С».</p><p><strong>Безотказное:</strong> Мастер не может спровоцировать осечку этого оружия.</p>"
+  },
+  "effects": [],
+  "folder": "3f0846c83bb95e66",
+  "sort": 5600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

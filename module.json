@@ -2,7 +2,7 @@
   "id": "star-spindle-compendium",
   "title": "Звёздное Веретено — компендиум",
   "description": "Компендиумы для системы «Звёздное Веретено»: специализации, особые способности, черты, оружие, броня, снаряжение, импланты, травмы, модули и орудия кораблей, готовые персонажи, примеры кораблей, бестиарий и таблицы к66.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -18,7 +18,7 @@
         "id": "star-spindle",
         "type": "system",
         "compatibility": {
-          "minimum": "0.3.0"
+          "minimum": "0.4.0"
         }
       }
     ]
@@ -106,7 +106,7 @@
     },
     {
       "name": "injuries",
-      "label": "Травмы",
+      "label": "Травмы и болезни",
       "type": "Item",
       "path": "packs/injuries",
       "ownership": {
@@ -161,7 +161,7 @@
     },
     {
       "name": "tables",
-      "label": "Таблицы к66",
+      "label": "Таблицы бросков",
       "type": "RollTable",
       "path": "packs/tables",
       "ownership": {
@@ -171,11 +171,43 @@
     },
     {
       "name": "reference",
-      "label": "Справочник",
+      "label": "Правила и мир игры",
       "type": "JournalEntry",
       "path": "packs/reference",
       "ownership": {
         "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "artifacts",
+      "label": "Артефакты и технологии кланов",
+      "type": "Item",
+      "path": "packs/artifacts",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "vehicles",
+      "label": "Транспорт",
+      "type": "Actor",
+      "path": "packs/vehicles",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "gm",
+      "label": "Справочник Мастера",
+      "type": "JournalEntry",
+      "path": "packs/gm",
+      "ownership": {
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     }
@@ -208,18 +240,21 @@
           ]
         },
         {
-          "name": "Корабли",
+          "name": "Корабли и транспорт",
           "sorting": "m",
           "packs": [
             "ship-parts",
-            "ships"
+            "ships",
+            "vehicles"
           ]
         },
         {
           "name": "Мастеру",
           "sorting": "m",
           "packs": [
+            "gm",
             "bestiary",
+            "artifacts",
             "injuries",
             "tables",
             "reference"

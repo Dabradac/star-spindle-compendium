@@ -1,0 +1,599 @@
+{
+  "_id": "c0ca024400dbcc6a",
+  "_key": "!tables!c0ca024400dbcc6a",
+  "name": "Встреча на планете: малонаселённая местность (к66)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "47ff02bc45d12c82",
+      "_key": "!tables.results!c0ca024400dbcc6a.47ff02bc45d12c82",
+      "type": "text",
+      "name": "Брошенный детёныш местной фауны",
+      "description": "",
+      "text": "<strong>Брошенный детёныш местной фауны</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e964d98164706e9e",
+      "_key": "!tables.results!c0ca024400dbcc6a.e964d98164706e9e",
+      "type": "text",
+      "name": "Ничейный домовой/корабельный",
+      "description": "",
+      "text": "<strong>Ничейный домовой/корабельный</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "53d7543411de2fba",
+      "_key": "!tables.results!c0ca024400dbcc6a.53d7543411de2fba",
+      "type": "text",
+      "name": "Барахольщик",
+      "description": "",
+      "text": "<strong>Барахольщик</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "369666ef841d0593",
+      "_key": "!tables.results!c0ca024400dbcc6a.369666ef841d0593",
+      "type": "text",
+      "name": "Подпольные кулачные бои",
+      "description": "",
+      "text": "<strong>Подпольные кулачные бои</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5e81b2539f05325a",
+      "_key": "!tables.results!c0ca024400dbcc6a.5e81b2539f05325a",
+      "type": "text",
+      "name": "Несколько женщин с низкой социальной ответственностью",
+      "description": "",
+      "text": "<strong>Несколько женщин с низкой социальной ответственностью</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "338a741a0eb9258a",
+      "_key": "!tables.results!c0ca024400dbcc6a.338a741a0eb9258a",
+      "type": "text",
+      "name": "Начинающий оружейник / бронник / изобретатель / алхимик предлагает испытать его изделие",
+      "description": "",
+      "text": "<strong>Начинающий оружейник / бронник / изобретатель / алхимик предлагает испытать его изделие</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f1967be82ffcd636",
+      "_key": "!tables.results!c0ca024400dbcc6a.f1967be82ffcd636",
+      "type": "text",
+      "name": "Беглый каторжник",
+      "description": "",
+      "text": "<strong>Беглый каторжник</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6e6690d1856c8082",
+      "_key": "!tables.results!c0ca024400dbcc6a.6e6690d1856c8082",
+      "type": "text",
+      "name": "Стычка двух кланов",
+      "description": "",
+      "text": "<strong>Стычка двух кланов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        22,
+        22
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fb4362d8ed2e4e70",
+      "_key": "!tables.results!c0ca024400dbcc6a.fb4362d8ed2e4e70",
+      "type": "text",
+      "name": "Попрошайка",
+      "description": "",
+      "text": "<strong>Попрошайка</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        23,
+        23
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "edb2eff94fcc8188",
+      "_key": "!tables.results!c0ca024400dbcc6a.edb2eff94fcc8188",
+      "type": "text",
+      "name": "Нападение фауны 1–2 уровня опасности",
+      "description": "",
+      "text": "<strong>Нападение фауны 1–2 уровня опасности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        24,
+        24
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2088083cc29e98df",
+      "_key": "!tables.results!c0ca024400dbcc6a.2088083cc29e98df",
+      "type": "text",
+      "name": "Сломанный автомобиль",
+      "description": "",
+      "text": "<strong>Сломанный автомобиль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        25,
+        25
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e05072ff0d3a9298",
+      "_key": "!tables.results!c0ca024400dbcc6a.e05072ff0d3a9298",
+      "type": "text",
+      "name": "Нападение сущностей Веретена 1–2 уровня опасности",
+      "description": "",
+      "text": "<strong>Нападение сущностей Веретена 1–2 уровня опасности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        26,
+        26
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d30c6891dd578153",
+      "_key": "!tables.results!c0ca024400dbcc6a.d30c6891dd578153",
+      "type": "text",
+      "name": "Стычка двух фракций/кланов",
+      "description": "",
+      "text": "<strong>Стычка двух фракций/кланов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        31,
+        31
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "af7394bbb88f351c",
+      "_key": "!tables.results!c0ca024400dbcc6a.af7394bbb88f351c",
+      "type": "text",
+      "name": "Патруль стражи",
+      "description": "",
+      "text": "<strong>Патруль стражи</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        32,
+        32
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "77e1c61e333742fa",
+      "_key": "!tables.results!c0ca024400dbcc6a.77e1c61e333742fa",
+      "type": "text",
+      "name": "Резкое изменение погоды",
+      "description": "",
+      "text": "<strong>Резкое изменение погоды</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        33,
+        33
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "734e15c32578e441",
+      "_key": "!tables.results!c0ca024400dbcc6a.734e15c32578e441",
+      "type": "text",
+      "name": "Толмач ищет исполнителей",
+      "description": "",
+      "text": "<strong>Толмач ищет исполнителей</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        34,
+        34
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "773192fa877e1ca0",
+      "_key": "!tables.results!c0ca024400dbcc6a.773192fa877e1ca0",
+      "type": "text",
+      "name": "Брошенный обоз",
+      "description": "",
+      "text": "<strong>Брошенный обоз</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d4d40b038ddc22e7",
+      "_key": "!tables.results!c0ca024400dbcc6a.d4d40b038ddc22e7",
+      "type": "text",
+      "name": "Ссорящиеся путешественники",
+      "description": "",
+      "text": "<strong>Ссорящиеся путешественники</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d771b81f769bf65a",
+      "_key": "!tables.results!c0ca024400dbcc6a.d771b81f769bf65a",
+      "type": "text",
+      "name": "Вор, пытающийся что-то вскрыть",
+      "description": "",
+      "text": "<strong>Вор, пытающийся что-то вскрыть</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        41,
+        41
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b87c5b9f7166d5df",
+      "_key": "!tables.results!c0ca024400dbcc6a.b87c5b9f7166d5df",
+      "type": "text",
+      "name": "Коробейник с загруженным товаром горбунком",
+      "description": "",
+      "text": "<strong>Коробейник с загруженным товаром горбунком</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        42,
+        42
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2d22632fb3b92336",
+      "_key": "!tables.results!c0ca024400dbcc6a.2d22632fb3b92336",
+      "type": "text",
+      "name": "Попрошайка",
+      "description": "",
+      "text": "<strong>Попрошайка</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        43,
+        43
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2214faaaed57ee75",
+      "_key": "!tables.results!c0ca024400dbcc6a.2214faaaed57ee75",
+      "type": "text",
+      "name": "Слепой ведун хватает вас за руку и даёт пророчество, которого вы не просили",
+      "description": "",
+      "text": "<strong>Слепой ведун хватает вас за руку и даёт пророчество, которого вы не просили</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        44,
+        44
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c2e48be25f7b8b04",
+      "_key": "!tables.results!c0ca024400dbcc6a.c2e48be25f7b8b04",
+      "type": "text",
+      "name": "Группа приключенцев обсуждает задание",
+      "description": "",
+      "text": "<strong>Группа приключенцев обсуждает задание</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        45,
+        45
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d6869a4ec7190ad3",
+      "_key": "!tables.results!c0ca024400dbcc6a.d6869a4ec7190ad3",
+      "type": "text",
+      "name": "Несколько разбойников устроили засаду",
+      "description": "",
+      "text": "<strong>Несколько разбойников устроили засаду</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        46,
+        46
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2ea4d1c839b0865e",
+      "_key": "!tables.results!c0ca024400dbcc6a.2ea4d1c839b0865e",
+      "type": "text",
+      "name": "Группа местных ведёт предполагаемого ведуна на костёр",
+      "description": "",
+      "text": "<strong>Группа местных ведёт предполагаемого ведуна на костёр</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        51,
+        51
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3ca825e7b1ce2993",
+      "_key": "!tables.results!c0ca024400dbcc6a.3ca825e7b1ce2993",
+      "type": "text",
+      "name": "Строящаяся церковь / место силы",
+      "description": "",
+      "text": "<strong>Строящаяся церковь / место силы</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        52,
+        52
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "885072536d906f2f",
+      "_key": "!tables.results!c0ca024400dbcc6a.885072536d906f2f",
+      "type": "text",
+      "name": "Вам предлагают установить подпольный киберимплант со скидкой",
+      "description": "",
+      "text": "<strong>Вам предлагают установить подпольный киберимплант со скидкой</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        53,
+        53
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f63a5af2f6394d1a",
+      "_key": "!tables.results!c0ca024400dbcc6a.f63a5af2f6394d1a",
+      "type": "text",
+      "name": "Торговец снаряжением сомнительного качества",
+      "description": "",
+      "text": "<strong>Торговец снаряжением сомнительного качества</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        54,
+        54
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c2800594b4aa66a1",
+      "_key": "!tables.results!c0ca024400dbcc6a.c2800594b4aa66a1",
+      "type": "text",
+      "name": "Больной заразной болезнью",
+      "description": "",
+      "text": "<strong>Больной заразной болезнью</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        55,
+        55
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a230ed10d3771a83",
+      "_key": "!tables.results!c0ca024400dbcc6a.a230ed10d3771a83",
+      "type": "text",
+      "name": "Подпольные скачки вилорогов",
+      "description": "",
+      "text": "<strong>Подпольные скачки вилорогов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        56,
+        56
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "06d3ef356f0d07dd",
+      "_key": "!tables.results!c0ca024400dbcc6a.06d3ef356f0d07dd",
+      "type": "text",
+      "name": "Пожар",
+      "description": "",
+      "text": "<strong>Пожар</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8e83f927d03ed778",
+      "_key": "!tables.results!c0ca024400dbcc6a.8e83f927d03ed778",
+      "type": "text",
+      "name": "Лагерь путешественников",
+      "description": "",
+      "text": "<strong>Лагерь путешественников</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4576a4b35ecc88db",
+      "_key": "!tables.results!c0ca024400dbcc6a.4576a4b35ecc88db",
+      "type": "text",
+      "name": "Нападение фауны 2–3 уровня опасности",
+      "description": "",
+      "text": "<strong>Нападение фауны 2–3 уровня опасности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "74d0b72430668486",
+      "_key": "!tables.results!c0ca024400dbcc6a.74d0b72430668486",
+      "type": "text",
+      "name": "Буханка с торговцем уличной едой",
+      "description": "",
+      "text": "<strong>Буханка с торговцем уличной едой</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b48a5882292efed3",
+      "_key": "!tables.results!c0ca024400dbcc6a.b48a5882292efed3",
+      "type": "text",
+      "name": "Вы слышите крик о помощи",
+      "description": "",
+      "text": "<strong>Вы слышите крик о помощи</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "754b2f2acba4fc47",
+      "_key": "!tables.results!c0ca024400dbcc6a.754b2f2acba4fc47",
+      "type": "text",
+      "name": "Нападение сущностей Веретена 2–3 уровня опасности",
+      "description": "",
+      "text": "<strong>Нападение сущностей Веретена 2–3 уровня опасности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "fe517ba3e52ebc75",
+  "sort": 3100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

@@ -149,7 +149,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -176,7 +176,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -203,7 +203,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -230,7 +230,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     }
   ],
@@ -244,7 +244,7 @@
   "_stats": {
     "coreVersion": "13.345",
     "systemId": "star-spindle",
-    "systemVersion": "0.3.0"
+    "systemVersion": "0.4.0"
   },
   "prototypeToken": {
     "name": "Алая шапка",

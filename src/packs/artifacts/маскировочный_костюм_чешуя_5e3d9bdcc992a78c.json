@@ -1,0 +1,56 @@
+{
+  "_id": "5e3d9bdcc992a78c",
+  "_key": "!items!5e3d9bdcc992a78c",
+  "name": "Маскировочный костюм «Чешуя»",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "defense": 5,
+    "properties": "Лёгкая, камуфляж",
+    "description": "<p>Пластичный костюм с генератором маскировочного поля, скрывающим носителя даже в движении. +3 к скрытности.</p><p>Клан Змеи. Змеи решают дела интригами, манипуляциями и обаянием, а когда нужен радикальный подход — ядами и маскирующими технологиями. Прямых столкновений избегают, предпочитая застать противника врасплох.</p><p><strong>Лёгкая:</strong> Малый вес; +1 к проверкам проворства и скрытности носителя.</p><p><strong>Камуфляж:</strong> В активном режиме расцветка сливается с окружением: +2 к проверкам скрытности.</p>"
+  },
+  "effects": [
+    {
+      "_id": "52fd86554cbf1201",
+      "_key": "!items.effects!5e3d9bdcc992a78c.52fd86554cbf1201",
+      "name": "Маскировочный костюм «Чешуя»",
+      "img": "icons/svg/shield.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.stealth.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": "3ecfcba4c0bcac9a",
+  "sort": 4500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

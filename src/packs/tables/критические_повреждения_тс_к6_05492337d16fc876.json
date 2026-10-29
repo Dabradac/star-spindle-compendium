@@ -1,0 +1,119 @@
+{
+  "_id": "05492337d16fc876",
+  "_key": "!tables!05492337d16fc876",
+  "name": "Критические повреждения ТС (к6)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "a094bd20ef976943",
+      "_key": "!tables.results!05492337d16fc876.a094bd20ef976943",
+      "type": "text",
+      "name": "Пробитие колеса",
+      "description": "−1 к манёвренности, максимальная скорость снижена вдвое.",
+      "text": "<strong>Пробитие колеса</strong>: −1 к манёвренности, максимальная скорость снижена вдвое.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "19ed35091eccd18b",
+      "_key": "!tables.results!05492337d16fc876.19ed35091eccd18b",
+      "type": "text",
+      "name": "Повреждение брони",
+      "description": "Дверь, кусок брони, стекло или что-то ещё на выбор Мастера отвалилось: −2 к броне ТС.",
+      "text": "<strong>Повреждение брони</strong>: Дверь, кусок брони, стекло или что-то ещё на выбор Мастера отвалилось: −2 к броне ТС.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d3f8f7edc2edcc13",
+      "_key": "!tables.results!05492337d16fc876.d3f8f7edc2edcc13",
+      "type": "text",
+      "name": "Пробитый бак / генератор",
+      "description": "Вытекает топливо или охлаждающая жидкость: ТС полностью остановится через к6 раундов.",
+      "text": "<strong>Пробитый бак / генератор</strong>: Вытекает топливо или охлаждающая жидкость: ТС полностью остановится через к6 раундов.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e642b4bfa033d686",
+      "_key": "!tables.results!05492337d16fc876.e642b4bfa033d686",
+      "type": "text",
+      "name": "Сильные повреждения",
+      "description": "ТС получает 3 дополнительного урона прочности.",
+      "text": "<strong>Сильные повреждения</strong>: ТС получает 3 дополнительного урона прочности.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a352d91dc6b2f346",
+      "_key": "!tables.results!05492337d16fc876.a352d91dc6b2f346",
+      "type": "text",
+      "name": "Отказ рулевого управления",
+      "description": "−3 к манёвренности. Можно починить проверкой механики; ремонт на ходу — с модификатором −2.",
+      "text": "<strong>Отказ рулевого управления</strong>: −3 к манёвренности. Можно починить проверкой механики; ремонт на ходу — с модификатором −2.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f9db56f54121e5c1",
+      "_key": "!tables.results!05492337d16fc876.f9db56f54121e5c1",
+      "type": "text",
+      "name": "Отказ тормозов",
+      "description": "Тормоза больше не работают — готовьтесь к удару. Можно починить проверкой механики с модификатором −2.",
+      "text": "<strong>Отказ тормозов</strong>: Тормоза больше не работают — готовьтесь к удару. Можно починить проверкой механики с модификатором −2.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

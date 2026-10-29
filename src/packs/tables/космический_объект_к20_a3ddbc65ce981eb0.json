@@ -1,0 +1,183 @@
+{
+  "_id": "a3ddbc65ce981eb0",
+  "_key": "!tables!a3ddbc65ce981eb0",
+  "name": "Космический объект (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Пока персонажи не акклиматизируются к гравитации, отличной от 1 g, проверки общих навыков получают −2 (длительность и необходимость акклиматизации — на усмотрение Мастера).",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "be8802430b231038",
+      "_key": "!tables.results!a3ddbc65ce981eb0.be8802430b231038",
+      "type": "text",
+      "name": "<1000 км, 0 g",
+      "description": "Мелкие астероиды, метеороиды и космический мусор",
+      "text": "<strong>&lt;1000 км, 0 g</strong>: Мелкие астероиды, метеороиды и космический мусор",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a242882324883404",
+      "_key": "!tables.results!a3ddbc65ce981eb0.a242882324883404",
+      "type": "text",
+      "name": "~1000 км, 0,01–0,09 g",
+      "description": "Астероид",
+      "text": "<strong>~1000 км, 0,01–0,09 g</strong>: Астероид",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        4
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "91d0ca4e374d6559",
+      "_key": "!tables.results!a3ddbc65ce981eb0.91d0ca4e374d6559",
+      "type": "text",
+      "name": "~2000 км, 0,1 g",
+      "description": "Карликовая планета",
+      "text": "<strong>~2000 км, 0,1 g</strong>: Карликовая планета",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        6
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c313c9679f2fa499",
+      "_key": "!tables.results!a3ddbc65ce981eb0.c313c9679f2fa499",
+      "type": "text",
+      "name": "~4000 км, 0,2–0,4 g",
+      "description": "Спутник планеты. Может содержать небольшие базы, но для полноценной колонизации не подходит",
+      "text": "<strong>~4000 км, 0,2–0,4 g</strong>: Спутник планеты. Может содержать небольшие базы, но для полноценной колонизации не подходит",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        8
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d95b5f2b64349654",
+      "_key": "!tables.results!a3ddbc65ce981eb0.d95b5f2b64349654",
+      "type": "text",
+      "name": "~7000 км, 0,5–0,7 g",
+      "description": "Подходит для колонии, но требует особого подхода и постоянного приёма медицинских препаратов",
+      "text": "<strong>~7000 км, 0,5–0,7 g</strong>: Подходит для колонии, но требует особого подхода и постоянного приёма медицинских препаратов",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        10
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "04fd165c2a44d05d",
+      "_key": "!tables.results!a3ddbc65ce981eb0.04fd165c2a44d05d",
+      "type": "text",
+      "name": "~10000 км, 0,7–0,9 g",
+      "description": "Подходит для колонии, но требует особого подхода. Обычно такова искусственная гравитация на крупных станциях и кораблях",
+      "text": "<strong>~10000 км, 0,7–0,9 g</strong>: Подходит для колонии, но требует особого подхода. Обычно такова искусственная гравитация на крупных станциях и кораблях",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        12
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "270c5e9a9a7331ca",
+      "_key": "!tables.results!a3ddbc65ce981eb0.270c5e9a9a7331ca",
+      "type": "text",
+      "name": "~12500 км, 1,0 g",
+      "description": "Идеальная для колонизации планета (Аврора, Дива и другие крупные заселённые планеты)",
+      "text": "<strong>~12500 км, 1,0 g</strong>: Идеальная для колонизации планета (Аврора, Дива и другие крупные заселённые планеты)",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        14
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c50be0ce741fda7f",
+      "_key": "!tables.results!a3ddbc65ce981eb0.c50be0ce741fda7f",
+      "type": "text",
+      "name": "~15000 км, 1,1–1,3 g",
+      "description": "Подходит для колонии, но требует особого подхода и постоянного приёма медицинских препаратов",
+      "text": "<strong>~15000 км, 1,1–1,3 g</strong>: Подходит для колонии, но требует особого подхода и постоянного приёма медицинских препаратов",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        16
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e00c1bfbfa0971d6",
+      "_key": "!tables.results!a3ddbc65ce981eb0.e00c1bfbfa0971d6",
+      "type": "text",
+      "name": "~20000 км, ~1,4–2 g",
+      "description": "Посадка и взлёт осложнены. Может содержать небольшие базы, но для полноценной колонизации не подходит",
+      "text": "<strong>~20000 км, ~1,4–2 g</strong>: Посадка и взлёт осложнены. Может содержать небольшие базы, но для полноценной колонизации не подходит",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        18
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "45d61e0f8456a1e9",
+      "_key": "!tables.results!a3ddbc65ce981eb0.45d61e0f8456a1e9",
+      "type": "text",
+      "name": ">20000 км, >2 g",
+      "description": "Посадка и взлёт либо невозможны, либо крайне тяжелы",
+      "text": "<strong>&gt;20000 км, &gt;2 g</strong>: Посадка и взлёт либо невозможны, либо крайне тяжелы",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        20
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "dfcef3268a57ba3f",
+  "_key": "!items!dfcef3268a57ba3f",
+  "name": "Мобильный аналитический комплекс «проМАК»",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 3,
+    "bonusTarget": "skill.cybershamanism",
+    "conditional": false,
+    "description": "<p>Продвинутый компьютер концерна Макова с логотипом «М» на орбите. +3 к кибершаманству. В свободной продаже не бывает — только для передовых умов Демосов.</p><p>Демосы. Развитая промышленность и коммерческая удаль: заводы выпускают технику на чипах Макова, а флот возглавляет линкор-исполин «Вкус Свободы» — главная статья расходов фракции и инструмент «дипломатии канонерок».</p>"
+  },
+  "effects": [],
+  "folder": "74605c53ba9219c0",
+  "sort": 6100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

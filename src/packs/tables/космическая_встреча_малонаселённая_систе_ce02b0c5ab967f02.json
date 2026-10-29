@@ -1,0 +1,599 @@
+{
+  "_id": "ce02b0c5ab967f02",
+  "_key": "!tables!ce02b0c5ab967f02",
+  "name": "Космическая встреча: малонаселённая система (к66)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "334daf5d946aa933",
+      "_key": "!tables.results!ce02b0c5ab967f02.334daf5d946aa933",
+      "type": "text",
+      "name": "Терпящий бедствие корабль",
+      "description": "",
+      "text": "<strong>Терпящий бедствие корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6acb27976051c409",
+      "_key": "!tables.results!ce02b0c5ab967f02.6acb27976051c409",
+      "type": "text",
+      "name": "Изгои грабят чей-то корабль",
+      "description": "",
+      "text": "<strong>Изгои грабят чей-то корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "089ce15fab0df31d",
+      "_key": "!tables.results!ce02b0c5ab967f02.089ce15fab0df31d",
+      "type": "text",
+      "name": "Ионная буря",
+      "description": "",
+      "text": "<strong>Ионная буря</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "13c5aa991b953325",
+      "_key": "!tables.results!ce02b0c5ab967f02.13c5aa991b953325",
+      "type": "text",
+      "name": "Старательский корабль",
+      "description": "",
+      "text": "<strong>Старательский корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c0711ed00cf37e47",
+      "_key": "!tables.results!ce02b0c5ab967f02.c0711ed00cf37e47",
+      "type": "text",
+      "name": "Корабль Изгоев",
+      "description": "",
+      "text": "<strong>Корабль Изгоев</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d51931d875ac9d6e",
+      "_key": "!tables.results!ce02b0c5ab967f02.d51931d875ac9d6e",
+      "type": "text",
+      "name": "Частный корабль",
+      "description": "",
+      "text": "<strong>Частный корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e5efd830aaa368db",
+      "_key": "!tables.results!ce02b0c5ab967f02.e5efd830aaa368db",
+      "type": "text",
+      "name": "Спасательная капсула",
+      "description": "",
+      "text": "<strong>Спасательная капсула</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "255d5b69d4d3f5bd",
+      "_key": "!tables.results!ce02b0c5ab967f02.255d5b69d4d3f5bd",
+      "type": "text",
+      "name": "Ледовоз",
+      "description": "",
+      "text": "<strong>Ледовоз</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        22,
+        22
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b370b4b1db551ae3",
+      "_key": "!tables.results!ce02b0c5ab967f02.b370b4b1db551ae3",
+      "type": "text",
+      "name": "Старательский корабль",
+      "description": "",
+      "text": "<strong>Старательский корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        23,
+        23
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a524581653d2cdbe",
+      "_key": "!tables.results!ce02b0c5ab967f02.a524581653d2cdbe",
+      "type": "text",
+      "name": "Торговый корабль Коробейников",
+      "description": "",
+      "text": "<strong>Торговый корабль Коробейников</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        24,
+        24
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ff4dd94aa2f1bce5",
+      "_key": "!tables.results!ce02b0c5ab967f02.ff4dd94aa2f1bce5",
+      "type": "text",
+      "name": "Несколько мин",
+      "description": "",
+      "text": "<strong>Несколько мин</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        25,
+        25
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "90e12b9d540d7ea4",
+      "_key": "!tables.results!ce02b0c5ab967f02.90e12b9d540d7ea4",
+      "type": "text",
+      "name": "Корабль Изгоев",
+      "description": "",
+      "text": "<strong>Корабль Изгоев</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        26,
+        26
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "827cd8bd047d3171",
+      "_key": "!tables.results!ce02b0c5ab967f02.827cd8bd047d3171",
+      "type": "text",
+      "name": "Буксир",
+      "description": "",
+      "text": "<strong>Буксир</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        31,
+        31
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8de17bf057e6f06a",
+      "_key": "!tables.results!ce02b0c5ab967f02.8de17bf057e6f06a",
+      "type": "text",
+      "name": "Брошенный груз",
+      "description": "",
+      "text": "<strong>Брошенный груз</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        32,
+        32
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f7f76834b9e96a5d",
+      "_key": "!tables.results!ce02b0c5ab967f02.f7f76834b9e96a5d",
+      "type": "text",
+      "name": "Торговый корабль Коробейников",
+      "description": "",
+      "text": "<strong>Торговый корабль Коробейников</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        33,
+        33
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "16da0724c0aa4965",
+      "_key": "!tables.results!ce02b0c5ab967f02.16da0724c0aa4965",
+      "type": "text",
+      "name": "Большегруз",
+      "description": "",
+      "text": "<strong>Большегруз</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        34,
+        34
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "892ee1178c263c71",
+      "_key": "!tables.results!ce02b0c5ab967f02.892ee1178c263c71",
+      "type": "text",
+      "name": "Старательский корабль",
+      "description": "",
+      "text": "<strong>Старательский корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "02eeb5c1998fb268",
+      "_key": "!tables.results!ce02b0c5ab967f02.02eeb5c1998fb268",
+      "type": "text",
+      "name": "Обломки кораблей",
+      "description": "",
+      "text": "<strong>Обломки кораблей</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d7938b26ab876f52",
+      "_key": "!tables.results!ce02b0c5ab967f02.d7938b26ab876f52",
+      "type": "text",
+      "name": "Старательский корабль",
+      "description": "",
+      "text": "<strong>Старательский корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        41,
+        41
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0f4ba4db0ab12f80",
+      "_key": "!tables.results!ce02b0c5ab967f02.0f4ba4db0ab12f80",
+      "type": "text",
+      "name": "Боевой корабль фракции/клана",
+      "description": "",
+      "text": "<strong>Боевой корабль фракции/клана</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        42,
+        42
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f3c22ed4a5d87faf",
+      "_key": "!tables.results!ce02b0c5ab967f02.f3c22ed4a5d87faf",
+      "type": "text",
+      "name": "Брошенный груз",
+      "description": "",
+      "text": "<strong>Брошенный груз</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        43,
+        43
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "13380ba0bbd584b1",
+      "_key": "!tables.results!ce02b0c5ab967f02.13380ba0bbd584b1",
+      "type": "text",
+      "name": "Торговый корабль Коробейников",
+      "description": "",
+      "text": "<strong>Торговый корабль Коробейников</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        44,
+        44
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4f903d217a9f7da1",
+      "_key": "!tables.results!ce02b0c5ab967f02.4f903d217a9f7da1",
+      "type": "text",
+      "name": "Частный корабль",
+      "description": "",
+      "text": "<strong>Частный корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        45,
+        45
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "afbffcfb0f527ac6",
+      "_key": "!tables.results!ce02b0c5ab967f02.afbffcfb0f527ac6",
+      "type": "text",
+      "name": "Корабль Изгоев",
+      "description": "",
+      "text": "<strong>Корабль Изгоев</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        46,
+        46
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "417f6c9816dbebac",
+      "_key": "!tables.results!ce02b0c5ab967f02.417f6c9816dbebac",
+      "type": "text",
+      "name": "Спасательная капсула",
+      "description": "",
+      "text": "<strong>Спасательная капсула</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        51,
+        51
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "1a43fec9e87c6235",
+      "_key": "!tables.results!ce02b0c5ab967f02.1a43fec9e87c6235",
+      "type": "text",
+      "name": "Буксир",
+      "description": "",
+      "text": "<strong>Буксир</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        52,
+        52
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "699fe99b7076c65d",
+      "_key": "!tables.results!ce02b0c5ab967f02.699fe99b7076c65d",
+      "type": "text",
+      "name": "Корабль Изгоев",
+      "description": "",
+      "text": "<strong>Корабль Изгоев</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        53,
+        53
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "45e0c601159f0a48",
+      "_key": "!tables.results!ce02b0c5ab967f02.45e0c601159f0a48",
+      "type": "text",
+      "name": "Ледовоз",
+      "description": "",
+      "text": "<strong>Ледовоз</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        54,
+        54
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d35e7284e59ad393",
+      "_key": "!tables.results!ce02b0c5ab967f02.d35e7284e59ad393",
+      "type": "text",
+      "name": "Боевой корабль фракции/клана",
+      "description": "",
+      "text": "<strong>Боевой корабль фракции/клана</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        55,
+        55
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "973a13607be41b59",
+      "_key": "!tables.results!ce02b0c5ab967f02.973a13607be41b59",
+      "type": "text",
+      "name": "Старательский корабль",
+      "description": "",
+      "text": "<strong>Старательский корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        56,
+        56
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e7f0fa3de848ce9b",
+      "_key": "!tables.results!ce02b0c5ab967f02.e7f0fa3de848ce9b",
+      "type": "text",
+      "name": "Радиоактивная сверхвспышка на звезде",
+      "description": "",
+      "text": "<strong>Радиоактивная сверхвспышка на звезде</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0a0b25f22617b684",
+      "_key": "!tables.results!ce02b0c5ab967f02.0a0b25f22617b684",
+      "type": "text",
+      "name": "Корабль Изгоев",
+      "description": "",
+      "text": "<strong>Корабль Изгоев</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2a6b7d914abff45c",
+      "_key": "!tables.results!ce02b0c5ab967f02.2a6b7d914abff45c",
+      "type": "text",
+      "name": "Бой между группой кораблей",
+      "description": "",
+      "text": "<strong>Бой между группой кораблей</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5183b6445cd59c01",
+      "_key": "!tables.results!ce02b0c5ab967f02.5183b6445cd59c01",
+      "type": "text",
+      "name": "Космическая фауна",
+      "description": "",
+      "text": "<strong>Космическая фауна</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ebd062503be9bb0f",
+      "_key": "!tables.results!ce02b0c5ab967f02.ebd062503be9bb0f",
+      "type": "text",
+      "name": "Несколько кораблей Изгоев",
+      "description": "",
+      "text": "<strong>Несколько кораблей Изгоев</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cf29c8d0f41583ea",
+      "_key": "!tables.results!ce02b0c5ab967f02.cf29c8d0f41583ea",
+      "type": "text",
+      "name": "Попадание астероида в корабль",
+      "description": "",
+      "text": "<strong>Попадание астероида в корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "fe517ba3e52ebc75",
+  "sort": 3400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

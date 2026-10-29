@@ -1,0 +1,31 @@
+{
+  "_id": "ff32d1bea439fbfb",
+  "_key": "!items!ff32d1bea439fbfb",
+  "name": "Синаптический визор (-1)",
+  "type": "gear",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 2,
+    "bonusTarget": "skill.shooting",
+    "conditional": true,
+    "description": "<p>Широкие сплошные очки с постоянной голограммой прицела.</p><p>Активация (два щелчка по дуге): на к20 раундов визор стимулирует синапсы и выводит расчёты траекторий — +2 к стрельбе и +2 к наблюдательности.</p><ul><li>к66: 46</li><li>Понимание: проверка науки или культуры с модификатором -1</li><li>Требуемый навык: Стрельба 2</li><li>Активация: 1 жетон(а) Чернобога Мастеру</li><li>Заряды: многоразовый (при находке — к6 зарядов)</li></ul>"
+  },
+  "effects": [],
+  "folder": "577cc2671f0f4fcf",
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "_id": "c57aba72d8b4567f",
+  "_key": "!tables!c57aba72d8b4567f",
+  "name": "Артефакты Древних (к66)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Первый к6 — десятки, второй — единицы.",
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "1cbf0e48d80d48dd",
+      "_key": "!tables.results!c57aba72d8b4567f.1cbf0e48d80d48dd",
+      "type": "text",
+      "name": "Церебральный чип",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.89fc453cc1100f7c]{Церебральный чип (-2)}",
+      "text": "<strong>Церебральный чип</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.89fc453cc1100f7c]{Церебральный чип (-2)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5d7fe5f3a6fa9146",
+      "_key": "!tables.results!c57aba72d8b4567f.5d7fe5f3a6fa9146",
+      "type": "text",
+      "name": "Силовые рукавицы",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.da3f76e80379dbce]{Силовые рукавицы (-1)}",
+      "text": "<strong>Силовые рукавицы</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.da3f76e80379dbce]{Силовые рукавицы (-1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "bff7458efc4345cb",
+      "_key": "!tables.results!c57aba72d8b4567f.bff7458efc4345cb",
+      "type": "text",
+      "name": "Симбионт",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.237c7834e1ffee7f]{Симбионт (0)}",
+      "text": "<strong>Симбионт</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.237c7834e1ffee7f]{Симбионт (0)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d65052e120937b25",
+      "_key": "!tables.results!c57aba72d8b4567f.d65052e120937b25",
+      "type": "text",
+      "name": "Гравитонный кушак",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.8350293bd48e30f3]{Гравитонный кушак (+1)}",
+      "text": "<strong>Гравитонный кушак</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.8350293bd48e30f3]{Гравитонный кушак (+1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3d864c446f7fd693",
+      "_key": "!tables.results!c57aba72d8b4567f.3d864c446f7fd693",
+      "type": "text",
+      "name": "Фотонный коммуникатор",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.6768d8002802ad43]{Фотонный коммуникатор (+2)}",
+      "text": "<strong>Фотонный коммуникатор</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.6768d8002802ad43]{Фотонный коммуникатор (+2)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "15b31e3ebb7d2615",
+      "_key": "!tables.results!c57aba72d8b4567f.15b31e3ebb7d2615",
+      "type": "text",
+      "name": "Инъектор Древних",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.f1900ef57e969578]{Инъектор Древних (+1)}",
+      "text": "<strong>Инъектор Древних</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.f1900ef57e969578]{Инъектор Древних (+1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8033e91f929ee579",
+      "_key": "!tables.results!c57aba72d8b4567f.8033e91f929ee579",
+      "type": "text",
+      "name": "Веретенный телепортер",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.e400c23d8f90de18]{Веретенный телепортер (-2)}",
+      "text": "<strong>Веретенный телепортер</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.e400c23d8f90de18]{Веретенный телепортер (-2)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f8e2174e96e830a3",
+      "_key": "!tables.results!c57aba72d8b4567f.f8e2174e96e830a3",
+      "type": "text",
+      "name": "Пчелиный барьер",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.f442e97c24af1eb4]{Пчелиный барьер (0)}",
+      "text": "<strong>Пчелиный барьер</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.f442e97c24af1eb4]{Пчелиный барьер (0)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        22,
+        22
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3e2680c37236408b",
+      "_key": "!tables.results!c57aba72d8b4567f.3e2680c37236408b",
+      "type": "text",
+      "name": "Самобранное генерирующее полотно",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.63aa4467d9bb58e3]{Самобранное генерирующее полотно (-2)}",
+      "text": "<strong>Самобранное генерирующее полотно</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.63aa4467d9bb58e3]{Самобранное генерирующее полотно (-2)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        23,
+        23
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a770d18b3e7dd835",
+      "_key": "!tables.results!c57aba72d8b4567f.a770d18b3e7dd835",
+      "type": "text",
+      "name": "Удочка Древних",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.72cd144039ece9e4]{Удочка Древних (-1)}",
+      "text": "<strong>Удочка Древних</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.72cd144039ece9e4]{Удочка Древних (-1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        24,
+        24
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d6c03bfcd4b51087",
+      "_key": "!tables.results!c57aba72d8b4567f.d6c03bfcd4b51087",
+      "type": "text",
+      "name": "Темпоральная перчатка",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.d2b242a1cc3cb4e4]{Темпоральная перчатка (-2)}",
+      "text": "<strong>Темпоральная перчатка</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.d2b242a1cc3cb4e4]{Темпоральная перчатка (-2)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        25,
+        25
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8ee5035f42bf3a0f",
+      "_key": "!tables.results!c57aba72d8b4567f.8ee5035f42bf3a0f",
+      "type": "text",
+      "name": "Браслет голографической проекции",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.b1aae6f6a1da38be]{Браслет голографической проекции (+1)}",
+      "text": "<strong>Браслет голографической проекции</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.b1aae6f6a1da38be]{Браслет голографической проекции (+1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        26,
+        26
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a4c15d0abad4d830",
+      "_key": "!tables.results!c57aba72d8b4567f.a4c15d0abad4d830",
+      "type": "text",
+      "name": "Модуль Исконного Сознания",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.e7cbfde675f5a9e4]{Модуль Исконного Сознания (-2)}",
+      "text": "<strong>Модуль Исконного Сознания</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.e7cbfde675f5a9e4]{Модуль Исконного Сознания (-2)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        31,
+        31
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0e5f429674e0e36a",
+      "_key": "!tables.results!c57aba72d8b4567f.0e5f429674e0e36a",
+      "type": "text",
+      "name": "Магнитные сапоги-скороходы",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.93744d7bc7112490]{Магнитные сапоги-скороходы (0)}",
+      "text": "<strong>Магнитные сапоги-скороходы</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.93744d7bc7112490]{Магнитные сапоги-скороходы (0)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        32,
+        32
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "41b07f613e6d1379",
+      "_key": "!tables.results!c57aba72d8b4567f.41b07f613e6d1379",
+      "type": "text",
+      "name": "«Светило»",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.d726231973600c02]{«Светило» (+3)}",
+      "text": "<strong>«Светило»</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.d726231973600c02]{«Светило» (+3)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        33,
+        33
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "beaa585c544eac65",
+      "_key": "!tables.results!c57aba72d8b4567f.beaa585c544eac65",
+      "type": "text",
+      "name": "Ларец-редупликатор",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.305af98a88fc2456]{Ларец-редупликатор (-2)}",
+      "text": "<strong>Ларец-редупликатор</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.305af98a88fc2456]{Ларец-редупликатор (-2)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        34,
+        34
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ed792a9fa2b95838",
+      "_key": "!tables.results!c57aba72d8b4567f.ed792a9fa2b95838",
+      "type": "text",
+      "name": "Плечевой навигатор плетения",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.f4e694d1434e57be]{Плечевой навигатор плетения (-1)}",
+      "text": "<strong>Плечевой навигатор плетения</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.f4e694d1434e57be]{Плечевой навигатор плетения (-1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a6f5394edc2a1047",
+      "_key": "!tables.results!c57aba72d8b4567f.a6f5394edc2a1047",
+      "type": "text",
+      "name": "«Красный закат»",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.5776b30c73609c69]{«Красный закат» (+1)}",
+      "text": "<strong>«Красный закат»</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.5776b30c73609c69]{«Красный закат» (+1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "31a143cfc5885af5",
+      "_key": "!tables.results!c57aba72d8b4567f.31a143cfc5885af5",
+      "type": "text",
+      "name": "Протокол «Симбиоз»",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.cf90f6506bbc0198]{Протокол «Симбиоз» (-3)}",
+      "text": "<strong>Протокол «Симбиоз»</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.cf90f6506bbc0198]{Протокол «Симбиоз» (-3)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        41,
+        41
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "48ca7bb555258c09",
+      "_key": "!tables.results!c57aba72d8b4567f.48ca7bb555258c09",
+      "type": "text",
+      "name": "Посох Расплетения",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.bd9db3f700b80b93]{Посох Расплетения (-3)}",
+      "text": "<strong>Посох Расплетения</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.bd9db3f700b80b93]{Посох Расплетения (-3)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        42,
+        42
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fbdd5b0ac1ca2203",
+      "_key": "!tables.results!c57aba72d8b4567f.fbdd5b0ac1ca2203",
+      "type": "text",
+      "name": "Антиведовской напёрсток",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.a6b514fe00b48d8e]{Антиведовской напёрсток (-1)}",
+      "text": "<strong>Антиведовской напёрсток</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.a6b514fe00b48d8e]{Антиведовской напёрсток (-1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        43,
+        43
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5579a5ed978d14d9",
+      "_key": "!tables.results!c57aba72d8b4567f.5579a5ed978d14d9",
+      "type": "text",
+      "name": "Золотой купол",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.d866603afcdaf515]{Золотой купол (+1)}",
+      "text": "<strong>Золотой купол</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.d866603afcdaf515]{Золотой купол (+1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        44,
+        44
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "84b22313fc6c6665",
+      "_key": "!tables.results!c57aba72d8b4567f.84b22313fc6c6665",
+      "type": "text",
+      "name": "Гравитонный ранец",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.4fb21a72b8492495]{Гравитонный ранец (+1)}",
+      "text": "<strong>Гравитонный ранец</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.4fb21a72b8492495]{Гравитонный ранец (+1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        45,
+        45
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e2371980a492f619",
+      "_key": "!tables.results!c57aba72d8b4567f.e2371980a492f619",
+      "type": "text",
+      "name": "Синаптический визор",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.ff32d1bea439fbfb]{Синаптический визор (-1)}",
+      "text": "<strong>Синаптический визор</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.ff32d1bea439fbfb]{Синаптический визор (-1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        46,
+        46
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2157bae9d2b33d53",
+      "_key": "!tables.results!c57aba72d8b4567f.2157bae9d2b33d53",
+      "type": "text",
+      "name": "Кандела Древних",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.98a26d1c04bbeb22]{Кандела Древних (-3)}",
+      "text": "<strong>Кандела Древних</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.98a26d1c04bbeb22]{Кандела Древних (-3)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        51,
+        51
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "66f4d93ef0567b42",
+      "_key": "!tables.results!c57aba72d8b4567f.66f4d93ef0567b42",
+      "type": "text",
+      "name": "Алый Цветок",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.07ac5756a551d261]{Алый Цветок (-3)}",
+      "text": "<strong>Алый Цветок</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.07ac5756a551d261]{Алый Цветок (-3)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        52,
+        52
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f0a9798ff60ede4f",
+      "_key": "!tables.results!c57aba72d8b4567f.f0a9798ff60ede4f",
+      "type": "text",
+      "name": "Гребешок",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.14ae48cb9f8e9096]{Гребешок (-1)}",
+      "text": "<strong>Гребешок</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.14ae48cb9f8e9096]{Гребешок (-1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        53,
+        53
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8a7dd1d0040b4e53",
+      "_key": "!tables.results!c57aba72d8b4567f.8a7dd1d0040b4e53",
+      "type": "text",
+      "name": "Перстень «Ключ-ген»",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.9646258659ce8df9]{Перстень «Ключ-ген» (-2)}",
+      "text": "<strong>Перстень «Ключ-ген»</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.9646258659ce8df9]{Перстень «Ключ-ген» (-2)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        54,
+        54
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c2e082814b13c608",
+      "_key": "!tables.results!c57aba72d8b4567f.c2e082814b13c608",
+      "type": "text",
+      "name": "Разнорабочий",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.7b0ad0cff23431ff]{Разнорабочий (0)}",
+      "text": "<strong>Разнорабочий</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.7b0ad0cff23431ff]{Разнорабочий (0)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        55,
+        55
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7978ea6a640d6d51",
+      "_key": "!tables.results!c57aba72d8b4567f.7978ea6a640d6d51",
+      "type": "text",
+      "name": "Хронозеркальце",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.6642085729b045de]{Хронозеркальце (-1)}",
+      "text": "<strong>Хронозеркальце</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.6642085729b045de]{Хронозеркальце (-1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        56,
+        56
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "719876d29fe9d02c",
+      "_key": "!tables.results!c57aba72d8b4567f.719876d29fe9d02c",
+      "type": "text",
+      "name": "Гравитационный манипулятор",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.b0fac9eab6a92904]{Гравитационный манипулятор (-1)}",
+      "text": "<strong>Гравитационный манипулятор</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.b0fac9eab6a92904]{Гравитационный манипулятор (-1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "16bd00f3b797900b",
+      "_key": "!tables.results!c57aba72d8b4567f.16bd00f3b797900b",
+      "type": "text",
+      "name": "Пчелиный рой",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.33f5aa85125ce80a]{Пчелиный рой (-2)}",
+      "text": "<strong>Пчелиный рой</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.33f5aa85125ce80a]{Пчелиный рой (-2)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3fc615f05a8b19b3",
+      "_key": "!tables.results!c57aba72d8b4567f.3fc615f05a8b19b3",
+      "type": "text",
+      "name": "Нитевые торпеды",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.b6f43208e4de4497]{Нитевые торпеды (-1)}",
+      "text": "<strong>Нитевые торпеды</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.b6f43208e4de4497]{Нитевые торпеды (-1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e78a5fbe93279b94",
+      "_key": "!tables.results!c57aba72d8b4567f.e78a5fbe93279b94",
+      "type": "text",
+      "name": "Комплекс автономного реактивного ремонта",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.9eee81c7ca4bf290]{Комплекс автономного реактивного ремонта (+1)}",
+      "text": "<strong>Комплекс автономного реактивного ремонта</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.9eee81c7ca4bf290]{Комплекс автономного реактивного ремонта (+1)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f392d9d2d0d3ce0a",
+      "_key": "!tables.results!c57aba72d8b4567f.f392d9d2d0d3ce0a",
+      "type": "text",
+      "name": "Шлем Пустоты",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.0142268e1e63422a]{Шлем Пустоты (-2)}",
+      "text": "<strong>Шлем Пустоты</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.0142268e1e63422a]{Шлем Пустоты (-2)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fb4d410998bc8e35",
+      "_key": "!tables.results!c57aba72d8b4567f.fb4d410998bc8e35",
+      "type": "text",
+      "name": "Кубы Знамения",
+      "description": "@UUID[Compendium.star-spindle-compendium.artifacts.Item.515a3df6d7c47d5c]{Кубы Знамения (-5)}",
+      "text": "<strong>Кубы Знамения</strong>: @UUID[Compendium.star-spindle-compendium.artifacts.Item.515a3df6d7c47d5c]{Кубы Знамения (-5)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

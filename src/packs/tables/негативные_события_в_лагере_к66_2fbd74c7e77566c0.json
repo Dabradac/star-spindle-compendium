@@ -1,0 +1,311 @@
+{
+  "_id": "2fbd74c7e77566c0",
+  "_key": "!tables!2fbd74c7e77566c0",
+  "name": "Негативные события в лагере (к66)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Сколько событий может случиться — зависит от качества отдыха.",
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "e3904a8a95f27967",
+      "_key": "!tables.results!2fbd74c7e77566c0.e3904a8a95f27967",
+      "type": "text",
+      "name": "Случайное возгорание",
+      "description": "",
+      "text": "<strong>Случайное возгорание</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        12
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "00fb892f21064a4f",
+      "_key": "!tables.results!2fbd74c7e77566c0.00fb892f21064a4f",
+      "type": "text",
+      "name": "Поломка оборудования",
+      "description": "",
+      "text": "<strong>Поломка оборудования</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        14
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "557c0cf98e5924fd",
+      "_key": "!tables.results!2fbd74c7e77566c0.557c0cf98e5924fd",
+      "type": "text",
+      "name": "Пропажа ценных предметов из лагеря",
+      "description": "",
+      "text": "<strong>Пропажа ценных предметов из лагеря</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        16
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cff4c691067cb4f5",
+      "_key": "!tables.results!2fbd74c7e77566c0.cff4c691067cb4f5",
+      "type": "text",
+      "name": "Негативные погодные условия (наводнение, шторм и т. п.)",
+      "description": "",
+      "text": "<strong>Негативные погодные условия (наводнение, шторм и т. п.)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        21,
+        22
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "290ef93bd25d4021",
+      "_key": "!tables.results!2fbd74c7e77566c0.290ef93bd25d4021",
+      "type": "text",
+      "name": "Открытая атака на лагерь",
+      "description": "",
+      "text": "<strong>Открытая атака на лагерь</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        23,
+        24
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f0163ba1470de7da",
+      "_key": "!tables.results!2fbd74c7e77566c0.f0163ba1470de7da",
+      "type": "text",
+      "name": "Отравленная пища",
+      "description": "",
+      "text": "<strong>Отравленная пища</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        25,
+        26
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "78ee606ad51a9430",
+      "_key": "!tables.results!2fbd74c7e77566c0.78ee606ad51a9430",
+      "type": "text",
+      "name": "Надоедливые насекомые",
+      "description": "",
+      "text": "<strong>Надоедливые насекомые</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        31,
+        32
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "baf0fa351c246bed",
+      "_key": "!tables.results!2fbd74c7e77566c0.baf0fa351c246bed",
+      "type": "text",
+      "name": "Одного из членов группы кусает ядовитое существо",
+      "description": "",
+      "text": "<strong>Одного из членов группы кусает ядовитое существо</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        33,
+        34
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "bb439f50a8dd297a",
+      "_key": "!tables.results!2fbd74c7e77566c0.bb439f50a8dd297a",
+      "type": "text",
+      "name": "Пугающие звуки окружения",
+      "description": "",
+      "text": "<strong>Пугающие звуки окружения</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        35,
+        36
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "276ebb64a1b464f4",
+      "_key": "!tables.results!2fbd74c7e77566c0.276ebb64a1b464f4",
+      "type": "text",
+      "name": "Происшествие с транспортом или животными (невозможно, если оборудовано стойло)",
+      "description": "",
+      "text": "<strong>Происшествие с транспортом или животными (невозможно, если оборудовано стойло)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        41,
+        42
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6d43e1916e87bef3",
+      "_key": "!tables.results!2fbd74c7e77566c0.6d43e1916e87bef3",
+      "type": "text",
+      "name": "Несчастный случай, приведший к лёгкой травме",
+      "description": "",
+      "text": "<strong>Несчастный случай, приведший к лёгкой травме</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        43,
+        44
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ce893ab828c2a1c4",
+      "_key": "!tables.results!2fbd74c7e77566c0.ce893ab828c2a1c4",
+      "type": "text",
+      "name": "Происшествие с провизией: утрачена часть съестных запасов или топлива",
+      "description": "",
+      "text": "<strong>Происшествие с провизией: утрачена часть съестных запасов или топлива</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        45,
+        46
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c0d568d90a815ee2",
+      "_key": "!tables.results!2fbd74c7e77566c0.c0d568d90a815ee2",
+      "type": "text",
+      "name": "Густой туман или дым окутывает лагерь",
+      "description": "",
+      "text": "<strong>Густой туман или дым окутывает лагерь</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        51,
+        52
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3294289f37268228",
+      "_key": "!tables.results!2fbd74c7e77566c0.3294289f37268228",
+      "type": "text",
+      "name": "Скрытая атака на лагерь",
+      "description": "",
+      "text": "<strong>Скрытая атака на лагерь</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        53,
+        54
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9c5ed1f4ef26d459",
+      "_key": "!tables.results!2fbd74c7e77566c0.9c5ed1f4ef26d459",
+      "type": "text",
+      "name": "Храп кого-то из группы не даёт спать другим",
+      "description": "",
+      "text": "<strong>Храп кого-то из группы не даёт спать другим</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        55,
+        56
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "481c1dd176a7b1a6",
+      "_key": "!tables.results!2fbd74c7e77566c0.481c1dd176a7b1a6",
+      "type": "text",
+      "name": "Перепады температуры из-за неожиданной жары или холода",
+      "description": "",
+      "text": "<strong>Перепады температуры из-за неожиданной жары или холода</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        61,
+        62
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "22ff6229f7fc5e5b",
+      "_key": "!tables.results!2fbd74c7e77566c0.22ff6229f7fc5e5b",
+      "type": "text",
+      "name": "Ложное срабатывание ловушек",
+      "description": "",
+      "text": "<strong>Ложное срабатывание ловушек</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        63,
+        64
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "363a0b44d776f49c",
+      "_key": "!tables.results!2fbd74c7e77566c0.363a0b44d776f49c",
+      "type": "text",
+      "name": "Дозорный засыпает на посту",
+      "description": "",
+      "text": "<strong>Дозорный засыпает на посту</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        65,
+        66
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "46351a2074d1cdf5",
+  "sort": 3600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

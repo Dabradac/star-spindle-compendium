@@ -1,0 +1,119 @@
+{
+  "_id": "861d8e6a92b6aadf",
+  "_key": "!tables!861d8e6a92b6aadf",
+  "name": "Детство (к6)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "В скобках — уровень происхождения. Сумма трёх уровней определяет стартовые параметры.",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "e47115f21c43a22f",
+      "_key": "!tables.results!861d8e6a92b6aadf.e47115f21c43a22f",
+      "type": "text",
+      "name": "Сиротой, на чьём-то попечении (-2)",
+      "description": "Персонаж рано потерял родителей и вырос в благотворительном учреждении или у добрых людей.",
+      "text": "<strong>Сиротой, на чьём-то попечении (-2)</strong>: Персонаж рано потерял родителей и вырос в благотворительном учреждении или у добрых людей.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "596826c09e368670",
+      "_key": "!tables.results!861d8e6a92b6aadf.596826c09e368670",
+      "type": "text",
+      "name": "В неполной семье (-1)",
+      "description": "Один из родителей отсутствовал из-за разлуки, смерти или других обстоятельств.",
+      "text": "<strong>В неполной семье (-1)</strong>: Один из родителей отсутствовал из-за разлуки, смерти или других обстоятельств.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "922f2159a1e7ef6d",
+      "_key": "!tables.results!861d8e6a92b6aadf.922f2159a1e7ef6d",
+      "type": "text",
+      "name": "В приёмной семье (0)",
+      "description": "Персонажа взяли на воспитание после трудных обстоятельств в родной семье.",
+      "text": "<strong>В приёмной семье (0)</strong>: Персонажа взяли на воспитание после трудных обстоятельств в родной семье.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "99de84db7208325d",
+      "_key": "!tables.results!861d8e6a92b6aadf.99de84db7208325d",
+      "type": "text",
+      "name": "В полной, но бедной семье (0)",
+      "description": "Семья постоянно боролась с финансовыми трудностями.",
+      "text": "<strong>В полной, но бедной семье (0)</strong>: Семья постоянно боролась с финансовыми трудностями.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b4392c1053294705",
+      "_key": "!tables.results!861d8e6a92b6aadf.b4392c1053294705",
+      "type": "text",
+      "name": "В полной обычной семье (+1)",
+      "description": "Средний класс или чуть выше: нормальное детство и образование, но без излишеств.",
+      "text": "<strong>В полной обычной семье (+1)</strong>: Средний класс или чуть выше: нормальное детство и образование, но без излишеств.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6cf35bad6e1c8e17",
+      "_key": "!tables.results!861d8e6a92b6aadf.6cf35bad6e1c8e17",
+      "type": "text",
+      "name": "С серебряной ложкой во рту (+2)",
+      "description": "Детство в роскоши: слуги, привилегии и всё, что душе угодно.",
+      "text": "<strong>С серебряной ложкой во рту (+2)</strong>: Детство в роскоши: слуги, привилегии и всё, что душе угодно.",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "57a01c5b0205038c",
+  "sort": 3700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

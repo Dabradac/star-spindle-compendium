@@ -1,0 +1,35 @@
+{
+  "_id": "a517c9fb3cab9c37",
+  "_key": "!items!a517c9fb3cab9c37",
+  "name": "БКО «Гвардеец»",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Бортовая корабельная система обороны на основе технологий Древних — лучшая в Славии защита от торпед и мин. Ею оснащены почти все корабли флота клана Орла.</p><p>Клан Орла. Превосходство в воздухе и продуманная стратегия: лучшие пилоты Веретена на кораблях с обшивкой из туманской росы. Особенно известна закрытая школа «Сумеречных Ведьм». Девиз клана — «рождён летать».</p>",
+    "modifier": 4,
+    "damage": 0,
+    "crit": 0,
+    "range": "long",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "turret",
+    "properties": "Только против снарядов и мин, турельного типа",
+    "price": 0,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "83b0e87818f96cd4",
+  "sort": 4100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

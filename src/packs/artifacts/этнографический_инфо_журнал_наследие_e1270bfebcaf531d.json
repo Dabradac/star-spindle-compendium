@@ -1,0 +1,31 @@
+{
+  "_id": "e1270bfebcaf531d",
+  "_key": "!items!e1270bfebcaf531d",
+  "name": "Этнографический инфо-журнал «Наследие»",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 3,
+    "bonusTarget": "skill.culture",
+    "conditional": true,
+    "description": "<p>КПК в толстом корпусе, синхронизированный с архивами клана Сов, — самый полный справочник в Веретене. +3 к культуре, чтобы узнать о сущностях Веретена, быте и обычаях Славов, артефактах и надписях Древних.</p><p>Клан Совы. Совы собирают предания, ведут летописи и классифицируют флору, фауну и сущностей Веретена. Экспедиции и разведчиков клана снаряжают бесшумными винтовками «Дозор» и аналитическими биноклями.</p>"
+  },
+  "effects": [],
+  "folder": "e2eaa276424203f1",
+  "sort": 5200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

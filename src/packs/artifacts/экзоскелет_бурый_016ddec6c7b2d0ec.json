@@ -1,0 +1,56 @@
+{
+  "_id": "016ddec6c7b2d0ec",
+  "_key": "!items!016ddec6c7b2d0ec",
+  "name": "Экзоскелет «Бурый»",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "bulky",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "defense": 10,
+    "properties": "Громоздкая, усиленные сервоприводы",
+    "description": "<p>Тяжёлая броня с экзоскелетом: +3 к силе (экзоскелет можно носить и без брони в небоевой конфигурации). Комплекс активной защиты «Лапа» сбивает летящий взрывной снаряд на средней дистанции; 3 заряда. На спине — крепление для пулемёта или гранатомёта.</p><p>Клан Медведя. Изоляционизм и оборонительная доктрина: солдаты в экзоскелетах, а в авангарде — тяжёлые бронированные мехи. Попасть в берлогу Медведей с недобрыми намерениями смерти подобно.</p><p><strong>Усиленные сервоприводы:</strong> +2 к проверкам силы.</p>"
+  },
+  "effects": [
+    {
+      "_id": "ac8da67e3cfceb31",
+      "_key": "!items.effects!016ddec6c7b2d0ec.ac8da67e3cfceb31",
+      "name": "Экзоскелет «Бурый»",
+      "img": "icons/svg/shield.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.strength.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": "eaee97b2c8849bab",
+  "sort": 5300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

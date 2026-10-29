@@ -1,0 +1,31 @@
+{
+  "_id": "f1900ef57e969578",
+  "_key": "!items!f1900ef57e969578",
+  "name": "Инъектор Древних (+1)",
+  "type": "gear",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Чёрный цилиндр с иглой и полупрозрачной зелёной жидкостью.</p><p>Укол полностью восстанавливает здоровье и волю персонажа и вдвое сокращает время выздоровления от имеющихся травм.</p><ul><li>к66: 16</li><li>Понимание: проверка науки или культуры с модификатором +1</li><li>Требуемый навык: Наука 2, Выживание 2, Знахарство 1</li><li>Активация: 2 жетон(а) Чернобога Мастеру</li><li>Заряды: одноразовый</li></ul>"
+  },
+  "effects": [],
+  "folder": "577cc2671f0f4fcf",
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

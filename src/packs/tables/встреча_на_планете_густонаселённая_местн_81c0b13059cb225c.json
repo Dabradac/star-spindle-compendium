@@ -1,0 +1,599 @@
+{
+  "_id": "81c0b13059cb225c",
+  "_key": "!tables!81c0b13059cb225c",
+  "name": "Встреча на планете: густонаселённая местность (к66)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "00926882af9c3605",
+      "_key": "!tables.results!81c0b13059cb225c.00926882af9c3605",
+      "type": "text",
+      "name": "Подвыпивший боевой отряд фракции/клана",
+      "description": "",
+      "text": "<strong>Подвыпивший боевой отряд фракции/клана</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "91a3288b7c8d5101",
+      "_key": "!tables.results!81c0b13059cb225c.91a3288b7c8d5101",
+      "type": "text",
+      "name": "Женщина плачет — кажется, кого-то или что-то потеряла",
+      "description": "",
+      "text": "<strong>Женщина плачет — кажется, кого-то или что-то потеряла</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "af67ab9f9c72d761",
+      "_key": "!tables.results!81c0b13059cb225c.af67ab9f9c72d761",
+      "type": "text",
+      "name": "Напёрсточник",
+      "description": "",
+      "text": "<strong>Напёрсточник</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d443a4ebcfe92c7f",
+      "_key": "!tables.results!81c0b13059cb225c.d443a4ebcfe92c7f",
+      "type": "text",
+      "name": "Подошедший исповедоваться верующий в Пантеон",
+      "description": "",
+      "text": "<strong>Подошедший исповедоваться верующий в Пантеон</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0947b0e635fa5d99",
+      "_key": "!tables.results!81c0b13059cb225c.0947b0e635fa5d99",
+      "type": "text",
+      "name": "Резкое изменение погоды",
+      "description": "",
+      "text": "<strong>Резкое изменение погоды</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f6f7708ad7377013",
+      "_key": "!tables.results!81c0b13059cb225c.f6f7708ad7377013",
+      "type": "text",
+      "name": "Патруль стражи",
+      "description": "",
+      "text": "<strong>Патруль стражи</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a456dcf72b0b6a81",
+      "_key": "!tables.results!81c0b13059cb225c.a456dcf72b0b6a81",
+      "type": "text",
+      "name": "Журналист «Вестника» берёт у вас провокационное интервью",
+      "description": "",
+      "text": "<strong>Журналист «Вестника» берёт у вас провокационное интервью</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3416a7de799a5212",
+      "_key": "!tables.results!81c0b13059cb225c.3416a7de799a5212",
+      "type": "text",
+      "name": "Стайка детей-карманников",
+      "description": "",
+      "text": "<strong>Стайка детей-карманников</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        22,
+        22
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "10a8e9c7fe346704",
+      "_key": "!tables.results!81c0b13059cb225c.10a8e9c7fe346704",
+      "type": "text",
+      "name": "Влюблённая парочка",
+      "description": "",
+      "text": "<strong>Влюблённая парочка</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        23,
+        23
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5d4cdcc4f99f1fbe",
+      "_key": "!tables.results!81c0b13059cb225c.5d4cdcc4f99f1fbe",
+      "type": "text",
+      "name": "Наркоман на бычьей крови, нападающий с ножом",
+      "description": "",
+      "text": "<strong>Наркоман на бычьей крови, нападающий с ножом</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        24,
+        24
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "65d330a024f2387f",
+      "_key": "!tables.results!81c0b13059cb225c.65d330a024f2387f",
+      "type": "text",
+      "name": "Художник следует за вами и пытается нарисовать",
+      "description": "",
+      "text": "<strong>Художник следует за вами и пытается нарисовать</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        25,
+        25
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "90fbdb6772fe65eb",
+      "_key": "!tables.results!81c0b13059cb225c.90fbdb6772fe65eb",
+      "type": "text",
+      "name": "Агрессивный бывший солдат-калека",
+      "description": "",
+      "text": "<strong>Агрессивный бывший солдат-калека</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        26,
+        26
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b590b891c48b8729",
+      "_key": "!tables.results!81c0b13059cb225c.b590b891c48b8729",
+      "type": "text",
+      "name": "Коробейник с загруженным товаром горбунком",
+      "description": "",
+      "text": "<strong>Коробейник с загруженным товаром горбунком</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        31,
+        31
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "450ea582668caebc",
+      "_key": "!tables.results!81c0b13059cb225c.450ea582668caebc",
+      "type": "text",
+      "name": "Попрошайка",
+      "description": "",
+      "text": "<strong>Попрошайка</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        32,
+        32
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "79a87705704cdb45",
+      "_key": "!tables.results!81c0b13059cb225c.79a87705704cdb45",
+      "type": "text",
+      "name": "Авария двух транспортных средств",
+      "description": "",
+      "text": "<strong>Авария двух транспортных средств</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        33,
+        33
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d591065cbdf5a8d2",
+      "_key": "!tables.results!81c0b13059cb225c.d591065cbdf5a8d2",
+      "type": "text",
+      "name": "Спор двух кибершаманов",
+      "description": "",
+      "text": "<strong>Спор двух кибершаманов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        34,
+        34
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "52846e401af26545",
+      "_key": "!tables.results!81c0b13059cb225c.52846e401af26545",
+      "type": "text",
+      "name": "Начинающийся хоровод",
+      "description": "",
+      "text": "<strong>Начинающийся хоровод</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b07e9a4b8e4aeafc",
+      "_key": "!tables.results!81c0b13059cb225c.b07e9a4b8e4aeafc",
+      "type": "text",
+      "name": "Выступление артистов",
+      "description": "",
+      "text": "<strong>Выступление артистов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b380ada50526938d",
+      "_key": "!tables.results!81c0b13059cb225c.b380ada50526938d",
+      "type": "text",
+      "name": "Проповедник Церкви",
+      "description": "",
+      "text": "<strong>Проповедник Церкви</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        41,
+        41
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b97cc1f4b872f3e2",
+      "_key": "!tables.results!81c0b13059cb225c.b97cc1f4b872f3e2",
+      "type": "text",
+      "name": "Барахольщик",
+      "description": "",
+      "text": "<strong>Барахольщик</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        42,
+        42
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8a45be419695e952",
+      "_key": "!tables.results!81c0b13059cb225c.8a45be419695e952",
+      "type": "text",
+      "name": "Несколько торговцев играют в карты на ценную вещь",
+      "description": "",
+      "text": "<strong>Несколько торговцев играют в карты на ценную вещь</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        43,
+        43
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3b0f9d8d68454271",
+      "_key": "!tables.results!81c0b13059cb225c.3b0f9d8d68454271",
+      "type": "text",
+      "name": "Гонец вручает вам неожиданное письмо лично в руки",
+      "description": "",
+      "text": "<strong>Гонец вручает вам неожиданное письмо лично в руки</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        44,
+        44
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8b57fa5cc7105e13",
+      "_key": "!tables.results!81c0b13059cb225c.8b57fa5cc7105e13",
+      "type": "text",
+      "name": "Несчастный случай на производстве",
+      "description": "",
+      "text": "<strong>Несчастный случай на производстве</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        45,
+        45
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "88c36cf7153a1b00",
+      "_key": "!tables.results!81c0b13059cb225c.88c36cf7153a1b00",
+      "type": "text",
+      "name": "Суперзвезда, пытающаяся скрыться под плащом",
+      "description": "",
+      "text": "<strong>Суперзвезда, пытающаяся скрыться под плащом</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        46,
+        46
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "953b6d8cb2aa2c54",
+      "_key": "!tables.results!81c0b13059cb225c.953b6d8cb2aa2c54",
+      "type": "text",
+      "name": "Кортеж важного члена фракции/клана",
+      "description": "",
+      "text": "<strong>Кортеж важного члена фракции/клана</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        51,
+        51
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "af2a76867cfab216",
+      "_key": "!tables.results!81c0b13059cb225c.af2a76867cfab216",
+      "type": "text",
+      "name": "К вам пристаёт фанат кого-то из персонажей или всей группы",
+      "description": "",
+      "text": "<strong>К вам пристаёт фанат кого-то из персонажей или всей группы</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        52,
+        52
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8b664acf22fd7e45",
+      "_key": "!tables.results!81c0b13059cb225c.8b664acf22fd7e45",
+      "type": "text",
+      "name": "Паломник",
+      "description": "",
+      "text": "<strong>Паломник</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        53,
+        53
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2a3400a6c6da9038",
+      "_key": "!tables.results!81c0b13059cb225c.2a3400a6c6da9038",
+      "type": "text",
+      "name": "Ярмарка в самом разгаре",
+      "description": "",
+      "text": "<strong>Ярмарка в самом разгаре</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        54,
+        54
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d6a2954a6a549df1",
+      "_key": "!tables.results!81c0b13059cb225c.d6a2954a6a549df1",
+      "type": "text",
+      "name": "Скидки в магазине",
+      "description": "",
+      "text": "<strong>Скидки в магазине</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        55,
+        55
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "91f4faeb99348c5d",
+      "_key": "!tables.results!81c0b13059cb225c.91f4faeb99348c5d",
+      "type": "text",
+      "name": "Драка между двумя жителями",
+      "description": "",
+      "text": "<strong>Драка между двумя жителями</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        56,
+        56
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c071b024cc90097b",
+      "_key": "!tables.results!81c0b13059cb225c.c071b024cc90097b",
+      "type": "text",
+      "name": "Забастовка рабочих",
+      "description": "",
+      "text": "<strong>Забастовка рабочих</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5dec349dc0d8f95e",
+      "_key": "!tables.results!81c0b13059cb225c.5dec349dc0d8f95e",
+      "type": "text",
+      "name": "Разбойники угрожают горожанке",
+      "description": "",
+      "text": "<strong>Разбойники угрожают горожанке</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "90b298fcf74a0a7b",
+      "_key": "!tables.results!81c0b13059cb225c.90b298fcf74a0a7b",
+      "type": "text",
+      "name": "Похороны",
+      "description": "",
+      "text": "<strong>Похороны</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6b465f2e4cf4fd3d",
+      "_key": "!tables.results!81c0b13059cb225c.6b465f2e4cf4fd3d",
+      "type": "text",
+      "name": "За вами кто-то следит",
+      "description": "",
+      "text": "<strong>За вами кто-то следит</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "08b979500ea1bc3f",
+      "_key": "!tables.results!81c0b13059cb225c.08b979500ea1bc3f",
+      "type": "text",
+      "name": "Сломанный КПК",
+      "description": "",
+      "text": "<strong>Сломанный КПК</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f774d9a67eda76c8",
+      "_key": "!tables.results!81c0b13059cb225c.f774d9a67eda76c8",
+      "type": "text",
+      "name": "Обезумевший ведун",
+      "description": "",
+      "text": "<strong>Обезумевший ведун</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "fe517ba3e52ebc75",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

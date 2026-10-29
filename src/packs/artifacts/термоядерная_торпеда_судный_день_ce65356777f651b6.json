@@ -1,0 +1,35 @@
+{
+  "_id": "ce65356777f651b6",
+  "_key": "!items!ce65356777f651b6",
+  "name": "Термоядерная торпеда «Судный день»",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Наследие военного полигона Демосов на станции «Союз»: сотни торпед, превосходящих аналоги по мощности и радиусу поражения.</p><p>Коммуна. Сдерживающий фактор для соседей Коммуны — термоядерные торпеды станции «Союз». Алексей Куровски развивает дело отца: элитные части Коммуны вооружены линейкой «Куровски-С».</p>",
+    "modifier": 3,
+    "damage": 4,
+    "crit": 1,
+    "range": "extreme",
+    "damageType": "both",
+    "ignoresArmor": false,
+    "location": "bow",
+    "properties": "3 сегмента/ход, радиус взрыва 5 км",
+    "price": 0,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "3f0846c83bb95e66",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

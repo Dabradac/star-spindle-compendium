@@ -1,0 +1,31 @@
+{
+  "_id": "b3ef7a88c97421c6",
+  "_key": "!items!b3ef7a88c97421c6",
+  "name": "Монокль-анализатор «Чуйка»",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 2,
+    "bonusTarget": "skill.influence",
+    "conditional": true,
+    "description": "<p>Монокль-рентген со встроенным нейрополиграфом. +2 к влиянию при торговых сделках и +2 к наблюдательности, чтобы распознать ложь и истинные мотивы собеседника; определяет стоимость предмета с точностью 0,01%.</p><p>Коробейники. Мастера космической и торговой логистики: орбитальные торговые ряды, грузовые дроны и прямой выход на толмачей чёрного рынка.</p>"
+  },
+  "effects": [],
+  "folder": "4f6f9971c89f23a7",
+  "sort": 6400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

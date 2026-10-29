@@ -1,0 +1,343 @@
+{
+  "_id": "0edff93ec6f17cae",
+  "_key": "!tables!0edff93ec6f17cae",
+  "name": "Задание: начало (нейтральная репутация) (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Бросьте к20 по каждому столбцу. Начало описания выберите по репутации команды (отрицательная, нейтральная или положительная) и типу задания.</p><p>Стандартная награда — к20 тысяч сверкредитов на всю команду. За задания повышенной сложности можно получить дополнительные награды: модификаторы в скобках складываются, итог — количество бросков к20 по столбцу наград.</p><p>Перед началом задания бросьте к20: на 1–10 добавьте осложнение. Осложнение даёт +2 к модификатору дополнительных наград.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "a687d4892e228fb3",
+      "_key": "!tables.results!0edff93ec6f17cae.a687d4892e228fb3",
+      "type": "text",
+      "name": "Поиск и спасение / уничтожение…",
+      "description": "",
+      "text": "<strong>Поиск и спасение / уничтожение…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "60604d6e001c418f",
+      "_key": "!tables.results!0edff93ec6f17cae.60604d6e001c418f",
+      "type": "text",
+      "name": "Доставка из пункта А в пункт Б…",
+      "description": "",
+      "text": "<strong>Доставка из пункта А в пункт Б…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "32df14a37e84e06f",
+      "_key": "!tables.results!0edff93ec6f17cae.32df14a37e84e06f",
+      "type": "text",
+      "name": "Охрана…",
+      "description": "",
+      "text": "<strong>Охрана…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "81b30deae8d837f7",
+      "_key": "!tables.results!0edff93ec6f17cae.81b30deae8d837f7",
+      "type": "text",
+      "name": "Исследование деятельности / местности вблизи…",
+      "description": "",
+      "text": "<strong>Исследование деятельности / местности вблизи…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ac00ba2c729b5536",
+      "_key": "!tables.results!0edff93ec6f17cae.ac00ba2c729b5536",
+      "type": "text",
+      "name": "Проведение переговоров с…",
+      "description": "",
+      "text": "<strong>Проведение переговоров с…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "76c2d27f2e15aa89",
+      "_key": "!tables.results!0edff93ec6f17cae.76c2d27f2e15aa89",
+      "type": "text",
+      "name": "Слежка за передвижениями…",
+      "description": "",
+      "text": "<strong>Слежка за передвижениями…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "68703592b4fbbadf",
+      "_key": "!tables.results!0edff93ec6f17cae.68703592b4fbbadf",
+      "type": "text",
+      "name": "Расследование, связанное с убийством / пропажей / саботажем…",
+      "description": "",
+      "text": "<strong>Расследование, связанное с убийством / пропажей / саботажем…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "642b6978a96e259c",
+      "_key": "!tables.results!0edff93ec6f17cae.642b6978a96e259c",
+      "type": "text",
+      "name": "Розыск и доставка живым или мёртвым…",
+      "description": "",
+      "text": "<strong>Розыск и доставка живым или мёртвым…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "373e7ffcbbfef870",
+      "_key": "!tables.results!0edff93ec6f17cae.373e7ffcbbfef870",
+      "type": "text",
+      "name": "Добыча ресурса вблизи…",
+      "description": "",
+      "text": "<strong>Добыча ресурса вблизи…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9fefe710cbb56313",
+      "_key": "!tables.results!0edff93ec6f17cae.9fefe710cbb56313",
+      "type": "text",
+      "name": "Сопровождение… на протяжении некоторого времени",
+      "description": "",
+      "text": "<strong>Сопровождение… на протяжении некоторого времени</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "12658cf0ff0d00af",
+      "_key": "!tables.results!0edff93ec6f17cae.12658cf0ff0d00af",
+      "type": "text",
+      "name": "Сбор информации о деятельности…",
+      "description": "",
+      "text": "<strong>Сбор информации о деятельности…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c5957bdfc3011b67",
+      "_key": "!tables.results!0edff93ec6f17cae.c5957bdfc3011b67",
+      "type": "text",
+      "name": "Поиск и доставка обратно работодателю…",
+      "description": "",
+      "text": "<strong>Поиск и доставка обратно работодателю…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cd5f5e4bead8cf50",
+      "_key": "!tables.results!0edff93ec6f17cae.cd5f5e4bead8cf50",
+      "type": "text",
+      "name": "Участие в экспедиции с целью обнаружения…",
+      "description": "",
+      "text": "<strong>Участие в экспедиции с целью обнаружения…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fbe76fe5e2c6f6b3",
+      "_key": "!tables.results!0edff93ec6f17cae.fbe76fe5e2c6f6b3",
+      "type": "text",
+      "name": "Взятие под контроль и защита до прибытия подкреплений…",
+      "description": "",
+      "text": "<strong>Взятие под контроль и защита до прибытия подкреплений…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0621a27aa759a539",
+      "_key": "!tables.results!0edff93ec6f17cae.0621a27aa759a539",
+      "type": "text",
+      "name": "Нанесение на карту местности вблизи…",
+      "description": "",
+      "text": "<strong>Нанесение на карту местности вблизи…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f55de480ab1c26e7",
+      "_key": "!tables.results!0edff93ec6f17cae.f55de480ab1c26e7",
+      "type": "text",
+      "name": "Внедрение в группу / добыча инсайдерской информации в местоположении…",
+      "description": "",
+      "text": "<strong>Внедрение в группу / добыча инсайдерской информации в местоположении…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "47f3a4b2f021a89e",
+      "_key": "!tables.results!0edff93ec6f17cae.47f3a4b2f021a89e",
+      "type": "text",
+      "name": "Контроль за деятельностью…",
+      "description": "",
+      "text": "<strong>Контроль за деятельностью…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cdcff9aa35638010",
+      "_key": "!tables.results!0edff93ec6f17cae.cdcff9aa35638010",
+      "type": "text",
+      "name": "Участие посредником в переговорах в конфликте… с работодателем",
+      "description": "",
+      "text": "<strong>Участие посредником в переговорах в конфликте… с работодателем</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "90021c73ede11b4d",
+      "_key": "!tables.results!0edff93ec6f17cae.90021c73ede11b4d",
+      "type": "text",
+      "name": "Защита территории / объекта работодателя от…",
+      "description": "",
+      "text": "<strong>Защита территории / объекта работодателя от…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "74dabe2a32f4b62e",
+      "_key": "!tables.results!0edff93ec6f17cae.74dabe2a32f4b62e",
+      "type": "text",
+      "name": "Сохранение репутации работодателя с помощью спасения / уничтожения… (1)",
+      "description": "",
+      "text": "<strong>Сохранение репутации работодателя с помощью спасения / уничтожения… (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "0fe0df15785af6ee",
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

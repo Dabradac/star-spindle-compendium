@@ -1,0 +1,343 @@
+{
+  "_id": "dccc29d6f8b618ad",
+  "_key": "!tables!dccc29d6f8b618ad",
+  "name": "Задание: работодатель (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Бросьте к20 по каждому столбцу. Начало описания выберите по репутации команды (отрицательная, нейтральная или положительная) и типу задания.</p><p>Стандартная награда — к20 тысяч сверкредитов на всю команду. За задания повышенной сложности можно получить дополнительные награды: модификаторы в скобках складываются, итог — количество бросков к20 по столбцу наград.</p><p>Перед началом задания бросьте к20: на 1–10 добавьте осложнение. Осложнение даёт +2 к модификатору дополнительных наград.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "50aac740497d463d",
+      "_key": "!tables.results!dccc29d6f8b618ad.50aac740497d463d",
+      "type": "text",
+      "name": "Ведун",
+      "description": "",
+      "text": "<strong>Ведун</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "035d6e6e482a8e1a",
+      "_key": "!tables.results!dccc29d6f8b618ad.035d6e6e482a8e1a",
+      "type": "text",
+      "name": "Преступник",
+      "description": "",
+      "text": "<strong>Преступник</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "27cae21099150a4e",
+      "_key": "!tables.results!dccc29d6f8b618ad.27cae21099150a4e",
+      "type": "text",
+      "name": "Контрабандист",
+      "description": "",
+      "text": "<strong>Контрабандист</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "22c0b1360208bc99",
+      "_key": "!tables.results!dccc29d6f8b618ad.22c0b1360208bc99",
+      "type": "text",
+      "name": "Случайный прохожий",
+      "description": "",
+      "text": "<strong>Случайный прохожий</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c940dd6128273e68",
+      "_key": "!tables.results!dccc29d6f8b618ad.c940dd6128273e68",
+      "type": "text",
+      "name": "Анонимное объявление",
+      "description": "",
+      "text": "<strong>Анонимное объявление</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3667e4c804f29aed",
+      "_key": "!tables.results!dccc29d6f8b618ad.3667e4c804f29aed",
+      "type": "text",
+      "name": "Трактирщик",
+      "description": "",
+      "text": "<strong>Трактирщик</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fbcedc593abb4ec6",
+      "_key": "!tables.results!dccc29d6f8b618ad.fbcedc593abb4ec6",
+      "type": "text",
+      "name": "Проповедник Пантеона / Единого",
+      "description": "",
+      "text": "<strong>Проповедник Пантеона / Единого</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "aed982d2db8994ec",
+      "_key": "!tables.results!dccc29d6f8b618ad.aed982d2db8994ec",
+      "type": "text",
+      "name": "Частный предприниматель",
+      "description": "",
+      "text": "<strong>Частный предприниматель</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b097c463a041c78f",
+      "_key": "!tables.results!dccc29d6f8b618ad.b097c463a041c78f",
+      "type": "text",
+      "name": "Группа других путешественников",
+      "description": "",
+      "text": "<strong>Группа других путешественников</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "279db802a01734ec",
+      "_key": "!tables.results!dccc29d6f8b618ad.279db802a01734ec",
+      "type": "text",
+      "name": "Частная компания",
+      "description": "",
+      "text": "<strong>Частная компания</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4d1e6fc745145ab9",
+      "_key": "!tables.results!dccc29d6f8b618ad.4d1e6fc745145ab9",
+      "type": "text",
+      "name": "Бывший член фракции / клана",
+      "description": "",
+      "text": "<strong>Бывший член фракции / клана</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a6725248904db194",
+      "_key": "!tables.results!dccc29d6f8b618ad.a6725248904db194",
+      "type": "text",
+      "name": "Администрация колонии",
+      "description": "",
+      "text": "<strong>Администрация колонии</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b668c22bbc790e3b",
+      "_key": "!tables.results!dccc29d6f8b618ad.b668c22bbc790e3b",
+      "type": "text",
+      "name": "Ваш кредитор",
+      "description": "",
+      "text": "<strong>Ваш кредитор</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c1d3a695c6bf5227",
+      "_key": "!tables.results!dccc29d6f8b618ad.c1d3a695c6bf5227",
+      "type": "text",
+      "name": "Журналист",
+      "description": "",
+      "text": "<strong>Журналист</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2bd950a1671799d0",
+      "_key": "!tables.results!dccc29d6f8b618ad.2bd950a1671799d0",
+      "type": "text",
+      "name": "Известная личность",
+      "description": "",
+      "text": "<strong>Известная личность</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "05ff6b02e6df0c4a",
+      "_key": "!tables.results!dccc29d6f8b618ad.05ff6b02e6df0c4a",
+      "type": "text",
+      "name": "Толмач",
+      "description": "",
+      "text": "<strong>Толмач</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9311991946f480b7",
+      "_key": "!tables.results!dccc29d6f8b618ad.9311991946f480b7",
+      "type": "text",
+      "name": "Коллекционер",
+      "description": "",
+      "text": "<strong>Коллекционер</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7e0e84109160f859",
+      "_key": "!tables.results!dccc29d6f8b618ad.7e0e84109160f859",
+      "type": "text",
+      "name": "Фракция",
+      "description": "",
+      "text": "<strong>Фракция</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "1edf9326554909d1",
+      "_key": "!tables.results!dccc29d6f8b618ad.1edf9326554909d1",
+      "type": "text",
+      "name": "Клан",
+      "description": "",
+      "text": "<strong>Клан</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0fbfdc81c57bc155",
+      "_key": "!tables.results!dccc29d6f8b618ad.0fbfdc81c57bc155",
+      "type": "text",
+      "name": "Вече (1)",
+      "description": "",
+      "text": "<strong>Вече (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "0fe0df15785af6ee",
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

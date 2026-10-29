@@ -1,0 +1,599 @@
+{
+  "_id": "1f19daf95c833f65",
+  "_key": "!tables!1f19daf95c833f65",
+  "name": "Встреча на планете: глухая местность (к66)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "af34259523c07222",
+      "_key": "!tables.results!1f19daf95c833f65.af34259523c07222",
+      "type": "text",
+      "name": "Заброшенный археологический лагерь",
+      "description": "",
+      "text": "<strong>Заброшенный археологический лагерь</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fa60834e061c1023",
+      "_key": "!tables.results!1f19daf95c833f65.fa60834e061c1023",
+      "type": "text",
+      "name": "Болото / зыбучие пески / обвал",
+      "description": "",
+      "text": "<strong>Болото / зыбучие пески / обвал</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "369ba2a3c7d05170",
+      "_key": "!tables.results!1f19daf95c833f65.369ba2a3c7d05170",
+      "type": "text",
+      "name": "Нападение сущностей Веретена 1–2 уровня опасности",
+      "description": "",
+      "text": "<strong>Нападение сущностей Веретена 1–2 уровня опасности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "bf5f8b16a1a25119",
+      "_key": "!tables.results!1f19daf95c833f65.bf5f8b16a1a25119",
+      "type": "text",
+      "name": "Стычка двух фракций/кланов",
+      "description": "",
+      "text": "<strong>Стычка двух фракций/кланов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9a6b0821fada77a7",
+      "_key": "!tables.results!1f19daf95c833f65.9a6b0821fada77a7",
+      "type": "text",
+      "name": "Нападение фауны 1–2 уровня опасности",
+      "description": "",
+      "text": "<strong>Нападение фауны 1–2 уровня опасности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9cabc60c71fda5c2",
+      "_key": "!tables.results!1f19daf95c833f65.9cabc60c71fda5c2",
+      "type": "text",
+      "name": "Лагерь путешественников",
+      "description": "",
+      "text": "<strong>Лагерь путешественников</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a22579d38ac75175",
+      "_key": "!tables.results!1f19daf95c833f65.a22579d38ac75175",
+      "type": "text",
+      "name": "Охотник",
+      "description": "",
+      "text": "<strong>Охотник</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6cf16fcb455f8534",
+      "_key": "!tables.results!1f19daf95c833f65.6cf16fcb455f8534",
+      "type": "text",
+      "name": "Резкое изменение погоды",
+      "description": "",
+      "text": "<strong>Резкое изменение погоды</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        22,
+        22
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f14a99e0fb1a851b",
+      "_key": "!tables.results!1f19daf95c833f65.f14a99e0fb1a851b",
+      "type": "text",
+      "name": "Место силы Пантеона",
+      "description": "",
+      "text": "<strong>Место силы Пантеона</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        23,
+        23
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "268c565f3406e234",
+      "_key": "!tables.results!1f19daf95c833f65.268c565f3406e234",
+      "type": "text",
+      "name": "Дезертир стаи Волка",
+      "description": "",
+      "text": "<strong>Дезертир стаи Волка</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        24,
+        24
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d3a9c112c0998ecb",
+      "_key": "!tables.results!1f19daf95c833f65.d3a9c112c0998ecb",
+      "type": "text",
+      "name": "Заброшенная колония",
+      "description": "",
+      "text": "<strong>Заброшенная колония</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        25,
+        25
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e7d00921c382ecd4",
+      "_key": "!tables.results!1f19daf95c833f65.e7d00921c382ecd4",
+      "type": "text",
+      "name": "Небольшое тайное поселение ведунов",
+      "description": "",
+      "text": "<strong>Небольшое тайное поселение ведунов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        26,
+        26
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9173c76404a34faa",
+      "_key": "!tables.results!1f19daf95c833f65.9173c76404a34faa",
+      "type": "text",
+      "name": "Трупы путешественников",
+      "description": "",
+      "text": "<strong>Трупы путешественников</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        31,
+        31
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7d9a967cbdbf3123",
+      "_key": "!tables.results!1f19daf95c833f65.7d9a967cbdbf3123",
+      "type": "text",
+      "name": "Заблудившийся житель ближайшей колонии",
+      "description": "",
+      "text": "<strong>Заблудившийся житель ближайшей колонии</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        32,
+        32
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0d087462b479bb5a",
+      "_key": "!tables.results!1f19daf95c833f65.0d087462b479bb5a",
+      "type": "text",
+      "name": "Нападение фауны 2–3 уровня опасности",
+      "description": "",
+      "text": "<strong>Нападение фауны 2–3 уровня опасности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        33,
+        33
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4cf2fe2725f36a3a",
+      "_key": "!tables.results!1f19daf95c833f65.4cf2fe2725f36a3a",
+      "type": "text",
+      "name": "Отшельник Пантеона",
+      "description": "",
+      "text": "<strong>Отшельник Пантеона</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        34,
+        34
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "aa52f82ec901ba3f",
+      "_key": "!tables.results!1f19daf95c833f65.aa52f82ec901ba3f",
+      "type": "text",
+      "name": "Церковные охотники готовятся к сражению",
+      "description": "",
+      "text": "<strong>Церковные охотники готовятся к сражению</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4a8cb9eb5fd5d5ed",
+      "_key": "!tables.results!1f19daf95c833f65.4a8cb9eb5fd5d5ed",
+      "type": "text",
+      "name": "Схрон контрабандистов",
+      "description": "",
+      "text": "<strong>Схрон контрабандистов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f70a241b1e32f0e1",
+      "_key": "!tables.results!1f19daf95c833f65.f70a241b1e32f0e1",
+      "type": "text",
+      "name": "Мёртвый гонец",
+      "description": "",
+      "text": "<strong>Мёртвый гонец</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        41,
+        41
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "44577af638e4a3b0",
+      "_key": "!tables.results!1f19daf95c833f65.44577af638e4a3b0",
+      "type": "text",
+      "name": "Нападение сущностей Веретена 2–3 уровня опасности",
+      "description": "",
+      "text": "<strong>Нападение сущностей Веретена 2–3 уровня опасности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        42,
+        42
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c9475e6e0e5b3142",
+      "_key": "!tables.results!1f19daf95c833f65.c9475e6e0e5b3142",
+      "type": "text",
+      "name": "Обломки космического корабля",
+      "description": "",
+      "text": "<strong>Обломки космического корабля</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        43,
+        43
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a70f16cd93e390bb",
+      "_key": "!tables.results!1f19daf95c833f65.a70f16cd93e390bb",
+      "type": "text",
+      "name": "Несколько Фронтиров пытаются провести какой-то эксперимент",
+      "description": "",
+      "text": "<strong>Несколько Фронтиров пытаются провести какой-то эксперимент</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        44,
+        44
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5db546222fad6bed",
+      "_key": "!tables.results!1f19daf95c833f65.5db546222fad6bed",
+      "type": "text",
+      "name": "Беглый каторжник",
+      "description": "",
+      "text": "<strong>Беглый каторжник</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        45,
+        45
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9c5b528b314fa7d1",
+      "_key": "!tables.results!1f19daf95c833f65.9c5b528b314fa7d1",
+      "type": "text",
+      "name": "Свежая могила",
+      "description": "",
+      "text": "<strong>Свежая могила</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        46,
+        46
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2170d9c276801687",
+      "_key": "!tables.results!1f19daf95c833f65.2170d9c276801687",
+      "type": "text",
+      "name": "Стычка двух фракций",
+      "description": "",
+      "text": "<strong>Стычка двух фракций</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        51,
+        51
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7732614c8ea36830",
+      "_key": "!tables.results!1f19daf95c833f65.7732614c8ea36830",
+      "type": "text",
+      "name": "Вы находите проклятый артефакт",
+      "description": "",
+      "text": "<strong>Вы находите проклятый артефакт</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        52,
+        52
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "46b8de4980ceca79",
+      "_key": "!tables.results!1f19daf95c833f65.46b8de4980ceca79",
+      "type": "text",
+      "name": "Кладенец у входа в пещеру готов отдать некое сокровище за правильные ответы на три загадки",
+      "description": "",
+      "text": "<strong>Кладенец у входа в пещеру готов отдать некое сокровище за правильные ответы на три загадки</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        53,
+        53
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6bfe9c207f166cfd",
+      "_key": "!tables.results!1f19daf95c833f65.6bfe9c207f166cfd",
+      "type": "text",
+      "name": "Брошенный рюкзак",
+      "description": "",
+      "text": "<strong>Брошенный рюкзак</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        54,
+        54
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "174695a470f6c22e",
+      "_key": "!tables.results!1f19daf95c833f65.174695a470f6c22e",
+      "type": "text",
+      "name": "Труп умершего от червонной чумы",
+      "description": "",
+      "text": "<strong>Труп умершего от червонной чумы</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        55,
+        55
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cf76c0207136a9da",
+      "_key": "!tables.results!1f19daf95c833f65.cf76c0207136a9da",
+      "type": "text",
+      "name": "Брошенное именное оружие",
+      "description": "",
+      "text": "<strong>Брошенное именное оружие</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        56,
+        56
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a5d1cb529e684a35",
+      "_key": "!tables.results!1f19daf95c833f65.a5d1cb529e684a35",
+      "type": "text",
+      "name": "Придорожный камень с указателями",
+      "description": "",
+      "text": "<strong>Придорожный камень с указателями</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "01f870e597b0ce88",
+      "_key": "!tables.results!1f19daf95c833f65.01f870e597b0ce88",
+      "type": "text",
+      "name": "Строящаяся колония",
+      "description": "",
+      "text": "<strong>Строящаяся колония</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ea7e95e8d3532e30",
+      "_key": "!tables.results!1f19daf95c833f65.ea7e95e8d3532e30",
+      "type": "text",
+      "name": "Табличка с несколькими символами Древних",
+      "description": "",
+      "text": "<strong>Табличка с несколькими символами Древних</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "426ef63296e414c8",
+      "_key": "!tables.results!1f19daf95c833f65.426ef63296e414c8",
+      "type": "text",
+      "name": "Руины Древних",
+      "description": "",
+      "text": "<strong>Руины Древних</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3f77c52dd3f84d0e",
+      "_key": "!tables.results!1f19daf95c833f65.3f77c52dd3f84d0e",
+      "type": "text",
+      "name": "Нападение фауны 3 уровня опасности",
+      "description": "",
+      "text": "<strong>Нападение фауны 3 уровня опасности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "01c37662d613eb5d",
+      "_key": "!tables.results!1f19daf95c833f65.01c37662d613eb5d",
+      "type": "text",
+      "name": "Нападение лиха",
+      "description": "",
+      "text": "<strong>Нападение лиха</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "fe517ba3e52ebc75",
+  "sort": 3200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

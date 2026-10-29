@@ -174,7 +174,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -205,7 +205,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -236,7 +236,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -280,7 +280,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -314,7 +314,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -348,7 +348,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -382,7 +382,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -416,7 +416,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -450,7 +450,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       }
     },
     {
@@ -478,7 +478,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       },
       "_key": "!actors.items!ec1328fc22e715bf.c1d48a4b493e5402"
     },
@@ -508,7 +508,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       },
       "_key": "!actors.items!ec1328fc22e715bf.7f0183ce6083bb00"
     },
@@ -538,7 +538,7 @@
       "_stats": {
         "coreVersion": "13.345",
         "systemId": "star-spindle",
-        "systemVersion": "0.3.0"
+        "systemVersion": "0.4.0"
       },
       "_key": "!actors.items!ec1328fc22e715bf.b60ae3e979de4c42"
     }
@@ -553,7 +553,7 @@
   "_stats": {
     "coreVersion": "13.345",
     "systemId": "star-spindle",
-    "systemVersion": "0.3.0"
+    "systemVersion": "0.4.0"
   },
   "prototypeToken": {
     "name": "Гриша Деревянкин",

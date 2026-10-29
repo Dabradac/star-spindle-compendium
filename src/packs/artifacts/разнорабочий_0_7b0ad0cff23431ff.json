@@ -1,0 +1,31 @@
+{
+  "_id": "7b0ad0cff23431ff",
+  "_key": "!items!7b0ad0cff23431ff",
+  "name": "Разнорабочий (0)",
+  "type": "gear",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 3,
+    "bonusTarget": "skill.mechanics",
+    "conditional": true,
+    "description": "<p>Наручный компьютер: над рукой материализуется панель из кристаллов туманской росы со Знаками Древних. Выбранный инструмент (бур, лопата, пила, дрель, ключи и т. д.) генерируется из кристаллов прямо на руке.</p><p>При использовании: +3 к проверке механики.</p><ul><li>к66: 55</li><li>Понимание: проверка науки или культуры без модификатора</li><li>Требуемый навык: Наука 5, Механика 3</li><li>Активация: 1 жетон(а) Чернобога Мастеру</li><li>Заряды: многоразовый (при находке — к6 зарядов)</li></ul>"
+  },
+  "effects": [],
+  "folder": "577cc2671f0f4fcf",
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

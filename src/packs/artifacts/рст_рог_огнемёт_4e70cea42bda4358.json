@@ -1,0 +1,41 @@
+{
+  "_id": "4e70cea42bda4358",
+  "_key": "!items!4e70cea42bda4358",
+  "name": "РСТ «Рог», огнемёт",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": -2,
+    "damage": 3,
+    "crit": 2,
+    "range": "close",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Тяжёлое, стационарное, воспламеняющее (3), разброс",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p>Вариант турели «Рог» с огнемётом вместо пулемёта.</p><p>Клан Овна. Овны предпочитают ружью молоток или комбайн, но дом защищать умеют: быстро возводят укрепления, ставят стационарные турели и выдавливают противника гранатами. В мирное время те же инструменты служат созиданию.</p><p><strong>Разброс:</strong> Урон можно распределить между целями, находящимися в упор друг к другу.</p><p><strong>Стационарное:</strong> Перемещается только транспортом; сложить или разложить в бою — продолжительное действие.</p>"
+  },
+  "effects": [],
+  "folder": "ff95646e30b15551",
+  "sort": 4900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

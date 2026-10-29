@@ -1,0 +1,343 @@
+{
+  "_id": "e590e779d1038d6e",
+  "_key": "!tables!e590e779d1038d6e",
+  "name": "Звезда (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "63688027e9096590",
+      "_key": "!tables.results!e590e779d1038d6e.63688027e9096590",
+      "type": "text",
+      "name": "Бело-голубой карлик",
+      "description": "",
+      "text": "<strong>Бело-голубой карлик</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "21a9f4ef2fcacfba",
+      "_key": "!tables.results!e590e779d1038d6e.21a9f4ef2fcacfba",
+      "type": "text",
+      "name": "Белый карлик",
+      "description": "",
+      "text": "<strong>Белый карлик</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a7c11f2077235ea3",
+      "_key": "!tables.results!e590e779d1038d6e.a7c11f2077235ea3",
+      "type": "text",
+      "name": "Голубой сверхгигант",
+      "description": "",
+      "text": "<strong>Голубой сверхгигант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b42055adad4c1e3b",
+      "_key": "!tables.results!e590e779d1038d6e.b42055adad4c1e3b",
+      "type": "text",
+      "name": "Бело-голубой сверхгигант",
+      "description": "",
+      "text": "<strong>Бело-голубой сверхгигант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d87a8be0d7d52d4e",
+      "_key": "!tables.results!e590e779d1038d6e.d87a8be0d7d52d4e",
+      "type": "text",
+      "name": "Жёлто-белый субгигант",
+      "description": "",
+      "text": "<strong>Жёлто-белый субгигант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6d38d63bb33e07c2",
+      "_key": "!tables.results!e590e779d1038d6e.6d38d63bb33e07c2",
+      "type": "text",
+      "name": "Жёлто-оранжевый гигант",
+      "description": "",
+      "text": "<strong>Жёлто-оранжевый гигант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cda9f365d99179f3",
+      "_key": "!tables.results!e590e779d1038d6e.cda9f365d99179f3",
+      "type": "text",
+      "name": "Бело-жёлтый сверхгигант",
+      "description": "",
+      "text": "<strong>Бело-жёлтый сверхгигант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e812d65a4d613dd6",
+      "_key": "!tables.results!e590e779d1038d6e.e812d65a4d613dd6",
+      "type": "text",
+      "name": "Жёлтый карлик",
+      "description": "",
+      "text": "<strong>Жёлтый карлик</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b80d7a76763c78ac",
+      "_key": "!tables.results!e590e779d1038d6e.b80d7a76763c78ac",
+      "type": "text",
+      "name": "Жёлтый гигант",
+      "description": "",
+      "text": "<strong>Жёлтый гигант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "08dad4774a358edf",
+      "_key": "!tables.results!e590e779d1038d6e.08dad4774a358edf",
+      "type": "text",
+      "name": "Жёлтый сверхгигант",
+      "description": "",
+      "text": "<strong>Жёлтый сверхгигант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6543a9e9a6873ecb",
+      "_key": "!tables.results!e590e779d1038d6e.6543a9e9a6873ecb",
+      "type": "text",
+      "name": "Оранжевый гигант",
+      "description": "",
+      "text": "<strong>Оранжевый гигант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f8408919629b5336",
+      "_key": "!tables.results!e590e779d1038d6e.f8408919629b5336",
+      "type": "text",
+      "name": "Красный карлик",
+      "description": "",
+      "text": "<strong>Красный карлик</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7c5d95d8f35607b9",
+      "_key": "!tables.results!e590e779d1038d6e.7c5d95d8f35607b9",
+      "type": "text",
+      "name": "Красный гигант",
+      "description": "",
+      "text": "<strong>Красный гигант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a3467f859abe6c29",
+      "_key": "!tables.results!e590e779d1038d6e.a3467f859abe6c29",
+      "type": "text",
+      "name": "Красный сверхгигант",
+      "description": "",
+      "text": "<strong>Красный сверхгигант</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5b6a36329de8c730",
+      "_key": "!tables.results!e590e779d1038d6e.5b6a36329de8c730",
+      "type": "text",
+      "name": "Коричневый карлик",
+      "description": "",
+      "text": "<strong>Коричневый карлик</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "14f376ff406b35fa",
+      "_key": "!tables.results!e590e779d1038d6e.14f376ff406b35fa",
+      "type": "text",
+      "name": "Протозвезда",
+      "description": "",
+      "text": "<strong>Протозвезда</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ca5bf50ab73d8ed3",
+      "_key": "!tables.results!e590e779d1038d6e.ca5bf50ab73d8ed3",
+      "type": "text",
+      "name": "Нейтронная звезда",
+      "description": "",
+      "text": "<strong>Нейтронная звезда</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fb9d70d4991456e1",
+      "_key": "!tables.results!e590e779d1038d6e.fb9d70d4991456e1",
+      "type": "text",
+      "name": "Углеродная звезда",
+      "description": "",
+      "text": "<strong>Углеродная звезда</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d6952afdc10523f4",
+      "_key": "!tables.results!e590e779d1038d6e.d6952afdc10523f4",
+      "type": "text",
+      "name": "Чёрная дыра",
+      "description": "",
+      "text": "<strong>Чёрная дыра</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "72540dab6c3c7ed9",
+      "_key": "!tables.results!e590e779d1038d6e.72540dab6c3c7ed9",
+      "type": "text",
+      "name": "Бросьте к20 ещё два раза и объедините результаты",
+      "description": "",
+      "text": "<strong>Бросьте к20 ещё два раза и объедините результаты</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

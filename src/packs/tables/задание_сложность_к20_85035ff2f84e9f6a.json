@@ -1,0 +1,343 @@
+{
+  "_id": "85035ff2f84e9f6a",
+  "_key": "!tables!85035ff2f84e9f6a",
+  "name": "Задание: сложность (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Бросьте к20 по каждому столбцу. Начало описания выберите по репутации команды (отрицательная, нейтральная или положительная) и типу задания.</p><p>Стандартная награда — к20 тысяч сверкредитов на всю команду. За задания повышенной сложности можно получить дополнительные награды: модификаторы в скобках складываются, итог — количество бросков к20 по столбцу наград.</p><p>Перед началом задания бросьте к20: на 1–10 добавьте осложнение. Осложнение даёт +2 к модификатору дополнительных наград.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "b64b8ed34545914e",
+      "_key": "!tables.results!85035ff2f84e9f6a.b64b8ed34545914e",
+      "type": "text",
+      "name": "Очень простая (−1)",
+      "description": "",
+      "text": "<strong>Очень простая (−1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ee1e07d5d05f2f53",
+      "_key": "!tables.results!85035ff2f84e9f6a.ee1e07d5d05f2f53",
+      "type": "text",
+      "name": "Очень простая",
+      "description": "",
+      "text": "<strong>Очень простая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "617a99d7601fc827",
+      "_key": "!tables.results!85035ff2f84e9f6a.617a99d7601fc827",
+      "type": "text",
+      "name": "Простая (−1)",
+      "description": "",
+      "text": "<strong>Простая (−1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2e326a540d789032",
+      "_key": "!tables.results!85035ff2f84e9f6a.2e326a540d789032",
+      "type": "text",
+      "name": "Простая",
+      "description": "",
+      "text": "<strong>Простая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c12c183f7bb8f098",
+      "_key": "!tables.results!85035ff2f84e9f6a.c12c183f7bb8f098",
+      "type": "text",
+      "name": "Простая",
+      "description": "",
+      "text": "<strong>Простая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c83425ecccbe3190",
+      "_key": "!tables.results!85035ff2f84e9f6a.c83425ecccbe3190",
+      "type": "text",
+      "name": "Простая",
+      "description": "",
+      "text": "<strong>Простая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "faa514b14596a5ff",
+      "_key": "!tables.results!85035ff2f84e9f6a.faa514b14596a5ff",
+      "type": "text",
+      "name": "Средняя",
+      "description": "",
+      "text": "<strong>Средняя</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a396e1164c0f0d6b",
+      "_key": "!tables.results!85035ff2f84e9f6a.a396e1164c0f0d6b",
+      "type": "text",
+      "name": "Средняя (1)",
+      "description": "",
+      "text": "<strong>Средняя (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "81c097c6b746c62d",
+      "_key": "!tables.results!85035ff2f84e9f6a.81c097c6b746c62d",
+      "type": "text",
+      "name": "Средняя (1)",
+      "description": "",
+      "text": "<strong>Средняя (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "66309ba1fee5d21a",
+      "_key": "!tables.results!85035ff2f84e9f6a.66309ba1fee5d21a",
+      "type": "text",
+      "name": "Средняя (1)",
+      "description": "",
+      "text": "<strong>Средняя (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "99182d152f1359bd",
+      "_key": "!tables.results!85035ff2f84e9f6a.99182d152f1359bd",
+      "type": "text",
+      "name": "Сложная (1)",
+      "description": "",
+      "text": "<strong>Сложная (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "813fd61b07e1c0ee",
+      "_key": "!tables.results!85035ff2f84e9f6a.813fd61b07e1c0ee",
+      "type": "text",
+      "name": "Сложная (1)",
+      "description": "",
+      "text": "<strong>Сложная (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "90e3c6c423f6f18c",
+      "_key": "!tables.results!85035ff2f84e9f6a.90e3c6c423f6f18c",
+      "type": "text",
+      "name": "Сложная (2)",
+      "description": "",
+      "text": "<strong>Сложная (2)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7a59abd155974638",
+      "_key": "!tables.results!85035ff2f84e9f6a.7a59abd155974638",
+      "type": "text",
+      "name": "Сложная (2)",
+      "description": "",
+      "text": "<strong>Сложная (2)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3f3844cb71c2dcec",
+      "_key": "!tables.results!85035ff2f84e9f6a.3f3844cb71c2dcec",
+      "type": "text",
+      "name": "Сложная (2)",
+      "description": "",
+      "text": "<strong>Сложная (2)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ce41af227bcb975d",
+      "_key": "!tables.results!85035ff2f84e9f6a.ce41af227bcb975d",
+      "type": "text",
+      "name": "Очень сложная (1)",
+      "description": "",
+      "text": "<strong>Очень сложная (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "538ad8a10479db89",
+      "_key": "!tables.results!85035ff2f84e9f6a.538ad8a10479db89",
+      "type": "text",
+      "name": "Очень сложная (2)",
+      "description": "",
+      "text": "<strong>Очень сложная (2)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0ce8df198d06ebe9",
+      "_key": "!tables.results!85035ff2f84e9f6a.0ce8df198d06ebe9",
+      "type": "text",
+      "name": "Очень сложная (2)",
+      "description": "",
+      "text": "<strong>Очень сложная (2)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "36cfb60ca5e79ec4",
+      "_key": "!tables.results!85035ff2f84e9f6a.36cfb60ca5e79ec4",
+      "type": "text",
+      "name": "Очень сложная (3)",
+      "description": "",
+      "text": "<strong>Очень сложная (3)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ad20d9c9503dbadc",
+      "_key": "!tables.results!85035ff2f84e9f6a.ad20d9c9503dbadc",
+      "type": "text",
+      "name": "Вряд ли кто-то выживет (4)",
+      "description": "",
+      "text": "<strong>Вряд ли кто-то выживет (4)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "0fe0df15785af6ee",
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

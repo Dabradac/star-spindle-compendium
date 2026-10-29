@@ -1,0 +1,60 @@
+{
+  "_id": "89fc453cc1100f7c",
+  "_key": "!items!89fc453cc1100f7c",
+  "name": "Церебральный чип (-2)",
+  "type": "implant",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "<p>Киберимплант Древних, устанавливается на шею или затылок. Установка вызывает кратковременную острую боль и головокружение, через 5–10 минут имплант начинает работать.</p><p>Постоянно: +1 к ловкости и проворству.</p><p>Перегрузка (тратит заряд): владелец получает 1 урона здоровью и воле, а ловкость и проворство растут ещё на +2 на к20 раундов.</p><p>Когда заряды кончаются, чип причиняет нестерпимую боль: бонусов больше нет, все характеристики снижены на 1, пока чип не удалят хирургически.</p><ul><li>к66: 11</li><li>Понимание: проверка науки или культуры с модификатором -2</li><li>Требуемый навык: нет</li><li>Активация: 1 жетон(а) Чернобога Мастеру</li><li>Заряды: многоразовый (при находке — к6 зарядов)</li></ul>",
+    "kind": "cyber",
+    "illegal": false,
+    "price": 0,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [
+    {
+      "_id": "448d09e41642fb62",
+      "_key": "!items.effects!89fc453cc1100f7c.448d09e41642fb62",
+      "name": "Церебральный чип (-2)",
+      "img": "icons/svg/lightning.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.agility.value",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": "577cc2671f0f4fcf",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

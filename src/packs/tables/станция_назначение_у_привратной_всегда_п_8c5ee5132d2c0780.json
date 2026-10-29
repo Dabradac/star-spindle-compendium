@@ -1,0 +1,103 @@
+{
+  "_id": "8c5ee5132d2c0780",
+  "_key": "!tables!8c5ee5132d2c0780",
+  "name": "Станция: назначение (у привратной — всегда привратная) (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "e14ce50b9a335788",
+      "_key": "!tables.results!8c5ee5132d2c0780.e14ce50b9a335788",
+      "type": "text",
+      "name": "Торговый пост",
+      "description": "",
+      "text": "<strong>Торговый пост</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "294db05801232a6e",
+      "_key": "!tables.results!8c5ee5132d2c0780.294db05801232a6e",
+      "type": "text",
+      "name": "Военный пост фракции / клана",
+      "description": "",
+      "text": "<strong>Военный пост фракции / клана</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        6
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fa77f0d4eefd661f",
+      "_key": "!tables.results!8c5ee5132d2c0780.fa77f0d4eefd661f",
+      "type": "text",
+      "name": "Научно-исследовательская станция",
+      "description": "",
+      "text": "<strong>Научно-исследовательская станция</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        14
+      ],
+      "weight": 8,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b62e655efa4a4843",
+      "_key": "!tables.results!8c5ee5132d2c0780.b62e655efa4a4843",
+      "type": "text",
+      "name": "Гидропоника",
+      "description": "",
+      "text": "<strong>Гидропоника</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        19
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a4749ffb96b19845",
+      "_key": "!tables.results!8c5ee5132d2c0780.a4749ffb96b19845",
+      "type": "text",
+      "name": "Добыча руды",
+      "description": "",
+      "text": "<strong>Добыча руды</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

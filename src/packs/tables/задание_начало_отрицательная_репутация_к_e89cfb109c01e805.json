@@ -1,0 +1,343 @@
+{
+  "_id": "e89cfb109c01e805",
+  "_key": "!tables!e89cfb109c01e805",
+  "name": "Задание: начало (отрицательная репутация) (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Бросьте к20 по каждому столбцу. Начало описания выберите по репутации команды (отрицательная, нейтральная или положительная) и типу задания.</p><p>Стандартная награда — к20 тысяч сверкредитов на всю команду. За задания повышенной сложности можно получить дополнительные награды: модификаторы в скобках складываются, итог — количество бросков к20 по столбцу наград.</p><p>Перед началом задания бросьте к20: на 1–10 добавьте осложнение. Осложнение даёт +2 к модификатору дополнительных наград.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "961ef9a954dffb8f",
+      "_key": "!tables.results!e89cfb109c01e805.961ef9a954dffb8f",
+      "type": "text",
+      "name": "Убийство или уничтожение…",
+      "description": "",
+      "text": "<strong>Убийство или уничтожение…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "19c93349718c0bdc",
+      "_key": "!tables.results!e89cfb109c01e805.19c93349718c0bdc",
+      "type": "text",
+      "name": "Похищение…",
+      "description": "",
+      "text": "<strong>Похищение…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d1c2ae155cbf663a",
+      "_key": "!tables.results!e89cfb109c01e805.d1c2ae155cbf663a",
+      "type": "text",
+      "name": "Расставить ловушки для поимки… (замести следы)",
+      "description": "",
+      "text": "<strong>Расставить ловушки для поимки… (замести следы)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "faba745a53e4e1e7",
+      "_key": "!tables.results!e89cfb109c01e805.faba745a53e4e1e7",
+      "type": "text",
+      "name": "Промышленный шпионаж за результатами деятельности…",
+      "description": "",
+      "text": "<strong>Промышленный шпионаж за результатами деятельности…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6d8e8517aadc8ab0",
+      "_key": "!tables.results!e89cfb109c01e805.6d8e8517aadc8ab0",
+      "type": "text",
+      "name": "Организация рейда в местонахождение…",
+      "description": "",
+      "text": "<strong>Организация рейда в местонахождение…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "553a43ff847f3361",
+      "_key": "!tables.results!e89cfb109c01e805.553a43ff847f3361",
+      "type": "text",
+      "name": "Саботаж деятельности…",
+      "description": "",
+      "text": "<strong>Саботаж деятельности…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "702435829687ad4d",
+      "_key": "!tables.results!e89cfb109c01e805.702435829687ad4d",
+      "type": "text",
+      "name": "Подкуп / шантаж / запугивание…",
+      "description": "",
+      "text": "<strong>Подкуп / шантаж / запугивание…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "87dc1b3429757f70",
+      "_key": "!tables.results!e89cfb109c01e805.87dc1b3429757f70",
+      "type": "text",
+      "name": "Кража или воровство у…",
+      "description": "",
+      "text": "<strong>Кража или воровство у…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "bcac8f865e7fdb1f",
+      "_key": "!tables.results!e89cfb109c01e805.bcac8f865e7fdb1f",
+      "type": "text",
+      "name": "Перехват / недопущение доставки…",
+      "description": "",
+      "text": "<strong>Перехват / недопущение доставки…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c7e3edc0bc028017",
+      "_key": "!tables.results!e89cfb109c01e805.c7e3edc0bc028017",
+      "type": "text",
+      "name": "Отравление / приведение в негодность…",
+      "description": "",
+      "text": "<strong>Отравление / приведение в негодность…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5d49f9cda73bac96",
+      "_key": "!tables.results!e89cfb109c01e805.5d49f9cda73bac96",
+      "type": "text",
+      "name": "Подстава…",
+      "description": "",
+      "text": "<strong>Подстава…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "1ae74eb292db51e2",
+      "_key": "!tables.results!e89cfb109c01e805.1ae74eb292db51e2",
+      "type": "text",
+      "name": "Диверсия на территории…",
+      "description": "",
+      "text": "<strong>Диверсия на территории…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c1a4dd8e9dcf17b4",
+      "_key": "!tables.results!e89cfb109c01e805.c1a4dd8e9dcf17b4",
+      "type": "text",
+      "name": "Слежка за передвижениями…",
+      "description": "",
+      "text": "<strong>Слежка за передвижениями…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5aa6485f157986d9",
+      "_key": "!tables.results!e89cfb109c01e805.5aa6485f157986d9",
+      "type": "text",
+      "name": "Сопровождение…",
+      "description": "",
+      "text": "<strong>Сопровождение…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ab90a15771e9e8bb",
+      "_key": "!tables.results!e89cfb109c01e805.ab90a15771e9e8bb",
+      "type": "text",
+      "name": "Доставка из пункта А в пункт Б…",
+      "description": "",
+      "text": "<strong>Доставка из пункта А в пункт Б…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2797bda3ee667f1a",
+      "_key": "!tables.results!e89cfb109c01e805.2797bda3ee667f1a",
+      "type": "text",
+      "name": "Охрана…",
+      "description": "",
+      "text": "<strong>Охрана…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6215d4112d9bfa93",
+      "_key": "!tables.results!e89cfb109c01e805.6215d4112d9bfa93",
+      "type": "text",
+      "name": "Расследование, связанное с убийством / пропажей / саботажем…",
+      "description": "",
+      "text": "<strong>Расследование, связанное с убийством / пропажей / саботажем…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "043517c27ccfa13f",
+      "_key": "!tables.results!e89cfb109c01e805.043517c27ccfa13f",
+      "type": "text",
+      "name": "Подрыв…",
+      "description": "",
+      "text": "<strong>Подрыв…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d65fdf5f87294d61",
+      "_key": "!tables.results!e89cfb109c01e805.d65fdf5f87294d61",
+      "type": "text",
+      "name": "Вызволение / кража опасного для общества…",
+      "description": "",
+      "text": "<strong>Вызволение / кража опасного для общества…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "be42b526b5825ef0",
+      "_key": "!tables.results!e89cfb109c01e805.be42b526b5825ef0",
+      "type": "text",
+      "name": "Дестабилизация ситуации в секторе при помощи… (1)",
+      "description": "",
+      "text": "<strong>Дестабилизация ситуации в секторе при помощи… (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "0fe0df15785af6ee",
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "8feea801ae39f91d",
+  "_key": "!items!8feea801ae39f91d",
+  "name": "Бинокль «Сумрак»",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 3,
+    "bonusTarget": "skill.observation",
+    "conditional": false,
+    "description": "<p>Бинокль с ИИ-модулем, анализирующим объекты в реальном времени, ночным видением, 20-кратным зумом и видеозаписью до 20 часов. +3 к наблюдательности.</p><p>Клан Совы. Совы собирают предания, ведут летописи и классифицируют флору, фауну и сущностей Веретена. Экспедиции и разведчиков клана снаряжают бесшумными винтовками «Дозор» и аналитическими биноклями.</p>"
+  },
+  "effects": [],
+  "folder": "e2eaa276424203f1",
+  "sort": 5100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "e1360c1a3cfe5bdc",
+  "_key": "!items!e1360c1a3cfe5bdc",
+  "name": "Зашифрованная сеть «Коробейник+»",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Доступ к внутренней сети коробейников (через выделенный КПК) только для статусных членов фракции. Персонаж знает, где купить и продать снаряжение, товары и артефакты в среднем на 20% дешевле или дороже, включая чёрный рынок.</p><p>Коробейники. Мастера космической и торговой логистики: орбитальные торговые ряды, грузовые дроны и прямой выход на толмачей чёрного рынка.</p>"
+  },
+  "effects": [],
+  "folder": "4f6f9971c89f23a7",
+  "sort": 6300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

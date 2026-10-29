@@ -1,0 +1,103 @@
+{
+  "_id": "07e0b4edf6ecb969",
+  "_key": "!tables!07e0b4edf6ecb969",
+  "name": "Обитаемая планета: население (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "49aad936f4419898",
+      "_key": "!tables.results!07e0b4edf6ecb969.49aad936f4419898",
+      "type": "text",
+      "name": "Отсутствует или заброшенные колонии",
+      "description": "",
+      "text": "<strong>Отсутствует или заброшенные колонии</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "bbc5abc259513c25",
+      "_key": "!tables.results!07e0b4edf6ecb969.bbc5abc259513c25",
+      "type": "text",
+      "name": "Небольшая колония",
+      "description": "",
+      "text": "<strong>Небольшая колония</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        6
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "923fccc9c39287d5",
+      "_key": "!tables.results!07e0b4edf6ecb969.923fccc9c39287d5",
+      "type": "text",
+      "name": "Несколько небольших колоний",
+      "description": "",
+      "text": "<strong>Несколько небольших колоний</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        14
+      ],
+      "weight": 8,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d94c35eb499ebf41",
+      "_key": "!tables.results!07e0b4edf6ecb969.d94c35eb499ebf41",
+      "type": "text",
+      "name": "Крупная колония",
+      "description": "",
+      "text": "<strong>Крупная колония</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        19
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "763460b0c2a534ae",
+      "_key": "!tables.results!07e0b4edf6ecb969.763460b0c2a534ae",
+      "type": "text",
+      "name": "Крупная стабилизированная колония",
+      "description": "",
+      "text": "<strong>Крупная стабилизированная колония</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "a6d6db118e3140f2",
+  "_key": "!items!a6d6db118e3140f2",
+  "name": "Гравитационная депривация (0)",
+  "type": "injury",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "description": "<p>Последствия долгого пребывания при низкой гравитации — остеопороз, мышечная слабость, аритмия; часто встречается у обитателей космических станций. Лечение — регулярные упражнения, диета и дорогостоящий курс медикаментов на протяжении 3к6 дней; без лечения в той же среде дни не уменьшаются.</p><p>На время болезни телосложение и ловкость снижены на 1, −1 к проверкам силы.</p><p>Понять, чем болеют животные и растения на новой планете, помогает наука; чем болеют люди в отдалённой колонии или что за проклятие наложено на деревню — культура. Почти во всех случаях для лечения нужна удачная проверка знахарства. Модификатор в скобках после названия болезни применяется к проверкам её диагностики и лечения.</p>",
+    "code": "",
+    "lethal": false,
+    "deadline": "",
+    "effect": "На время болезни телосложение и ловкость снижены на 1, −1 к проверкам силы.",
+    "period": "3к6 дней",
+    "strength": 0
+  },
+  "effects": [
+    {
+      "_id": "bf8b5c8b934fea88",
+      "_key": "!items.effects!a6d6db118e3140f2.bf8b5c8b934fea88",
+      "name": "Гравитационная депривация (0)",
+      "img": "icons/svg/poison.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.body.value",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.agility.value",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.strength.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": "e2a31e8d8e425f03",
+  "sort": 3800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

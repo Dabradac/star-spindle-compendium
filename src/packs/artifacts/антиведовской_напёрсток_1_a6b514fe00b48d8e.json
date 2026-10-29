@@ -1,0 +1,31 @@
+{
+  "_id": "a6b514fe00b48d8e",
+  "_key": "!items!a6b514fe00b48d8e",
+  "name": "Антиведовской напёрсток (-1)",
+  "type": "gear",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Миниатюрный модуль в форме напёрстка. После активации гудит и испускает красные пульсирующие волны в радиусе дальней дистанции на к20 раундов: все под их воздействием получают −3 к проверкам ведовства.</p><ul><li>к66: 43</li><li>Понимание: проверка науки или культуры с модификатором -1</li><li>Требуемый навык: Ведовство 2, Наука 2, Культура 2</li><li>Активация: 1 жетон(а) Чернобога Мастеру</li><li>Заряды: многоразовый (при находке — к6 зарядов)</li></ul>"
+  },
+  "effects": [],
+  "folder": "577cc2671f0f4fcf",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

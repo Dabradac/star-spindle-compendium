@@ -1,0 +1,103 @@
+{
+  "_id": "f9745661991bbf5b",
+  "_key": "!tables!f9745661991bbf5b",
+  "name": "Обитаемая планета: фауна (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "baf84fd8983b5166",
+      "_key": "!tables.results!f9745661991bbf5b.baf84fd8983b5166",
+      "type": "text",
+      "name": "Отсутствует или простейшая",
+      "description": "",
+      "text": "<strong>Отсутствует или простейшая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3db6b8b78045e43f",
+      "_key": "!tables.results!f9745661991bbf5b.3db6b8b78045e43f",
+      "type": "text",
+      "name": "Мало, преимущественно неагрессивная",
+      "description": "",
+      "text": "<strong>Мало, преимущественно неагрессивная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        6
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8a5320b5a6d3252e",
+      "_key": "!tables.results!f9745661991bbf5b.8a5320b5a6d3252e",
+      "type": "text",
+      "name": "Умеренно, разная",
+      "description": "",
+      "text": "<strong>Умеренно, разная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        14
+      ],
+      "weight": 8,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7b2ae142893ebc47",
+      "_key": "!tables.results!f9745661991bbf5b.7b2ae142893ebc47",
+      "type": "text",
+      "name": "Мало, преимущественно агрессивная",
+      "description": "",
+      "text": "<strong>Мало, преимущественно агрессивная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        19
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "64313fa0c94c0502",
+      "_key": "!tables.results!f9745661991bbf5b.64313fa0c94c0502",
+      "type": "text",
+      "name": "Много, преимущественно агрессивная",
+      "description": "",
+      "text": "<strong>Много, преимущественно агрессивная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

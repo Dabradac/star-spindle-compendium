@@ -1,0 +1,103 @@
+{
+  "_id": "a40151ca393825b1",
+  "_key": "!tables!a40151ca393825b1",
+  "name": "Станция: население (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "f2c387de6e491d3f",
+      "_key": "!tables.results!a40151ca393825b1.f2c387de6e491d3f",
+      "type": "text",
+      "name": "Несколько десятков человек",
+      "description": "",
+      "text": "<strong>Несколько десятков человек</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "343c98c1d45da62b",
+      "_key": "!tables.results!a40151ca393825b1.343c98c1d45da62b",
+      "type": "text",
+      "name": "Около сотни",
+      "description": "",
+      "text": "<strong>Около сотни</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        6
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9897553594d0a8e5",
+      "_key": "!tables.results!a40151ca393825b1.9897553594d0a8e5",
+      "type": "text",
+      "name": "Несколько сотен",
+      "description": "",
+      "text": "<strong>Несколько сотен</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        14
+      ],
+      "weight": 8,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "204e52246b082505",
+      "_key": "!tables.results!a40151ca393825b1.204e52246b082505",
+      "type": "text",
+      "name": "Около тысячи",
+      "description": "",
+      "text": "<strong>Около тысячи</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        19
+      ],
+      "weight": 5,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e7d346a6b5d7fa0e",
+      "_key": "!tables.results!a40151ca393825b1.e7d346a6b5d7fa0e",
+      "type": "text",
+      "name": "Несколько тысяч",
+      "description": "",
+      "text": "<strong>Несколько тысяч</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

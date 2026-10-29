@@ -1,0 +1,343 @@
+{
+  "_id": "977343b988f12922",
+  "_key": "!tables!977343b988f12922",
+  "name": "Известная система (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "25c9330fe2ade7a4",
+      "_key": "!tables.results!977343b988f12922.25c9330fe2ade7a4",
+      "type": "text",
+      "name": "Вдова",
+      "description": "",
+      "text": "<strong>Вдова</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "bc47b1d1b1b7f262",
+      "_key": "!tables.results!977343b988f12922.bc47b1d1b1b7f262",
+      "type": "text",
+      "name": "Утёс",
+      "description": "",
+      "text": "<strong>Утёс</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6df9ef2d9549ea17",
+      "_key": "!tables.results!977343b988f12922.6df9ef2d9549ea17",
+      "type": "text",
+      "name": "Текучая",
+      "description": "",
+      "text": "<strong>Текучая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "82ba419f04b601a4",
+      "_key": "!tables.results!977343b988f12922.82ba419f04b601a4",
+      "type": "text",
+      "name": "Рабочая",
+      "description": "",
+      "text": "<strong>Рабочая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ad61f1bb4ad63bab",
+      "_key": "!tables.results!977343b988f12922.ad61f1bb4ad63bab",
+      "type": "text",
+      "name": "Беленькая",
+      "description": "",
+      "text": "<strong>Беленькая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d5c9daba6303f57b",
+      "_key": "!tables.results!977343b988f12922.d5c9daba6303f57b",
+      "type": "text",
+      "name": "Зимник",
+      "description": "",
+      "text": "<strong>Зимник</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "bd019ac6be9f0950",
+      "_key": "!tables.results!977343b988f12922.bd019ac6be9f0950",
+      "type": "text",
+      "name": "Океан Лады",
+      "description": "",
+      "text": "<strong>Океан Лады</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7a2a60fc7447e6e1",
+      "_key": "!tables.results!977343b988f12922.7a2a60fc7447e6e1",
+      "type": "text",
+      "name": "Хранимая",
+      "description": "",
+      "text": "<strong>Хранимая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "563391ac78bba5b9",
+      "_key": "!tables.results!977343b988f12922.563391ac78bba5b9",
+      "type": "text",
+      "name": "Перевалочная",
+      "description": "",
+      "text": "<strong>Перевалочная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "97e4b4493c4e320a",
+      "_key": "!tables.results!977343b988f12922.97e4b4493c4e320a",
+      "type": "text",
+      "name": "Буйная",
+      "description": "",
+      "text": "<strong>Буйная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "356a2826a5babc2b",
+      "_key": "!tables.results!977343b988f12922.356a2826a5babc2b",
+      "type": "text",
+      "name": "Гибельная тропа",
+      "description": "",
+      "text": "<strong>Гибельная тропа</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "353431b7bc81ae37",
+      "_key": "!tables.results!977343b988f12922.353431b7bc81ae37",
+      "type": "text",
+      "name": "Аспидов зуб",
+      "description": "",
+      "text": "<strong>Аспидов зуб</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5e292570b94b2610",
+      "_key": "!tables.results!977343b988f12922.5e292570b94b2610",
+      "type": "text",
+      "name": "Жерло",
+      "description": "",
+      "text": "<strong>Жерло</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b77fc6048a6b7931",
+      "_key": "!tables.results!977343b988f12922.b77fc6048a6b7931",
+      "type": "text",
+      "name": "Тихая",
+      "description": "",
+      "text": "<strong>Тихая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "43aae552a71ee74a",
+      "_key": "!tables.results!977343b988f12922.43aae552a71ee74a",
+      "type": "text",
+      "name": "Матёрая",
+      "description": "",
+      "text": "<strong>Матёрая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "dee8a30adf06157e",
+      "_key": "!tables.results!977343b988f12922.dee8a30adf06157e",
+      "type": "text",
+      "name": "Наковальня",
+      "description": "",
+      "text": "<strong>Наковальня</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4d3a0c3304f1190d",
+      "_key": "!tables.results!977343b988f12922.4d3a0c3304f1190d",
+      "type": "text",
+      "name": "Гвоздь",
+      "description": "",
+      "text": "<strong>Гвоздь</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a55bb204337d1bf4",
+      "_key": "!tables.results!977343b988f12922.a55bb204337d1bf4",
+      "type": "text",
+      "name": "Распутье",
+      "description": "",
+      "text": "<strong>Распутье</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f1134d33e624cf88",
+      "_key": "!tables.results!977343b988f12922.f1134d33e624cf88",
+      "type": "text",
+      "name": "Славная",
+      "description": "",
+      "text": "<strong>Славная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5287889f94268796",
+      "_key": "!tables.results!977343b988f12922.5287889f94268796",
+      "type": "text",
+      "name": "Родимая",
+      "description": "",
+      "text": "<strong>Родимая</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

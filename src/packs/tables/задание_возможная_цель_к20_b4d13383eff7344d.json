@@ -1,0 +1,343 @@
+{
+  "_id": "b4d13383eff7344d",
+  "_key": "!tables!b4d13383eff7344d",
+  "name": "Задание: возможная цель (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Бросьте к20 по каждому столбцу. Начало описания выберите по репутации команды (отрицательная, нейтральная или положительная) и типу задания.</p><p>Стандартная награда — к20 тысяч сверкредитов на всю команду. За задания повышенной сложности можно получить дополнительные награды: модификаторы в скобках складываются, итог — количество бросков к20 по столбцу наград.</p><p>Перед началом задания бросьте к20: на 1–10 добавьте осложнение. Осложнение даёт +2 к модификатору дополнительных наград.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "8ea4f4ef3487ca91",
+      "_key": "!tables.results!b4d13383eff7344d.8ea4f4ef3487ca91",
+      "type": "text",
+      "name": "Ведуна",
+      "description": "",
+      "text": "<strong>Ведуна</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "abd475061444b7b2",
+      "_key": "!tables.results!b4d13383eff7344d.abd475061444b7b2",
+      "type": "text",
+      "name": "Преступника",
+      "description": "",
+      "text": "<strong>Преступника</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "670a8a4ed4475aac",
+      "_key": "!tables.results!b4d13383eff7344d.670a8a4ed4475aac",
+      "type": "text",
+      "name": "Друга или близкого знакомого одного из персонажей",
+      "description": "",
+      "text": "<strong>Друга или близкого знакомого одного из персонажей</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "48920e12c528a74f",
+      "_key": "!tables.results!b4d13383eff7344d.48920e12c528a74f",
+      "type": "text",
+      "name": "Случайного жителя колонии / станции",
+      "description": "",
+      "text": "<strong>Случайного жителя колонии / станции</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c49179602dfdc9b3",
+      "_key": "!tables.results!b4d13383eff7344d.c49179602dfdc9b3",
+      "type": "text",
+      "name": "Рядового члена фракции / клана",
+      "description": "",
+      "text": "<strong>Рядового члена фракции / клана</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "bc0b2a62b17b425c",
+      "_key": "!tables.results!b4d13383eff7344d.bc0b2a62b17b425c",
+      "type": "text",
+      "name": "Крупного груза или его перевозчика",
+      "description": "",
+      "text": "<strong>Крупного груза или его перевозчика</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "486aaae8cd41168d",
+      "_key": "!tables.results!b4d13383eff7344d.486aaae8cd41168d",
+      "type": "text",
+      "name": "Гонца с важным сообщением",
+      "description": "",
+      "text": "<strong>Гонца с важным сообщением</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5540ca406e34808b",
+      "_key": "!tables.results!b4d13383eff7344d.5540ca406e34808b",
+      "type": "text",
+      "name": "Важного объекта или местности",
+      "description": "",
+      "text": "<strong>Важного объекта или местности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0b813cde35dc4d31",
+      "_key": "!tables.results!b4d13383eff7344d.0b813cde35dc4d31",
+      "type": "text",
+      "name": "Обломков космического корабля / заброшенной станции / заброшенной колонии",
+      "description": "",
+      "text": "<strong>Обломков космического корабля / заброшенной станции / заброшенной колонии</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f236378c27b5b806",
+      "_key": "!tables.results!b4d13383eff7344d.f236378c27b5b806",
+      "type": "text",
+      "name": "Космического корабля / станции / колонии",
+      "description": "",
+      "text": "<strong>Космического корабля / станции / колонии</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c548cc52a6ba8b61",
+      "_key": "!tables.results!b4d13383eff7344d.c548cc52a6ba8b61",
+      "type": "text",
+      "name": "Важного члена фракции / клана",
+      "description": "",
+      "text": "<strong>Важного члена фракции / клана</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e401768e33cbe3b3",
+      "_key": "!tables.results!b4d13383eff7344d.e401768e33cbe3b3",
+      "type": "text",
+      "name": "Верующего в Единого или Пантеон / культиста Чернобога",
+      "description": "",
+      "text": "<strong>Верующего в Единого или Пантеон / культиста Чернобога</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "177e67295c66e565",
+      "_key": "!tables.results!b4d13383eff7344d.177e67295c66e565",
+      "type": "text",
+      "name": "Больного заразной болезнью / проклятием",
+      "description": "",
+      "text": "<strong>Больного заразной болезнью / проклятием</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "dbba20caeb4fa842",
+      "_key": "!tables.results!b4d13383eff7344d.dbba20caeb4fa842",
+      "type": "text",
+      "name": "Друга или близкого знакомого работодателя",
+      "description": "",
+      "text": "<strong>Друга или близкого знакомого работодателя</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "88a3912b325bf0af",
+      "_key": "!tables.results!b4d13383eff7344d.88a3912b325bf0af",
+      "type": "text",
+      "name": "Особенного ресурса, минерала или флоры с планеты",
+      "description": "",
+      "text": "<strong>Особенного ресурса, минерала или флоры с планеты</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "23c999aace575979",
+      "_key": "!tables.results!b4d13383eff7344d.23c999aace575979",
+      "type": "text",
+      "name": "Представителя фауны",
+      "description": "",
+      "text": "<strong>Представителя фауны</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c1562ec202b9e736",
+      "_key": "!tables.results!b4d13383eff7344d.c1562ec202b9e736",
+      "type": "text",
+      "name": "Сущности Веретена",
+      "description": "",
+      "text": "<strong>Сущности Веретена</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a1140a411d621978",
+      "_key": "!tables.results!b4d13383eff7344d.a1140a411d621978",
+      "type": "text",
+      "name": "Очень важного члена фракции / клана",
+      "description": "",
+      "text": "<strong>Очень важного члена фракции / клана</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9d7bc7e6656f995f",
+      "_key": "!tables.results!b4d13383eff7344d.9d7bc7e6656f995f",
+      "type": "text",
+      "name": "Продвинутой технологии / артефакта",
+      "description": "",
+      "text": "<strong>Продвинутой технологии / артефакта</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a6f9f219608857b8",
+      "_key": "!tables.results!b4d13383eff7344d.a6f9f219608857b8",
+      "type": "text",
+      "name": "Руин Древних / археологического лагеря (1)",
+      "description": "",
+      "text": "<strong>Руин Древних / археологического лагеря (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "0fe0df15785af6ee",
+  "sort": 2500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "_id": "24cb9c305aee6a8a",
+  "_key": "!tables!24cb9c305aee6a8a",
+  "name": "Газовый гигант: диаметр (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "705c09bf25063d4f",
+      "_key": "!tables.results!24cb9c305aee6a8a.705c09bf25063d4f",
+      "type": "text",
+      "name": "<40000 км",
+      "description": "",
+      "text": "<strong>&lt;40000 км</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "36ec43f0d34736c1",
+      "_key": "!tables.results!24cb9c305aee6a8a.36ec43f0d34736c1",
+      "type": "text",
+      "name": "40000 км",
+      "description": "",
+      "text": "<strong>40000 км</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        5
+      ],
+      "weight": 3,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ef5f7d7f2a063256",
+      "_key": "!tables.results!24cb9c305aee6a8a.ef5f7d7f2a063256",
+      "type": "text",
+      "name": "60000 км",
+      "description": "",
+      "text": "<strong>60000 км</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        8
+      ],
+      "weight": 3,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e2ac0cfc871a04d8",
+      "_key": "!tables.results!24cb9c305aee6a8a.e2ac0cfc871a04d8",
+      "type": "text",
+      "name": "100000 км",
+      "description": "",
+      "text": "<strong>100000 км</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        10
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e327d17ad77298cf",
+      "_key": "!tables.results!24cb9c305aee6a8a.e327d17ad77298cf",
+      "type": "text",
+      "name": "150000 км",
+      "description": "",
+      "text": "<strong>150000 км</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        12
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "60ec117b0290cb4f",
+      "_key": "!tables.results!24cb9c305aee6a8a.60ec117b0290cb4f",
+      "type": "text",
+      "name": "200000 км",
+      "description": "",
+      "text": "<strong>200000 км</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        15
+      ],
+      "weight": 3,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7e6148c21aa0286e",
+      "_key": "!tables.results!24cb9c305aee6a8a.7e6148c21aa0286e",
+      "type": "text",
+      "name": "250000 км",
+      "description": "",
+      "text": "<strong>250000 км</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        18
+      ],
+      "weight": 3,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "703af88cdac75ca5",
+      "_key": "!tables.results!24cb9c305aee6a8a.703af88cdac75ca5",
+      "type": "text",
+      "name": ">250000 км",
+      "description": "",
+      "text": "<strong>&gt;250000 км</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        20
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

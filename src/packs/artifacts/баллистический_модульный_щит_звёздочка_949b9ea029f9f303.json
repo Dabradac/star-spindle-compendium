@@ -1,0 +1,30 @@
+{
+  "_id": "949b9ea029f9f303",
+  "_key": "!items!949b9ea029f9f303",
+  "name": "Баллистический модульный щит «Звёздочка»",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "defense": 7,
+    "properties": "Тяжёлый",
+    "description": "<p>Щит с тремя рядами ламп: действует на противников на средней дистанции как светошумовая граната.</p><p>Коммуна. Сдерживающий фактор для соседей Коммуны — термоядерные торпеды станции «Союз». Алексей Куровски развивает дело отца: элитные части Коммуны вооружены линейкой «Куровски-С».</p>"
+  },
+  "effects": [],
+  "folder": "3f0846c83bb95e66",
+  "sort": 5900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

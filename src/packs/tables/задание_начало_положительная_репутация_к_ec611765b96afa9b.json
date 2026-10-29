@@ -1,0 +1,343 @@
+{
+  "_id": "ec611765b96afa9b",
+  "_key": "!tables!ec611765b96afa9b",
+  "name": "Задание: начало (положительная репутация) (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Бросьте к20 по каждому столбцу. Начало описания выберите по репутации команды (отрицательная, нейтральная или положительная) и типу задания.</p><p>Стандартная награда — к20 тысяч сверкредитов на всю команду. За задания повышенной сложности можно получить дополнительные награды: модификаторы в скобках складываются, итог — количество бросков к20 по столбцу наград.</p><p>Перед началом задания бросьте к20: на 1–10 добавьте осложнение. Осложнение даёт +2 к модификатору дополнительных наград.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "3809cf14e6521764",
+      "_key": "!tables.results!ec611765b96afa9b.3809cf14e6521764",
+      "type": "text",
+      "name": "Поиск и спасение / уничтожение опасного для общества…",
+      "description": "",
+      "text": "<strong>Поиск и спасение / уничтожение опасного для общества…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cb1d3e4ec2103e71",
+      "_key": "!tables.results!ec611765b96afa9b.cb1d3e4ec2103e71",
+      "type": "text",
+      "name": "Обезвреживание…",
+      "description": "",
+      "text": "<strong>Обезвреживание…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "70ad5f62fd5405e2",
+      "_key": "!tables.results!ec611765b96afa9b.70ad5f62fd5405e2",
+      "type": "text",
+      "name": "Доставка из пункта А в пункт Б…",
+      "description": "",
+      "text": "<strong>Доставка из пункта А в пункт Б…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9606d16f34357955",
+      "_key": "!tables.results!ec611765b96afa9b.9606d16f34357955",
+      "type": "text",
+      "name": "Охрана…",
+      "description": "",
+      "text": "<strong>Охрана…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "da1edf2164b77b63",
+      "_key": "!tables.results!ec611765b96afa9b.da1edf2164b77b63",
+      "type": "text",
+      "name": "Розыск и доставка живым опасного для общества…",
+      "description": "",
+      "text": "<strong>Розыск и доставка живым опасного для общества…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4145d45d4af34786",
+      "_key": "!tables.results!ec611765b96afa9b.4145d45d4af34786",
+      "type": "text",
+      "name": "Взятие под контроль и защита до прибытия подкрепления…",
+      "description": "",
+      "text": "<strong>Взятие под контроль и защита до прибытия подкрепления…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a04a4e64873ef908",
+      "_key": "!tables.results!ec611765b96afa9b.a04a4e64873ef908",
+      "type": "text",
+      "name": "Поиск и спасение / уничтожение…",
+      "description": "",
+      "text": "<strong>Поиск и спасение / уничтожение…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4f8803a6e350ea75",
+      "_key": "!tables.results!ec611765b96afa9b.4f8803a6e350ea75",
+      "type": "text",
+      "name": "Организация и участие в блокаде / оцеплении в местоположении…",
+      "description": "",
+      "text": "<strong>Организация и участие в блокаде / оцеплении в местоположении…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2b072ce92d632226",
+      "_key": "!tables.results!ec611765b96afa9b.2b072ce92d632226",
+      "type": "text",
+      "name": "Исследование деятельности / местности вблизи…",
+      "description": "",
+      "text": "<strong>Исследование деятельности / местности вблизи…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "508a526f3e72b68e",
+      "_key": "!tables.results!ec611765b96afa9b.508a526f3e72b68e",
+      "type": "text",
+      "name": "Защита территории / объекта работодателя от…",
+      "description": "",
+      "text": "<strong>Защита территории / объекта работодателя от…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cefc78479227b2dc",
+      "_key": "!tables.results!ec611765b96afa9b.cefc78479227b2dc",
+      "type": "text",
+      "name": "Поиск и доставка обратно работодателю…",
+      "description": "",
+      "text": "<strong>Поиск и доставка обратно работодателю…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "927cf41c83f9a88b",
+      "_key": "!tables.results!ec611765b96afa9b.927cf41c83f9a88b",
+      "type": "text",
+      "name": "Расследование, связанное с убийством / пропажей / саботажем…",
+      "description": "",
+      "text": "<strong>Расследование, связанное с убийством / пропажей / саботажем…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4e853310232bbd18",
+      "_key": "!tables.results!ec611765b96afa9b.4e853310232bbd18",
+      "type": "text",
+      "name": "Участие посредником в переговорах в конфликте… с работодателем",
+      "description": "",
+      "text": "<strong>Участие посредником в переговорах в конфликте… с работодателем</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3e4ba3959021888c",
+      "_key": "!tables.results!ec611765b96afa9b.3e4ba3959021888c",
+      "type": "text",
+      "name": "Добыча ресурса вблизи…",
+      "description": "",
+      "text": "<strong>Добыча ресурса вблизи…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2689cdbabae0f32b",
+      "_key": "!tables.results!ec611765b96afa9b.2689cdbabae0f32b",
+      "type": "text",
+      "name": "Организация и участие в спасательной экспедиции…",
+      "description": "",
+      "text": "<strong>Организация и участие в спасательной экспедиции…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4ac564b3704ed350",
+      "_key": "!tables.results!ec611765b96afa9b.4ac564b3704ed350",
+      "type": "text",
+      "name": "Сопровождение… на протяжении некоторого времени",
+      "description": "",
+      "text": "<strong>Сопровождение… на протяжении некоторого времени</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9a7ecf058f32fb22",
+      "_key": "!tables.results!ec611765b96afa9b.9a7ecf058f32fb22",
+      "type": "text",
+      "name": "Организация экспедиции с целью обнаружения…",
+      "description": "",
+      "text": "<strong>Организация экспедиции с целью обнаружения…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ab4418771a608e85",
+      "_key": "!tables.results!ec611765b96afa9b.ab4418771a608e85",
+      "type": "text",
+      "name": "Внедрение в группу / добыча инсайдерской информации в местоположении…",
+      "description": "",
+      "text": "<strong>Внедрение в группу / добыча инсайдерской информации в местоположении…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0cd2d6d377b73fc0",
+      "_key": "!tables.results!ec611765b96afa9b.0cd2d6d377b73fc0",
+      "type": "text",
+      "name": "Сохранение репутации работодателя с помощью спасения / уничтожения…",
+      "description": "",
+      "text": "<strong>Сохранение репутации работодателя с помощью спасения / уничтожения…</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "05bbe09d9a492468",
+      "_key": "!tables.results!ec611765b96afa9b.05bbe09d9a492468",
+      "type": "text",
+      "name": "Стабилизация крайне опасной ситуации, связанной с деятельностью… (1)",
+      "description": "",
+      "text": "<strong>Стабилизация крайне опасной ситуации, связанной с деятельностью… (1)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "0fe0df15785af6ee",
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

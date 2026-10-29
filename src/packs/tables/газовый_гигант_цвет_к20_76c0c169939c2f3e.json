@@ -1,0 +1,151 @@
+{
+  "_id": "76c0c169939c2f3e",
+  "_key": "!tables!76c0c169939c2f3e",
+  "name": "Газовый гигант: цвет (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "eccd481b9d508c8e",
+      "_key": "!tables.results!76c0c169939c2f3e.eccd481b9d508c8e",
+      "type": "text",
+      "name": "Белый",
+      "description": "",
+      "text": "<strong>Белый</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "21449d9b6fad1bbc",
+      "_key": "!tables.results!76c0c169939c2f3e.21449d9b6fad1bbc",
+      "type": "text",
+      "name": "Серый",
+      "description": "",
+      "text": "<strong>Серый</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        5
+      ],
+      "weight": 3,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c383c29c3c45d8df",
+      "_key": "!tables.results!76c0c169939c2f3e.c383c29c3c45d8df",
+      "type": "text",
+      "name": "Жёлтый",
+      "description": "",
+      "text": "<strong>Жёлтый</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        8
+      ],
+      "weight": 3,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5e684ccc436feef2",
+      "_key": "!tables.results!76c0c169939c2f3e.5e684ccc436feef2",
+      "type": "text",
+      "name": "Оранжевый",
+      "description": "",
+      "text": "<strong>Оранжевый</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        10
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "53f3a8004c72c0dc",
+      "_key": "!tables.results!76c0c169939c2f3e.53f3a8004c72c0dc",
+      "type": "text",
+      "name": "Красный",
+      "description": "",
+      "text": "<strong>Красный</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        12
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "43ce39bcd3dbe56e",
+      "_key": "!tables.results!76c0c169939c2f3e.43ce39bcd3dbe56e",
+      "type": "text",
+      "name": "Зелёный",
+      "description": "",
+      "text": "<strong>Зелёный</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        15
+      ],
+      "weight": 3,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "beb9946d498c8b54",
+      "_key": "!tables.results!76c0c169939c2f3e.beb9946d498c8b54",
+      "type": "text",
+      "name": "Голубой",
+      "description": "",
+      "text": "<strong>Голубой</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        18
+      ],
+      "weight": 3,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "dac88907ff8e66f2",
+      "_key": "!tables.results!76c0c169939c2f3e.dac88907ff8e66f2",
+      "type": "text",
+      "name": "Чёрный",
+      "description": "",
+      "text": "<strong>Чёрный</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        20
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "ee46967113c4d396",
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

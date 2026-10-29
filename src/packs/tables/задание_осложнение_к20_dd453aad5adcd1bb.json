@@ -1,0 +1,343 @@
+{
+  "_id": "dd453aad5adcd1bb",
+  "_key": "!tables!dd453aad5adcd1bb",
+  "name": "Задание: осложнение (к20)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Бросьте к20 по каждому столбцу. Начало описания выберите по репутации команды (отрицательная, нейтральная или положительная) и типу задания.</p><p>Стандартная награда — к20 тысяч сверкредитов на всю команду. За задания повышенной сложности можно получить дополнительные награды: модификаторы в скобках складываются, итог — количество бросков к20 по столбцу наград.</p><p>Перед началом задания бросьте к20: на 1–10 добавьте осложнение. Осложнение даёт +2 к модификатору дополнительных наград.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "b070dbabfb2b64c7",
+      "_key": "!tables.results!dd453aad5adcd1bb.b070dbabfb2b64c7",
+      "type": "text",
+      "name": "Недостаток стартовых ресурсов или информации для выполнения задания",
+      "description": "",
+      "text": "<strong>Недостаток стартовых ресурсов или информации для выполнения задания</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "52c3db10df4fe506",
+      "_key": "!tables.results!dd453aad5adcd1bb.52c3db10df4fe506",
+      "type": "text",
+      "name": "Заинтересованная третья сторона",
+      "description": "",
+      "text": "<strong>Заинтересованная третья сторона</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6310a9d2696f539a",
+      "_key": "!tables.results!dd453aad5adcd1bb.6310a9d2696f539a",
+      "type": "text",
+      "name": "Боевые действия между фракциями / кланами на территории задания",
+      "description": "",
+      "text": "<strong>Боевые действия между фракциями / кланами на территории задания</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "31f57f34d9d0ae7f",
+      "_key": "!tables.results!dd453aad5adcd1bb.31f57f34d9d0ae7f",
+      "type": "text",
+      "name": "Веретенная аномалия и сущности Веретена",
+      "description": "",
+      "text": "<strong>Веретенная аномалия и сущности Веретена</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f038ae7e7764f10f",
+      "_key": "!tables.results!dd453aad5adcd1bb.f038ae7e7764f10f",
+      "type": "text",
+      "name": "Пираты встают на пути",
+      "description": "",
+      "text": "<strong>Пираты встают на пути</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8a38c92e1e31ab68",
+      "_key": "!tables.results!dd453aad5adcd1bb.8a38c92e1e31ab68",
+      "type": "text",
+      "name": "Конкуренты, пытающиеся выполнить то же задание",
+      "description": "",
+      "text": "<strong>Конкуренты, пытающиеся выполнить то же задание</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6128ff0b4538d83b",
+      "_key": "!tables.results!dd453aad5adcd1bb.6128ff0b4538d83b",
+      "type": "text",
+      "name": "Требуется постоянно отчитываться в формате фото- и видеоподтверждений",
+      "description": "",
+      "text": "<strong>Требуется постоянно отчитываться в формате фото- и видеоподтверждений</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b770cf28489acca1",
+      "_key": "!tables.results!dd453aad5adcd1bb.b770cf28489acca1",
+      "type": "text",
+      "name": "Опасная окружающая среда",
+      "description": "",
+      "text": "<strong>Опасная окружающая среда</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5b3e4723aecf4977",
+      "_key": "!tables.results!dd453aad5adcd1bb.5b3e4723aecf4977",
+      "type": "text",
+      "name": "Вооружённая до зубов охрана цели",
+      "description": "",
+      "text": "<strong>Вооружённая до зубов охрана цели</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "d217c241133c35ee",
+      "_key": "!tables.results!dd453aad5adcd1bb.d217c241133c35ee",
+      "type": "text",
+      "name": "Представитель / контактное лицо работодателя — двойной агент",
+      "description": "",
+      "text": "<strong>Представитель / контактное лицо работодателя — двойной агент</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9ac63efc5c9d2966",
+      "_key": "!tables.results!dd453aad5adcd1bb.9ac63efc5c9d2966",
+      "type": "text",
+      "name": "Часть предоставленной работодателем информации — ложная",
+      "description": "",
+      "text": "<strong>Часть предоставленной работодателем информации — ложная</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ac30935a7639d0d0",
+      "_key": "!tables.results!dd453aad5adcd1bb.ac30935a7639d0d0",
+      "type": "text",
+      "name": "Вас не должны обнаружить",
+      "description": "",
+      "text": "<strong>Вас не должны обнаружить</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c07503334b4f87d5",
+      "_key": "!tables.results!dd453aad5adcd1bb.c07503334b4f87d5",
+      "type": "text",
+      "name": "Времени на выполнение задания впритык",
+      "description": "",
+      "text": "<strong>Времени на выполнение задания впритык</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "56412463e9eda25f",
+      "_key": "!tables.results!dd453aad5adcd1bb.56412463e9eda25f",
+      "type": "text",
+      "name": "Рядом с местоположением цели расставлено множество ловушек",
+      "description": "",
+      "text": "<strong>Рядом с местоположением цели расставлено множество ловушек</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b938ba09bc174c42",
+      "_key": "!tables.results!dd453aad5adcd1bb.b938ba09bc174c42",
+      "type": "text",
+      "name": "В момент обнаружения цели становится известно, что её нужно доставить работодателю в полной целости и сохранности",
+      "description": "",
+      "text": "<strong>В момент обнаружения цели становится известно, что её нужно доставить работодателю в полной целости и сохранности</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2eba5f0f34f9e0d1",
+      "_key": "!tables.results!dd453aad5adcd1bb.2eba5f0f34f9e0d1",
+      "type": "text",
+      "name": "Добраться до цели мешает космическая блокада, карантин или комендантский час",
+      "description": "",
+      "text": "<strong>Добраться до цели мешает космическая блокада, карантин или комендантский час</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "1ee3c802f95233fb",
+      "_key": "!tables.results!dd453aad5adcd1bb.1ee3c802f95233fb",
+      "type": "text",
+      "name": "Задание находится под пристальным вниманием прессы",
+      "description": "",
+      "text": "<strong>Задание находится под пристальным вниманием прессы</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b8d6d3cfc197fcf6",
+      "_key": "!tables.results!dd453aad5adcd1bb.b8d6d3cfc197fcf6",
+      "type": "text",
+      "name": "Работодатель хочет подставить вас",
+      "description": "",
+      "text": "<strong>Работодатель хочет подставить вас</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2c1f2783dc2228e6",
+      "_key": "!tables.results!dd453aad5adcd1bb.2c1f2783dc2228e6",
+      "type": "text",
+      "name": "Провал задания ставит под угрозу жизни невинных людей",
+      "description": "",
+      "text": "<strong>Провал задания ставит под угрозу жизни невинных людей</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fbecb5db76d9ec6d",
+      "_key": "!tables.results!dd453aad5adcd1bb.fbecb5db76d9ec6d",
+      "type": "text",
+      "name": "Лично Чернобог против выполнения этого задания (Мастер получает по 1 жетону Чернобога за каждого игрока в начале задания)",
+      "description": "",
+      "text": "<strong>Лично Чернобог против выполнения этого задания (Мастер получает по 1 жетону Чернобога за каждого игрока в начале задания)</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "0fe0df15785af6ee",
+  "sort": 2900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

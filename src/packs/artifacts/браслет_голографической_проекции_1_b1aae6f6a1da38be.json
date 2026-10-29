@@ -1,0 +1,31 @@
+{
+  "_id": "b1aae6f6a1da38be",
+  "_key": "!items!b1aae6f6a1da38be",
+  "name": "Браслет голографической проекции (+1)",
+  "type": "gear",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Хромированный браслет. Если бросить его на землю, на месте удара появляется голографический двойник владельца (или предмета), которому можно задать нужную позу, как манекену.</p><ul><li>к66: 26</li><li>Понимание: проверка науки или культуры с модификатором +1</li><li>Требуемый навык: Наука 2, Кибершаманство 2, Культура 2</li><li>Активация: 1 жетон(а) Чернобога Мастеру</li><li>Заряды: многоразовый (при находке — к6 зарядов)</li></ul>"
+  },
+  "effects": [],
+  "folder": "577cc2671f0f4fcf",
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}

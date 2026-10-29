@@ -1,0 +1,599 @@
+{
+  "_id": "cd7d89e535a5ac43",
+  "_key": "!tables!cd7d89e535a5ac43",
+  "name": "Космическая встреча: необитаемая система (к66)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "37d5c19b519ddf28",
+      "_key": "!tables.results!cd7d89e535a5ac43.37d5c19b519ddf28",
+      "type": "text",
+      "name": "Корабль колонистов",
+      "description": "",
+      "text": "<strong>Корабль колонистов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b5979d3c8c11809b",
+      "_key": "!tables.results!cd7d89e535a5ac43.b5979d3c8c11809b",
+      "type": "text",
+      "name": "Строящиеся врата",
+      "description": "",
+      "text": "<strong>Строящиеся врата</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "9dd46c69948aebf9",
+      "_key": "!tables.results!cd7d89e535a5ac43.9dd46c69948aebf9",
+      "type": "text",
+      "name": "Обломки кораблей",
+      "description": "",
+      "text": "<strong>Обломки кораблей</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "021aede30584f84c",
+      "_key": "!tables.results!cd7d89e535a5ac43.021aede30584f84c",
+      "type": "text",
+      "name": "Космическая фауна",
+      "description": "",
+      "text": "<strong>Космическая фауна</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b822ca0e88bb40e7",
+      "_key": "!tables.results!cd7d89e535a5ac43.b822ca0e88bb40e7",
+      "type": "text",
+      "name": "Спасательная капсула",
+      "description": "",
+      "text": "<strong>Спасательная капсула</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "250b30644a406cbe",
+      "_key": "!tables.results!cd7d89e535a5ac43.250b30644a406cbe",
+      "type": "text",
+      "name": "Корабль Фронтиров",
+      "description": "",
+      "text": "<strong>Корабль Фронтиров</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "59d17b660f94cae0",
+      "_key": "!tables.results!cd7d89e535a5ac43.59d17b660f94cae0",
+      "type": "text",
+      "name": "Брошенный груз",
+      "description": "",
+      "text": "<strong>Брошенный груз</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "17e512b90f143c45",
+      "_key": "!tables.results!cd7d89e535a5ac43.17e512b90f143c45",
+      "type": "text",
+      "name": "Корабль Фронтиров",
+      "description": "",
+      "text": "<strong>Корабль Фронтиров</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        22,
+        22
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "68f2a845b9e338bd",
+      "_key": "!tables.results!cd7d89e535a5ac43.68f2a845b9e338bd",
+      "type": "text",
+      "name": "Мины",
+      "description": "",
+      "text": "<strong>Мины</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        23,
+        23
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f29eacd0e70d70fc",
+      "_key": "!tables.results!cd7d89e535a5ac43.f29eacd0e70d70fc",
+      "type": "text",
+      "name": "Ионная буря",
+      "description": "",
+      "text": "<strong>Ионная буря</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        24,
+        24
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "294410ac03df4b6d",
+      "_key": "!tables.results!cd7d89e535a5ac43.294410ac03df4b6d",
+      "type": "text",
+      "name": "Космическая фауна",
+      "description": "",
+      "text": "<strong>Космическая фауна</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        25,
+        25
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0bbaa5fcd9613651",
+      "_key": "!tables.results!cd7d89e535a5ac43.0bbaa5fcd9613651",
+      "type": "text",
+      "name": "Заблудившийся частный корабль",
+      "description": "",
+      "text": "<strong>Заблудившийся частный корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        26,
+        26
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b64c8f58da216914",
+      "_key": "!tables.results!cd7d89e535a5ac43.b64c8f58da216914",
+      "type": "text",
+      "name": "Корабль Фронтиров",
+      "description": "",
+      "text": "<strong>Корабль Фронтиров</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        31,
+        31
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "538a2984e27bd2be",
+      "_key": "!tables.results!cd7d89e535a5ac43.538a2984e27bd2be",
+      "type": "text",
+      "name": "Космический мусор",
+      "description": "",
+      "text": "<strong>Космический мусор</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        32,
+        32
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "52c9bed56a1500db",
+      "_key": "!tables.results!cd7d89e535a5ac43.52c9bed56a1500db",
+      "type": "text",
+      "name": "Радиоактивная сверхвспышка",
+      "description": "",
+      "text": "<strong>Радиоактивная сверхвспышка</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        33,
+        33
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a3d9fa4416341ac6",
+      "_key": "!tables.results!cd7d89e535a5ac43.a3d9fa4416341ac6",
+      "type": "text",
+      "name": "Корабль колонистов",
+      "description": "",
+      "text": "<strong>Корабль колонистов</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        34,
+        34
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7e65c92684a36544",
+      "_key": "!tables.results!cd7d89e535a5ac43.7e65c92684a36544",
+      "type": "text",
+      "name": "Заброшенный корабль Фронтиров",
+      "description": "",
+      "text": "<strong>Заброшенный корабль Фронтиров</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5edc260550fbb054",
+      "_key": "!tables.results!cd7d89e535a5ac43.5edc260550fbb054",
+      "type": "text",
+      "name": "Выпущенная давным-давно торпеда",
+      "description": "",
+      "text": "<strong>Выпущенная давным-давно торпеда</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "31be96e6fd075989",
+      "_key": "!tables.results!cd7d89e535a5ac43.31be96e6fd075989",
+      "type": "text",
+      "name": "Брошенный груз",
+      "description": "",
+      "text": "<strong>Брошенный груз</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        41,
+        41
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0a11835fd72b5fcc",
+      "_key": "!tables.results!cd7d89e535a5ac43.0a11835fd72b5fcc",
+      "type": "text",
+      "name": "Спасательная капсула",
+      "description": "",
+      "text": "<strong>Спасательная капсула</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        42,
+        42
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "713dbe9bb571a1fa",
+      "_key": "!tables.results!cd7d89e535a5ac43.713dbe9bb571a1fa",
+      "type": "text",
+      "name": "Космическая фауна",
+      "description": "",
+      "text": "<strong>Космическая фауна</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        43,
+        43
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c7ff16de0e300ecf",
+      "_key": "!tables.results!cd7d89e535a5ac43.c7ff16de0e300ecf",
+      "type": "text",
+      "name": "Терпящий бедствие корабль",
+      "description": "",
+      "text": "<strong>Терпящий бедствие корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        44,
+        44
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "229dbc98d81d8f37",
+      "_key": "!tables.results!cd7d89e535a5ac43.229dbc98d81d8f37",
+      "type": "text",
+      "name": "Радиоактивная сверхвспышка на звезде",
+      "description": "",
+      "text": "<strong>Радиоактивная сверхвспышка на звезде</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        45,
+        45
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b2ab638b1da23395",
+      "_key": "!tables.results!cd7d89e535a5ac43.b2ab638b1da23395",
+      "type": "text",
+      "name": "Обломки кораблей",
+      "description": "",
+      "text": "<strong>Обломки кораблей</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        46,
+        46
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "51f149bf18aa8fe9",
+      "_key": "!tables.results!cd7d89e535a5ac43.51f149bf18aa8fe9",
+      "type": "text",
+      "name": "Заброшенный корабль с крайне ценным для фракции/клана грузом",
+      "description": "",
+      "text": "<strong>Заброшенный корабль с крайне ценным для фракции/клана грузом</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        51,
+        51
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e6b286d370a9f6e6",
+      "_key": "!tables.results!cd7d89e535a5ac43.e6b286d370a9f6e6",
+      "type": "text",
+      "name": "Заброшенная станция Фронтиров",
+      "description": "",
+      "text": "<strong>Заброшенная станция Фронтиров</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        52,
+        52
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "85eee634984c308e",
+      "_key": "!tables.results!cd7d89e535a5ac43.85eee634984c308e",
+      "type": "text",
+      "name": "Космический мусор",
+      "description": "",
+      "text": "<strong>Космический мусор</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        53,
+        53
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ada89c5be2aacfa0",
+      "_key": "!tables.results!cd7d89e535a5ac43.ada89c5be2aacfa0",
+      "type": "text",
+      "name": "Космический мусор",
+      "description": "",
+      "text": "<strong>Космический мусор</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        54,
+        54
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "82d44490974b56fc",
+      "_key": "!tables.results!cd7d89e535a5ac43.82d44490974b56fc",
+      "type": "text",
+      "name": "Корабль Изгоев",
+      "description": "",
+      "text": "<strong>Корабль Изгоев</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        55,
+        55
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ca0c918f769c5a32",
+      "_key": "!tables.results!cd7d89e535a5ac43.ca0c918f769c5a32",
+      "type": "text",
+      "name": "Космический мусор",
+      "description": "",
+      "text": "<strong>Космический мусор</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        56,
+        56
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8960f2d412dd65a5",
+      "_key": "!tables.results!cd7d89e535a5ac43.8960f2d412dd65a5",
+      "type": "text",
+      "name": "Обломки кораблей",
+      "description": "",
+      "text": "<strong>Обломки кораблей</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7cfe64774d7e2744",
+      "_key": "!tables.results!cd7d89e535a5ac43.7cfe64774d7e2744",
+      "type": "text",
+      "name": "Попадание астероида в корабль",
+      "description": "",
+      "text": "<strong>Попадание астероида в корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "386741873b4c8fb2",
+      "_key": "!tables.results!cd7d89e535a5ac43.386741873b4c8fb2",
+      "type": "text",
+      "name": "Радиоактивная сверхвспышка на звезде",
+      "description": "",
+      "text": "<strong>Радиоактивная сверхвспышка на звезде</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cfac99a33ee72bfb",
+      "_key": "!tables.results!cd7d89e535a5ac43.cfac99a33ee72bfb",
+      "type": "text",
+      "name": "Сущность Веретена проникает на корабль",
+      "description": "",
+      "text": "<strong>Сущность Веретена проникает на корабль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "da0e8d58e6917f19",
+      "_key": "!tables.results!cd7d89e535a5ac43.da0e8d58e6917f19",
+      "type": "text",
+      "name": "Космическая фауна",
+      "description": "",
+      "text": "<strong>Космическая фауна</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "54ff2db822d44326",
+      "_key": "!tables.results!cd7d89e535a5ac43.54ff2db822d44326",
+      "type": "text",
+      "name": "Обломки корабля Древних",
+      "description": "",
+      "text": "<strong>Обломки корабля Древних</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "fe517ba3e52ebc75",
+  "sort": 3500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.4.0"
+  }
+}
