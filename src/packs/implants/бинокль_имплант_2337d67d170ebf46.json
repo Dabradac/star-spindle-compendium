@@ -1,0 +1,28 @@
+{
+  "_id": "2337d67d170ebf46",
+  "_key": "!items!2337d67d170ebf46",
+  "name": "Бинокль (имплант)",
+  "type": "implant",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "<p>Увеличение зрения до ×10: нивелирует штраф −1 при стрельбе на дальнюю и предельную дистанции.</p><p>После установки к6 дней проверки, связанные с новой частью тела, получают −2.</p><p>Каждый второй установленный киберимплант снижает максимальную волю на 1.</p>",
+    "kind": "cyber",
+    "illegal": false,
+    "price": 0,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "9bb36f2417533652",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

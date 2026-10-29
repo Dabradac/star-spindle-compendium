@@ -1,0 +1,29 @@
+{
+  "_id": "fbd113d591446f3e",
+  "_key": "!items!fbd113d591446f3e",
+  "name": "Рубаха-парень",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы можете использовать культуру вместо влияния, общаясь с обычными людьми.</p><p>Уровень 1. Выбирается вместо «Знание манер».</p>",
+    "skill": "culture",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "078b7902d7443ddd",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

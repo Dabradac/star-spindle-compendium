@@ -1,0 +1,599 @@
+{
+  "_id": "aff0464ac2e15be9",
+  "_key": "!tables!aff0464ac2e15be9",
+  "name": "Таблица травм (к66)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Первый к6 — десятки, второй — единицы.",
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "12f03d1060cf7268",
+      "_key": "!tables.results!aff0464ac2e15be9.12f03d1060cf7268",
+      "type": "text",
+      "name": "Сбитое дыхание",
+      "description": "Шок (2). Смерть: Нет; срок: —; период: —. @UUID[Compendium.star-spindle-compendium.injuries.Item.eb8f7a019b76a917]{Сбитое дыхание}",
+      "text": "<strong>Сбитое дыхание</strong>: Шок (2). Смерть: Нет; срок: —; период: —. @UUID[Compendium.star-spindle-compendium.injuries.Item.eb8f7a019b76a917]{Сбитое дыхание}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "b12e3cf0f0542de3",
+      "_key": "!tables.results!aff0464ac2e15be9.b12e3cf0f0542de3",
+      "type": "text",
+      "name": "Дезориентация",
+      "description": "Шок (2). Смерть: Нет; срок: —; период: —. @UUID[Compendium.star-spindle-compendium.injuries.Item.016418e8bea41ecd]{Дезориентация}",
+      "text": "<strong>Дезориентация</strong>: Шок (2). Смерть: Нет; срок: —; период: —. @UUID[Compendium.star-spindle-compendium.injuries.Item.016418e8bea41ecd]{Дезориентация}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "734d75c4bc3951cf",
+      "_key": "!tables.results!aff0464ac2e15be9.734d75c4bc3951cf",
+      "type": "text",
+      "name": "Растяжение запястья",
+      "description": "Персонаж роняет то, что держит в руках; −1 при проверках стрельбы и ближнего боя. Смерть: Нет; срок: —; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.98dc2dd2cf7190aa]{Растяжение запястья}",
+      "text": "<strong>Растяжение запястья</strong>: Персонаж роняет то, что держит в руках; −1 при проверках стрельбы и ближнего боя. Смерть: Нет; срок: —; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.98dc2dd2cf7190aa]{Растяжение запястья}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "dd19684f8e34f5d0",
+      "_key": "!tables.results!aff0464ac2e15be9.dd19684f8e34f5d0",
+      "type": "text",
+      "name": "Растяжение лодыжки",
+      "description": "Персонаж сбит с ног; −1 при проверках проворства и скрытности. Смерть: Нет; срок: —; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.4fa29e2f22e00885]{Растяжение лодыжки}",
+      "text": "<strong>Растяжение лодыжки</strong>: Персонаж сбит с ног; −1 при проверках проворства и скрытности. Смерть: Нет; срок: —; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.4fa29e2f22e00885]{Растяжение лодыжки}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a85df411f448ca12",
+      "_key": "!tables.results!aff0464ac2e15be9.a85df411f448ca12",
+      "type": "text",
+      "name": "Сотрясение мозга",
+      "description": "Шок (2); −1 при проверках всех профессиональных навыков. Смерть: Нет; срок: —; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.e9909dce81ae9624]{Сотрясение мозга}",
+      "text": "<strong>Сотрясение мозга</strong>: Шок (2); −1 при проверках всех профессиональных навыков. Смерть: Нет; срок: —; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.e9909dce81ae9624]{Сотрясение мозга}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0f0a5c894cffb7f3",
+      "_key": "!tables.results!aff0464ac2e15be9.0f0a5c894cffb7f3",
+      "type": "text",
+      "name": "Ушиб стопы",
+      "description": "Персонаж сбит с ног; −1 при проверках проворства и скрытности. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.04c5b2e15be20267]{Ушиб стопы}",
+      "text": "<strong>Ушиб стопы</strong>: Персонаж сбит с ног; −1 при проверках проворства и скрытности. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.04c5b2e15be20267]{Ушиб стопы}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cfba6053f7a2a953",
+      "_key": "!tables.results!aff0464ac2e15be9.cfba6053f7a2a953",
+      "type": "text",
+      "name": "Перелом носа",
+      "description": "Шок (2); −2 при проверках влияния. Смерть: Нет; срок: —; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.58914dde08e379f6]{Перелом носа}",
+      "text": "<strong>Перелом носа</strong>: Шок (2); −2 при проверках влияния. Смерть: Нет; срок: —; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.58914dde08e379f6]{Перелом носа}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "11cfef55cb1f15ab",
+      "_key": "!tables.results!aff0464ac2e15be9.11cfef55cb1f15ab",
+      "type": "text",
+      "name": "Перелом кисти",
+      "description": "Персонаж роняет то, что держит в руках; −2 при проверках стрельбы и ближнего боя. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.d5c55cb7849ae558]{Перелом кисти}",
+      "text": "<strong>Перелом кисти</strong>: Персонаж роняет то, что держит в руках; −2 при проверках стрельбы и ближнего боя. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.d5c55cb7849ae558]{Перелом кисти}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        22,
+        22
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "09d8a0a721231e45",
+      "_key": "!tables.results!aff0464ac2e15be9.09d8a0a721231e45",
+      "type": "text",
+      "name": "Перелом стопы",
+      "description": "Шок (3); −2 при проверках проворства и скрытности. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.fd9467139a8462e3]{Перелом стопы}",
+      "text": "<strong>Перелом стопы</strong>: Шок (3); −2 при проверках проворства и скрытности. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.fd9467139a8462e3]{Перелом стопы}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        23,
+        23
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "67e12fafb46402d5",
+      "_key": "!tables.results!aff0464ac2e15be9.67e12fafb46402d5",
+      "type": "text",
+      "name": "Перелом челюсти",
+      "description": "Шок (3); −2 при проверках влияния. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.e65dd48a142c213f]{Перелом челюсти}",
+      "text": "<strong>Перелом челюсти</strong>: Шок (3); −2 при проверках влияния. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.e65dd48a142c213f]{Перелом челюсти}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        24,
+        24
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c39d26f146c62437",
+      "_key": "!tables.results!aff0464ac2e15be9.c39d26f146c62437",
+      "type": "text",
+      "name": "Ушиб паховой области",
+      "description": "Шок (4); по 1 пункту урона за каждую проверку силы, проворства и ближнего боя. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.54a16f4b0fa989d2]{Ушиб паховой области}",
+      "text": "<strong>Ушиб паховой области</strong>: Шок (4); по 1 пункту урона за каждую проверку силы, проворства и ближнего боя. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.54a16f4b0fa989d2]{Ушиб паховой области}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        25,
+        25
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "560943e7ac02853f",
+      "_key": "!tables.results!aff0464ac2e15be9.560943e7ac02853f",
+      "type": "text",
+      "name": "Вывих плеча",
+      "description": "Шок (2); −3 при проверках силы и ближнего боя. Смерть: Нет; срок: —; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.9d94802a42017c4e]{Вывих плеча}",
+      "text": "<strong>Вывих плеча</strong>: Шок (2); −3 при проверках силы и ближнего боя. Смерть: Нет; срок: —; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.9d94802a42017c4e]{Вывих плеча}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        26,
+        26
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6ca50626b1f9b54d",
+      "_key": "!tables.results!aff0464ac2e15be9.6ca50626b1f9b54d",
+      "type": "text",
+      "name": "Перелом рёбер",
+      "description": "Шок (4); −2 при проверках проворства и ближнего боя. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.a2b6406bc2051640]{Перелом рёбер}",
+      "text": "<strong>Перелом рёбер</strong>: Шок (4); −2 при проверках проворства и ближнего боя. Смерть: Нет; срок: —; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.a2b6406bc2051640]{Перелом рёбер}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        31,
+        31
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4ea877bdeec48f1b",
+      "_key": "!tables.results!aff0464ac2e15be9.4ea877bdeec48f1b",
+      "type": "text",
+      "name": "Перелом руки",
+      "description": "Шок (3); −3 при проверках стрельбы и ближнего боя. Смерть: Нет; срок: —; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.aec2d588fdc64491]{Перелом руки}",
+      "text": "<strong>Перелом руки</strong>: Шок (3); −3 при проверках стрельбы и ближнего боя. Смерть: Нет; срок: —; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.aec2d588fdc64491]{Перелом руки}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        32,
+        32
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c4a9146228d8c41e",
+      "_key": "!tables.results!aff0464ac2e15be9.c4a9146228d8c41e",
+      "type": "text",
+      "name": "Перелом ноги",
+      "description": "Шок (3); персонаж сбит с ног, скорость снижена вдвое, −2 при проверках проворства и скрытности. Смерть: Нет; срок: —; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.24882c686296195b]{Перелом ноги}",
+      "text": "<strong>Перелом ноги</strong>: Шок (3); персонаж сбит с ног, скорость снижена вдвое, −2 при проверках проворства и скрытности. Смерть: Нет; срок: —; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.24882c686296195b]{Перелом ноги}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        33,
+        33
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "94cd306c8df6f2eb",
+      "_key": "!tables.results!aff0464ac2e15be9.94cd306c8df6f2eb",
+      "type": "text",
+      "name": "Разрыв уха",
+      "description": "Шок (3); −2 при проверках наблюдательности. Смерть: Нет; срок: —; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.3082a89c703fc7de]{Разрыв уха}",
+      "text": "<strong>Разрыв уха</strong>: Шок (3); −2 при проверках наблюдательности. Смерть: Нет; срок: —; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.3082a89c703fc7de]{Разрыв уха}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        34,
+        34
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "516575b2a0f505b5",
+      "_key": "!tables.results!aff0464ac2e15be9.516575b2a0f505b5",
+      "type": "text",
+      "name": "Травма глаза",
+      "description": "Шок (4); −2 при проверках стрельбы и наблюдательности. Смерть: Нет; срок: —; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.a983697369832e5d]{Травма глаза}",
+      "text": "<strong>Травма глаза</strong>: Шок (4); −2 при проверках стрельбы и наблюдательности. Смерть: Нет; срок: —; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.a983697369832e5d]{Травма глаза}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "dfb50a04b02f02bb",
+      "_key": "!tables.results!aff0464ac2e15be9.dfb50a04b02f02bb",
+      "type": "text",
+      "name": "Сквозное ранение лёгкого",
+      "description": "Шок (4); −3 при проверках проворства. Смерть: Да; срок: к6 дней; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.5c6d8220ced267f3]{Сквозное ранение лёгкого}",
+      "text": "<strong>Сквозное ранение лёгкого</strong>: Шок (4); −3 при проверках проворства. Смерть: Да; срок: к6 дней; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.5c6d8220ced267f3]{Сквозное ранение лёгкого}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "45094489292f1e74",
+      "_key": "!tables.results!aff0464ac2e15be9.45094489292f1e74",
+      "type": "text",
+      "name": "Разрыв почки",
+      "description": "Шок (5); по 1 пункту урона за каждую проверку силы, проворства и ближнего боя. Смерть: Да; срок: к6 дней; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.e8ad3ef72b4ccce8]{Разрыв почки}",
+      "text": "<strong>Разрыв почки</strong>: Шок (5); по 1 пункту урона за каждую проверку силы, проворства и ближнего боя. Смерть: Да; срок: к6 дней; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.e8ad3ef72b4ccce8]{Разрыв почки}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        41,
+        41
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "e3bab115f9d8aee6",
+      "_key": "!tables.results!aff0464ac2e15be9.e3bab115f9d8aee6",
+      "type": "text",
+      "name": "Сложный перелом ноги",
+      "description": "Шок (5); персонаж сбит с ног, скорость снижена вдвое, −2 при проверках проворства и скрытности. Смерть: Да; срок: к6 дней; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.46ba647b01e29ffe]{Сложный перелом ноги}",
+      "text": "<strong>Сложный перелом ноги</strong>: Шок (5); персонаж сбит с ног, скорость снижена вдвое, −2 при проверках проворства и скрытности. Смерть: Да; срок: к6 дней; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.46ba647b01e29ffe]{Сложный перелом ноги}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        42,
+        42
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "44f5887dd7089460",
+      "_key": "!tables.results!aff0464ac2e15be9.44f5887dd7089460",
+      "type": "text",
+      "name": "Сложный перелом руки",
+      "description": "Шок (5); −2 при проверках силы и ближнего боя, нельзя использовать двуручное оружие. Смерть: Да; срок: к6 дней; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.67f2b8db9768ae29]{Сложный перелом руки}",
+      "text": "<strong>Сложный перелом руки</strong>: Шок (5); −2 при проверках силы и ближнего боя, нельзя использовать двуручное оружие. Смерть: Да; срок: к6 дней; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.67f2b8db9768ae29]{Сложный перелом руки}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        43,
+        43
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "48906fa339268031",
+      "_key": "!tables.results!aff0464ac2e15be9.48906fa339268031",
+      "type": "text",
+      "name": "Перелом коленной чашечки",
+      "description": "Шок (5); персонаж сбит с ног, скорость уменьшается вдвое, −3 при проверках проворства и скрытности. Смерть: Да; срок: к6 часов; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.34c44f3008a7aaa0]{Перелом коленной чашечки}",
+      "text": "<strong>Перелом коленной чашечки</strong>: Шок (5); персонаж сбит с ног, скорость уменьшается вдвое, −3 при проверках проворства и скрытности. Смерть: Да; срок: к6 часов; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.34c44f3008a7aaa0]{Перелом коленной чашечки}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        44,
+        44
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a3493800702f12d3",
+      "_key": "!tables.results!aff0464ac2e15be9.a3493800702f12d3",
+      "type": "text",
+      "name": "Перелом лицевой кости",
+      "description": "Шок (6); −2 при проверках влияния. Смерть: Да; срок: к6 часов; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.7cf6ec642ef84d99]{Перелом лицевой кости}",
+      "text": "<strong>Перелом лицевой кости</strong>: Шок (6); −2 при проверках влияния. Смерть: Да; срок: к6 часов; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.7cf6ec642ef84d99]{Перелом лицевой кости}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        45,
+        45
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "c8a7b874d162e03d",
+      "_key": "!tables.results!aff0464ac2e15be9.c8a7b874d162e03d",
+      "type": "text",
+      "name": "Повреждение внутренних органов",
+      "description": "Шок (5); по 1 пункту урона каждый час, пока не будет оказана неотложная помощь. Смерть: Да; срок: к6 часов; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.5178200b11b409d8]{Повреждение внутренних органов}",
+      "text": "<strong>Повреждение внутренних органов</strong>: Шок (5); по 1 пункту урона каждый час, пока не будет оказана неотложная помощь. Смерть: Да; срок: к6 часов; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.5178200b11b409d8]{Повреждение внутренних органов}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        46,
+        46
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0fce743c280ef14a",
+      "_key": "!tables.results!aff0464ac2e15be9.0fce743c280ef14a",
+      "type": "text",
+      "name": "Перелом позвоночника",
+      "description": "Персонаж теряет сознание на к6 часов; паралич ниже пояса. Без лечения паралич становится постоянным. Смерть: Да; срок: к6 часов; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.47d3ed9b0c02f373]{Перелом позвоночника}",
+      "text": "<strong>Перелом позвоночника</strong>: Персонаж теряет сознание на к6 часов; паралич ниже пояса. Без лечения паралич становится постоянным. Смерть: Да; срок: к6 часов; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.47d3ed9b0c02f373]{Перелом позвоночника}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        51,
+        51
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a7acc9b9aa00d231",
+      "_key": "!tables.results!aff0464ac2e15be9.a7acc9b9aa00d231",
+      "type": "text",
+      "name": "Перелом шеи",
+      "description": "Персонаж теряет сознание на к6 часов; паралич ниже шеи. Без лечения паралич становится постоянным. Смерть: Да; срок: к6 часов; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.37ecc431d73d65cd]{Перелом шеи}",
+      "text": "<strong>Перелом шеи</strong>: Персонаж теряет сознание на к6 часов; паралич ниже шеи. Без лечения паралич становится постоянным. Смерть: Да; срок: к6 часов; период: 4к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.37ecc431d73d65cd]{Перелом шеи}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        52,
+        52
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "bc3a353d0cf41fee",
+      "_key": "!tables.results!aff0464ac2e15be9.bc3a353d0cf41fee",
+      "type": "text",
+      "name": "Проникающее ранение в живот",
+      "description": "По 1 пункту урона каждый ход, пока не будет оказана неотложная помощь. Смерть: Да; срок: к6 минут; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.bc4707688e6998f3]{Проникающее ранение в живот}",
+      "text": "<strong>Проникающее ранение в живот</strong>: По 1 пункту урона каждый ход, пока не будет оказана неотложная помощь. Смерть: Да; срок: к6 минут; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.bc4707688e6998f3]{Проникающее ранение в живот}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        53,
+        53
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "035c9ce70220494a",
+      "_key": "!tables.results!aff0464ac2e15be9.035c9ce70220494a",
+      "type": "text",
+      "name": "Внутреннее кровотечение",
+      "description": "Персонаж теряет сознание на к6 часов; по 1 пункту урона за каждую проверку силы, проворства и ближнего боя. Смерть: Да, −1; срок: к6 минут; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.5cf282a32d68e81c]{Внутреннее кровотечение}",
+      "text": "<strong>Внутреннее кровотечение</strong>: Персонаж теряет сознание на к6 часов; по 1 пункту урона за каждую проверку силы, проворства и ближнего боя. Смерть: Да, −1; срок: к6 минут; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.5cf282a32d68e81c]{Внутреннее кровотечение}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        54,
+        54
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "05895c7a3e0f7ab4",
+      "_key": "!tables.results!aff0464ac2e15be9.05895c7a3e0f7ab4",
+      "type": "text",
+      "name": "Артериальное кровотечение (рука)",
+      "description": "Шок (3); кровотечение (3); −1 при проверках стрельбы и ближнего боя. Смерть: Да, −1; срок: к6 минут; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.a2f4cc513e075641]{Артериальное кровотечение (рука)}",
+      "text": "<strong>Артериальное кровотечение (рука)</strong>: Шок (3); кровотечение (3); −1 при проверках стрельбы и ближнего боя. Смерть: Да, −1; срок: к6 минут; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.a2f4cc513e075641]{Артериальное кровотечение (рука)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        55,
+        55
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "91d56d702e457962",
+      "_key": "!tables.results!aff0464ac2e15be9.91d56d702e457962",
+      "type": "text",
+      "name": "Артериальное кровотечение (нога)",
+      "description": "Персонаж теряет сознание на к6 часов; −2 при проверках проворства. Смерть: Да, −1; срок: к6 минут; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.ac2b05b2aa4c0f3c]{Артериальное кровотечение (нога)}",
+      "text": "<strong>Артериальное кровотечение (нога)</strong>: Персонаж теряет сознание на к6 часов; −2 при проверках проворства. Смерть: Да, −1; срок: к6 минут; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.ac2b05b2aa4c0f3c]{Артериальное кровотечение (нога)}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        56,
+        56
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3e2dc4c84910d2b8",
+      "_key": "!tables.results!aff0464ac2e15be9.3e2dc4c84910d2b8",
+      "type": "text",
+      "name": "Травматическая ампутация руки",
+      "description": "Персонаж теряет сознание на к6 часов; кровотечение (3); −2 при проверках проворства. Лишается руки: нельзя пользоваться двуручным и тяжёлым оружием. Смерть: Да, −1; срок: к6 минут; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.6b0bfce71acb46f3]{Травматическая ампутация руки}",
+      "text": "<strong>Травматическая ампутация руки</strong>: Персонаж теряет сознание на к6 часов; кровотечение (3); −2 при проверках проворства. Лишается руки: нельзя пользоваться двуручным и тяжёлым оружием. Смерть: Да, −1; срок: к6 минут; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.6b0bfce71acb46f3]{Травматическая ампутация руки}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3e33688f0f26d9df",
+      "_key": "!tables.results!aff0464ac2e15be9.3e33688f0f26d9df",
+      "type": "text",
+      "name": "Травматическая ампутация ноги",
+      "description": "Персонаж теряет сознание на к6 часов; −2 при проверках проворства. Лишается ноги, скорость вдвое ниже. Смерть: Да, −1; срок: к6 минут; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.ea823f4edbcca4c9]{Травматическая ампутация ноги}",
+      "text": "<strong>Травматическая ампутация ноги</strong>: Персонаж теряет сознание на к6 часов; −2 при проверках проворства. Лишается ноги, скорость вдвое ниже. Смерть: Да, −1; срок: к6 минут; период: 3к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.ea823f4edbcca4c9]{Травматическая ампутация ноги}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "072e741fc4627d3b",
+      "_key": "!tables.results!aff0464ac2e15be9.072e741fc4627d3b",
+      "type": "text",
+      "name": "Разрыв яремной вены",
+      "description": "Персонаж теряет сознание на к6 часов; −1 при проверках проворства. Смерть: Да, −1; срок: к6 минут; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.de849cf200fd81e1]{Разрыв яремной вены}",
+      "text": "<strong>Разрыв яремной вены</strong>: Персонаж теряет сознание на к6 часов; −1 при проверках проворства. Смерть: Да, −1; срок: к6 минут; период: к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.de849cf200fd81e1]{Разрыв яремной вены}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "318710451b2cd158",
+      "_key": "!tables.results!aff0464ac2e15be9.318710451b2cd158",
+      "type": "text",
+      "name": "Разрыв аорты",
+      "description": "Персонаж теряет сознание на к6 часов; кровотечение (5); −2 при проверках проворства. Смерть: Да, −1; срок: к6 минут; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.9fbc66f3b054803e]{Разрыв аорты}",
+      "text": "<strong>Разрыв аорты</strong>: Персонаж теряет сознание на к6 часов; кровотечение (5); −2 при проверках проворства. Смерть: Да, −1; срок: к6 минут; период: 2к6. @UUID[Compendium.star-spindle-compendium.injuries.Item.9fbc66f3b054803e]{Разрыв аорты}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4f124934fc6a8cb5",
+      "_key": "!tables.results!aff0464ac2e15be9.4f124934fc6a8cb5",
+      "type": "text",
+      "name": "Проникающее ранение в сердце",
+      "description": "Сердце персонажа останавливается навсегда. Если вы игрок — можете создавать нового героя. Смерть: Да; срок: —; период: —. @UUID[Compendium.star-spindle-compendium.injuries.Item.bdaec7ece3e2ff6b]{Проникающее ранение в сердце}",
+      "text": "<strong>Проникающее ранение в сердце</strong>: Сердце персонажа останавливается навсегда. Если вы игрок — можете создавать нового героя. Смерть: Да; срок: —; период: —. @UUID[Compendium.star-spindle-compendium.injuries.Item.bdaec7ece3e2ff6b]{Проникающее ранение в сердце}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "22ab2017174a62a8",
+      "_key": "!tables.results!aff0464ac2e15be9.22ab2017174a62a8",
+      "type": "text",
+      "name": "Проникающее ранение в мозг",
+      "description": "Мгновенная и кровавая смерть ставит точку в приключениях персонажа. Если вы игрок — можете создавать нового героя. Смерть: Да; срок: —; период: —. @UUID[Compendium.star-spindle-compendium.injuries.Item.a4723c5187ac6073]{Проникающее ранение в мозг}",
+      "text": "<strong>Проникающее ранение в мозг</strong>: Мгновенная и кровавая смерть ставит точку в приключениях персонажа. Если вы игрок — можете создавать нового героя. Смерть: Да; срок: —; период: —. @UUID[Compendium.star-spindle-compendium.injuries.Item.a4723c5187ac6073]{Проникающее ранение в мозг}",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

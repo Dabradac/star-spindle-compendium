@@ -1,0 +1,29 @@
+{
+  "_id": "67878aab5da95e71",
+  "_key": "!items!67878aab5da95e71",
+  "name": "Травматолог",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы игнорируете отрицательные модификаторы тяжести травм при их лечении.</p><p>Уровень 1. Выбирается вместо «И это пройдёт».</p>",
+    "skill": "healing",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "7eb68160af3408a0",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

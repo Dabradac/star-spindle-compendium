@@ -1,0 +1,29 @@
+{
+  "_id": "abf65185dbb39403",
+  "_key": "!items!abf65185dbb39403",
+  "name": "Сожми руку в кулак",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Применив лечение к союзнику с использованием расходного предмета, восстанавливающего здоровье, союзник получает +2 брони на 3 раунда.</p><p>Уровень 3. Выбирается вместо «Точная дозировка».</p>",
+    "skill": "healing",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "7eb68160af3408a0",
+  "sort": 11400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

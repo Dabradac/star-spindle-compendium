@@ -1,0 +1,28 @@
+{
+  "_id": "5178200b11b409d8",
+  "_key": "!items!5178200b11b409d8",
+  "name": "Повреждение внутренних органов",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (5); по 1 пункту урона каждый час, пока не будет оказана неотложная помощь</p><p>Смерть: Да. Крайний срок помощи: к6 часов. Период излечения: 2к6 дн.</p>",
+    "code": "46",
+    "lethal": true,
+    "deadline": "к6 часов",
+    "effect": "Шок (5); по 1 пункту урона каждый час, пока не будет оказана неотложная помощь",
+    "period": "2к6",
+    "strength": 5
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

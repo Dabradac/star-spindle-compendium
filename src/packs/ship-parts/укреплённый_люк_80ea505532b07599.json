@@ -1,0 +1,23 @@
+{
+  "_id": "80ea505532b07599",
+  "_key": "!items!80ea505532b07599",
+  "name": "Укреплённый люк",
+  "type": "shipUpgrade",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Попытки взломать или вскрыть люк получают −3.</p><p>Улучшение модуля «Стыковочный отсек». Стоимость: 10% от базовой цены корабля.</p>",
+    "costPercent": 10
+  },
+  "effects": [],
+  "folder": "edfb7d0aab2ebf81",
+  "sort": 3100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

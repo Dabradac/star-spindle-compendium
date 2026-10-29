@@ -1,0 +1,29 @@
+{
+  "_id": "d74584e06cf61a49",
+  "_key": "!items!d74584e06cf61a49",
+  "name": "Холодный расчёт",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы получаете на 1 меньше урона воле от любого источника, но не меньше 1.</p><p>Уровень 2. Выбирается вместо «Я читал об этом».</p>",
+    "skill": "science",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "94573f433d44f8a0",
+  "sort": 10300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

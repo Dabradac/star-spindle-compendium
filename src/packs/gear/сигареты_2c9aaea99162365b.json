@@ -1,0 +1,31 @@
+{
+  "_id": "2c9aaea99162365b",
+  "_key": "!items!2c9aaea99162365b",
+  "name": "Сигареты",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 50,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Восстанавливают 2 воли при применении, но не чаще раза в 4 часа. Вызывают зависимость. Схожее действие у алкоголя.</p>"
+  },
+  "effects": [],
+  "folder": "c885c9a692501330",
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

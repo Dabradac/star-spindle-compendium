@@ -1,0 +1,31 @@
+{
+  "_id": "d5e0b888f26750e5",
+  "_key": "!items!d5e0b888f26750e5",
+  "name": "Вместительный магазин",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>При автоматическом огне первая неудача на дополнительном кубе игнорируется.</p><p>Стоимость: 80% от цены оружия.</p>"
+  },
+  "effects": [],
+  "folder": "2ab61ae8a4063f27",
+  "sort": 8800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

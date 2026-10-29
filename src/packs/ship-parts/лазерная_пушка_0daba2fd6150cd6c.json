@@ -1,0 +1,35 @@
+{
+  "_id": "0daba2fd6150cd6c",
+  "_key": "!items!0daba2fd6150cd6c",
+  "name": "Лазерная пушка",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Структурный и системный урон</p>",
+    "modifier": 1,
+    "damage": 1,
+    "crit": 3,
+    "range": "long",
+    "damageType": "both",
+    "ignoresArmor": false,
+    "location": "bow",
+    "properties": "Структурный и системный урон",
+    "price": 40000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "f18e3de6cf114ecc",
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

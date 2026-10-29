@@ -1,0 +1,31 @@
+{
+  "_id": "79610c900cef1a65",
+  "_key": "!items!79610c900cef1a65",
+  "name": "Антирад-набор",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 300,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Снижает текущий уровень радиации на 2, но персонаж становится утомлён (или истощён). Повторное применение вызывает передозировку.</p>"
+  },
+  "effects": [],
+  "folder": "164e01d14f2395f7",
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

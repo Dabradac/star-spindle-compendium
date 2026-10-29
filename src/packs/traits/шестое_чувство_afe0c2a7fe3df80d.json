@@ -1,0 +1,28 @@
+{
+  "_id": "afe0c2a7fe3df80d",
+  "_key": "!items!afe0c2a7fe3df80d",
+  "name": "Шестое чувство",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Вы чувствуете опасность задолго до её появления. +2 к проверкам наблюдательности во встречных проверках против скрытности.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 2,
+    "bonusTarget": "skill.observation",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

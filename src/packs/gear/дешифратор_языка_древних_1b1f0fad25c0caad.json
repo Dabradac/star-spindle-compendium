@@ -1,0 +1,31 @@
+{
+  "_id": "1b1f0fad25c0caad",
+  "_key": "!items!1b1f0fad25c0caad",
+  "name": "Дешифратор языка Древних",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 4000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Переводит фрагмент за полчаса. Бросьте к20: 17–19 — общий смысл, 20 — почти дословно, иначе ошибка или ложь.</p>"
+  },
+  "effects": [],
+  "folder": "88285127c974931a",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

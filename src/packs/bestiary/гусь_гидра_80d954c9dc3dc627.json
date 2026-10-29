@@ -1,0 +1,299 @@
+{
+  "_id": "80d954c9dc3dc627",
+  "_key": "!actors!80d954c9dc3dc627",
+  "name": "Гусь-гидра",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 6
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 0
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 1,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 3,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 3,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 1,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 2,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 15,
+      "max": 15,
+      "bonus": 0
+    },
+    "will": {
+      "value": 0,
+      "max": 0,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 15,
+    "biography": "<p>Огромный трёхголовый гусь-мутант с зубастыми клювами и непрерывным гоготом. Агрессивен и опасен, но рассеян — его можно отвлечь шумом или незаметно обойти.</p><h3>Черты</h3><p><strong>Каждому достанется</strong> (1 жетон): Наносит каждому противнику на ближней дистанции 2 атаки клювом со штрафом −1.</p><p><strong>Гусиная суета</strong> (пасс.): Хаотично перемещается и атакует разных людей; внеочередные атаки по нему со штрафом −2.</p><p><strong>Отвлекающий гогот</strong> (пасс.): Противники на средней дистанции получают −1 к общим навыкам.</p>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 3,
+    "rarity": 0,
+    "actionPoints": 3,
+    "defenses": "Восприимчивость к дробящему, режущему и колющему",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "4f065167f9529e8e",
+      "_key": "!actors.items!80d954c9dc3dc627.4f065167f9529e8e",
+      "name": "Зубастый клюв",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 0,
+        "initiative": -2,
+        "damage": 3,
+        "crit": 3,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "ed32225fc3267b4b",
+      "_key": "!actors.items!80d954c9dc3dc627.ed32225fc3267b4b",
+      "name": "Гусиная кожа",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "defense": 2,
+        "properties": "Естественная броня",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "3d27c86b331bd8bb",
+      "_key": "!actors.items!80d954c9dc3dc627.3d27c86b331bd8bb",
+      "name": "Каждому достанется (1 жетон)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Наносит каждому противнику на ближней дистанции 2 атаки клювом со штрафом −1.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "4c319ab05d7f9ebd",
+      "_key": "!actors.items!80d954c9dc3dc627.4c319ab05d7f9ebd",
+      "name": "Гусиная суета (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Хаотично перемещается и атакует разных людей; внеочередные атаки по нему со штрафом −2.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "30299f11c3191511",
+      "_key": "!actors.items!80d954c9dc3dc627.30299f11c3191511",
+      "name": "Отвлекающий гогот (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Противники на средней дистанции получают −1 к общим навыкам.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Гусь-гидра",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

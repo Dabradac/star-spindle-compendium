@@ -1,0 +1,28 @@
+{
+  "_id": "42e9b396b0e889a3",
+  "_key": "!items!42e9b396b0e889a3",
+  "name": "Хакер",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+1 к кибершаманству при попытке взлома устройства с подключённым к нему компьютером.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 1,
+    "bonusTarget": "skill.cybershamanism",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

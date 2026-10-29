@@ -1,0 +1,41 @@
+{
+  "_id": "d86732dd3ed4fdc5",
+  "_key": "!items!d86732dd3ed4fdc5",
+  "name": "Спасатель-12",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 4400,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": -2,
+    "damage": 3,
+    "crit": 2,
+    "range": "close",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Надёжное, разброс",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Надёжное:</strong> Мастер может устроить осечку только за 4 жетона Чернобога, а не за 3.</p><p><strong>Разброс:</strong> Урон можно распределить между целями, находящимися в упор друг к другу.</p>"
+  },
+  "effects": [],
+  "folder": "9299b4f8e0b66cf5",
+  "sort": 5800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

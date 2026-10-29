@@ -1,0 +1,31 @@
+{
+  "_id": "e8f7b846fa0b689d",
+  "_key": "!items!e8f7b846fa0b689d",
+  "name": "Датчик движения",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 700,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Обнаруживает движение на средней дистанции в секторе 90°. Требуется топливный элемент.</p>"
+  },
+  "effects": [],
+  "folder": "7b385e7d2e773313",
+  "sort": 6200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

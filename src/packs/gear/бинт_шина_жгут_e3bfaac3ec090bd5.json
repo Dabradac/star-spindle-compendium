@@ -1,0 +1,31 @@
+{
+  "_id": "e3bfaac3ec090bd5",
+  "_key": "!items!e3bfaac3ec090bd5",
+  "name": "Бинт, шина, жгут",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": -2,
+    "bonusTarget": "skill.healing",
+    "conditional": true,
+    "description": "<p>Не восстанавливает здоровье, но может использоваться для стабилизации травм. Модификатор проверки −2.</p>"
+  },
+  "effects": [],
+  "folder": "164e01d14f2395f7",
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "9fbc66f3b054803e",
+  "_key": "!items!9fbc66f3b054803e",
+  "name": "Разрыв аорты",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Персонаж теряет сознание на к6 часов; кровотечение (5); −2 при проверках проворства</p><p>Смерть: Да, −1. Крайний срок помощи: к6 минут. Период излечения: 2к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "64",
+    "lethal": true,
+    "deadline": "к6 минут",
+    "effect": "Персонаж теряет сознание на к6 часов; кровотечение (5); −2 при проверках проворства",
+    "period": "2к6",
+    "strength": 0
+  },
+  "effects": [
+    {
+      "_id": "a9ca664e70fef4d9",
+      "_key": "!items.effects!9fbc66f3b054803e.a9ca664e70fef4d9",
+      "name": "Разрыв аорты",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 3300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

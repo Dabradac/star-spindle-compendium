@@ -1,0 +1,31 @@
+{
+  "_id": "6ac661b94bcc5378",
+  "_key": "!items!6ac661b94bcc5378",
+  "name": "АйБо-ЛИТ",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 10000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Робот-дройд с простым ИИ для первой помощи и лечения, со встроенным хирургическим набором. Интеллект 5, знахарство 3.</p>"
+  },
+  "effects": [],
+  "folder": "164e01d14f2395f7",
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

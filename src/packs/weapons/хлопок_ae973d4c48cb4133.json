@@ -1,0 +1,41 @@
+{
+  "_id": "ae973d4c48cb4133",
+  "_key": "!items!ae973d4c48cb4133",
+  "name": "«Хлопок»",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 9000,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 0,
+    "initiative": -2,
+    "damage": 3,
+    "crit": 3,
+    "range": "long",
+    "armorPiercing": 0,
+    "automatic": true,
+    "properties": "Бесшумное, автоматическое, оптический прицел",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Автоматическое:</strong> Из этого оружия можно вести автоматический огонь.</p><p><strong>Бесшумное:</strong> Чтобы услышать выстрел, нужна проверка наблюдательности с штрафом −2 на ближней и средней дистанции, −4 на дальней; на предельной не слышно вовсе.</p>"
+  },
+  "effects": [],
+  "folder": "23f5e1b1d0085c66",
+  "sort": 5300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

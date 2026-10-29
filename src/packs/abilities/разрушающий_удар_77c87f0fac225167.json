@@ -1,0 +1,29 @@
+{
+  "_id": "77c87f0fac225167",
+  "_key": "!items!77c87f0fac225167",
+  "name": "Разрушающий удар",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>При нанесении травмы сильным ударом вы можете дважды перебросить получившийся при проверке тяжести наносимой травмы результат. Примените любой из выпавших результатов на выбор.</p><p>Уровень 5. Выбирается вместо «Жажда крови».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "melee",
+    "tier": 5,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "0cbea72f591a84cf",
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

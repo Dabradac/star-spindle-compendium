@@ -1,0 +1,29 @@
+{
+  "_id": "c6f6c2509c97f5da",
+  "_key": "!items!c6f6c2509c97f5da",
+  "name": "Всё было не так",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы умело скрываете ваше последнее действие. Оно не оказывает влияния на вашу репутацию.</p><p>Уровень 2. Выбирается вместо «Я один из вас».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "influence",
+    "tier": 2,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "ea999bde4789d24a",
+  "sort": 12300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

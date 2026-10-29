@@ -1,0 +1,28 @@
+{
+  "_id": "e8ad3ef72b4ccce8",
+  "_key": "!items!e8ad3ef72b4ccce8",
+  "name": "Разрыв почки",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (5); по 1 пункту урона за каждую проверку силы, проворства и ближнего боя</p><p>Смерть: Да. Крайний срок помощи: к6 дней. Период излечения: 3к6 дн.</p>",
+    "code": "41",
+    "lethal": true,
+    "deadline": "к6 дней",
+    "effect": "Шок (5); по 1 пункту урона за каждую проверку силы, проворства и ближнего боя",
+    "period": "3к6",
+    "strength": 5
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

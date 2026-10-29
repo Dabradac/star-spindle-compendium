@@ -1,0 +1,31 @@
+{
+  "_id": "22983981c81acf75",
+  "_key": "!items!22983981c81acf75",
+  "name": "Мостик",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 500,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Безопасный переходник между устройством и брошкой.</p>"
+  },
+  "effects": [],
+  "folder": "59189f853748243e",
+  "sort": 8100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

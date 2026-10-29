@@ -1,0 +1,23 @@
+{
+  "_id": "a8eb3cc5c1bca2f3",
+  "_key": "!items!a8eb3cc5c1bca2f3",
+  "name": "Ускоренная перезарядка / улучшенная система охлаждения",
+  "type": "shipUpgrade",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Перезарядка орудия — 1 очко действия вместо 2.</p><p>Улучшение модуля «Корабельное орудие». Стоимость: 15% от базовой цены корабля.</p>",
+    "costPercent": 15
+  },
+  "effects": [],
+  "folder": "edfb7d0aab2ebf81",
+  "sort": 5300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "_id": "ec1328fc22e715bf",
+  "_key": "!actors!ec1328fc22e715bf",
+  "name": "Гриша Деревянкин",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 3
+      },
+      "agility": {
+        "value": 3
+      },
+      "intellect": {
+        "value": 4
+      },
+      "empathy": {
+        "value": 4
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 0,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 2,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 0,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 3,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 2,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 3,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 6,
+      "max": 6,
+      "bonus": 0
+    },
+    "will": {
+      "value": 8,
+      "max": 8,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Типичный колонист дальних рубежей, бежавший из деревни с мешком гречи и книгой о паломнических местах. Красота храмов Краснограда восхитила его, и паломничество стало делом всей жизни.</p>",
+    "injuries": "",
+    "supercredits": 3000,
+    "reputation": 0,
+    "xp": 0,
+    "origin": "",
+    "religion": "",
+    "blessing": 0,
+    "heroTokens": 0,
+    "encumbranceBonus": 0,
+    "resources": {
+      "t1": 0,
+      "t2": 0,
+      "t3": 0,
+      "t4": 0,
+      "t5": 0
+    },
+    "cabin": {
+      "description": "",
+      "storage": ""
+    },
+    "factions": {
+      "demos": 0,
+      "commune": 0,
+      "peddlers": 0,
+      "frontiers": 0,
+      "church": 0,
+      "outcasts": 0
+    },
+    "clans": {
+      "wolf": 0,
+      "eagle": 0,
+      "snake": 0,
+      "ram": 0,
+      "owl": 0,
+      "bear": 0
+    },
+    "appearance": "",
+    "notes": "<p>Роль: Паломник.</p>"
+  },
+  "items": [
+    {
+      "_id": "60e4062298885a12",
+      "_key": "!actors.items!ec1328fc22e715bf.60e4062298885a12",
+      "name": "Паломник",
+      "type": "specialization",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": "<p>Вы ищете ответы на вечные вопросы в просторах космоса. Ваши молитвы Единому или Пантеону звучат в тишине космоса, а цель — описать и увековечить многогранную культуру Славии. Ваше оружие — блокнот, камера и любовь к ближнему.</p><h3>Рекомендуемые навыки</h3><p>Культура, Влияние, Наблюдательность</p><h3>Модификатор репутации</h3><p>0</p><h3>Дополнительный опыт</h3><ul><li>Вы описали и сделали достоянием общественности важное для Славии событие — 2 опыта</li><li>Вы узнали что-то новое о своей культуре или культуре Древних — 2 опыта</li><li>Вы предложили план, который помог в решении сложной задачи группы с помощью навыка культуры — 2 опыта</li></ul><h3>Примеры положительных черт</h3><ul><li>Профессиональный попрошайка</li><li>Проводник к Богам</li><li>Родная душа</li></ul><h3>Примеры отрицательных черт</h3><ul><li>Сомнения в своей вере</li><li>Фанатизм</li><li>Недоверчивость</li></ul><h3>Стартовое снаряжение на выбор</h3><ul><li>Посох или Бронерубаха</li><li>Этнографический журнал или Фольклорный сборник «Мифы и легенды Веретена»</li><li>Диалектовый декодер или Дешифратор языка Древних</li><li>Талисман или Фотокамера</li></ul>",
+        "variations": "Проповедник, журналист, летописец",
+        "recommendedSkills": [
+          "culture",
+          "influence",
+          "observation"
+        ],
+        "reputationModifier": 0,
+        "xpActions": "Вы описали и сделали достоянием общественности важное для Славии событие — 2 опыта; Вы узнали что-то новое о своей культуре или культуре Древних — 2 опыта; Вы предложили план, который помог в решении сложной задачи группы с помощью навыка культуры — 2 опыта",
+        "traitExamples": "Положительные: Профессиональный попрошайка, Проводник к Богам, Родная душа. Отрицательные: Сомнения в своей вере, Фанатизм, Недоверчивость.",
+        "startingGear": "Посох или Бронерубаха; Этнографический журнал или Фольклорный сборник «Мифы и легенды Веретена»; Диалектовый декодер или Дешифратор языка Древних; Талисман или Фотокамера"
+      },
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.specializations.Item.a4a078725f4f8696"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "fa7841af7a28cc7b",
+      "_key": "!actors.items!ec1328fc22e715bf.fa7841af7a28cc7b",
+      "name": "Профессиональный попрошайка",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>+2 к проверкам влияния и культуры при попытках убедить пустить вас пожить, накормить и дать мелочи.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 2,
+        "bonusTarget": "skill.influence",
+        "conditional": true
+      },
+      "effects": [],
+      "sort": 2900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.f7c1186cb7563119"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "30e5198d211af4b5",
+      "_key": "!actors.items!ec1328fc22e715bf.30e5198d211af4b5",
+      "name": "Алкоголизм",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "",
+        "kind": "negative",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 5200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.16bd4c75283a6c51"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "9329a533173c805e",
+      "_key": "!actors.items!ec1328fc22e715bf.9329a533173c805e",
+      "name": "Дубинка",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 300,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 2,
+        "initiative": 4,
+        "damage": 1,
+        "crit": 3,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.weapons.Item.7ddb96c4dc6e8659"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "60de722ec9ea83de",
+      "_key": "!actors.items!ec1328fc22e715bf.60de722ec9ea83de",
+      "name": "Кадило",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 300,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Сосуд для благовоний; помогает сосредоточиться в ритуалах.</p>"
+      },
+      "effects": [],
+      "sort": 7200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.f3e30bbdcdefdb6d"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "d286faf115490c73",
+      "_key": "!actors.items!ec1328fc22e715bf.d286faf115490c73",
+      "name": "Талисман",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 200,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Фигурка Божества, талисман или молитвенные чётки. +1 при перебросе кубов в ходе молитвы раз в сутки.</p>"
+      },
+      "effects": [],
+      "sort": 7400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.0a6b13047e0d8e29"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "c24afdb9371ca63b",
+      "_key": "!actors.items!ec1328fc22e715bf.c24afdb9371ca63b",
+      "name": "Целебные травы",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 5,
+        "size": "small",
+        "quality": 0,
+        "price": 100,
+        "equipped": false,
+        "stored": false,
+        "modifier": -1,
+        "bonusTarget": "skill.healing",
+        "conditional": true,
+        "description": "<p>Модификатор проверки −1. Не вызывают передозировки при первом повторном применении.</p>"
+      },
+      "effects": [],
+      "sort": 1700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.16e5e0d7053aa813"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "e099320e08248cbf",
+      "_key": "!actors.items!ec1328fc22e715bf.e099320e08248cbf",
+      "name": "Докторский чемодан",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 1000,
+        "equipped": false,
+        "stored": false,
+        "modifier": 1,
+        "bonusTarget": "skill.healing",
+        "conditional": true,
+        "description": "<p>Набор для первой помощи и стабилизации травм. 10 «зарядов», пополнение — 100 сверкредитов. Складывающийся модификатор +1 при первой помощи и лечении травм.</p>"
+      },
+      "effects": [],
+      "sort": 1500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.7e41b479f78fd6e8"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "3f9f0c8df0830e79",
+      "_key": "!actors.items!ec1328fc22e715bf.3f9f0c8df0830e79",
+      "name": "КПК",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 500,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Повсеместно распространённое устройство для связи и выхода в сеть. Цена 500–6000.</p>"
+      },
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.a526594e5618ca39"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "c1d48a4b493e5402",
+      "name": "Традиционное одеяние с броневыми вставками",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "defense": 1,
+        "properties": "Лёгкая",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!ec1328fc22e715bf.c1d48a4b493e5402"
+    },
+    {
+      "_id": "7f0183ce6083bb00",
+      "name": "Книга «Топ 50 паломнических мест 223 П.Г.»",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!ec1328fc22e715bf.7f0183ce6083bb00"
+    },
+    {
+      "_id": "b60ae3e979de4c42",
+      "name": "Дешёвое вино",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!ec1328fc22e715bf.b60ae3e979de4c42"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Гриша Деревянкин",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

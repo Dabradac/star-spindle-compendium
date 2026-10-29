@@ -1,0 +1,55 @@
+{
+  "_id": "3691aa9928daef47",
+  "_key": "!items!3691aa9928daef47",
+  "name": "Это легко",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>2 дополнительные ячейки снаряжения.</p><p>Уровень 2. Выбирается вместо «Становая тяга».</p>",
+    "skill": "strength",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [
+    {
+      "_id": "1fac5b3df68e6356",
+      "_key": "!items.effects!3691aa9928daef47.1fac5b3df68e6356",
+      "name": "Это легко",
+      "img": "icons/svg/book.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.encumbranceBonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": "19f4c8d90a6bac8e",
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

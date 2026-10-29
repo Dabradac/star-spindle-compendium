@@ -1,0 +1,23 @@
+{
+  "_id": "19bf44971baf9eee",
+  "_key": "!items!19bf44971baf9eee",
+  "name": "Потайной грузовой отсек",
+  "type": "shipUpgrade",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>20% объёма грузового отсека; найти его — наблюдательность −3.</p><p>Улучшение модуля «Грузовой отсек». Стоимость: 5% от базовой цены корабля.</p>",
+    "costPercent": 5
+  },
+  "effects": [],
+  "folder": "edfb7d0aab2ebf81",
+  "sort": 4200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "cdb9f2340a0ebda1",
+  "_key": "!items!cdb9f2340a0ebda1",
+  "name": "Шокер",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 1800,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": 2,
+    "damage": 2,
+    "crit": 1,
+    "range": "pointBlank",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Лёгкое, однозарядное, нелетальное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Однозарядное:</strong> Оружие нужно перезаряжать после каждого выстрела.</p><p><strong>Нелетальное:</strong> Вместо травмы накладывает шок (3); каждый дополнительный успех, потраченный на крит, усиливает шок на 1.</p>"
+  },
+  "effects": [],
+  "folder": "7b68449d4a8b2aee",
+  "sort": 3400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

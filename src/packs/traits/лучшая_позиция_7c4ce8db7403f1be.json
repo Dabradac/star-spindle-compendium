@@ -1,0 +1,28 @@
+{
+  "_id": "7c4ce8db7403f1be",
+  "_key": "!items!7c4ce8db7403f1be",
+  "name": "Лучшая позиция",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>При проверке инициативы бросьте 2к20 и выберите лучший результат.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

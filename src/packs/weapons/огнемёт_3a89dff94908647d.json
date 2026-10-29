@@ -1,0 +1,41 @@
+{
+  "_id": "3a89dff94908647d",
+  "_key": "!items!3a89dff94908647d",
+  "name": "Огнемёт",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 6800,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": -2,
+    "damage": 3,
+    "crit": 1,
+    "range": "close",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Тяжёлое, воспламеняющее (3), разброс",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Разброс:</strong> Урон можно распределить между целями, находящимися в упор друг к другу.</p>"
+  },
+  "effects": [],
+  "folder": "0a1e4c4e5e48476f",
+  "sort": 6400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

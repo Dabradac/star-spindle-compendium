@@ -1,0 +1,283 @@
+{
+  "_id": "69af721da91edeed",
+  "_key": "!actors!69af721da91edeed",
+  "name": "Лихо",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 7
+      },
+      "agility": {
+        "value": 3
+      },
+      "intellect": {
+        "value": 5
+      },
+      "empathy": {
+        "value": 2
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 2,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 2,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 3,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 3,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 3,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 5,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 3,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 66,
+      "max": 66,
+      "bonus": 0
+    },
+    "will": {
+      "value": 0,
+      "max": 0,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Одноглазое шестиметровое чудище на козьих ногах — ходячая смерть. Его взгляд насылает видения и испепеляет. Встречается редко: в глухих лесах и заброшенных деревнях.</p><h3>Черты</h3><p><strong>Дурной сглаз</strong> (3 жетона): Продолжительным действием насылает массовое проклятие на всех противников в поле зрения (СВВ 6) и наносит урон воле (СВВ 6); проклятые получают случайное психическое расстройство.</p><p><strong>Хозяин страха</strong> (пасс.): Наносит урон воле, равный половине урона здоровью (с округлением вверх).</p>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 3,
+    "rarity": -3,
+    "actionPoints": 3,
+    "defenses": "Иммунитет к травмам; Иммунитет к устрашению; Устойчивость к ведовству; Уязвимость к огню",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "f3aa9cd0d0605ec0",
+      "_key": "!actors.items!69af721da91edeed.f3aa9cd0d0605ec0",
+      "name": "Когти и копыта",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 1,
+        "initiative": -1,
+        "damage": 4,
+        "crit": 2,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "d64b7a877c2f152d",
+      "_key": "!actors.items!69af721da91edeed.d64b7a877c2f152d",
+      "name": "Лихой глаз",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "shooting",
+        "modifier": 2,
+        "initiative": -1,
+        "damage": 6,
+        "crit": 3,
+        "range": "medium",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "58cc2523a4590024",
+      "_key": "!actors.items!69af721da91edeed.58cc2523a4590024",
+      "name": "Дурной сглаз (3 жетона)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Продолжительным действием насылает массовое проклятие на всех противников в поле зрения (СВВ 6) и наносит урон воле (СВВ 6); проклятые получают случайное психическое расстройство.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "fc901c26134347ee",
+      "_key": "!actors.items!69af721da91edeed.fc901c26134347ee",
+      "name": "Хозяин страха (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Наносит урон воле, равный половине урона здоровью (с округлением вверх).</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Лихо",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

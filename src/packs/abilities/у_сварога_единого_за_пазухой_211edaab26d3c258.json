@@ -1,0 +1,29 @@
+{
+  "_id": "211edaab26d3c258",
+  "_key": "!items!211edaab26d3c258",
+  "name": "У Сварога/Единого за пазухой",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Союзники, находящиеся в управляемом вами транспортном средстве, получают +2 к броне.</p><p>Уровень 4. Выбирается вместо «Ты слишком предсказуем».</p>",
+    "skill": "piloting",
+    "tier": 4,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "97724ff2148b3c77",
+  "sort": 5700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

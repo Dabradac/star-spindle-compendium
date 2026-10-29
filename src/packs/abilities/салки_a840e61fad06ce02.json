@@ -1,0 +1,29 @@
+{
+  "_id": "a840e61fad06ce02",
+  "_key": "!items!a840e61fad06ce02",
+  "name": "Салки",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+2 ко всем проверкам проворства при погонях.</p><p>Уровень 1. Выбирается вместо «Широкий шаг».</p>",
+    "skill": "dexterity",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 2,
+    "bonusTarget": "skill.dexterity",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "7f8a0879cc3c897f",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

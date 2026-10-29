@@ -1,0 +1,31 @@
+{
+  "_id": "8cf36ed2342500b5",
+  "_key": "!items!8cf36ed2342500b5",
+  "name": "Запчасти",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 100,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Расходный материал для ремонта.</p>"
+  },
+  "effects": [],
+  "folder": "9e4895fdee3069f1",
+  "sort": 8400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

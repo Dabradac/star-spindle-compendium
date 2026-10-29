@@ -1,0 +1,29 @@
+{
+  "_id": "5de940ef8e27eb6a",
+  "_key": "!items!5de940ef8e27eb6a",
+  "name": "Скользящие передвижения",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Короткая перебежка один раз за ход для смены укрытия на ближней дистанции не тратит очков действия.</p><p>Уровень 2. Выбирается вместо «Крепкое плечо».</p>",
+    "skill": "shooting",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "031fd14c68a27b94",
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

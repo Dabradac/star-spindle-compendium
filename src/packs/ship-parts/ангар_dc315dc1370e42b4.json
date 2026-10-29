@@ -1,0 +1,25 @@
+{
+  "_id": "dc315dc1370e42b4",
+  "_key": "!items!dc315dc1370e42b4",
+  "name": "Ангар",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Для кораблей минимум на два класса легче; каждый лишний класс разницы ×4 к вместимости.</p>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 4800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

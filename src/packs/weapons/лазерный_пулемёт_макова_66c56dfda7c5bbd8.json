@@ -1,0 +1,41 @@
+{
+  "_id": "66c56dfda7c5bbd8",
+  "_key": "!items!66c56dfda7c5bbd8",
+  "name": "Лазерный пулемёт Макова",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "bulky",
+    "quality": 0,
+    "price": 9399,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": -4,
+    "damage": 3,
+    "crit": 2,
+    "range": "long",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Громоздкое, вместительный магазин, длительная перезарядка",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Громоздкое:</strong> Модификатор −2 к стрельбе не из упора; оружие не получает бонус при стрельбе из упора.</p><p><strong>Длительная перезарядка:</strong> Перезарядка — продолжительное действие вместо стандартного.</p><p><strong>Вместительный магазин:</strong> При автоматическом огне первая неудача на дополнительном кубе игнорируется. Единица всё ещё даёт −2 успеха.</p>"
+  },
+  "effects": [],
+  "folder": "0a1e4c4e5e48476f",
+  "sort": 6300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "e5b369124f2fa33a",
+  "_key": "!items!e5b369124f2fa33a",
+  "name": "Стыковочный отсек",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Люк, тоннель и шлюз для стыковки. На I классе встроен, со II класса — отдельный модуль.</p><h3>Улучшения</h3><ul><li>Укреплённый люк (10%): Попытки взломать или вскрыть люк получают −3.</li></ul>",
+    "category": "base",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "c1ba78693baaba59",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

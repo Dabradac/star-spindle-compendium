@@ -1,0 +1,25 @@
+{
+  "_id": "e792a45dd4f59833",
+  "_key": "!items!e792a45dd4f59833",
+  "name": "Торпедный отсек",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>До 4 торпед. Считается орудием. Критическое повреждение — детонация боезапаса.</p><h3>Улучшения</h3><ul><li>Укреплённый отсек хранения боеприпасов (10%): При критическом повреждении бросьте 1к20: при успехе детонации нет.</li></ul>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 4900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

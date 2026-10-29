@@ -1,0 +1,270 @@
+{
+  "_id": "67c003a2f74efb77",
+  "_key": "!actors!67c003a2f74efb77",
+  "name": "Алая шапка",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 1
+      },
+      "agility": {
+        "value": 0
+      },
+      "intellect": {
+        "value": 8
+      },
+      "empathy": {
+        "value": 3
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 2,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 0,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 2,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 5,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 2,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 3,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 5,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 5,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 1,
+      "max": 1,
+      "bonus": 0
+    },
+    "will": {
+      "value": 10,
+      "max": 10,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Говорящие грибы с ярко-узорной шапкой, наделённые умом, мудростью и надменным нравом. Общаются мысленно, любят загадки и светские беседы с вежливыми гостями леса. Физически беззащитны; вредить им — дурная примета.</p><h3>Черты</h3><p><strong>Мал, да удал</strong> (1 жетон): Алые шапки — сильные ведуны: в совершенстве владеют всеми навыками ведовства и могут применять их на практике.</p><p><strong>Пинок</strong>: Быстрым действием вы можете раздавить алую шапку и гарантированно нанести ей 1 урон.</p><p><strong>Телепат</strong> (пасс.): Умеет ментально общаться с другими существами.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Лазурный кокошник</td><td>Побережье, озеро</td><td>Изящный вид, синий оттенок, добрый и мягкий нрав</td></tr><tr><td>Изумрудный колпак</td><td>Лес, тропики</td><td>Угловатый вид, зелёный оттенок, мудрый и суровый нрав</td></tr><tr><td>Бурая кепка</td><td>Лес, пещеры</td><td>Широкий вид, бурый оттенок, ленивый и ободряющий нрав</td></tr></table>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 2,
+    "rarity": -1,
+    "actionPoints": 3,
+    "defenses": "Иммунитет к ведовству; Уязвимость к дробящему, режущему, колющему",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "1eee409fa80dddc7",
+      "_key": "!actors.items!67c003a2f74efb77.1eee409fa80dddc7",
+      "name": "Крайне суровый взгляд",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 0,
+        "initiative": 0,
+        "damage": 0,
+        "crit": 0,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "8ee84d54fb400989",
+      "_key": "!actors.items!67c003a2f74efb77.8ee84d54fb400989",
+      "name": "Мал, да удал (1 жетон)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Алые шапки — сильные ведуны: в совершенстве владеют всеми навыками ведовства и могут применять их на практике.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "15f9eed4aa86d893",
+      "_key": "!actors.items!67c003a2f74efb77.15f9eed4aa86d893",
+      "name": "Пинок",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Быстрым действием вы можете раздавить алую шапку и гарантированно нанести ей 1 урон.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "54b9b193504a8e26",
+      "_key": "!actors.items!67c003a2f74efb77.54b9b193504a8e26",
+      "name": "Телепат (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Умеет ментально общаться с другими существами.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Алая шапка",
+    "actorLink": false,
+    "disposition": 0,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

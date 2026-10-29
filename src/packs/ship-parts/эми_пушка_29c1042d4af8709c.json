@@ -1,0 +1,35 @@
+{
+  "_id": "29c1042d4af8709c",
+  "_key": "!items!29c1042d4af8709c",
+  "name": "ЭМИ-пушка",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Системный урон, игнорирует броню цели</p>",
+    "modifier": 0,
+    "damage": 2,
+    "crit": 0,
+    "range": "long",
+    "damageType": "system",
+    "ignoresArmor": true,
+    "location": "bow",
+    "properties": "Системный урон, игнорирует броню цели",
+    "price": 50000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "f18e3de6cf114ecc",
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

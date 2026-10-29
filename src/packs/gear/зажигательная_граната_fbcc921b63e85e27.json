@@ -1,0 +1,31 @@
+{
+  "_id": "fbcc921b63e85e27",
+  "_key": "!items!fbcc921b63e85e27",
+  "name": "Зажигательная граната",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 1500,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Мощность: 4. Урон: 1. Крит.: 2. Дистанция: Ближняя. Воспламеняющая (2).</p><p>Все в эффективном радиусе получают урон, равный половине мощности (с округлением вверх), затем против каждого бросается ситуативный урон с числом кубов, равным мощности. Граната бросается проверкой силы не дальше средней дистанции; установка взрывчатки — проверка механики.</p>"
+  },
+  "effects": [],
+  "folder": "16ffba3ea41f065c",
+  "sort": 9600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

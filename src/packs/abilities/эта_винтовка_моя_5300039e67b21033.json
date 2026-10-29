@@ -1,0 +1,29 @@
+{
+  "_id": "5300039e67b21033",
+  "_key": "!items!5300039e67b21033",
+  "name": "Эта винтовка моя",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы проводите техническое обслуживание оружия, давая ему временный статус «надёжное» до следующей перезарядки.</p><p>Уровень 3. Выбирается вместо «Подгонка брони».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "mechanics",
+    "tier": 3,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "a9886f52b1d9a2d4",
+  "sort": 9500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

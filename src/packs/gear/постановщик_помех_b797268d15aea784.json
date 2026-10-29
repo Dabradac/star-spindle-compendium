@@ -1,0 +1,31 @@
+{
+  "_id": "b797268d15aea784",
+  "_key": "!items!b797268d15aea784",
+  "name": "Постановщик помех",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 2800,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Создаёт помехи, не позволяя управлять дронами и вести переговоры.</p>"
+  },
+  "effects": [],
+  "folder": "0ed5cb1164ca794c",
+  "sort": 5500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

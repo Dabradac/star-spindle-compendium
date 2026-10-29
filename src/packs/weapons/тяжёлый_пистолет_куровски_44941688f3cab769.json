@@ -1,0 +1,41 @@
+{
+  "_id": "44941688f3cab769",
+  "_key": "!items!44941688f3cab769",
+  "name": "Тяжёлый пистолет Куровски",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 1800,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 0,
+    "initiative": 0,
+    "damage": 3,
+    "crit": 2,
+    "range": "medium",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Надёжное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Надёжное:</strong> Мастер может устроить осечку только за 4 жетона Чернобога, а не за 3.</p>"
+  },
+  "effects": [],
+  "folder": "7b68449d4a8b2aee",
+  "sort": 2500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

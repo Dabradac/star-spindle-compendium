@@ -1,0 +1,31 @@
+{
+  "_id": "3af534182d955dd7",
+  "_key": "!items!3af534182d955dd7",
+  "name": "Эликсир Проницательности",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 1700,
+    "equipped": false,
+    "stored": false,
+    "modifier": 3,
+    "bonusTarget": "skill.influence",
+    "conditional": false,
+    "description": "<p>+3 к проверкам влияния. Собеседник может отказаться говорить, если узнает об эликсире.</p>"
+  },
+  "effects": [],
+  "folder": "862633014ef6b333",
+  "sort": 2500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "a4b947db6f768cd4",
+  "_key": "!items!a4b947db6f768cd4",
+  "name": "Реактивная система залпового огня (РСЗО)",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Только автоматический огонь</p>",
+    "modifier": 0,
+    "damage": 2,
+    "crit": 2,
+    "range": "medium",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "bow",
+    "properties": "Только автоматический огонь",
+    "price": 40000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "f18e3de6cf114ecc",
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

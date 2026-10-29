@@ -1,0 +1,41 @@
+{
+  "_id": "174f672f0dc71f94",
+  "_key": "!items!174f672f0dc71f94",
+  "name": "Без оружия",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": 0,
+    "initiative": 4,
+    "damage": 1,
+    "crit": 3,
+    "range": "pointBlank",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": ""
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

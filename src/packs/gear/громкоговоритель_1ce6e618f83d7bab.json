@@ -1,0 +1,31 @@
+{
+  "_id": "1ce6e618f83d7bab",
+  "_key": "!items!1ce6e618f83d7bab",
+  "name": "Громкоговоритель",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 500,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Усиливает голос. Нивелирует штрафы при отдаче приказов, запугивании и т. п. на больших расстояниях.</p>"
+  },
+  "effects": [],
+  "folder": "c885c9a692501330",
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

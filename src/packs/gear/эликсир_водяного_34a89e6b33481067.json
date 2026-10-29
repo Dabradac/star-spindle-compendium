@@ -1,0 +1,31 @@
+{
+  "_id": "34a89e6b33481067",
+  "_key": "!items!34a89e6b33481067",
+  "name": "Эликсир Водяного",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 3000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Можно дышать под водой.</p>"
+  },
+  "effects": [],
+  "folder": "862633014ef6b333",
+  "sort": 3300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

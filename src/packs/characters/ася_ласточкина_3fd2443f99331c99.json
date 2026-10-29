@@ -1,0 +1,557 @@
+{
+  "_id": "3fd2443f99331c99",
+  "_key": "!actors!3fd2443f99331c99",
+  "name": "Ася Ласточкина",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 3
+      },
+      "agility": {
+        "value": 5
+      },
+      "intellect": {
+        "value": 3
+      },
+      "empathy": {
+        "value": 3
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 0,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 2,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 1,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 1,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 3,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 1,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 1,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 1,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 8,
+      "max": 8,
+      "bonus": 0
+    },
+    "will": {
+      "value": 6,
+      "max": 6,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Идейная сторонница новов и очень рисковый пилот, постоянно норовящая впечатлить соратников. Её резкие манёвры часто близки к катастрофе, но капитан ценит её авантюризм и лёгкость на подъём.</p>",
+    "injuries": "",
+    "supercredits": 3000,
+    "reputation": 0,
+    "xp": 0,
+    "origin": "",
+    "religion": "",
+    "blessing": 0,
+    "heroTokens": 0,
+    "encumbranceBonus": 0,
+    "resources": {
+      "t1": 0,
+      "t2": 0,
+      "t3": 0,
+      "t4": 0,
+      "t5": 0
+    },
+    "cabin": {
+      "description": "",
+      "storage": ""
+    },
+    "factions": {
+      "demos": 0,
+      "commune": 0,
+      "peddlers": 0,
+      "frontiers": 0,
+      "church": 0,
+      "outcasts": 0
+    },
+    "clans": {
+      "wolf": 0,
+      "eagle": 0,
+      "snake": 0,
+      "ram": 0,
+      "owl": 0,
+      "bear": 0
+    },
+    "appearance": "",
+    "notes": "<p>Роль: Пилот.</p>"
+  },
+  "items": [
+    {
+      "_id": "2e84c5f9e97b6514",
+      "_key": "!actors.items!3fd2443f99331c99.2e84c5f9e97b6514",
+      "name": "Пилот",
+      "type": "specialization",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": "<p>Вы — мастер манёвров, чья уверенность на виражах заставляет колотиться сердца даже опытных путешественников. Каждая кнопка на пульте — часть вашего тела, а корабль — часть вашего сознания.</p><h3>Рекомендуемые навыки</h3><p>Пилотирование, Механика, Кибершаманство</p><h3>Модификатор репутации</h3><p>0</p><h3>Дополнительный опыт</h3><ul><li>Вы совершили невероятный манёвр, давший преимущество или позволивший избежать серьёзного ущерба — 2 опыта</li><li>Вы одержали победу над противником, будучи за рулём транспортного средства или дрона — 2 опыта</li><li>Вы предложили план, который помог в решении сложной задачи группы с помощью навыка пилотирования — 2 опыта</li></ul><h3>Примеры положительных черт</h3><ul><li>Лучшая позиция</li><li>Чудеса на виражах</li><li>Дроновод</li></ul><h3>Примеры отрицательных черт</h3><ul><li>Неоправданная смелость</li><li>Переживаете за корабль больше, чем за экипаж</li><li>Зависимость от веретенотранса</li></ul><h3>Стартовое снаряжение на выбор</h3><ul><li>Экзоскафандр +1 или Лётная куртка</li><li>Реактивный ранец или Ремонтный набор</li><li>ПОЧИН-К или Разведзонд</li><li>Крюк-кошка + верёвка или Парашют</li></ul>",
+        "variations": "Военный пилот, дальнобойщик, оператор дронов",
+        "recommendedSkills": [
+          "piloting",
+          "mechanics",
+          "cybershamanism"
+        ],
+        "reputationModifier": 0,
+        "xpActions": "Вы совершили невероятный манёвр, давший преимущество или позволивший избежать серьёзного ущерба — 2 опыта; Вы одержали победу над противником, будучи за рулём транспортного средства или дрона — 2 опыта; Вы предложили план, который помог в решении сложной задачи группы с помощью навыка пилотирования — 2 опыта",
+        "traitExamples": "Положительные: Лучшая позиция, Чудеса на виражах, Дроновод. Отрицательные: Неоправданная смелость, Переживаете за корабль больше, чем за экипаж, Зависимость от веретенотранса.",
+        "startingGear": "Экзоскафандр +1 или Лётная куртка; Реактивный ранец или Ремонтный набор; ПОЧИН-К или Разведзонд; Крюк-кошка + верёвка или Парашют"
+      },
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.specializations.Item.3bae1a0f70e589fb"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "0ca42de627914fd7",
+      "_key": "!actors.items!3fd2443f99331c99.0ca42de627914fd7",
+      "name": "Чудеса на виражах",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>При управлении любым транспортным средством модификатор сложности проверки пилотирования не может быть меньше нуля.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 2400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.e0648b7c428b1584"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "e3d8530d1b026fa6",
+      "_key": "!actors.items!3fd2443f99331c99.e3d8530d1b026fa6",
+      "name": "Неоправданная смелость",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "",
+        "kind": "negative",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 7300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.832c5ca33ae59a37"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "cc12b93bb39cf500",
+      "_key": "!actors.items!3fd2443f99331c99.cc12b93bb39cf500",
+      "name": "Карманный пистолет Макова",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 1199,
+        "equipped": true,
+        "stored": false,
+        "skill": "shooting",
+        "modifier": 1,
+        "initiative": 4,
+        "damage": 1,
+        "crit": 3,
+        "range": "medium",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Лёгкое, маленькое",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 2700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.weapons.Item.81bf3dae4a9bb77b"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "6d9cdd93293044c4",
+      "_key": "!actors.items!3fd2443f99331c99.6d9cdd93293044c4",
+      "name": "Лётный комбинезон",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 1200,
+        "equipped": true,
+        "stored": false,
+        "defense": 1,
+        "properties": "Лёгкая, огнестойкая (3)",
+        "description": "<p><strong>Лёгкая:</strong> Малый вес; +1 к проверкам проворства и скрытности носителя.</p><p><strong>Огнестойкая:</strong> Дополнительная броня указанной величины против огня.</p>"
+      },
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.armor.Item.544620d558a07ba9"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "676232136c68a5df",
+      "_key": "!actors.items!3fd2443f99331c99.676232136c68a5df",
+      "name": "Герметик",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 300,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Заделывает трещины, небольшие пробоины, дыру в шлеме скафандра.</p>"
+      },
+      "effects": [],
+      "sort": 8200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.ca14632f78874692"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "58d9ac0a43b7e76b",
+      "_key": "!actors.items!3fd2443f99331c99.58d9ac0a43b7e76b",
+      "name": "Фонарик",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 200,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Портативный источник света. Требуется топливный элемент.</p>"
+      },
+      "effects": [],
+      "sort": 5100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.ade3b548baa840f5"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "e0d885704f8acd35",
+      "_key": "!actors.items!3fd2443f99331c99.e0d885704f8acd35",
+      "name": "Крюк-кошка",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 400,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Крюк с тросом для восхождения и спасательных операций.</p>"
+      },
+      "effects": [],
+      "sort": 4100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.9e73c7613c537bbe"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "3906580967cbb65c",
+      "_key": "!actors.items!3fd2443f99331c99.3906580967cbb65c",
+      "name": "Верёвка",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 200,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>20-метровая прочная верёвка.</p>"
+      },
+      "effects": [],
+      "sort": 3600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.b1aa253bc7ba5176"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "a5f89d82b065ab0e",
+      "_key": "!actors.items!3fd2443f99331c99.a5f89d82b065ab0e",
+      "name": "Талисман",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 200,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Фигурка Божества, талисман или молитвенные чётки. +1 при перебросе кубов в ходе молитвы раз в сутки.</p>"
+      },
+      "effects": [],
+      "sort": 7400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.0a6b13047e0d8e29"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "42698e025ea7ab71",
+      "_key": "!actors.items!3fd2443f99331c99.42698e025ea7ab71",
+      "name": "КПК",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 500,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Повсеместно распространённое устройство для связи и выхода в сеть. Цена 500–6000.</p>"
+      },
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.a526594e5618ca39"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Ася Ласточкина",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

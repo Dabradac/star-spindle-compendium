@@ -1,0 +1,31 @@
+{
+  "_id": "54bf4340bb2ea4ea",
+  "_key": "!items!54bf4340bb2ea4ea",
+  "name": "Серебряное оружие",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>+1 урона сущностям Веретена; позволяет наносить урон бестелесным сущностям.</p><p>Стоимость: 300% от цены оружия.</p>"
+  },
+  "effects": [],
+  "folder": "2ab61ae8a4063f27",
+  "sort": 8100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "fedc05cbdf7b898d",
+  "_key": "!items!fedc05cbdf7b898d",
+  "name": "Фотокинез",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы гасите или зажигаете выбранные источники света в радиусе средней дистанции.</p><p>Ветка «Кинетик», уровень ведовства 2. Нужна положительная черта «Кинетик».</p><p>Практика ведовства: проверка ведовства, продолжительное действие, −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "witchcraft",
+    "tier": 2,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "4917c6ef82b79db6",
+  "sort": 15600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

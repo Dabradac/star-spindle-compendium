@@ -1,0 +1,60 @@
+{
+  "_id": "fd9467139a8462e3",
+  "_key": "!items!fd9467139a8462e3",
+  "name": "Перелом стопы",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (3); −2 при проверках проворства и скрытности</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: 2к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "23",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Шок (3); −2 при проверках проворства и скрытности",
+    "period": "2к6",
+    "strength": 3
+  },
+  "effects": [
+    {
+      "_id": "2ea67a5bb024355c",
+      "_key": "!items.effects!fd9467139a8462e3.2ea67a5bb024355c",
+      "name": "Перелом стопы",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.skills.stealth.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

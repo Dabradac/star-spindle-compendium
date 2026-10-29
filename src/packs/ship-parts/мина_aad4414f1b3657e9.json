@@ -1,0 +1,35 @@
+{
+  "_id": "aad4414f1b3657e9",
+  "_key": "!items!aad4414f1b3657e9",
+  "name": "Мина",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Цена за одну мину</p>",
+    "modifier": 0,
+    "damage": 3,
+    "crit": 2,
+    "range": "zero",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "stern",
+    "properties": "Цена за одну мину",
+    "price": 3000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "2bbc5961d37211df",
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

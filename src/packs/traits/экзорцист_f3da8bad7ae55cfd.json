@@ -1,0 +1,28 @@
+{
+  "_id": "f3da8bad7ae55cfd",
+  "_key": "!items!f3da8bad7ae55cfd",
+  "name": "Экзорцист",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Ветка ведовства: порча, защитный круг, чудесное прикосновение, изгнание, освобождение силы.</p><p>Можно выбрать не более двух веток. Практики открываются по уровню навыка ведовства.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "654885eb2e6a1ec1",
+  "sort": 3500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

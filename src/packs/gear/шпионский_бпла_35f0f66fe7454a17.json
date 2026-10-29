@@ -1,0 +1,31 @@
+{
+  "_id": "35f0f66fe7454a17",
+  "_key": "!items!35f0f66fe7454a17",
+  "name": "Шпионский БПЛА",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 6000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Хрупкий, почти бесшумный летающий дрон с камерой и записью звука.</p>"
+  },
+  "effects": [],
+  "folder": "0ed5cb1164ca794c",
+  "sort": 5900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

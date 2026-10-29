@@ -1,0 +1,29 @@
+{
+  "_id": "9182840de65471a2",
+  "_key": "!items!9182840de65471a2",
+  "name": "Мастер досмотра",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Проверки наблюдательности при осмотре или досмотре других персонажей в попытках найти признаки установленных киберимплантов, скрытого оружия, деталей внешности и т. п. игнорируют отрицательные модификаторы.</p><p>Уровень 3. Выбирается вместо «Обмани меня».</p>",
+    "skill": "observation",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "22dbad390df9b677",
+  "sort": 6400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_id": "610764615b5ab332",
+  "_key": "!items!610764615b5ab332",
+  "name": "Здоровяк",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+2 к максимальному здоровью.</p><p>Уровень 4. Выбирается вместо «Не упал».</p>",
+    "skill": "strength",
+    "tier": 4,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [
+    {
+      "_id": "0621e52217a03be6",
+      "_key": "!items.effects!610764615b5ab332.0621e52217a03be6",
+      "name": "Здоровяк",
+      "img": "icons/svg/book.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.health.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": "19f4c8d90a6bac8e",
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

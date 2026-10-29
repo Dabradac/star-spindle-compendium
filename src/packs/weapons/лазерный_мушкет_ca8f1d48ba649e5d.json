@@ -1,0 +1,41 @@
+{
+  "_id": "ca8f1d48ba649e5d",
+  "_key": "!items!ca8f1d48ba649e5d",
+  "name": "Лазерный мушкет",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 2800,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 2,
+    "initiative": 0,
+    "damage": 2,
+    "crit": 3,
+    "range": "long",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Однозарядное, длительная перезарядка",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Длительная перезарядка:</strong> Перезарядка — продолжительное действие вместо стандартного.</p><p><strong>Однозарядное:</strong> Оружие нужно перезаряжать после каждого выстрела.</p>"
+  },
+  "effects": [],
+  "folder": "23f5e1b1d0085c66",
+  "sort": 5100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

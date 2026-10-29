@@ -1,0 +1,30 @@
+{
+  "_id": "adda153c1aa3ff5e",
+  "_key": "!items!adda153c1aa3ff5e",
+  "name": "Станционный костюм",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 1200,
+    "equipped": false,
+    "stored": false,
+    "defense": 1,
+    "properties": "Лёгкая, магнитные ботинки",
+    "description": "<p><strong>Лёгкая:</strong> Малый вес; +1 к проверкам проворства и скрытности носителя.</p><p><strong>Магнитные ботинки:</strong> Позволяют ходить по металлическим поверхностям в невесомости.</p>"
+  },
+  "effects": [],
+  "folder": "16397a97ecd9b64c",
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

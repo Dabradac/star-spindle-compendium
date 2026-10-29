@@ -1,0 +1,35 @@
+{
+  "_id": "0403d49e2fe82127",
+  "_key": "!items!0403d49e2fe82127",
+  "name": "ЭМИ-разрядник",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Системный урон всем целям на средней дистанции, игнорирует броню цели, турельного типа. Однозарядное, перезарядка на техобслуживании</p>",
+    "modifier": 2,
+    "damage": 3,
+    "crit": 0,
+    "range": "close",
+    "damageType": "system",
+    "ignoresArmor": true,
+    "location": "turret",
+    "properties": "Системный урон всем целям на средней дистанции, игнорирует броню цели, турельного типа. Однозарядное, перезарядка на техобслуживании",
+    "price": 12500,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "f18e3de6cf114ecc",
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "5f2fc97e6bfbceb7",
+  "_key": "!items!5f2fc97e6bfbceb7",
+  "name": "Единение с природой",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+4 к броне против ситуативного урона от окружающей среды.</p><p>Уровень 2. Выбирается вместо «Тёртый калач».</p>",
+    "skill": "survival",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "bca58880efe9ba18",
+  "sort": 7300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

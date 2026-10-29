@@ -1,0 +1,31 @@
+{
+  "_id": "0d5da8da56dda6fa",
+  "_key": "!items!0d5da8da56dda6fa",
+  "name": "Карманные часы",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 100,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Два циферблата: общее время Славии и местное. Цена 100–2000.</p>"
+  },
+  "effects": [],
+  "folder": "c885c9a692501330",
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

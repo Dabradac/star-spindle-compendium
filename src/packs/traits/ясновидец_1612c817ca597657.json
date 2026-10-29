@@ -1,0 +1,28 @@
+{
+  "_id": "1612c817ca597657",
+  "_key": "!items!1612c817ca597657",
+  "name": "Ясновидец",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Ветка ведовства: сверхъестественное чутьё, общение с духами, познание, выход из тела, ясновидение.</p><p>Можно выбрать не более двух веток. Практики открываются по уровню навыка ведовства.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "654885eb2e6a1ec1",
+  "sort": 3600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

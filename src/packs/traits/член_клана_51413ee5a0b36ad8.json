@@ -1,0 +1,28 @@
+{
+  "_id": "51413ee5a0b36ad8",
+  "_key": "!items!51413ee5a0b36ad8",
+  "name": "Член клана",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+2 к проверкам влияния, где влияние соответствующего клана имеет значение.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 2,
+    "bonusTarget": "skill.influence",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

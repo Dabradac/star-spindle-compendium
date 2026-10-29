@@ -1,0 +1,31 @@
+{
+  "_id": "ca78362ac31cab66",
+  "_key": "!items!ca78362ac31cab66",
+  "name": "Газоанализатор",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 600,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Анализирует состав атмосферы.</p>"
+  },
+  "effects": [],
+  "folder": "7b385e7d2e773313",
+  "sort": 6300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

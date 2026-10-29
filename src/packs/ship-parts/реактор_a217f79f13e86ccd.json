@@ -1,0 +1,25 @@
+{
+  "_id": "a217f79f13e86ccd",
+  "_key": "!items!a217f79f13e86ccd",
+  "name": "Реактор",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Основной источник энергии; место дежурства бортинженера, распределяющего энергию.</p><h3>Улучшения</h3><ul><li>Улучшенная система охлаждения (20%): +1 к энергии корабля.</li></ul>",
+    "category": "base",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "c1ba78693baaba59",
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

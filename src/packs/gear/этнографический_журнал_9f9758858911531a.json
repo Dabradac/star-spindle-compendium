@@ -1,0 +1,31 @@
+{
+  "_id": "9f9758858911531a",
+  "_key": "!items!9f9758858911531a",
+  "name": "Этнографический журнал",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 500,
+    "equipped": false,
+    "stored": false,
+    "modifier": 1,
+    "bonusTarget": "skill.culture",
+    "conditional": true,
+    "description": "<p>По мере наполнения даёт от +1 до +3 к проверкам культуры.</p>"
+  },
+  "effects": [],
+  "folder": "88285127c974931a",
+  "sort": 7700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

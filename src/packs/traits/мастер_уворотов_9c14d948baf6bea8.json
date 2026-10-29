@@ -1,0 +1,28 @@
+{
+  "_id": "9c14d948baf6bea8",
+  "_key": "!items!9c14d948baf6bea8",
+  "name": "Мастер уворотов",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+1 к проворству при попытках уклониться от урона.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 1,
+    "bonusTarget": "skill.dexterity",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

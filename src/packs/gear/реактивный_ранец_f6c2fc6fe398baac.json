@@ -1,0 +1,31 @@
+{
+  "_id": "f6c2fc6fe398baac",
+  "_key": "!items!f6c2fc6fe398baac",
+  "name": "Реактивный ранец",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 3700,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>+1 к проворству в невесомости; может ненадолго поднять персонажа до 80 кг. Топлива на час.</p>"
+  },
+  "effects": [],
+  "folder": "9e4895fdee3069f1",
+  "sort": 8700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

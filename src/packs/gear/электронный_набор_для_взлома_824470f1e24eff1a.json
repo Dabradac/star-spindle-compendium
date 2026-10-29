@@ -1,0 +1,31 @@
+{
+  "_id": "824470f1e24eff1a",
+  "_key": "!items!824470f1e24eff1a",
+  "name": "Электронный набор для взлома",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Взлом электронных замков, защит и систем безопасности.</p>"
+  },
+  "effects": [],
+  "folder": "0ed5cb1164ca794c",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

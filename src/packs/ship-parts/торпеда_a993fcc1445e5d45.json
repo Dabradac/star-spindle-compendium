@@ -1,0 +1,35 @@
+{
+  "_id": "a993fcc1445e5d45",
+  "_key": "!items!a993fcc1445e5d45",
+  "name": "Торпеда",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>3 сегмента/ход. Цена за одну торпеду</p>",
+    "modifier": 2,
+    "damage": 2,
+    "crit": 2,
+    "range": "long",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "bow",
+    "properties": "3 сегмента/ход. Цена за одну торпеду",
+    "price": 5000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "2bbc5961d37211df",
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

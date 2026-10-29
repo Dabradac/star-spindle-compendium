@@ -1,0 +1,60 @@
+{
+  "_id": "24882c686296195b",
+  "_key": "!items!24882c686296195b",
+  "name": "Перелом ноги",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (3); персонаж сбит с ног, скорость снижена вдвое, −2 при проверках проворства и скрытности</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: 3к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "33",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Шок (3); персонаж сбит с ног, скорость снижена вдвое, −2 при проверках проворства и скрытности",
+    "period": "3к6",
+    "strength": 3
+  },
+  "effects": [
+    {
+      "_id": "a491d0713859f08b",
+      "_key": "!items.effects!24882c686296195b.a491d0713859f08b",
+      "name": "Перелом ноги",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.skills.stealth.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

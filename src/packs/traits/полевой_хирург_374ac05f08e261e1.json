@@ -1,0 +1,28 @@
+{
+  "_id": "374ac05f08e261e1",
+  "_key": "!items!374ac05f08e261e1",
+  "name": "Полевой хирург",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Использование подручных средств для стабилизации и лечения имеет модификатор −1 вместо −2.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 2600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

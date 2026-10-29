@@ -1,0 +1,31 @@
+{
+  "_id": "2f2ed2c5e1cfdef7",
+  "_key": "!items!2f2ed2c5e1cfdef7",
+  "name": "ПОЧИН-К",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 5000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Робот-дройд для ремонта. Интеллект 5, механика и кибершаманство 3.</p>"
+  },
+  "effects": [],
+  "folder": "9e4895fdee3069f1",
+  "sort": 8600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

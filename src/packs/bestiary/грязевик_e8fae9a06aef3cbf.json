@@ -1,0 +1,285 @@
+{
+  "_id": "e8fae9a06aef3cbf",
+  "_key": "!actors!e8fae9a06aef3cbf",
+  "name": "Грязевик",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 2
+      },
+      "agility": {
+        "value": 1
+      },
+      "intellect": {
+        "value": 0
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 2,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 1,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 1,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 0,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 1,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 3,
+      "max": 3,
+      "bonus": 0
+    },
+    "will": {
+      "value": 0,
+      "max": 0,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Метровый слизень из мусора и желеобразной массы с зубастой пастью. Пожирает всё подряд, разносит болезни и вредит фермам.</p><h3>Черты</h3><p><strong>Букет болезней</strong> (пасс.): При успешной атаке может заразить персонажа болезнью (СВЗ 5).</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Тропический ползун</td><td>Тропики</td><td>Маленький размер, здоровье 2, скрытность 4, атака отравляет (1)</td></tr><tr><td>Магмовый слюнтяй</td><td>Магма, пещеры</td><td>Большой размер, здоровье 8, плевок воспламеняет (2), иммунитет к огню</td></tr></table>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 1,
+    "rarity": 2,
+    "actionPoints": 3,
+    "defenses": "Иммунитет к травмам; Уязвимость к огню и взрывам",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "9fcde7296a233b7a",
+      "_key": "!actors.items!e8fae9a06aef3cbf.9fcde7296a233b7a",
+      "name": "Зубастая пасть",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 1,
+        "initiative": 0,
+        "damage": 1,
+        "crit": 2,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "c5c9e850529689c2",
+      "_key": "!actors.items!e8fae9a06aef3cbf.c5c9e850529689c2",
+      "name": "Плевок мусором",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "shooting",
+        "modifier": 2,
+        "initiative": -1,
+        "damage": 2,
+        "crit": 3,
+        "range": "medium",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "e1b7a6f700eb2e6c",
+      "_key": "!actors.items!e8fae9a06aef3cbf.e1b7a6f700eb2e6c",
+      "name": "Бесформенная груда мусора",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "defense": 6,
+        "properties": "Естественная броня",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "c11821e76ef54657",
+      "_key": "!actors.items!e8fae9a06aef3cbf.c11821e76ef54657",
+      "name": "Букет болезней (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>При успешной атаке может заразить персонажа болезнью (СВЗ 5).</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Грязевик",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

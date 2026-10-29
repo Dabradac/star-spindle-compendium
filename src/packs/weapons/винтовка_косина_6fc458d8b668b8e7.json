@@ -1,0 +1,41 @@
+{
+  "_id": "6fc458d8b668b8e7",
+  "_key": "!items!6fc458d8b668b8e7",
+  "name": "Винтовка Косина",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 2800,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": 0,
+    "damage": 3,
+    "crit": 3,
+    "range": "long",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": ""
+  },
+  "effects": [],
+  "folder": "23f5e1b1d0085c66",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

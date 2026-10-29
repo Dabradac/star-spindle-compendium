@@ -1,0 +1,35 @@
+{
+  "_id": "88c3b5cb0f568e45",
+  "_key": "!items!88c3b5cb0f568e45",
+  "name": "ЭМИ-торпеда",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>3 сегмента/ход. Системный урон, игнорирует броню цели. Цена за одну торпеду</p>",
+    "modifier": 2,
+    "damage": 2,
+    "crit": 0,
+    "range": "long",
+    "damageType": "system",
+    "ignoresArmor": true,
+    "location": "bow",
+    "properties": "3 сегмента/ход. Системный урон, игнорирует броню цели. Цена за одну торпеду",
+    "price": 8000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "2bbc5961d37211df",
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

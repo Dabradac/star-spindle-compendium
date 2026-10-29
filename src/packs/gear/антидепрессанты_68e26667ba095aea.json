@@ -1,0 +1,31 @@
+{
+  "_id": "68e26667ba095aea",
+  "_key": "!items!68e26667ba095aea",
+  "name": "Антидепрессанты",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 200,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Блистер из 10 таблеток. Восстанавливает 2 воли, не чаще раза в 4 часа. Нужен рецепт.</p>"
+  },
+  "effects": [],
+  "folder": "164e01d14f2395f7",
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

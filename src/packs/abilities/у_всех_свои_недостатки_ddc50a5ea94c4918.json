@@ -1,0 +1,29 @@
+{
+  "_id": "ddc50a5ea94c4918",
+  "_key": "!items!ddc50a5ea94c4918",
+  "name": "У всех свои недостатки",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Успешно пройдя проверку культуры, вы узнаёте все негативные черты персонажа-человека.</p><p>Уровень 2. Выбирается вместо «Вижу в людях только хорошее».</p>",
+    "skill": "culture",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "078b7902d7443ddd",
+  "sort": 14300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

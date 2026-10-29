@@ -1,0 +1,29 @@
+{
+  "_id": "c4624d383b745a7a",
+  "_key": "!items!c4624d383b745a7a",
+  "name": "Добрым словом и пистолетом…",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Значение урона от оружия дальнего боя добавляется в качестве модификатора при запугивании этим оружием.</p><p>Уровень 1. Выбирается вместо «Самая быстрая рука в Славии».</p>",
+    "skill": "shooting",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "031fd14c68a27b94",
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

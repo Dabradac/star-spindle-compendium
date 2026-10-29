@@ -1,0 +1,550 @@
+{
+  "_id": "1ea43abf35e18a0e",
+  "_key": "!actors!1ea43abf35e18a0e",
+  "name": "КулВалда",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 3
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 5
+      },
+      "empathy": {
+        "value": 2
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 0,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 1,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 1,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 1,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 3,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 1,
+        "bonus": 0
+      },
+      "science": {
+        "value": 3,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 7,
+      "max": 7,
+      "bonus": 0
+    },
+    "will": {
+      "value": 7,
+      "max": 7,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Темноволосый парень, в длинные косы которого вплетены провода разных цветов и толщины. О его настоящей личности известно мало; он редко общается иначе, чем клавишами, но пользуется невероятным авторитетом на форумах кибершаманов.</p>",
+    "injuries": "",
+    "supercredits": 3000,
+    "reputation": 0,
+    "xp": 0,
+    "origin": "",
+    "religion": "",
+    "blessing": 0,
+    "heroTokens": 0,
+    "encumbranceBonus": 0,
+    "resources": {
+      "t1": 0,
+      "t2": 0,
+      "t3": 0,
+      "t4": 0,
+      "t5": 0
+    },
+    "cabin": {
+      "description": "",
+      "storage": ""
+    },
+    "factions": {
+      "demos": 0,
+      "commune": 0,
+      "peddlers": 0,
+      "frontiers": 0,
+      "church": 0,
+      "outcasts": 0
+    },
+    "clans": {
+      "wolf": 0,
+      "eagle": 0,
+      "snake": 0,
+      "ram": 0,
+      "owl": 0,
+      "bear": 0
+    },
+    "appearance": "",
+    "notes": "<p>Роль: Кибершаман.</p>"
+  },
+  "items": [
+    {
+      "_id": "cf6fb98f6878f7cc",
+      "_key": "!actors.items!1ea43abf35e18a0e.cf6fb98f6878f7cc",
+      "name": "Кибершаман",
+      "type": "specialization",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": "<p>Нули и единицы — ваши верные союзники. Вы ощущаете КПК как продолжение своей руки (иногда буквально), а нужную информацию из киберпространства добываете по щелчку пальцев.</p><h3>Рекомендуемые навыки</h3><p>Кибершаманство, Наука, Механика</p><h3>Модификатор репутации</h3><p>0</p><h3>Дополнительный опыт</h3><ul><li>Вы добыли нужную информацию, не покидая каюты — 2 опыта</li><li>Вы взломали устройство с экстремальной сложностью — 2 опыта</li><li>Вы предложили план, который помог в решении сложной задачи группы с помощью навыка кибершаманства — 2 опыта</li></ul><h3>Примеры положительных черт</h3><ul><li>Знаменитость на форумах</li><li>Заметатель следов</li><li>Киберпсих</li></ul><h3>Примеры отрицательных черт</h3><ul><li>Мания преследования</li><li>Зависимость от сети</li><li>Объект шантажа</li></ul><h3>Стартовое снаряжение на выбор</h3><ul><li>Компьютер или Киберимплант «Ручной персональный компьютер»</li><li>Укороченный самозарядный испепелитель (УСИ) или Карманный пистолет Макова</li><li>Электронный набор для взлома или Фиброскоп</li><li>Брошка с заговором на выбор или Контакты толмача</li></ul>",
+        "variations": "Аналитик, заговорщик, взломщик",
+        "recommendedSkills": [
+          "cybershamanism",
+          "science",
+          "mechanics"
+        ],
+        "reputationModifier": 0,
+        "xpActions": "Вы добыли нужную информацию, не покидая каюты — 2 опыта; Вы взломали устройство с экстремальной сложностью — 2 опыта; Вы предложили план, который помог в решении сложной задачи группы с помощью навыка кибершаманства — 2 опыта",
+        "traitExamples": "Положительные: Знаменитость на форумах, Заметатель следов, Киберпсих. Отрицательные: Мания преследования, Зависимость от сети, Объект шантажа.",
+        "startingGear": "Компьютер или Киберимплант «Ручной персональный компьютер»; Укороченный самозарядный испепелитель (УСИ) или Карманный пистолет Макова; Электронный набор для взлома или Фиброскоп; Брошка с заговором на выбор или Контакты толмача"
+      },
+      "effects": [],
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.specializations.Item.2a9f1028463f3339"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "cbecea30227bfd53",
+      "_key": "!actors.items!1ea43abf35e18a0e.cbecea30227bfd53",
+      "name": "Хакер",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>+1 к кибершаманству при попытке взлома устройства с подключённым к нему компьютером.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 1,
+        "bonusTarget": "skill.cybershamanism",
+        "conditional": true
+      },
+      "effects": [],
+      "sort": 1300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.42e9b396b0e889a3"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "fde6d72e53524217",
+      "_key": "!actors.items!1ea43abf35e18a0e.fde6d72e53524217",
+      "name": "Зависимость от сети",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "",
+        "kind": "negative",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 6200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.0ca828e10812e4ab"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "46836bce8dc090af",
+      "_key": "!actors.items!1ea43abf35e18a0e.46836bce8dc090af",
+      "name": "Укороченный самозарядный испепелитель (УСИ)",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 2400,
+        "equipped": true,
+        "stored": false,
+        "skill": "shooting",
+        "modifier": -1,
+        "initiative": 3,
+        "damage": 2,
+        "crit": 2,
+        "range": "medium",
+        "armorPiercing": 0,
+        "automatic": true,
+        "properties": "Автоматическое, лёгкое",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p><strong>Автоматическое:</strong> Из этого оружия можно вести автоматический огонь.</p>"
+      },
+      "effects": [],
+      "sort": 3100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.weapons.Item.00dd1915f02077d0"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "a2f867ef9a423b10",
+      "_key": "!actors.items!1ea43abf35e18a0e.a2f867ef9a423b10",
+      "name": "Компьютер",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 2000,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Устройство для обработки данных, мощнее КПК. Цена 2000–5000.</p>"
+      },
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.65b855568315ce95"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "aa23c0752faf9724",
+      "_key": "!actors.items!1ea43abf35e18a0e.aa23c0752faf9724",
+      "name": "Портативный локатор",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 1800,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Местоположение, эхолокация и карта. Пассивно сканирует на дальнюю дистанцию, активно — на предельную. Требуется топливный элемент.</p>"
+      },
+      "effects": [],
+      "sort": 6800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.fff17d8c4942103d"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "16680f4144c446f5",
+      "_key": "!actors.items!1ea43abf35e18a0e.16680f4144c446f5",
+      "name": "Голограф",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 500,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Проекционное устройство для создания трёхмерных изображений. Цена 500–5000 в зависимости от размера и качества.</p>"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.3b77ce7e253310e0"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "959f28b8a36e7426",
+      "_key": "!actors.items!1ea43abf35e18a0e.959f28b8a36e7426",
+      "name": "Кибершаманский бубен",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 600,
+        "equipped": false,
+        "stored": false,
+        "modifier": 1,
+        "bonusTarget": "skill.cybershamanism",
+        "conditional": true,
+        "description": "<p>После 10–20-минутного ритуала +1 ко всем проверкам кибершаманства, пока кибершаман сосредоточен.</p>"
+      },
+      "effects": [],
+      "sort": 8000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.9dbdce20195f8a4d"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "84a1a475bda20905",
+      "_key": "!actors.items!1ea43abf35e18a0e.84a1a475bda20905",
+      "name": "КПК",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 500,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Повсеместно распространённое устройство для связи и выхода в сеть. Цена 500–6000.</p>"
+      },
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.a526594e5618ca39"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "94a01b807736edb0",
+      "name": "Планшет",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!1ea43abf35e18a0e.94a01b807736edb0"
+    },
+    {
+      "_id": "717d75654ac1ac87",
+      "name": "Множество проводов и штекеров",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!1ea43abf35e18a0e.717d75654ac1ac87"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "КулВалда",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

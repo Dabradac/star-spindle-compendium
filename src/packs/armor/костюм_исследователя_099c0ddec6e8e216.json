@@ -1,0 +1,30 @@
+{
+  "_id": "099c0ddec6e8e216",
+  "_key": "!items!099c0ddec6e8e216",
+  "name": "Костюм исследователя",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 3500,
+    "equipped": false,
+    "stored": false,
+    "defense": 1,
+    "properties": "Датчик движения, встроенное оборудование",
+    "description": "<p><strong>Датчик движения:</strong> +2 к наблюдательности при поиске подвижных целей на средней дистанции.</p>"
+  },
+  "effects": [],
+  "folder": "1e43980159618b9d",
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

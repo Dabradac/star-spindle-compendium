@@ -1,0 +1,23 @@
+{
+  "_id": "7398ae6b77914e45",
+  "_key": "!items!7398ae6b77914e45",
+  "name": "Дополнительный запас воды и кислорода",
+  "type": "shipUpgrade",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Запас на 2 × класс корабля дней.</p><p>Улучшение модуля «Система жизнеобеспечения». Стоимость: 15% от базовой цены корабля.</p>",
+    "costPercent": 15
+  },
+  "effects": [],
+  "folder": "edfb7d0aab2ebf81",
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

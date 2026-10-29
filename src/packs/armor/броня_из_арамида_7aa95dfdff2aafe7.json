@@ -1,0 +1,30 @@
+{
+  "_id": "7aa95dfdff2aafe7",
+  "_key": "!items!7aa95dfdff2aafe7",
+  "name": "Броня из арамида",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 34000,
+    "equipped": false,
+    "stored": false,
+    "defense": 6,
+    "properties": "Гидростатический гель",
+    "description": "<p><strong>Гидростатический гель:</strong> +3 к классу защиты против взрывов и при падении с большой высоты.</p>"
+  },
+  "effects": [],
+  "folder": "1e43980159618b9d",
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

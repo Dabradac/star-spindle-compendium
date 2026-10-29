@@ -1,0 +1,31 @@
+{
+  "_id": "9dbdce20195f8a4d",
+  "_key": "!items!9dbdce20195f8a4d",
+  "name": "Кибершаманский бубен",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 600,
+    "equipped": false,
+    "stored": false,
+    "modifier": 1,
+    "bonusTarget": "skill.cybershamanism",
+    "conditional": true,
+    "description": "<p>После 10–20-минутного ритуала +1 ко всем проверкам кибершаманства, пока кибершаман сосредоточен.</p>"
+  },
+  "effects": [],
+  "folder": "59189f853748243e",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

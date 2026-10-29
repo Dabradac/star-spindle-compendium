@@ -1,0 +1,31 @@
+{
+  "_id": "16e5e0d7053aa813",
+  "_key": "!items!16e5e0d7053aa813",
+  "name": "Целебные травы",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 100,
+    "equipped": false,
+    "stored": false,
+    "modifier": -1,
+    "bonusTarget": "skill.healing",
+    "conditional": true,
+    "description": "<p>Модификатор проверки −1. Не вызывают передозировки при первом повторном применении.</p>"
+  },
+  "effects": [],
+  "folder": "164e01d14f2395f7",
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "fed1058e94d3ceb5",
+  "_key": "!items!fed1058e94d3ceb5",
+  "name": "Прямо как в игре",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы можете использовать кибершаманство вместо пилотирования, управляя различными дронами, роботами и транспортными средствами удалённо.</p><p>Уровень 2. Выбирается вместо «Разряд!».</p>",
+    "skill": "cybershamanism",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "688462003875637e",
+  "sort": 8300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

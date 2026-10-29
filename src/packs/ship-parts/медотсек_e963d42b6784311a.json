@@ -1,0 +1,25 @@
+{
+  "_id": "e963d42b6784311a",
+  "_key": "!items!e963d42b6784311a",
+  "name": "Медотсек",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>+3 при оказании помощи в отсеке; мест: 1 × класс корабля.</p><h3>Улучшения</h3><ul><li>Реанимационный отсек (20%): +5 при лечении; можно вернуть к жизни умерших не более часа назад (знахарство −3).</li></ul>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 3700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

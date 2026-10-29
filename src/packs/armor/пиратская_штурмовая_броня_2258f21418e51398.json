@@ -1,0 +1,30 @@
+{
+  "_id": "2258f21418e51398",
+  "_key": "!items!2258f21418e51398",
+  "name": "Пиратская штурмовая броня",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 6300,
+    "equipped": false,
+    "stored": false,
+    "defense": 3,
+    "properties": "Встроенный реактивный ранец, магнитные ботинки, скафандр, запас кислорода",
+    "description": "<p><strong>Запас кислорода:</strong> 8-часовой запас кислорода и герметичный шлем.</p><p><strong>Магнитные ботинки:</strong> Позволяют ходить по металлическим поверхностям в невесомости.</p><p><strong>Скафандр:</strong> Защищает от вакуума и радиации.</p>"
+  },
+  "effects": [],
+  "folder": "1e43980159618b9d",
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

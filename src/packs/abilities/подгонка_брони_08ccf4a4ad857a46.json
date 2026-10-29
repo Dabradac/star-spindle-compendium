@@ -1,0 +1,29 @@
+{
+  "_id": "08ccf4a4ad857a46",
+  "_key": "!items!08ccf4a4ad857a46",
+  "name": "Подгонка брони",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы подгоняете броню, что позволяет игнорировать первые 2 критические неудачи, повреждающие броню.</p><p>Уровень 3. Выбирается вместо «Эта винтовка моя».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "mechanics",
+    "tier": 3,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "a9886f52b1d9a2d4",
+  "sort": 9400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

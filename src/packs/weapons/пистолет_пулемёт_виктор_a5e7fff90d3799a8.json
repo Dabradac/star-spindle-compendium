@@ -1,0 +1,41 @@
+{
+  "_id": "a5e7fff90d3799a8",
+  "_key": "!items!a5e7fff90d3799a8",
+  "name": "Пистолет-пулемёт «Виктор»",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 3400,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 0,
+    "initiative": 1,
+    "damage": 1,
+    "crit": 3,
+    "range": "medium",
+    "armorPiercing": 0,
+    "automatic": true,
+    "properties": "Автоматическое",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Автоматическое:</strong> Из этого оружия можно вести автоматический огонь.</p>"
+  },
+  "effects": [],
+  "folder": "7b68449d4a8b2aee",
+  "sort": 3300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

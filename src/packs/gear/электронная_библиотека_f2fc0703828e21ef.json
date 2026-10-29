@@ -1,0 +1,31 @@
+{
+  "_id": "f2fc0703828e21ef",
+  "_key": "!items!f2fc0703828e21ef",
+  "name": "Электронная библиотека",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 500,
+    "equipped": false,
+    "stored": false,
+    "modifier": 1,
+    "bonusTarget": "checks",
+    "conditional": true,
+    "description": "<p>Набор данных по теме: от +1 до +3 к проверкам профессиональных навыков после получаса изучения. Цена 500–4000.</p>"
+  },
+  "effects": [],
+  "folder": "c885c9a692501330",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

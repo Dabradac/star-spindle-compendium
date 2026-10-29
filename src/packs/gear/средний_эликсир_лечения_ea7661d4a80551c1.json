@@ -1,0 +1,31 @@
+{
+  "_id": "ea7661d4a80551c1",
+  "_key": "!items!ea7661d4a80551c1",
+  "name": "Средний эликсир лечения",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 600,
+    "equipped": false,
+    "stored": false,
+    "modifier": 2,
+    "bonusTarget": "skill.healing",
+    "conditional": true,
+    "description": "<p>Модификатор проверки +2. Восстанавливает 1 здоровья в начале каждого хода на протяжении 5 ходов.</p>"
+  },
+  "effects": [],
+  "folder": "164e01d14f2395f7",
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

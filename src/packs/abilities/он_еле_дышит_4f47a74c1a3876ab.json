@@ -1,0 +1,29 @@
+{
+  "_id": "4f47a74c1a3876ab",
+  "_key": "!items!4f47a74c1a3876ab",
+  "name": "Он еле дышит",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Успешно пройдя проверку знахарства, вы определяете точное текущее значение здоровья персонажа, потратив на это быстрое действие.</p><p>Уровень 2. Выбирается вместо «Психолог».</p>",
+    "skill": "healing",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "7eb68160af3408a0",
+  "sort": 11300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

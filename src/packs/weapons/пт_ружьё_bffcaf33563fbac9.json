@@ -1,0 +1,41 @@
+{
+  "_id": "bffcaf33563fbac9",
+  "_key": "!items!bffcaf33563fbac9",
+  "name": "ПТ-ружьё",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "bulky",
+    "quality": 0,
+    "price": 8800,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 2,
+    "initiative": -4,
+    "damage": 5,
+    "crit": 2,
+    "range": "long",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Громоздкое, однозарядное, противотранспортное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Громоздкое:</strong> Модификатор −2 к стрельбе не из упора; оружие не получает бонус при стрельбе из упора.</p><p><strong>Однозарядное:</strong> Оружие нужно перезаряжать после каждого выстрела.</p><p><strong>Противотранспортное:</strong> Урон по укреплениям и бронированной технике +2. Единственное оружие, способное пробить броню космолётов.</p>"
+  },
+  "effects": [],
+  "folder": "0a1e4c4e5e48476f",
+  "sort": 6600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

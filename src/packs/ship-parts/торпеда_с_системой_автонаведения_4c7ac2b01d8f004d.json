@@ -1,0 +1,35 @@
+{
+  "_id": "4c7ac2b01d8f004d",
+  "_key": "!items!4c7ac2b01d8f004d",
+  "name": "Торпеда с системой автонаведения",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>3 сегмента/ход. Цена за одну торпеду</p>",
+    "modifier": 3,
+    "damage": 2,
+    "crit": 2,
+    "range": "extreme",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "bow",
+    "properties": "3 сегмента/ход. Цена за одну торпеду",
+    "price": 10000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "2bbc5961d37211df",
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

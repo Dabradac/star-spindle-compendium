@@ -1,0 +1,31 @@
+{
+  "_id": "b1aa253bc7ba5176",
+  "_key": "!items!b1aa253bc7ba5176",
+  "name": "Верёвка",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 200,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>20-метровая прочная верёвка.</p>"
+  },
+  "effects": [],
+  "folder": "b28912c46f98fb8c",
+  "sort": 3600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

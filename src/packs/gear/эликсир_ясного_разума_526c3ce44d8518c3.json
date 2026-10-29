@@ -1,0 +1,31 @@
+{
+  "_id": "526c3ce44d8518c3",
+  "_key": "!items!526c3ce44d8518c3",
+  "name": "Эликсир Ясного Разума",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 2100,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>+5 ко всем проверкам сопротивления, влияющим на волю, в том числе попыткам её подчинить.</p>"
+  },
+  "effects": [],
+  "folder": "862633014ef6b333",
+  "sort": 2600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

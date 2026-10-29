@@ -1,0 +1,31 @@
+{
+  "_id": "9083d833f63615ed",
+  "_key": "!items!9083d833f63615ed",
+  "name": "Свиток с заклятием",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 1000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Записанное заклятие. Для применения нужна проверка ведовства; затем свиток сжигают. Мастер получает жетон Чернобога, ведун теряет 1 волю. Цена 1000–6000.</p>"
+  },
+  "effects": [],
+  "folder": "9b901da20d67dd2c",
+  "sort": 9200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "_id": "faf359f973ae98d4",
+  "_key": "!actors!faf359f973ae98d4",
+  "name": "Паук-плетун",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 2
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 0
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 2,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 1,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 1,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 1,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 2,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 1,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 6,
+      "max": 6,
+      "bonus": 0
+    },
+    "will": {
+      "value": 3,
+      "max": 3,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 15,
+    "biography": "<p>Метровый мохнатый паук, вьющий прочнейшие сети в пещерах и заброшенных поселениях. Агрессивен, но до ужаса боится света.</p><h3>Черты</h3><p><strong>Ядовитые железы</strong> (пасс.): Атака хелицерами отравляет цель (СВЗ 3).</p><p><strong>Выстрелить паутиной</strong>: Стандартным действием выпускает паутину, обездвиживающую цель (СВЗ 3).</p><p><strong>Любитель темноты</strong> (пасс.): +2 к ближнему бою и скрытности в темноте, −1 на свету. Боится света.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Хладный скрытень</td><td>Снег</td><td>Ледовый хитин (3), иммунитет к холоду</td></tr><tr><td>Болотный жукоед</td><td>Болота</td><td>Здоровье 8, воля 4, скрытность 3</td></tr><tr><td>Песчаный кольцевик</td><td>Пустыня</td><td>Малый размер, здоровье 4, рой</td></tr><tr><td>Магмовый плевун</td><td>Лава</td><td>Огненная паутина обездвиживает (СВЗ 3) и воспламеняет (2), иммунитет к огню</td></tr><tr><td>Восьмиглазая княжна</td><td>Пещеры</td><td>Большой размер, здоровье 12, воля 6, урон +2, ближний бой и стрельба 4, паутина (СВЗ 5), иммунитет к травмам</td></tr></table>",
+    "injuries": "",
+    "role": "Местная фауна",
+    "useFormula": false,
+    "danger": 1,
+    "rarity": -1,
+    "actionPoints": 3,
+    "defenses": "Устойчивость к колющему и режущему; Уязвимость к огню, взрывам, дробящему и свету",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "1801e5eee25bd465",
+      "_key": "!actors.items!faf359f973ae98d4.1801e5eee25bd465",
+      "name": "Хелицеры",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 1,
+        "initiative": 1,
+        "damage": 2,
+        "crit": 2,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Отравляют (СВЗ 3)",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p>Отравляют (СВЗ 3)</p>"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "a16cfbbbe10f4ccc",
+      "_key": "!actors.items!faf359f973ae98d4.a16cfbbbe10f4ccc",
+      "name": "Тонкий хитин",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "defense": 1,
+        "properties": "Естественная броня",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "5f10a5cc49f22829",
+      "_key": "!actors.items!faf359f973ae98d4.5f10a5cc49f22829",
+      "name": "Ядовитые железы (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Атака хелицерами отравляет цель (СВЗ 3).</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "5cc7ed130ac737dd",
+      "_key": "!actors.items!faf359f973ae98d4.5cc7ed130ac737dd",
+      "name": "Выстрелить паутиной",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Стандартным действием выпускает паутину, обездвиживающую цель (СВЗ 3).</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "2246831d5459ff65",
+      "_key": "!actors.items!faf359f973ae98d4.2246831d5459ff65",
+      "name": "Любитель темноты (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>+2 к ближнему бою и скрытности в темноте, −1 на свету. Боится света.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "28853aeabae95012",
+  "sort": 4100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Паук-плетун",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "88de94bf3fae76b3",
+  "_key": "!items!88de94bf3fae76b3",
+  "name": "Глаз-алмаз",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы обнаруживаете важную улику, помогающую в решении вашей текущей задачи, или необходимую для обхода какого-то препятствия деталь.</p><p>Уровень 5. Выбирается вместо «Цельтесь в глаза!».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "observation",
+    "tier": 5,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "22dbad390df9b677",
+  "sort": 6800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

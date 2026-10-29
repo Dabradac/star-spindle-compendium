@@ -1,0 +1,29 @@
+{
+  "_id": "f294a003cbeb1f1b",
+  "_key": "!items!f294a003cbeb1f1b",
+  "name": "Контрольный выстрел",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Первый за раунд выстрел навскидку по цели без укрытия игнорирует штраф −2.</p><p>Уровень 3. Выбирается вместо «Меткий глаз».</p>",
+    "skill": "shooting",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "031fd14c68a27b94",
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

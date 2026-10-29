@@ -1,0 +1,30 @@
+{
+  "_id": "cdec965f1fe30f6e",
+  "_key": "!items!cdec965f1fe30f6e",
+  "name": "Архаичный щит",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 1000,
+    "equipped": false,
+    "stored": false,
+    "defense": 2,
+    "properties": "Тяжёлый. Класс защиты щита прибавляется к броне; персонаж в упор позади получает половину",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "b75130e80f00e08e",
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

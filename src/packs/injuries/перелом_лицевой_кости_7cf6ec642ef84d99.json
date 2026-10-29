@@ -1,0 +1,54 @@
+{
+  "_id": "7cf6ec642ef84d99",
+  "_key": "!items!7cf6ec642ef84d99",
+  "name": "Перелом лицевой кости",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (6); −2 при проверках влияния</p><p>Смерть: Да. Крайний срок помощи: к6 часов. Период излечения: 4к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "45",
+    "lethal": true,
+    "deadline": "к6 часов",
+    "effect": "Шок (6); −2 при проверках влияния",
+    "period": "4к6",
+    "strength": 6
+  },
+  "effects": [
+    {
+      "_id": "0ac6bb8d72517200",
+      "_key": "!items.effects!7cf6ec642ef84d99.0ac6bb8d72517200",
+      "name": "Перелом лицевой кости",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.influence.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

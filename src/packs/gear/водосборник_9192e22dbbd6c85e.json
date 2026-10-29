@@ -1,0 +1,31 @@
+{
+  "_id": "9192e22dbbd6c85e",
+  "_key": "!items!9192e22dbbd6c85e",
+  "name": "Водосборник",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 200,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Контейнер для сбора и хранения воды.</p>"
+  },
+  "effects": [],
+  "folder": "b28912c46f98fb8c",
+  "sort": 3800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

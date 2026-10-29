@@ -1,0 +1,60 @@
+{
+  "_id": "34c44f3008a7aaa0",
+  "_key": "!items!34c44f3008a7aaa0",
+  "name": "Перелом коленной чашечки",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (5); персонаж сбит с ног, скорость уменьшается вдвое, −3 при проверках проворства и скрытности</p><p>Смерть: Да. Крайний срок помощи: к6 часов. Период излечения: 4к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "44",
+    "lethal": true,
+    "deadline": "к6 часов",
+    "effect": "Шок (5); персонаж сбит с ног, скорость уменьшается вдвое, −3 при проверках проворства и скрытности",
+    "period": "4к6",
+    "strength": 5
+  },
+  "effects": [
+    {
+      "_id": "9e7fee48b8491d79",
+      "_key": "!items.effects!34c44f3008a7aaa0.9e7fee48b8491d79",
+      "name": "Перелом коленной чашечки",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        },
+        {
+          "key": "system.skills.stealth.bonus",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

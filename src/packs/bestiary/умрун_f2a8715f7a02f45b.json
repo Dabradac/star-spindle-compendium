@@ -1,0 +1,310 @@
+{
+  "_id": "f2a8715f7a02f45b",
+  "_key": "!actors!f2a8715f7a02f45b",
+  "name": "Умрун",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 2
+      },
+      "agility": {
+        "value": 5
+      },
+      "intellect": {
+        "value": 0
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 3,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 2,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 2,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 2,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 3,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 7,
+      "max": 7,
+      "bonus": 0
+    },
+    "will": {
+      "value": 0,
+      "max": 0,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 15,
+    "biography": "<p>Костлявые кровопийцы, похожие на огромных летучих мышей, любящие засады и страх жертвы. Живут стаями по 5–7 в сырости и темноте; логово по соседству — большая беда.</p><h3>Черты</h3><p><strong>Захват кровопийцы</strong>: При захвате вместо удушения может нанести дополнительную атаку клыками и начать пить кровь.</p><p><strong>Опьяняющий аромат</strong> (пасс.): Испив крови, получает +2 к урону и двойную скорость, но −1 к проверкам общих навыков.</p><p><strong>Уворотливый</strong> (пасс.): Мастер не тратит жетоны на уклонение умруна; +1 к проворству при уклонении.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Кровосос</td><td>Холмы, равнины, болото</td><td>Большой размер, здоровье 11, аромат даёт +3 к урону и тройную скорость, без черты «Уворотливый»</td></tr><tr><td>Туманник</td><td>Лес, пещеры</td><td>+2 к скрытности, удвоенный эффект «Уворотливого»</td></tr><tr><td>Дрекавац</td><td>Горы, пещеры</td><td>Малый размер, искривлённое тело, густая шерсть (2)</td></tr><tr><td>Стрыга</td><td>Пещеры, болото</td><td>Здоровье 9, атаки вызывают кровотечение (СВЗ 3), появляется из-за проклятий</td></tr></table>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 2,
+    "rarity": -1,
+    "actionPoints": 3,
+    "defenses": "Уязвимость к свету",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "064e20fcafed8b82",
+      "_key": "!actors.items!f2a8715f7a02f45b.064e20fcafed8b82",
+      "name": "Клыки умруна",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 1,
+        "initiative": 1,
+        "damage": 3,
+        "crit": 2,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "a069cd52b5967e95",
+      "_key": "!actors.items!f2a8715f7a02f45b.a069cd52b5967e95",
+      "name": "Костяные когти",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 2,
+        "initiative": 1,
+        "damage": 1,
+        "crit": 0,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "9bd0e5a63c62eb1c",
+      "_key": "!actors.items!f2a8715f7a02f45b.9bd0e5a63c62eb1c",
+      "name": "Захват кровопийцы",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>При захвате вместо удушения может нанести дополнительную атаку клыками и начать пить кровь.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "be3dc5ed6976ef19",
+      "_key": "!actors.items!f2a8715f7a02f45b.be3dc5ed6976ef19",
+      "name": "Опьяняющий аромат (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Испив крови, получает +2 к урону и двойную скорость, но −1 к проверкам общих навыков.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "42b99ba99726ee01",
+      "_key": "!actors.items!f2a8715f7a02f45b.42b99ba99726ee01",
+      "name": "Уворотливый (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Мастер не тратит жетоны на уклонение умруна; +1 к проворству при уклонении.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Умрун",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "3a6a68e15dea47a0",
+  "_key": "!items!3a6a68e15dea47a0",
+  "name": "Ремонтная мастерская",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Без неё бортинженер получает −2 к механике при ремонте структурных повреждений и техобслуживании. Здесь можно чинить снаряжение.</p><h3>Улучшения</h3><ul><li>Передовая мастерская (20%): +1 ко всем проверкам механики при ремонте и техобслуживании.</li></ul>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 5500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

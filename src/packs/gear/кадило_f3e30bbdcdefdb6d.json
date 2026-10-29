@@ -1,0 +1,31 @@
+{
+  "_id": "f3e30bbdcdefdb6d",
+  "_key": "!items!f3e30bbdcdefdb6d",
+  "name": "Кадило",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 300,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Сосуд для благовоний; помогает сосредоточиться в ритуалах.</p>"
+  },
+  "effects": [],
+  "folder": "88285127c974931a",
+  "sort": 7200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

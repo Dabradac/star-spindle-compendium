@@ -1,0 +1,60 @@
+{
+  "_id": "aec2d588fdc64491",
+  "_key": "!items!aec2d588fdc64491",
+  "name": "Перелом руки",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (3); −3 при проверках стрельбы и ближнего боя</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: 3к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "32",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Шок (3); −3 при проверках стрельбы и ближнего боя",
+    "period": "3к6",
+    "strength": 3
+  },
+  "effects": [
+    {
+      "_id": "a443fa9dd813d3d8",
+      "_key": "!items.effects!aec2d588fdc64491.a443fa9dd813d3d8",
+      "name": "Перелом руки",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.shooting.bonus",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        },
+        {
+          "key": "system.skills.melee.bonus",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "73ec8ba0d53ef825",
+  "_key": "!items!73ec8ba0d53ef825",
+  "name": "Тактический щит",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 4000,
+    "equipped": false,
+    "stored": false,
+    "defense": 4,
+    "properties": "Тяжёлый. Класс защиты щита прибавляется к броне; персонаж в упор позади получает половину",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "b75130e80f00e08e",
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "d838a92ce8f3ba32",
+  "_key": "!items!d838a92ce8f3ba32",
+  "name": "Облегчённые материалы",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Вес оружия снижается на одну категорию.</p><p>Стоимость: 200% от цены оружия.</p>"
+  },
+  "effects": [],
+  "folder": "2ab61ae8a4063f27",
+  "sort": 9100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

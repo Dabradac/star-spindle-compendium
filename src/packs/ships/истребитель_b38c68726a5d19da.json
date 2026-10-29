@@ -1,0 +1,331 @@
+{
+  "_id": "b38c68726a5d19da",
+  "_key": "!actors!b38c68726a5d19da",
+  "name": "Истребитель",
+  "type": "ship",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "shipClass": 1,
+    "size": 1,
+    "hull": "Ястреб",
+    "hullBonuses": "+1 к скорости корабля, +1 к манёвренности, −1 к прочности.",
+    "flaw": "",
+    "baseCost": 130000,
+    "lastMaintenance": "",
+    "debt": {
+      "initial": 0,
+      "remaining": 0,
+      "monthly": 0
+    },
+    "attributes": {
+      "durability": {
+        "value": 2,
+        "max": 2
+      },
+      "energy": {
+        "value": 1,
+        "max": 1
+      },
+      "maneuverability": {
+        "value": 4,
+        "max": 4
+      },
+      "signature": {
+        "value": -2,
+        "max": -2
+      },
+      "armor": {
+        "value": 3,
+        "max": 3
+      },
+      "speed": {
+        "value": 5,
+        "max": 5
+      },
+      "fuel": {
+        "value": 3,
+        "max": 3
+      }
+    },
+    "energyAllocation": {
+      "weapons": 0,
+      "engines": 0,
+      "repair": 0,
+      "sensors": 0,
+      "cyber": 0
+    },
+    "batteries": 0,
+    "criticals": "",
+    "cargoMax": 0,
+    "modulesMax": 4,
+    "crew": [],
+    "logbook": "<p>Пример корабля из книги правил. Цена: 130 000 сверкредитов.</p>"
+  },
+  "items": [
+    {
+      "_id": "4c7ce05ef389ba81",
+      "_key": "!actors.items!b38c68726a5d19da.4c7ce05ef389ba81",
+      "name": "Мостик",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Капитанская рубка: посты капитана, штурмана и пилота, управление сенсорами и двигателями.</p><h3>Улучшения</h3><ul><li>Искусственный интеллект-помощник (20%): Выполняет любую задачу члена экипажа, кроме капитана (характеристика и навык равны 3); одна функция за раз, 3 очка действия в бою.</li><li>Аварийная спасательная капсула (15%): Встроенная в мостик капсула вместимостью, равной классу корабля; при критических повреждениях отстреливается с экипажем.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.7f6dc88215ea28ca"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "590225cb483adc32",
+      "_key": "!actors.items!b38c68726a5d19da.590225cb483adc32",
+      "name": "Реактор",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Основной источник энергии; место дежурства бортинженера, распределяющего энергию.</p><h3>Улучшения</h3><ul><li>Улучшенная система охлаждения (20%): +1 к энергии корабля.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.a217f79f13e86ccd"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "f398da35c4d73f67",
+      "_key": "!actors.items!b38c68726a5d19da.f398da35c4d73f67",
+      "name": "Двигатели",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Маршевые, взлётно-посадочные, маневровые и веретенодвигатели.</p><h3>Улучшения</h3><ul><li>Улучшенная автоматика маневровых двигателей (20%): +1 к манёвренности.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.854a5535c44c4589"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "25ac5d1dc3ec9f78",
+      "_key": "!actors.items!b38c68726a5d19da.25ac5d1dc3ec9f78",
+      "name": "Система жизнеобеспечения",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Очистка воздуха и воды, температура и давление. На I и II классе не занимает отсек. При отказе реактора резерва хватает на 1 × класс дней.</p><h3>Улучшения</h3><ul><li>Дополнительный запас воды и кислорода (15%): Запас на 2 × класс корабля дней.</li><li>Оранжерея (15%): Небольшой сад с неприхотливыми культурами.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.32d0652fb029f89f"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "50b7660cddd108cc",
+      "_key": "!actors.items!b38c68726a5d19da.50b7660cddd108cc",
+      "name": "Стыковочный отсек",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Люк, тоннель и шлюз для стыковки. На I классе встроен, со II класса — отдельный модуль.</p><h3>Улучшения</h3><ul><li>Укреплённый люк (10%): Попытки взломать или вскрыть люк получают −3.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.e5b369124f2fa33a"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "b8cfa48c1a5e089e",
+      "_key": "!actors.items!b38c68726a5d19da.b8cfa48c1a5e089e",
+      "name": "Хранилище топлива",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Танк с топливом по таблице базовых значений; на I и II классе под обшивкой. При критическом повреждении — возгорание мощностью, равной классу корабля.</p>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.a1167174ed1f3a1c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "2c76e5161d1c10c5",
+      "_key": "!actors.items!b38c68726a5d19da.2c76e5161d1c10c5",
+      "name": "Автопушка",
+      "type": "shipWeapon",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "description": "<p>Автоматический огонь, турельного типа</p>",
+        "modifier": 1,
+        "damage": 2,
+        "crit": 2,
+        "range": "zero",
+        "damageType": "structural",
+        "ignoresArmor": false,
+        "location": "turret",
+        "properties": "Автоматический огонь, турельного типа",
+        "price": 15000,
+        "ammo": {
+          "value": 0,
+          "max": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.16865fc8bcd9d3d4"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "5822d7642e8aa4c8",
+      "_key": "!actors.items!b38c68726a5d19da.5822d7642e8aa4c8",
+      "name": "Ускоренная перезарядка / улучшенная система охлаждения",
+      "type": "shipUpgrade",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Перезарядка орудия — 1 очко действия вместо 2.</p><p>Улучшение модуля «Корабельное орудие». Стоимость: 15% от базовой цены корабля.</p>",
+        "costPercent": 15
+      },
+      "effects": [],
+      "sort": 5300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.a8eb3cc5c1bca2f3"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d1a5d473b77819f6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Истребитель",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.durability"
+    },
+    "bar2": {
+      "attribute": "attributes.energy"
+    },
+    "texture": {
+      "src": "icons/svg/target.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "5ff39dedebbf69f0",
+  "_key": "!items!5ff39dedebbf69f0",
+  "name": "Проводник к Богам",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Помолившиеся с вами союзники получают бонус +2 вместо +1 на следующие три переброса кубов.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "5bf6a9daebd5434c",
+  "_key": "!items!5bf6a9daebd5434c",
+  "name": "Углеволоконная броня",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 17000,
+    "equipped": false,
+    "stored": false,
+    "defense": 5,
+    "properties": "Лёгкая",
+    "description": "<p><strong>Лёгкая:</strong> Малый вес; +1 к проверкам проворства и скрытности носителя.</p>"
+  },
+  "effects": [],
+  "folder": "16397a97ecd9b64c",
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

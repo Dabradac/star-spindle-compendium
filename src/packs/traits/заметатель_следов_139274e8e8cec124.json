@@ -1,0 +1,28 @@
+{
+  "_id": "139274e8e8cec124",
+  "_key": "!items!139274e8e8cec124",
+  "name": "Заметатель следов",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+1 к проверкам кибершаманства, когда используете его для «защиты» и противодействия.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 1,
+    "bonusTarget": "skill.cybershamanism",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

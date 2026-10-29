@@ -1,0 +1,60 @@
+{
+  "_id": "98dc2dd2cf7190aa",
+  "_key": "!items!98dc2dd2cf7190aa",
+  "name": "Растяжение запястья",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Персонаж роняет то, что держит в руках; −1 при проверках стрельбы и ближнего боя</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "13",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Персонаж роняет то, что держит в руках; −1 при проверках стрельбы и ближнего боя",
+    "period": "к6",
+    "strength": 0
+  },
+  "effects": [
+    {
+      "_id": "ccfe69a1772330b2",
+      "_key": "!items.effects!98dc2dd2cf7190aa.ccfe69a1772330b2",
+      "name": "Растяжение запястья",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.shooting.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.melee.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

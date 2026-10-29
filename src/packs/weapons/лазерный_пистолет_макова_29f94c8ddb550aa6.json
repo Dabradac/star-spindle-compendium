@@ -1,0 +1,41 @@
+{
+  "_id": "29f94c8ddb550aa6",
+  "_key": "!items!29f94c8ddb550aa6",
+  "name": "Лазерный пистолет Макова",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 3799,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": 0,
+    "damage": 2,
+    "crit": 2,
+    "range": "long",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": ""
+  },
+  "effects": [],
+  "folder": "7b68449d4a8b2aee",
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

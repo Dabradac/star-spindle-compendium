@@ -1,0 +1,31 @@
+{
+  "_id": "b7a3ea92d7bb1d52",
+  "_key": "!items!b7a3ea92d7bb1d52",
+  "name": "Мультитул «Выживальщик»",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 700,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Ножик, шуруповёрт, пила, открывашка и другие приспособления.</p>"
+  },
+  "effects": [],
+  "folder": "b28912c46f98fb8c",
+  "sort": 4200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

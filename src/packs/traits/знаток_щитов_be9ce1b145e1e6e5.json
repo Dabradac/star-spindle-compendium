@@ -1,0 +1,28 @@
+{
+  "_id": "be9ce1b145e1e6e5",
+  "_key": "!items!be9ce1b145e1e6e5",
+  "name": "Знаток щитов",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+1 к классу брони используемого щита.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

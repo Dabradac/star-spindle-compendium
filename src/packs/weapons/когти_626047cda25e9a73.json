@@ -1,0 +1,41 @@
+{
+  "_id": "626047cda25e9a73",
+  "_key": "!items!626047cda25e9a73",
+  "name": "Когти",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 1600,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": 0,
+    "initiative": 3,
+    "damage": 1,
+    "crit": 1,
+    "range": "pointBlank",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Лёгкое",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Лёгкое:</strong> Помимо уменьшенного веса, можно держать в руках два оружия с этим свойством и выбирать, каким атаковать, в том числе оружие дальнего боя. Мощный удар таким оружием невозможен.</p>"
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "43b2f7b6090044ed",
+  "_key": "!items!43b2f7b6090044ed",
+  "name": "Тёртый калач",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Все воздействующие на вас отрицательные состояния (шок, кровотечение, отравление и т. п.) имеют силу на 1 меньше.</p><p>Уровень 2. Выбирается вместо «Единение с природой».</p>",
+    "skill": "survival",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "bca58880efe9ba18",
+  "sort": 7200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "60975719d8fdafca",
+  "_key": "!items!60975719d8fdafca",
+  "name": "Знание — сила",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы получаете +2 к проверке всех навыков при любом взаимодействии с полностью изученными представителями флоры и фауны.</p><p>Уровень 5. Выбирается вместо «Чертоги разума».</p>",
+    "skill": "science",
+    "tier": 5,
+    "active": false,
+    "used": false,
+    "modifier": 2,
+    "bonusTarget": "checks",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "94573f433d44f8a0",
+  "sort": 10900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "1d245dcc68620370",
+  "_key": "!items!1d245dcc68620370",
+  "name": "Плазменная пушка",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Попадание снижает броню цели на 1, длительная перезарядка</p>",
+    "modifier": 1,
+    "damage": 1,
+    "crit": 1,
+    "range": "long",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "bow",
+    "properties": "Попадание снижает броню цели на 1, длительная перезарядка",
+    "price": 90000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "f18e3de6cf114ecc",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "e7e8ea22927a0224",
+  "_key": "!items!e7e8ea22927a0224",
+  "name": "Экзоскафандр",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 4000,
+    "equipped": false,
+    "stored": false,
+    "defense": 2,
+    "properties": "Скафандр, запас кислорода, маневровые двигатели, магнитные ботинки, термостатичная",
+    "description": "<p><strong>Запас кислорода:</strong> 8-часовой запас кислорода и герметичный шлем.</p><p><strong>Магнитные ботинки:</strong> Позволяют ходить по металлическим поверхностям в невесомости.</p><p><strong>Маневровые двигатели:</strong> Манёвры в невесомости: +1 к проверкам проворства.</p><p><strong>Термостатичная:</strong> Выдерживает температуру от −30 до +30 градусов.</p><p><strong>Скафандр:</strong> Защищает от вакуума и радиации.</p>"
+  },
+  "effects": [],
+  "folder": "1e43980159618b9d",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

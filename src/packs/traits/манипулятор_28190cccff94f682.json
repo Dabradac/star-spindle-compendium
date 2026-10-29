@@ -1,0 +1,28 @@
+{
+  "_id": "28190cccff94f682",
+  "_key": "!items!28190cccff94f682",
+  "name": "Манипулятор",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Ветка ведовства: забывчивость, телепатическое общение, устрашение, вселение, чтение мыслей.</p><p>Можно выбрать не более двух веток. Практики открываются по уровню навыка ведовства.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "654885eb2e6a1ec1",
+  "sort": 3300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

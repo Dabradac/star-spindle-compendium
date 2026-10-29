@@ -1,0 +1,31 @@
+{
+  "_id": "d839cd7a9ed00d95",
+  "_key": "!items!d839cd7a9ed00d95",
+  "name": "Магический мел",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 200,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Очерчивает зону, в которую нежить лезет очень нехотя.</p>"
+  },
+  "effects": [],
+  "folder": "9b901da20d67dd2c",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

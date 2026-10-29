@@ -1,0 +1,35 @@
+{
+  "_id": "1bab105cff92ba74",
+  "_key": "!items!1bab105cff92ba74",
+  "name": "Спаренная автопушка",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Автоматический огонь, турельного типа</p>",
+    "modifier": 0,
+    "damage": 3,
+    "crit": 2,
+    "range": "zero",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "turret",
+    "properties": "Автоматический огонь, турельного типа",
+    "price": 20000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "f18e3de6cf114ecc",
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

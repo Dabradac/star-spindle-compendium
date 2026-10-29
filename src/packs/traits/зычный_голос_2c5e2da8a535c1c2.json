@@ -1,0 +1,28 @@
+{
+  "_id": "2c5e2da8a535c1c2",
+  "_key": "!items!2c5e2da8a535c1c2",
+  "name": "Зычный голос",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Нет отрицательных модификаторов для проверок влияния и лидерства при общении или отдаче приказов на большом расстоянии.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

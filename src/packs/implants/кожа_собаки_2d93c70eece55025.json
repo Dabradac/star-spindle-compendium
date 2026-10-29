@@ -1,0 +1,28 @@
+{
+  "_id": "2d93c70eece55025",
+  "_key": "!items!2d93c70eece55025",
+  "name": "Кожа собаки",
+  "type": "implant",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "<p>Регенерация кожи: сила любого кровотечения снижена на 3.</p><p>После установки к6 дней проверки, связанные с новой частью тела, получают −2.</p><p>Каждый второй установленный киберимплант снижает максимальную волю на 1.</p>",
+    "kind": "cyber",
+    "illegal": false,
+    "price": 0,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "9bb36f2417533652",
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

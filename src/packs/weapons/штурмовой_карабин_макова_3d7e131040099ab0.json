@@ -1,0 +1,41 @@
+{
+  "_id": "3d7e131040099ab0",
+  "_key": "!items!3d7e131040099ab0",
+  "name": "Штурмовой карабин Макова",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 3799,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": 2,
+    "damage": 2,
+    "crit": 3,
+    "range": "medium",
+    "armorPiercing": 0,
+    "automatic": true,
+    "properties": "Автоматическое",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Автоматическое:</strong> Из этого оружия можно вести автоматический огонь.</p>"
+  },
+  "effects": [],
+  "folder": "3bb8ef9b57defdc5",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

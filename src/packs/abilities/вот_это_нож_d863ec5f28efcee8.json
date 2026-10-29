@@ -1,0 +1,29 @@
+{
+  "_id": "d863ec5f28efcee8",
+  "_key": "!items!d863ec5f28efcee8",
+  "name": "Вот это нож",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Значение урона от оружия ближнего боя добавляется в качестве модификатора при запугивании этим оружием.</p><p>Уровень 2. Выбирается вместо «Бросок кобры».</p>",
+    "skill": "melee",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "0cbea72f591a84cf",
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

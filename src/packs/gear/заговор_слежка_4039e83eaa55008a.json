@@ -1,0 +1,31 @@
+{
+  "_id": "4039e83eaa55008a",
+  "_key": "!items!4039e83eaa55008a",
+  "name": "Заговор «Слежка»",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 700,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Передаёт местоположение и информацию с устройства в течение X дней.</p><p>Сила эффекта X равна количеству успехов при проверке кибершаманства. Цена заговора: 700–6000.</p>"
+  },
+  "effects": [],
+  "folder": "1b97bf738e819d1e",
+  "sort": 11500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

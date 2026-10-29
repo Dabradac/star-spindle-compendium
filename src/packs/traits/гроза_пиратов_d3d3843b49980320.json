@@ -1,0 +1,28 @@
+{
+  "_id": "d3d3843b49980320",
+  "_key": "!items!d3d3843b49980320",
+  "name": "Гроза пиратов",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+1 к проверкам навыков, направленных непосредственно против космических пиратов.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 1,
+    "bonusTarget": "checks",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

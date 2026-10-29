@@ -1,0 +1,29 @@
+{
+  "_id": "d7618b365e7abd22",
+  "_key": "!items!d7618b365e7abd22",
+  "name": "Аккуратнее, тут ловушка",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+2 к проверкам наблюдательности при попытках обнаружить ловушку.</p><p>Уровень 4. Выбирается вместо «Аккуратнее, тут засада».</p>",
+    "skill": "observation",
+    "tier": 4,
+    "active": false,
+    "used": false,
+    "modifier": 2,
+    "bonusTarget": "skill.observation",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "22dbad390df9b677",
+  "sort": 6600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

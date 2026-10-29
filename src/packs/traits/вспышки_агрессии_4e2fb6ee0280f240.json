@@ -1,0 +1,28 @@
+{
+  "_id": "4e2fb6ee0280f240",
+  "_key": "!items!4e2fb6ee0280f240",
+  "name": "Вспышки агрессии",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "kind": "negative",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "15ebf6e5747d8bbc",
+  "sort": 5400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

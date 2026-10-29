@@ -1,0 +1,29 @@
+{
+  "_id": "41bd50a32e7c5fb9",
+  "_key": "!items!41bd50a32e7c5fb9",
+  "name": "Психолог",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы можете использовать знахарство вместо лидерства, вдохновляя персонажей.</p><p>Уровень 2. Выбирается вместо «Он еле дышит».</p>",
+    "skill": "healing",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "7eb68160af3408a0",
+  "sort": 11200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

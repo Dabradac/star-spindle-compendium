@@ -1,0 +1,29 @@
+{
+  "_id": "6425de2268af8ca5",
+  "_key": "!items!6425de2268af8ca5",
+  "name": "Становая тяга",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+3 к проверкам силы при попытках нести груз свыше допустимого.</p><p>Уровень 2. Выбирается вместо «Это легко».</p>",
+    "skill": "strength",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 3,
+    "bonusTarget": "skill.strength",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "19f4c8d90a6bac8e",
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

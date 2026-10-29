@@ -1,0 +1,31 @@
+{
+  "_id": "9515691f289aa5d5",
+  "_key": "!items!9515691f289aa5d5",
+  "name": "Эликсир Беспредельной Силы",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 1900,
+    "equipped": false,
+    "stored": false,
+    "modifier": 2,
+    "bonusTarget": "skill.strength",
+    "conditional": false,
+    "description": "<p>+2 к проверкам силы, +1 к урону в ближнем бою.</p>"
+  },
+  "effects": [],
+  "folder": "862633014ef6b333",
+  "sort": 2900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "_id": "f0b1c0e8b9790f8b",
+  "_key": "!tables!f0b1c0e8b9790f8b",
+  "name": "Износ корабля (к6)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "309bb7e4c109012b",
+      "_key": "!tables.results!f0b1c0e8b9790f8b.309bb7e4c109012b",
+      "type": "text",
+      "name": "Сенсоры",
+      "description": "−2 ко всем проверкам, связанным со сканированием и наведением",
+      "text": "<strong>Сенсоры</strong>: −2 ко всем проверкам, связанным со сканированием и наведением",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "8e74e4f5da33ea45",
+      "_key": "!tables.results!f0b1c0e8b9790f8b.8e74e4f5da33ea45",
+      "type": "text",
+      "name": "Реактор",
+      "description": "−1 к энергии корабля",
+      "text": "<strong>Реактор</strong>: −1 к энергии корабля",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6070523ecfa33840",
+      "_key": "!tables.results!f0b1c0e8b9790f8b.6070523ecfa33840",
+      "type": "text",
+      "name": "Двигатели",
+      "description": "−1 к манёвренности корабля",
+      "text": "<strong>Двигатели</strong>: −1 к манёвренности корабля",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ede272a4f6b51818",
+      "_key": "!tables.results!f0b1c0e8b9790f8b.ede272a4f6b51818",
+      "type": "text",
+      "name": "Случайное орудие",
+      "description": "−1 ко всем проверкам, связанным со случайным орудием",
+      "text": "<strong>Случайное орудие</strong>: −1 ко всем проверкам, связанным со случайным орудием",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "84a0172bec8da24c",
+      "_key": "!tables.results!f0b1c0e8b9790f8b.84a0172bec8da24c",
+      "type": "text",
+      "name": "Износ конструкций",
+      "description": "−2 от максимальной прочности",
+      "text": "<strong>Износ конструкций</strong>: −2 от максимальной прочности",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "371ba73c16376748",
+      "_key": "!tables.results!f0b1c0e8b9790f8b.371ba73c16376748",
+      "type": "text",
+      "name": "Случайная система / модуль",
+      "description": "−2 к проверкам, связанным с этой системой или модулем",
+      "text": "<strong>Случайная система / модуль</strong>: −2 к проверкам, связанным с этой системой или модулем",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

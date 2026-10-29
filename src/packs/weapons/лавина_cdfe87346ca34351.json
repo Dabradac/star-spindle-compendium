@@ -1,0 +1,41 @@
+{
+  "_id": "cdfe87346ca34351",
+  "_key": "!items!cdfe87346ca34351",
+  "name": "«ЛАВина»",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 6800,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": 0,
+    "damage": 2,
+    "crit": 3,
+    "range": "long",
+    "armorPiercing": 0,
+    "automatic": true,
+    "properties": "Автоматическое, бесшумное, оптический прицел",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Автоматическое:</strong> Из этого оружия можно вести автоматический огонь.</p><p><strong>Бесшумное:</strong> Чтобы услышать выстрел, нужна проверка наблюдательности с штрафом −2 на ближней и средней дистанции, −4 на дальней; на предельной не слышно вовсе.</p>"
+  },
+  "effects": [],
+  "folder": "3bb8ef9b57defdc5",
+  "sort": 4200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "16865fc8bcd9d3d4",
+  "_key": "!items!16865fc8bcd9d3d4",
+  "name": "Автопушка",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Автоматический огонь, турельного типа</p>",
+    "modifier": 1,
+    "damage": 2,
+    "crit": 2,
+    "range": "zero",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "turret",
+    "properties": "Автоматический огонь, турельного типа",
+    "price": 15000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "f18e3de6cf114ecc",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

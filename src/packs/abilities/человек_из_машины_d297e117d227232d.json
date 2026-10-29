@@ -1,0 +1,29 @@
+{
+  "_id": "d297e117d227232d",
+  "_key": "!items!d297e117d227232d",
+  "name": "Человек из машины",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+1 к броне за каждый установленный имплант.</p><p>Уровень 3. Выбирается вместо «Как влитой».</p>",
+    "skill": "cybershamanism",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "688462003875637e",
+  "sort": 8400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "6d16970f55f5fd47",
+  "_key": "!items!6d16970f55f5fd47",
+  "name": "Дуговой резак",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 2500,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Режет металл. После каждого использования нужна замена топливного элемента.</p>"
+  },
+  "effects": [],
+  "folder": "9e4895fdee3069f1",
+  "sort": 8300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

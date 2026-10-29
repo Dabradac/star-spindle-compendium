@@ -1,0 +1,28 @@
+{
+  "_id": "54a16f4b0fa989d2",
+  "_key": "!items!54a16f4b0fa989d2",
+  "name": "Ушиб паховой области",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (4); по 1 пункту урона за каждую проверку силы, проворства и ближнего боя</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: 2к6 дн.</p>",
+    "code": "25",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Шок (4); по 1 пункту урона за каждую проверку силы, проворства и ближнего боя",
+    "period": "2к6",
+    "strength": 4
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

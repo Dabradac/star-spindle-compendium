@@ -1,0 +1,28 @@
+{
+  "_id": "bc4707688e6998f3",
+  "_key": "!items!bc4707688e6998f3",
+  "name": "Проникающее ранение в живот",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>По 1 пункту урона каждый ход, пока не будет оказана неотложная помощь</p><p>Смерть: Да. Крайний срок помощи: к6 минут. Период излечения: к6 дн.</p>",
+    "code": "53",
+    "lethal": true,
+    "deadline": "к6 минут",
+    "effect": "По 1 пункту урона каждый ход, пока не будет оказана неотложная помощь",
+    "period": "к6",
+    "strength": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

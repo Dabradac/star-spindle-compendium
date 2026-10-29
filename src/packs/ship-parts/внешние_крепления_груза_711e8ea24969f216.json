@@ -1,0 +1,23 @@
+{
+  "_id": "711e8ea24969f216",
+  "_key": "!items!711e8ea24969f216",
+  "name": "Внешние крепления груза",
+  "type": "shipUpgrade",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Груз на обшивке: удвоенная вместимость внутреннего отсека.</p><p>Улучшение модуля «Грузовой отсек». Стоимость: 15% от базовой цены корабля.</p>",
+    "costPercent": 15
+  },
+  "effects": [],
+  "folder": "edfb7d0aab2ebf81",
+  "sort": 4600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

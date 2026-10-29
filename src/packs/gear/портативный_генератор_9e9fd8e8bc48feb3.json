@@ -1,0 +1,31 @@
+{
+  "_id": "9e9fd8e8bc48feb3",
+  "_key": "!items!9e9fd8e8bc48feb3",
+  "name": "Портативный генератор",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 2000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Локальная выработка электроэнергии.</p>"
+  },
+  "effects": [],
+  "folder": "b28912c46f98fb8c",
+  "sort": 4700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

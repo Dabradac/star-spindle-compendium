@@ -1,0 +1,29 @@
+{
+  "_id": "642c30e03a861b0e",
+  "_key": "!items!642c30e03a861b0e",
+  "name": "И это пройдёт",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Время выздоровления от травм и болезней вылеченного вами персонажа уменьшается ещё вполовину.</p><p>Уровень 1. Выбирается вместо «Травматолог».</p>",
+    "skill": "healing",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "7eb68160af3408a0",
+  "sort": 11100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "_id": "b186277471f6378f",
+  "_key": "!actors!b186277471f6378f",
+  "name": "Кладенец",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 3
+      },
+      "agility": {
+        "value": 3
+      },
+      "intellect": {
+        "value": 4
+      },
+      "empathy": {
+        "value": 3
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 5,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 1,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 2,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 4,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 3,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 3,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 6,
+      "max": 6,
+      "bonus": 0
+    },
+    "will": {
+      "value": 7,
+      "max": 7,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Горный дух в облике мудрого старца с трубкой, стерегущий клады. Предлагает испытать силы в поединке — и пока никому не удалось его по-настоящему одолеть.</p><h3>Черты</h3><p><strong>Бестелесный дух</strong> (пасс.): Нельзя нанести урон без специального боеприпаса или устройства.</p><p><strong>Мастерское парирование</strong> (пасс.): Полностью заблокировав урон, контратакует свободным действием.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Лесничий</td><td>Горы, лес, холмы</td><td>Вместо меча — лук +2 и копьё +2; вместо ближнего боя — стрельба 5</td></tr></table>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 3,
+    "rarity": -3,
+    "actionPoints": 3,
+    "defenses": "Устойчивость к режущему, дробящему и колющему; Восприимчивость к ведовству",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "288f0d6a264cf75f",
+      "_key": "!actors.items!b186277471f6378f.288f0d6a264cf75f",
+      "name": "Меч-кладенец",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 2,
+        "initiative": 2,
+        "damage": 4,
+        "crit": 2,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "797bb721f6246d18",
+      "_key": "!actors.items!b186277471f6378f.797bb721f6246d18",
+      "name": "Бестелесный дух (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Нельзя нанести урон без специального боеприпаса или устройства.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "11f1ca7a788763cf",
+      "_key": "!actors.items!b186277471f6378f.11f1ca7a788763cf",
+      "name": "Мастерское парирование (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Полностью заблокировав урон, контратакует свободным действием.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Кладенец",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "143c877c430c078f",
+  "_key": "!items!143c877c430c078f",
+  "name": "Факел",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 100,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": -1,
+    "initiative": 1,
+    "damage": 1,
+    "crit": 0,
+    "range": "pointBlank",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Лёгкое, воспламеняющее (1)",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Воспламеняющее:</strong> Если противник получил урон от атаки этим оружием, он становится охвачен огнём с указанной мощностью.</p><p><strong>Лёгкое:</strong> Помимо уменьшенного веса, можно держать в руках два оружия с этим свойством и выбирать, каким атаковать, в том числе оружие дальнего боя. Мощный удар таким оружием невозможен.</p>"
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

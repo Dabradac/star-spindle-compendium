@@ -1,0 +1,31 @@
+{
+  "_id": "07895f0b283e8951",
+  "_key": "!items!07895f0b283e8951",
+  "name": "Полевой набор для сбора образцов",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 300,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Инструменты для сбора проб.</p>"
+  },
+  "effects": [],
+  "folder": "7b385e7d2e773313",
+  "sort": 6700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

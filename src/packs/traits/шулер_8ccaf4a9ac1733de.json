@@ -1,0 +1,28 @@
+{
+  "_id": "8ccaf4a9ac1733de",
+  "_key": "!items!8ccaf4a9ac1733de",
+  "name": "Шулер",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+1 к проверкам скрытности и проворства в азартных играх.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 1,
+    "bonusTarget": "skill.stealth",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

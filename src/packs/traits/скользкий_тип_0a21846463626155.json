@@ -1,0 +1,28 @@
+{
+  "_id": "0a21846463626155",
+  "_key": "!items!0a21846463626155",
+  "name": "Скользкий тип",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+2 ко всем проверкам при попытках избежать или вырваться из захвата, опутывания и тому подобных сдерживающих подвижность воздействий.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 2,
+    "bonusTarget": "checks",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

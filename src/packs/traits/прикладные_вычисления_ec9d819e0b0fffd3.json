@@ -1,0 +1,28 @@
+{
+  "_id": "ec9d819e0b0fffd3",
+  "_key": "!items!ec9d819e0b0fffd3",
+  "name": "Прикладные вычисления",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+1 к проверкам науки при расчёте траекторий и поиске уязвимых мест окружающей среды.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 1,
+    "bonusTarget": "skill.science",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

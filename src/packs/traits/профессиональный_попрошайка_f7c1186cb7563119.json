@@ -1,0 +1,28 @@
+{
+  "_id": "f7c1186cb7563119",
+  "_key": "!items!f7c1186cb7563119",
+  "name": "Профессиональный попрошайка",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+2 к проверкам влияния и культуры при попытках убедить пустить вас пожить, накормить и дать мелочи.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 2,
+    "bonusTarget": "skill.influence",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 2900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

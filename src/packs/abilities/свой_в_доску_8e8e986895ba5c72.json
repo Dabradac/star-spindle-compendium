@@ -1,0 +1,29 @@
+{
+  "_id": "8e8e986895ba5c72",
+  "_key": "!items!8e8e986895ba5c72",
+  "name": "Свой в доску",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы получаете +1 к проверкам влияния при взаимодействии с мужчинами.</p><p>Уровень 4. Выбирается вместо «Ловелас».</p>",
+    "skill": "influence",
+    "tier": 4,
+    "active": false,
+    "used": false,
+    "modifier": 1,
+    "bonusTarget": "skill.influence",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "ea999bde4789d24a",
+  "sort": 12700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "b077d44da75393f5",
+  "_key": "!items!b077d44da75393f5",
+  "name": "Инженерный БПЛА",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 6000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Прочный дрон с ремонтным набором и герметиком для ремонта обшивки.</p>"
+  },
+  "effects": [],
+  "folder": "9e4895fdee3069f1",
+  "sort": 8500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

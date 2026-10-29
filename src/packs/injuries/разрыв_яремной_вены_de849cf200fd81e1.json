@@ -1,0 +1,54 @@
+{
+  "_id": "de849cf200fd81e1",
+  "_key": "!items!de849cf200fd81e1",
+  "name": "Разрыв яремной вены",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Персонаж теряет сознание на к6 часов; −1 при проверках проворства</p><p>Смерть: Да, −1. Крайний срок помощи: к6 минут. Период излечения: к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "63",
+    "lethal": true,
+    "deadline": "к6 минут",
+    "effect": "Персонаж теряет сознание на к6 часов; −1 при проверках проворства",
+    "period": "к6",
+    "strength": 0
+  },
+  "effects": [
+    {
+      "_id": "549b9374012c98a1",
+      "_key": "!items.effects!de849cf200fd81e1.549b9374012c98a1",
+      "name": "Разрыв яремной вены",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 3200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

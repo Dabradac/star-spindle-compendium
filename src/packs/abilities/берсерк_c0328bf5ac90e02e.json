@@ -1,0 +1,29 @@
+{
+  "_id": "c0328bf5ac90e02e",
+  "_key": "!items!c0328bf5ac90e02e",
+  "name": "Берсерк",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Каждый противник, находящийся в эффективном радиусе вашего оружия ближнего боя, даёт +1 к броне.</p><p>Уровень 3. Выбирается вместо «Защитная стойка».</p>",
+    "skill": "melee",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "0cbea72f591a84cf",
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

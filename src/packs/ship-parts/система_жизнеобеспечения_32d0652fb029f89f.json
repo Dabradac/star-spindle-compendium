@@ -1,0 +1,25 @@
+{
+  "_id": "32d0652fb029f89f",
+  "_key": "!items!32d0652fb029f89f",
+  "name": "Система жизнеобеспечения",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Очистка воздуха и воды, температура и давление. На I и II классе не занимает отсек. При отказе реактора резерва хватает на 1 × класс дней.</p><h3>Улучшения</h3><ul><li>Дополнительный запас воды и кислорода (15%): Запас на 2 × класс корабля дней.</li><li>Оранжерея (15%): Небольшой сад с неприхотливыми культурами.</li></ul>",
+    "category": "base",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "c1ba78693baaba59",
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

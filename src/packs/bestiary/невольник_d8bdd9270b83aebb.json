@@ -1,0 +1,272 @@
+{
+  "_id": "d8bdd9270b83aebb",
+  "_key": "!actors!d8bdd9270b83aebb",
+  "name": "Невольник",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 2
+      },
+      "agility": {
+        "value": 2
+      },
+      "intellect": {
+        "value": 1
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 2,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 1,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 0,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 1,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 4,
+      "max": 4,
+      "bonus": 0
+    },
+    "will": {
+      "value": 4,
+      "max": 4,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 5,
+    "biography": "<p>Неупокоенные души преступников и погибших в несчастьях, увешанные цепями и застывшие в мучительной гримасе. Досаждают живым, а самые рьяные могут и прибить.</p><h3>Черты</h3><p><strong>Вопль мученика</strong> (1 жетон): Истошный крик: урон воле всем противникам в поле зрения (СВВ 3).</p><p><strong>Хлёсткий удар</strong>: При успешной атаке быстрым действием выбивает оружие из рук без критического успеха; цель защищается проверкой проворства с −1.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Мученик</td><td>Холмы, равнины</td><td>Здоровье 6, скорость 10</td></tr><tr><td>Безумец</td><td>Пещеры</td><td>Физический урон наносит ещё 1 урон воле; кандалы и цепи (3)</td></tr></table>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 1,
+    "rarity": 0,
+    "actionPoints": 3,
+    "defenses": "Устойчивость к огню; Устойчивость к режущему; Уязвимость к лазерному",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "ee96b21f293203cb",
+      "_key": "!actors.items!d8bdd9270b83aebb.ee96b21f293203cb",
+      "name": "Тяжёлая цепь",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 1,
+        "initiative": -1,
+        "damage": 3,
+        "crit": 2,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "b48bab103f0e9ab1",
+      "_key": "!actors.items!d8bdd9270b83aebb.b48bab103f0e9ab1",
+      "name": "Кандалы и цепи",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "defense": 2,
+        "properties": "Естественная броня",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "8eca2f2cd2e54f1f",
+      "_key": "!actors.items!d8bdd9270b83aebb.8eca2f2cd2e54f1f",
+      "name": "Вопль мученика (1 жетон)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Истошный крик: урон воле всем противникам в поле зрения (СВВ 3).</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "1a16f06f7a999bc3",
+      "_key": "!actors.items!d8bdd9270b83aebb.1a16f06f7a999bc3",
+      "name": "Хлёсткий удар",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>При успешной атаке быстрым действием выбивает оружие из рук без критического успеха; цель защищается проверкой проворства с −1.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Невольник",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

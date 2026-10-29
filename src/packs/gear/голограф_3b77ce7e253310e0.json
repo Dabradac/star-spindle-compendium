@@ -1,0 +1,31 @@
+{
+  "_id": "3b77ce7e253310e0",
+  "_key": "!items!3b77ce7e253310e0",
+  "name": "Голограф",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 500,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Проекционное устройство для создания трёхмерных изображений. Цена 500–5000 в зависимости от размера и качества.</p>"
+  },
+  "effects": [],
+  "folder": "c885c9a692501330",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

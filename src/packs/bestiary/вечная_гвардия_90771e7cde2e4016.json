@@ -1,0 +1,299 @@
+{
+  "_id": "90771e7cde2e4016",
+  "_key": "!actors!90771e7cde2e4016",
+  "name": "Вечная гвардия",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 4
+      },
+      "agility": {
+        "value": 5
+      },
+      "intellect": {
+        "value": 3
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 5,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 2,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 4,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 3,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 2,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 2,
+        "bonus": 0
+      },
+      "science": {
+        "value": 1,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 9,
+      "max": 9,
+      "bonus": 0
+    },
+    "will": {
+      "value": 0,
+      "max": 0,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 15,
+    "biography": "<p>Почётная стража Древних, охраняющая внутренние залы и энергоячейки подземных комплексов. Мастера ближнего боя с плазменными дисками, совершающие фазовые скачки.</p><h3>Черты</h3><p><strong>Сканирование цели</strong> (1 жетон): Против проанализированной цели +1 к ближнему бою и стрельбе до конца боя.</p><p><strong>Темпоральная перчатка</strong> (1 жетон): Быстрым действием (1 скачок за ход) перемещается в среднем радиусе без внеочередных атак.</p><p><strong>Танец Гвардейца</strong> (3 жетона): На выбор Мастера: уворот от любого урона даже после броска; гарантированное попадание, игнорирующее броню, как с 3 успехами; сбить с ног всех в ближнем радиусе; защитная стойка с контратакой на каждый удар или выстрел на ближней дистанции.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Страж</td><td>Руины Древних</td><td>Плазменное короткое копьё (мод 1, иниц 2, урон 3, крит 3, длинное, энергетическое) и щит (6), скорость 10, закрывает союзников, иммунитет к взрывам</td></tr><tr><td>Ловчая</td><td>Руины Древних</td><td>Плазменный кнут (мод 2, иниц 2, урон 2, крит 4, лёгкое, маленькое, гибкое, энергетическое) и сеть, проворство 5, скрытность 3, засады</td></tr><tr><td>Вершитель</td><td>Руины Древних</td><td>Крупный размер, плазменный двуручный клинок (мод 2, иниц −2, урон 3, крит 2, тяжёлое, длинное, энергетическое), здоровье 12, скорость 10</td></tr></table>",
+    "injuries": "",
+    "role": "Механизмы Древних",
+    "useFormula": false,
+    "danger": 3,
+    "rarity": -3,
+    "actionPoints": 3,
+    "defenses": "Иммунитет к огню и взломам; Устойчивость к взрывам; Восприимчивость к электричеству",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "d21153e782fc72f7",
+      "_key": "!actors.items!90771e7cde2e4016.d21153e782fc72f7",
+      "name": "Плазменные диски",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 0,
+        "initiative": 4,
+        "damage": 3,
+        "crit": 2,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Энергетическое",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p>Энергетическое</p>"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "843e42da4f3287aa",
+      "_key": "!actors.items!90771e7cde2e4016.843e42da4f3287aa",
+      "name": "Доспех Вечной Гвардии",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "defense": 5,
+        "properties": "Естественная броня",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "39a65fd87388b639",
+      "_key": "!actors.items!90771e7cde2e4016.39a65fd87388b639",
+      "name": "Сканирование цели (1 жетон)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Против проанализированной цели +1 к ближнему бою и стрельбе до конца боя.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "199854b4884ab060",
+      "_key": "!actors.items!90771e7cde2e4016.199854b4884ab060",
+      "name": "Темпоральная перчатка (1 жетон)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Быстрым действием (1 скачок за ход) перемещается в среднем радиусе без внеочередных атак.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "7546c47dd649032a",
+      "_key": "!actors.items!90771e7cde2e4016.7546c47dd649032a",
+      "name": "Танец Гвардейца (3 жетона)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>На выбор Мастера: уворот от любого урона даже после броска; гарантированное попадание, игнорирующее броню, как с 3 успехами; сбить с ног всех в ближнем радиусе; защитная стойка с контратакой на каждый удар или выстрел на ближней дистанции.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "63ad679b5c416776",
+  "sort": 4800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Вечная гвардия",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

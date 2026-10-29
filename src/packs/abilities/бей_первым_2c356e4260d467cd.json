@@ -1,0 +1,29 @@
+{
+  "_id": "2c356e4260d467cd",
+  "_key": "!items!2c356e4260d467cd",
+  "name": "Бей первым",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Если вы носите лёгкую броню или не носите вовсе, вы получаете дополнительно +4 к инициативе.</p><p>Уровень 3. Выбирается вместо «Удары по касательной».</p>",
+    "skill": "dexterity",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "7f8a0879cc3c897f",
+  "sort": 3500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

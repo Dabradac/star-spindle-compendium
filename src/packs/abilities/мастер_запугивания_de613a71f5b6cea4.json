@@ -1,0 +1,29 @@
+{
+  "_id": "de613a71f5b6cea4",
+  "_key": "!items!de613a71f5b6cea4",
+  "name": "Мастер запугивания",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+2 к проверкам влияния при попытках повлиять на волю другого персонажа.</p><p>Уровень 3. Выбирается вместо «Я рядом, если надо поговорить».</p>",
+    "skill": "influence",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 2,
+    "bonusTarget": "skill.influence",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "ea999bde4789d24a",
+  "sort": 12400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "6b0bfce71acb46f3",
+  "_key": "!items!6b0bfce71acb46f3",
+  "name": "Травматическая ампутация руки",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Персонаж теряет сознание на к6 часов; кровотечение (3); −2 при проверках проворства. Лишается руки: нельзя пользоваться двуручным и тяжёлым оружием</p><p>Смерть: Да, −1. Крайний срок помощи: к6 минут. Период излечения: 3к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "61",
+    "lethal": true,
+    "deadline": "к6 минут",
+    "effect": "Персонаж теряет сознание на к6 часов; кровотечение (3); −2 при проверках проворства. Лишается руки: нельзя пользоваться двуручным и тяжёлым оружием",
+    "period": "3к6",
+    "strength": 0
+  },
+  "effects": [
+    {
+      "_id": "d1a522191fa7bb5e",
+      "_key": "!items.effects!6b0bfce71acb46f3.d1a522191fa7bb5e",
+      "name": "Травматическая ампутация руки",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

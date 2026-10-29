@@ -1,0 +1,203 @@
+{
+  "_id": "381ff2672bb96987",
+  "_key": "!actors!381ff2672bb96987",
+  "name": "Домовой",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 1
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 4
+      },
+      "empathy": {
+        "value": 3
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 0,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 2,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 2,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 2,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 1,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 1,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 2,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 5,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 5,
+      "max": 5,
+      "bonus": 0
+    },
+    "will": {
+      "value": 7,
+      "max": 7,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Самые доброжелательные духи Веретена: мохнатые ушастые зверьки в нарядных одеждах, следящие за уютом в домах и на кораблях. Любят тепло, пряники и чай; о Веретене и времени не говорят.</p><h3>Черты</h3><p><strong>Знаток Веретена</strong> (пасс.): Опытный ведун, владеет как минимум одной веткой ведовства. Применение способностей не вредит домовому и не даёт Мастеру жетонов Чернобога.</p><p><strong>Телепат</strong> (пасс.): Умеет ментально общаться с другими существами.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Корабельный</td><td>Любое</td><td>Живёт на кораблях, помогает с ремонтом и отладкой систем</td></tr><tr><td>Дворовой</td><td>Любое</td><td>Наводит порядок на улицах и во дворах</td></tr><tr><td>Овинник</td><td>Любое</td><td>Помогает в сельском хозяйстве и со скотом</td></tr><tr><td>Чур</td><td>Любое</td><td>Бестелесный дух, оберегает от злых духов и исцеляет болезни</td></tr></table>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 1,
+    "rarity": 3,
+    "actionPoints": 3,
+    "defenses": "Любое лёгкое оружие и лёгкая броня; Иммунитет к радиации; Устойчивость к ведовству",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "7aa0ca55fe69918f",
+      "_key": "!actors.items!381ff2672bb96987.7aa0ca55fe69918f",
+      "name": "Знаток Веретена (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Опытный ведун, владеет как минимум одной веткой ведовства. Применение способностей не вредит домовому и не даёт Мастеру жетонов Чернобога.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "181eb2f66f764216",
+      "_key": "!actors.items!381ff2672bb96987.181eb2f66f764216",
+      "name": "Телепат (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Умеет ментально общаться с другими существами.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Домовой",
+    "actorLink": false,
+    "disposition": 0,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

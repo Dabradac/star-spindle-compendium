@@ -1,0 +1,29 @@
+{
+  "_id": "0612fe8157fd5236",
+  "_key": "!items!0612fe8157fd5236",
+  "name": "Мелкий воришка",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+1 к скрытности при воровстве мелких и лёгких предметов из инвентаря другого персонажа.</p><p>Уровень 1. Выбирается вместо «Вы этого не видели».</p>",
+    "skill": "stealth",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 1,
+    "bonusTarget": "skill.stealth",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "d4e19314fcd21975",
+  "sort": 4100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "_id": "80cc1fb795428f9b",
+  "_key": "!actors!80cc1fb795428f9b",
+  "name": "Перунья коровка",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 2
+      },
+      "agility": {
+        "value": 2
+      },
+      "intellect": {
+        "value": 0
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 3,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 1,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 1,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 1,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 1,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 2,
+      "max": 2,
+      "bonus": 0
+    },
+    "will": {
+      "value": 0,
+      "max": 0,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Узорчатый жук размером с ладонь. Поодиночке безобиден, но из потревоженного коровейника вылетает целый рой.</p><h3>Черты</h3><p><strong>Рой</strong> (пасс.): Одним действием атакует нескольких жертв, распределяя урон. Урон рою наносят только огнём, взрывчаткой, оружием с разбросом и т. п.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Моренова тля</td><td>Тропики</td><td>Ядовитые цвета, заражает болезнями</td></tr><tr><td>Снежная коровка</td><td>Тайга</td><td>Замораживает цели при атаке: обездвижен (СВЗ 1), иммунитет к холоду</td></tr></table>",
+    "injuries": "",
+    "role": "Местная фауна",
+    "useFormula": false,
+    "danger": 1,
+    "rarity": 3,
+    "actionPoints": 3,
+    "defenses": "Уязвимость к огню, взрывам и дробящему",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "594f73c8ad512728",
+      "_key": "!actors.items!80cc1fb795428f9b.594f73c8ad512728",
+      "name": "Крохотные жвала",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 0,
+        "initiative": 0,
+        "damage": 1,
+        "crit": 3,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "0f4f8392a6fb21c7",
+      "_key": "!actors.items!80cc1fb795428f9b.0f4f8392a6fb21c7",
+      "name": "Рой (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Одним действием атакует нескольких жертв, распределяя урон. Урон рою наносят только огнём, взрывчаткой, оружием с разбросом и т. п.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "28853aeabae95012",
+  "sort": 4200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Перунья коровка",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "b6c177321eaaae6f",
+  "_key": "!items!b6c177321eaaae6f",
+  "name": "Ловелас",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы получаете +1 к проверкам влияния при взаимодействии с женщинами.</p><p>Уровень 4. Выбирается вместо «Свой в доску».</p>",
+    "skill": "influence",
+    "tier": 4,
+    "active": false,
+    "used": false,
+    "modifier": 1,
+    "bonusTarget": "skill.influence",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "ea999bde4789d24a",
+  "sort": 12600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

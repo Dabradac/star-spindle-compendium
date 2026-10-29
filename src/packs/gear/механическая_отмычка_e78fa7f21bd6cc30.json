@@ -1,0 +1,31 @@
+{
+  "_id": "e78fa7f21bd6cc30",
+  "_key": "!items!e78fa7f21bd6cc30",
+  "name": "Механическая отмычка",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 100,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Для взлома механических замков.</p>"
+  },
+  "effects": [],
+  "folder": "0ed5cb1164ca794c",
+  "sort": 5400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

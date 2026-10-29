@@ -1,0 +1,29 @@
+{
+  "_id": "57fd042c6d4b7e98",
+  "_key": "!items!57fd042c6d4b7e98",
+  "name": "Дай-ка мне",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Помогая другим персонажам в их проверках навыков с помощью силы, вы даёте бонус +2 вместо +1.</p><p>Уровень 1. Выбирается вместо «Пудовые кулаки».</p>",
+    "skill": "strength",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "19f4c8d90a6bac8e",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

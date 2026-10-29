@@ -1,0 +1,30 @@
+{
+  "_id": "1b588f85b8c31fc5",
+  "_key": "!items!1b588f85b8c31fc5",
+  "name": "Боевые латы",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 11000,
+    "equipped": false,
+    "stored": false,
+    "defense": 5,
+    "properties": "Тяжёлая",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "854d1277b9e1e7fd",
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

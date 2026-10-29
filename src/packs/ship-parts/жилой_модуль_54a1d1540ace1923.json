@@ -1,0 +1,25 @@
+{
+  "_id": "54a1d1540ace1923",
+  "_key": "!items!54a1d1540ace1923",
+  "name": "Жилой модуль",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Каюты, общие помещения, столовая: класс × 3 кают.</p><h3>Улучшения</h3><ul><li>Многоярусные кровати / места для сидения (10%): Мест для экипажа: класс × 6.</li><li>Каюта-люкс (25%): Полностью оборудованных кают высшего класса: по классу корабля.</li></ul>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 3300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

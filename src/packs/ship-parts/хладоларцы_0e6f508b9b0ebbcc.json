@@ -1,0 +1,25 @@
+{
+  "_id": "0e6f508b9b0ebbcc",
+  "_key": "!items!0e6f508b9b0ebbcc",
+  "name": "Хладоларцы",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Криосон для экипажа и пассажиров; 3 × класс корабля хладоларцов.</p><h3>Улучшения</h3><ul><li>Размещение типа «Улей» (15%): 6 × класс корабля хладоларцов.</li></ul>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 3900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

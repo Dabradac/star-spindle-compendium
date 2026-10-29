@@ -1,0 +1,29 @@
+{
+  "_id": "af995d875d0ac94d",
+  "_key": "!items!af995d875d0ac94d",
+  "name": "Получай, железяка",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы получаете +1 ко всем проверкам, атакуя или взаимодействуя с роботами, дронами и тому подобными механическими существами.</p><p>Уровень 4. Выбирается вместо «Дистанционный ремонт».</p>",
+    "skill": "mechanics",
+    "tier": 4,
+    "active": false,
+    "used": false,
+    "modifier": 1,
+    "bonusTarget": "checks",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "a9886f52b1d9a2d4",
+  "sort": 9600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "56dd557fa2e6c834",
+  "_key": "!items!56dd557fa2e6c834",
+  "name": "Заговор «Маска»",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 700,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Камеры и устройства принимают вас за другого человека в течение X минут/раундов.</p><p>Сила эффекта X равна количеству успехов при проверке кибершаманства. Цена заговора: 700–6000.</p>"
+  },
+  "effects": [],
+  "folder": "1b97bf738e819d1e",
+  "sort": 11800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

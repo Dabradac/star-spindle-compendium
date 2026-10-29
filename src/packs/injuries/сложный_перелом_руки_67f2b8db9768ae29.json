@@ -1,0 +1,60 @@
+{
+  "_id": "67f2b8db9768ae29",
+  "_key": "!items!67f2b8db9768ae29",
+  "name": "Сложный перелом руки",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (5); −2 при проверках силы и ближнего боя, нельзя использовать двуручное оружие</p><p>Смерть: Да. Крайний срок помощи: к6 дней. Период излечения: 4к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "43",
+    "lethal": true,
+    "deadline": "к6 дней",
+    "effect": "Шок (5); −2 при проверках силы и ближнего боя, нельзя использовать двуручное оружие",
+    "period": "4к6",
+    "strength": 5
+  },
+  "effects": [
+    {
+      "_id": "71f2bceacbd507e7",
+      "_key": "!items.effects!67f2b8db9768ae29.71f2bceacbd507e7",
+      "name": "Сложный перелом руки",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.strength.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.skills.melee.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

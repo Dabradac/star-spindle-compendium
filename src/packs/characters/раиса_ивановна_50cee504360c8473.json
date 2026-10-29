@@ -1,0 +1,525 @@
+{
+  "_id": "50cee504360c8473",
+  "_key": "!actors!50cee504360c8473",
+  "name": "Раиса Ивановна",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 5
+      },
+      "agility": {
+        "value": 5
+      },
+      "intellect": {
+        "value": 3
+      },
+      "empathy": {
+        "value": 2
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 3,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 3,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 2,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 0,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 0,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 10,
+      "max": 10,
+      "bonus": 0
+    },
+    "will": {
+      "value": 5,
+      "max": 5,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Одна из немногих, кому удалось дважды пережить неисправности хладоларцов «Гипербореи». После двухвекового сна встала сама; память и рассудок, видимо, остались во льду. Работу берёт грубую, но выполняет чётко.</p>",
+    "injuries": "",
+    "supercredits": 1000,
+    "reputation": -1,
+    "xp": 0,
+    "origin": "",
+    "religion": "",
+    "blessing": 0,
+    "heroTokens": 0,
+    "encumbranceBonus": 0,
+    "resources": {
+      "t1": 0,
+      "t2": 0,
+      "t3": 0,
+      "t4": 0,
+      "t5": 0
+    },
+    "cabin": {
+      "description": "",
+      "storage": ""
+    },
+    "factions": {
+      "demos": 0,
+      "commune": 0,
+      "peddlers": 0,
+      "frontiers": 0,
+      "church": 0,
+      "outcasts": 0
+    },
+    "clans": {
+      "wolf": 0,
+      "eagle": 0,
+      "snake": 0,
+      "ram": 0,
+      "owl": 0,
+      "bear": 0
+    },
+    "appearance": "",
+    "notes": "<p>Роль: Охранник.</p>"
+  },
+  "items": [
+    {
+      "_id": "1115a4bfbe3c2ab1",
+      "_key": "!actors.items!50cee504360c8473.1115a4bfbe3c2ab1",
+      "name": "Воин",
+      "type": "specialization",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": "<p>Враждующие кланы и фракции, торговцы, нуждающиеся в защите от пиратов, колонии, страдающие от сущностей Веретена, — ваши постоянные клиенты, а сражения насмерть — ваша работа.</p><h3>Рекомендуемые навыки</h3><p>Ближний бой, Стрельба, Сила</p><h3>Модификатор репутации</h3><p>0</p><h3>Дополнительный опыт</h3><ul><li>Спасение союзника от верной смерти, принимая удар на себя и рискуя своей жизнью — 2 опыта</li><li>Убийство крайне сильного существа, представляющего смертельную опасность для группы — 2 опыта</li><li>Вы предложили план, который помог в решении сложной задачи группы силовыми методами — 2 опыта</li></ul><h3>Примеры положительных черт</h3><ul><li>Гроза пиратов</li><li>Медвежья хватка</li><li>Знаток щитов</li></ul><h3>Примеры отрицательных черт</h3><ul><li>Посттравматическое расстройство</li><li>Вспышки агрессии</li><li>Вам хочет отомстить клан или фракция</li></ul><h3>Стартовое снаряжение на выбор</h3><ul><li>Тяжёлый пистолет Куровски или Меч</li><li>СПАС-1 (2) или Архаичный щит</li><li>Бронерубаха или Архаичная тяжёлая броня</li><li>Комплект бронебойных боеприпасов (4) или Осколочная граната (2)</li></ul>",
+        "variations": "Солдат, наёмник, дружинник",
+        "recommendedSkills": [
+          "melee",
+          "shooting",
+          "strength"
+        ],
+        "reputationModifier": 0,
+        "xpActions": "Спасение союзника от верной смерти, принимая удар на себя и рискуя своей жизнью — 2 опыта; Убийство крайне сильного существа, представляющего смертельную опасность для группы — 2 опыта; Вы предложили план, который помог в решении сложной задачи группы силовыми методами — 2 опыта",
+        "traitExamples": "Положительные: Гроза пиратов, Медвежья хватка, Знаток щитов. Отрицательные: Посттравматическое расстройство, Вспышки агрессии, Вам хочет отомстить клан или фракция.",
+        "startingGear": "Тяжёлый пистолет Куровски или Меч; СПАС-1 (2) или Архаичный щит; Бронерубаха или Архаичная тяжёлая броня; Комплект бронебойных боеприпасов (4) или Осколочная граната (2)"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.specializations.Item.7416885c8bd267d1"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "f656fc3605427469",
+      "_key": "!actors.items!50cee504360c8473.f656fc3605427469",
+      "name": "Медвежья хватка",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>+2 к ближнему бою при попытках взять противника в захват и удержать его.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 2,
+        "bonusTarget": "skill.melee",
+        "conditional": true
+      },
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.bfcc66367df1c9b0"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "cf347a7090f46e38",
+      "_key": "!actors.items!50cee504360c8473.cf347a7090f46e38",
+      "name": "Нелюдимость",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "",
+        "kind": "negative",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 8200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.6998dd49d5bc0ded"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "57996619597f0479",
+      "_key": "!actors.items!50cee504360c8473.57996619597f0479",
+      "name": "Обрез двустволки",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 2400,
+        "equipped": true,
+        "stored": false,
+        "skill": "shooting",
+        "modifier": 2,
+        "initiative": 3,
+        "damage": 2,
+        "crit": 2,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Однозарядное, разброс",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p><strong>Однозарядное:</strong> Оружие нужно перезаряжать после каждого выстрела.</p><p><strong>Разброс:</strong> Урон можно распределить между целями, находящимися в упор друг к другу.</p>"
+      },
+      "effects": [],
+      "sort": 5500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.weapons.Item.9b1484aeff847127"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "afe6ebff2b5e02ab",
+      "_key": "!actors.items!50cee504360c8473.afe6ebff2b5e02ab",
+      "name": "Цепной топор",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 2400,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 0,
+        "initiative": -2,
+        "damage": 2,
+        "crit": 1,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Энергетическое",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p><strong>Энергетическое:</strong> Требуется топливный элемент. После 3 быстрых ударов подряд заряд кончается. Незаряженное оружие теряет свойства, связанные с энергией, и получает штраф −2 к атакам.</p>"
+      },
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.weapons.Item.d246531155d63a5d"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "acae4d0bf9aad6c9",
+      "_key": "!actors.items!50cee504360c8473.acae4d0bf9aad6c9",
+      "name": "Архаичная тяжёлая броня",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "heavy",
+        "quality": 0,
+        "price": 3000,
+        "equipped": true,
+        "stored": false,
+        "defense": 4,
+        "properties": "Тяжёлая",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 1600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.armor.Item.a849cf1476ab56bc"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "28bc4a989cc6bced",
+      "_key": "!actors.items!50cee504360c8473.28bc4a989cc6bced",
+      "name": "Палатка",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 2000,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Портативное укрытие для ночлега и отдыха.</p>"
+      },
+      "effects": [],
+      "sort": 4400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.09a7563ad5d286a5"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "a7a8ed8518883353",
+      "_key": "!actors.items!50cee504360c8473.a7a8ed8518883353",
+      "name": "КПК",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 500,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Повсеместно распространённое устройство для связи и выхода в сеть. Цена 500–6000.</p>"
+      },
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.a526594e5618ca39"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "9f565bd8deca9880",
+      "name": "Масляная лампа",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!50cee504360c8473.9f565bd8deca9880"
+    },
+    {
+      "_id": "19182da91ac783fd",
+      "name": "Патронташ",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!50cee504360c8473.19182da91ac783fd"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Раиса Ивановна",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

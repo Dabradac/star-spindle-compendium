@@ -1,0 +1,31 @@
+{
+  "_id": "0a6b13047e0d8e29",
+  "_key": "!items!0a6b13047e0d8e29",
+  "name": "Талисман",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 200,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Фигурка Божества, талисман или молитвенные чётки. +1 при перебросе кубов в ходе молитвы раз в сутки.</p>"
+  },
+  "effects": [],
+  "folder": "88285127c974931a",
+  "sort": 7400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

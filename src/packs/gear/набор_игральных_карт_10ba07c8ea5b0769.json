@@ -1,0 +1,31 @@
+{
+  "_id": "10ba07c8ea5b0769",
+  "_key": "!items!10ba07c8ea5b0769",
+  "name": "Набор игральных карт",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 50,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Для развлечения в долгих полётах.</p>"
+  },
+  "effects": [],
+  "folder": "c885c9a692501330",
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

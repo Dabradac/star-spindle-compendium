@@ -1,0 +1,25 @@
+{
+  "_id": "a1167174ed1f3a1c",
+  "_key": "!items!a1167174ed1f3a1c",
+  "name": "Хранилище топлива",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Танк с топливом по таблице базовых значений; на I и II классе под обшивкой. При критическом повреждении — возгорание мощностью, равной классу корабля.</p>",
+    "category": "base",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "c1ba78693baaba59",
+  "sort": 3200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

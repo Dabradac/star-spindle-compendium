@@ -1,0 +1,25 @@
+{
+  "_id": "331909251b34ef1c",
+  "_key": "!items!331909251b34ef1c",
+  "name": "Часовня",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Небольшой храм: после двухчасовой службы +1 при перебросе кубов в следующих трёх молитвах.</p>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 3600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

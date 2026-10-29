@@ -1,0 +1,29 @@
+{
+  "_id": "e4d7c3bc184da4d6",
+  "_key": "!items!e4d7c3bc184da4d6",
+  "name": "Пыль в глаза",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы моментально пропадаете из поля зрения противника, перемещаясь свободным действием за ближайшее укрытие в радиусе средней дистанции.</p><p>Уровень 5. Выбирается вместо «Сворачиватель шей».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "stealth",
+    "tier": 5,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "d4e19314fcd21975",
+  "sort": 4900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

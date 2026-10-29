@@ -1,0 +1,31 @@
+{
+  "_id": "056c0a39719c6d25",
+  "_key": "!items!056c0a39719c6d25",
+  "name": "Бинокль",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 400,
+    "equipped": false,
+    "stored": false,
+    "modifier": 1,
+    "bonusTarget": "skill.observation",
+    "conditional": true,
+    "description": "<p>+1 к проверкам наблюдательности.</p>"
+  },
+  "effects": [],
+  "folder": "0ed5cb1164ca794c",
+  "sort": 5200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

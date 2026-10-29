@@ -1,0 +1,30 @@
+{
+  "_id": "4668166c11ad8295",
+  "_key": "!items!4668166c11ad8295",
+  "name": "Силовая броня",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "bulky",
+    "quality": 0,
+    "price": 65000,
+    "equipped": false,
+    "stored": false,
+    "defense": 9,
+    "properties": "Громоздкая, усиленные сервоприводы, реактивные двигатели",
+    "description": "<p><strong>Реактивные двигатели:</strong> Прыжки до 15 метров; за стандартное действие перемещение на утроенную скорость.</p><p><strong>Усиленные сервоприводы:</strong> +2 к проверкам силы.</p>"
+  },
+  "effects": [],
+  "folder": "854d1277b9e1e7fd",
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

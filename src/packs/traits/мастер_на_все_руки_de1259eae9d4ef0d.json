@@ -1,0 +1,28 @@
+{
+  "_id": "de1259eae9d4ef0d",
+  "_key": "!items!de1259eae9d4ef0d",
+  "name": "Мастер на все руки",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Вы можете соорудить из подручных средств и нескольких запчастей любой предмет снаряжения одноразового пользования.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

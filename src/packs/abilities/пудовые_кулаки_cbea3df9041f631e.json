@@ -1,0 +1,29 @@
+{
+  "_id": "cbea3df9041f631e",
+  "_key": "!items!cbea3df9041f631e",
+  "name": "Пудовые кулаки",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Безоружные атаки и атаки метательным оружием наносят на 1 больше урона.</p><p>Уровень 1. Выбирается вместо «Дай-ка мне».</p>",
+    "skill": "strength",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "19f4c8d90a6bac8e",
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

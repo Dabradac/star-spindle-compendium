@@ -1,0 +1,41 @@
+{
+  "_id": "806311225d819230",
+  "_key": "!items!806311225d819230",
+  "name": "Молот",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 900,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": 1,
+    "initiative": -2,
+    "damage": 3,
+    "crit": 3,
+    "range": "pointBlank",
+    "armorPiercing": 2,
+    "automatic": false,
+    "properties": "Бронебойное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Бронебойное:</strong> Оружие игнорирует 2 брони противника. Противники без брони получают на 1 урона меньше.</p>"
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

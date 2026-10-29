@@ -1,0 +1,28 @@
+{
+  "_id": "47d3ed9b0c02f373",
+  "_key": "!items!47d3ed9b0c02f373",
+  "name": "Перелом позвоночника",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Персонаж теряет сознание на к6 часов; паралич ниже пояса. Без лечения паралич становится постоянным</p><p>Смерть: Да. Крайний срок помощи: к6 часов. Период излечения: 4к6 дн.</p>",
+    "code": "51",
+    "lethal": true,
+    "deadline": "к6 часов",
+    "effect": "Персонаж теряет сознание на к6 часов; паралич ниже пояса. Без лечения паралич становится постоянным",
+    "period": "4к6",
+    "strength": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

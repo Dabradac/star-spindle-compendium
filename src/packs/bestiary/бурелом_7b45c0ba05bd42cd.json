@@ -1,0 +1,283 @@
+{
+  "_id": "7b45c0ba05bd42cd",
+  "_key": "!actors!7b45c0ba05bd42cd",
+  "name": "Бурелом",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 4
+      },
+      "agility": {
+        "value": 3
+      },
+      "intellect": {
+        "value": 3
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 4,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 2,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 2,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 3,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 2,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 14,
+      "max": 14,
+      "bonus": 0
+    },
+    "will": {
+      "value": 12,
+      "max": 12,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Эфирный огнедышащий змей — воплощение стихийного гнева природы, приходящий в жару и бурю через веретенные аномалии. Испепеляет деревни и поля, затем бесследно рассеивается.</p><h3>Черты</h3><p><strong>С пылу с жару</strong> (пасс.): Огненная аура: в начале хода противники в ближнем радиусе без огнестойкой защиты получают 1 урон.</p><p><strong>Огненный смерч</strong> (2 жетона): Продолжительным действием готовит атаку; в начале следующего хода атакует «Сгустком пламени» всех противников в зоне видимости.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Колотун</td><td>Тайга, ледники</td><td>Вместо пламени — холод; уязвим к огню, иммунитет к холоду</td></tr><tr><td>Самум</td><td>Пустыня, степь</td><td>Вместо пламени — песчаные бури</td></tr><tr><td>Водополь</td><td>Побережье, озеро, океаны</td><td>Вместо пламени — потоки воды, затапливает местность; уязвим к электричеству</td></tr></table>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 3,
+    "rarity": 1,
+    "actionPoints": 3,
+    "defenses": "Иммунитет к травмам; Иммунитет к огню; Устойчивость к огнестрельному; Восприимчивость к электричеству",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "94f048f01e572177",
+      "_key": "!actors.items!7b45c0ba05bd42cd.94f048f01e572177",
+      "name": "Огненная пасть",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 0,
+        "initiative": 0,
+        "damage": 4,
+        "crit": 1,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "f2036f6aebdb1ad9",
+      "_key": "!actors.items!7b45c0ba05bd42cd.f2036f6aebdb1ad9",
+      "name": "Сгусток пламени",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "shooting",
+        "modifier": 1,
+        "initiative": 0,
+        "damage": 5,
+        "crit": 3,
+        "range": "long",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "0f980d2b61e8faed",
+      "_key": "!actors.items!7b45c0ba05bd42cd.0f980d2b61e8faed",
+      "name": "С пылу с жару (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Огненная аура: в начале хода противники в ближнем радиусе без огнестойкой защиты получают 1 урон.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "60cb720abe44041f",
+      "_key": "!actors.items!7b45c0ba05bd42cd.60cb720abe44041f",
+      "name": "Огненный смерч (2 жетона)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Продолжительным действием готовит атаку; в начале следующего хода атакует «Сгустком пламени» всех противников в зоне видимости.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Бурелом",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

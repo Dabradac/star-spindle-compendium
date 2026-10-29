@@ -1,0 +1,29 @@
+{
+  "_id": "07d7e9d0242e7d5b",
+  "_key": "!items!07d7e9d0242e7d5b",
+  "name": "Стратегическое командование",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+2 к проверке лидерства при отдаче приказа, но приказ становится продолжительным действием.</p><p>Уровень 4. Выбирается вместо «Тактическое командование».</p>",
+    "skill": "leadership",
+    "tier": 4,
+    "active": false,
+    "used": false,
+    "modifier": 2,
+    "bonusTarget": "skill.leadership",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "8aab268d6865f072",
+  "sort": 13600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "2f5701ef9424b283",
+  "_key": "!items!2f5701ef9424b283",
+  "name": "Волк-одиночка",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы получаете +1 ко всем проверкам общих навыков, если на средней дистанции от вас нет никого из ваших союзников.</p><p>Уровень 3. Выбирается вместо «Вместе мы сила».</p>",
+    "skill": "survival",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 1,
+    "bonusTarget": "checks",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "bca58880efe9ba18",
+  "sort": 7500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

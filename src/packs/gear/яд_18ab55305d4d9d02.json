@@ -1,0 +1,31 @@
+{
+  "_id": "18ab55305d4d9d02",
+  "_key": "!items!18ab55305d4d9d02",
+  "name": "Яд",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 500,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Наносится на клинок, добавляется в еду или заряжается в пневматический инъектор. Обычно сила от 2 до 5. Цена 500–5000.</p>"
+  },
+  "effects": [],
+  "folder": "164e01d14f2395f7",
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

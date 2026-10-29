@@ -1,0 +1,29 @@
+{
+  "_id": "ae15406bf98c9f4a",
+  "_key": "!items!ae15406bf98c9f4a",
+  "name": "Судьба — не случайность",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Выберите любой из брошенных вами кубов и переверните его другой стороной. Используйте это значение.</p><p>Уровень 5. Выбирается вместо «Благословитель».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "culture",
+    "tier": 5,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "078b7902d7443ddd",
+  "sort": 14900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

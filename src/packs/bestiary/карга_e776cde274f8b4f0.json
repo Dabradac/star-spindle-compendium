@@ -1,0 +1,339 @@
+{
+  "_id": "e776cde274f8b4f0",
+  "_key": "!actors!e776cde274f8b4f0",
+  "name": "Карга",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 2
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 4
+      },
+      "empathy": {
+        "value": 4
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 3,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 2,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 2,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 3,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 3,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 2,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 4,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 4,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 11,
+      "max": 11,
+      "bonus": 0
+    },
+    "will": {
+      "value": 15,
+      "max": 15,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Меняющая облик ведьма, заманивающая путников образом прекрасной девицы с песнями. В истинном виде — безобразный монстр. Любит сделки, за которые берёт пальцы, уши или глаза.</p><h3>Черты</h3><p><strong>Мастерица наваждений</strong> (2 жетона): Создаёт в дальнем радиусе 4 морока по своему подобию и меняется с одним из них местами. Урон по мороку его развеивает.</p><p><strong>Песня сладостных грёз</strong> (2 жетона): Обычным действием: 2 урона воле всем целям в среднем радиусе, и они продвигаются к карге на свою скорость. Действует, пока карга не получит урон.</p><p><strong>Смена облика</strong>: Свободным действием меняет облик с девицы на истинный и обратно. В истинном облике бьёт лапой, в облике девицы опаляет посохом на средней дистанции.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Ворожея</td><td>Равнины, степь, лес</td><td>Песня отталкивает, а не притягивает; здоровье 8, воля 12, пламя посоха +1 урона</td></tr><tr><td>Хрычовка</td><td>Лес, болото</td><td>В облике монстра крупный размер, предпочитает ближний бой; здоровье 14, воля 16</td></tr></table>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 2,
+    "rarity": -2,
+    "actionPoints": 3,
+    "defenses": "Устойчивость к огню; Устойчивость к ведовству",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "29733d467382dc33",
+      "_key": "!actors.items!e776cde274f8b4f0.29733d467382dc33",
+      "name": "Безобразная лапа",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 0,
+        "initiative": 0,
+        "damage": 4,
+        "crit": 2,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "e40b44753e780138",
+      "_key": "!actors.items!e776cde274f8b4f0.e40b44753e780138",
+      "name": "Пламя посоха",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "shooting",
+        "modifier": 1,
+        "initiative": 0,
+        "damage": 2,
+        "crit": 3,
+        "range": "medium",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Воспламеняющее (2)",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p>Воспламеняющее (2)</p>"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "d27bb5077eec61af",
+      "_key": "!actors.items!e776cde274f8b4f0.d27bb5077eec61af",
+      "name": "Сарафан карги",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "defense": 2,
+        "properties": "Естественная броня",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "893d8b09394b9c41",
+      "_key": "!actors.items!e776cde274f8b4f0.893d8b09394b9c41",
+      "name": "Мастерица наваждений (2 жетона)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Создаёт в дальнем радиусе 4 морока по своему подобию и меняется с одним из них местами. Урон по мороку его развеивает.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "e1e34677712e7597",
+      "_key": "!actors.items!e776cde274f8b4f0.e1e34677712e7597",
+      "name": "Песня сладостных грёз (2 жетона)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Обычным действием: 2 урона воле всем целям в среднем радиусе, и они продвигаются к карге на свою скорость. Действует, пока карга не получит урон.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "9df9655e59e583af",
+      "_key": "!actors.items!e776cde274f8b4f0.9df9655e59e583af",
+      "name": "Смена облика",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Свободным действием меняет облик с девицы на истинный и обратно. В истинном облике бьёт лапой, в облике девицы опаляет посохом на средней дистанции.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Карга",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

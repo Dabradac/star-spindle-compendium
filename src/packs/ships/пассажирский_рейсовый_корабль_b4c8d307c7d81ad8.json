@@ -1,0 +1,593 @@
+{
+  "_id": "b4c8d307c7d81ad8",
+  "_key": "!actors!b4c8d307c7d81ad8",
+  "name": "Пассажирский рейсовый корабль",
+  "type": "ship",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "shipClass": 2,
+    "size": 2,
+    "hull": "Алконост",
+    "hullBonuses": "+2 к энергии, дополнительное свободное место под каюты.",
+    "flaw": "",
+    "baseCost": 455000,
+    "lastMaintenance": "",
+    "debt": {
+      "initial": 0,
+      "remaining": 0,
+      "monthly": 0
+    },
+    "attributes": {
+      "durability": {
+        "value": 8,
+        "max": 8
+      },
+      "energy": {
+        "value": 4,
+        "max": 4
+      },
+      "maneuverability": {
+        "value": 3,
+        "max": 3
+      },
+      "signature": {
+        "value": -1,
+        "max": -1
+      },
+      "armor": {
+        "value": 4,
+        "max": 4
+      },
+      "speed": {
+        "value": 3,
+        "max": 3
+      },
+      "fuel": {
+        "value": 8,
+        "max": 8
+      }
+    },
+    "energyAllocation": {
+      "weapons": 0,
+      "engines": 0,
+      "repair": 0,
+      "sensors": 0,
+      "cyber": 0
+    },
+    "batteries": 0,
+    "criticals": "",
+    "cargoMax": 0,
+    "modulesMax": 11,
+    "crew": [],
+    "logbook": "<p>Пример корабля из книги правил. Цена: 455 000 сверкредитов.</p>"
+  },
+  "items": [
+    {
+      "_id": "f50a3935ecbc6e57",
+      "_key": "!actors.items!b4c8d307c7d81ad8.f50a3935ecbc6e57",
+      "name": "Мостик",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Капитанская рубка: посты капитана, штурмана и пилота, управление сенсорами и двигателями.</p><h3>Улучшения</h3><ul><li>Искусственный интеллект-помощник (20%): Выполняет любую задачу члена экипажа, кроме капитана (характеристика и навык равны 3); одна функция за раз, 3 очка действия в бою.</li><li>Аварийная спасательная капсула (15%): Встроенная в мостик капсула вместимостью, равной классу корабля; при критических повреждениях отстреливается с экипажем.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.7f6dc88215ea28ca"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "7de93e5ca32f87d3",
+      "_key": "!actors.items!b4c8d307c7d81ad8.7de93e5ca32f87d3",
+      "name": "Реактор",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Основной источник энергии; место дежурства бортинженера, распределяющего энергию.</p><h3>Улучшения</h3><ul><li>Улучшенная система охлаждения (20%): +1 к энергии корабля.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.a217f79f13e86ccd"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "5da7e331d1d54436",
+      "_key": "!actors.items!b4c8d307c7d81ad8.5da7e331d1d54436",
+      "name": "Двигатели",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Маршевые, взлётно-посадочные, маневровые и веретенодвигатели.</p><h3>Улучшения</h3><ul><li>Улучшенная автоматика маневровых двигателей (20%): +1 к манёвренности.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.854a5535c44c4589"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "9e9ba0c6d66d738b",
+      "_key": "!actors.items!b4c8d307c7d81ad8.9e9ba0c6d66d738b",
+      "name": "Система жизнеобеспечения",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Очистка воздуха и воды, температура и давление. На I и II классе не занимает отсек. При отказе реактора резерва хватает на 1 × класс дней.</p><h3>Улучшения</h3><ul><li>Дополнительный запас воды и кислорода (15%): Запас на 2 × класс корабля дней.</li><li>Оранжерея (15%): Небольшой сад с неприхотливыми культурами.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.32d0652fb029f89f"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "874b255df0d23c92",
+      "_key": "!actors.items!b4c8d307c7d81ad8.874b255df0d23c92",
+      "name": "Стыковочный отсек",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Люк, тоннель и шлюз для стыковки. На I классе встроен, со II класса — отдельный модуль.</p><h3>Улучшения</h3><ul><li>Укреплённый люк (10%): Попытки взломать или вскрыть люк получают −3.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.e5b369124f2fa33a"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "556f423abdf47dff",
+      "_key": "!actors.items!b4c8d307c7d81ad8.556f423abdf47dff",
+      "name": "Хранилище топлива",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Танк с топливом по таблице базовых значений; на I и II классе под обшивкой. При критическом повреждении — возгорание мощностью, равной классу корабля.</p>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.a1167174ed1f3a1c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "1ddd8a04dd7e3e4e",
+      "_key": "!actors.items!b4c8d307c7d81ad8.1ddd8a04dd7e3e4e",
+      "name": "Жилой модуль",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Каюты, общие помещения, столовая: класс × 3 кают.</p><h3>Улучшения</h3><ul><li>Многоярусные кровати / места для сидения (10%): Мест для экипажа: класс × 6.</li><li>Каюта-люкс (25%): Полностью оборудованных кают высшего класса: по классу корабля.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.54a1d1540ace1923"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "580af34d2cf1a17c",
+      "_key": "!actors.items!b4c8d307c7d81ad8.580af34d2cf1a17c",
+      "name": "Жилой модуль",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Каюты, общие помещения, столовая: класс × 3 кают.</p><h3>Улучшения</h3><ul><li>Многоярусные кровати / места для сидения (10%): Мест для экипажа: класс × 6.</li><li>Каюта-люкс (25%): Полностью оборудованных кают высшего класса: по классу корабля.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.54a1d1540ace1923"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "b4d8109f4f08382d",
+      "_key": "!actors.items!b4c8d307c7d81ad8.b4d8109f4f08382d",
+      "name": "Хладоларцы",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Криосон для экипажа и пассажиров; 3 × класс корабля хладоларцов.</p><h3>Улучшения</h3><ul><li>Размещение типа «Улей» (15%): 6 × класс корабля хладоларцов.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.0e6f508b9b0ebbcc"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "a264f9f5343d65d6",
+      "_key": "!actors.items!b4c8d307c7d81ad8.a264f9f5343d65d6",
+      "name": "Хладоларцы",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Криосон для экипажа и пассажиров; 3 × класс корабля хладоларцов.</p><h3>Улучшения</h3><ul><li>Размещение типа «Улей» (15%): 6 × класс корабля хладоларцов.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.0e6f508b9b0ebbcc"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "f84ebdf62205e223",
+      "_key": "!actors.items!b4c8d307c7d81ad8.f84ebdf62205e223",
+      "name": "Часовня",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Небольшой храм: после двухчасовой службы +1 при перебросе кубов в следующих трёх молитвах.</p>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.331909251b34ef1c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "7054102b8a3d083a",
+      "_key": "!actors.items!b4c8d307c7d81ad8.7054102b8a3d083a",
+      "name": "Спасательные капсулы",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Капсулы на 6 человек с запасами на 5 дней; 1 × класс корабля капсул.</p>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 4700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.08ded5bdb98c345c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "c7f49f55e8ed42f5",
+      "_key": "!actors.items!b4c8d307c7d81ad8.c7f49f55e8ed42f5",
+      "name": "Спасательные капсулы",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Капсулы на 6 человек с запасами на 5 дней; 1 × класс корабля капсул.</p>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 4700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.08ded5bdb98c345c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "4b924240f47b3713",
+      "_key": "!actors.items!b4c8d307c7d81ad8.4b924240f47b3713",
+      "name": "Многоярусные кровати / места для сидения",
+      "type": "shipUpgrade",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Мест для экипажа: класс × 6.</p><p>Улучшение модуля «Жилой модуль». Стоимость: 10% от базовой цены корабля.</p>",
+        "costPercent": 10
+      },
+      "effects": [],
+      "sort": 3400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.3f57a702dbf344b4"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "808f1dd49f8ce11e",
+      "_key": "!actors.items!b4c8d307c7d81ad8.808f1dd49f8ce11e",
+      "name": "Многоярусные кровати / места для сидения",
+      "type": "shipUpgrade",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Мест для экипажа: класс × 6.</p><p>Улучшение модуля «Жилой модуль». Стоимость: 10% от базовой цены корабля.</p>",
+        "costPercent": 10
+      },
+      "effects": [],
+      "sort": 3400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.3f57a702dbf344b4"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "38ee1192cc533276",
+      "_key": "!actors.items!b4c8d307c7d81ad8.38ee1192cc533276",
+      "name": "Размещение типа «Улей»",
+      "type": "shipUpgrade",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>6 × класс корабля хладоларцов.</p><p>Улучшение модуля «Хладоларцы». Стоимость: 15% от базовой цены корабля.</p>",
+        "costPercent": 15
+      },
+      "effects": [],
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.966e8964dc79e9e9"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "aa632e6a52ae0ef5",
+      "_key": "!actors.items!b4c8d307c7d81ad8.aa632e6a52ae0ef5",
+      "name": "Размещение типа «Улей»",
+      "type": "shipUpgrade",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>6 × класс корабля хладоларцов.</p><p>Улучшение модуля «Хладоларцы». Стоимость: 15% от базовой цены корабля.</p>",
+        "costPercent": 15
+      },
+      "effects": [],
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.966e8964dc79e9e9"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "f6c7b4c20eec94da",
+      "_key": "!actors.items!b4c8d307c7d81ad8.f6c7b4c20eec94da",
+      "name": "Дополнительный запас воды и кислорода",
+      "type": "shipUpgrade",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Запас на 2 × класс корабля дней.</p><p>Улучшение модуля «Система жизнеобеспечения». Стоимость: 15% от базовой цены корабля.</p>",
+        "costPercent": 15
+      },
+      "effects": [],
+      "sort": 2800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.7398ae6b77914e45"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "31228b0fdba0b1df",
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Пассажирский рейсовый корабль",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.durability"
+    },
+    "bar2": {
+      "attribute": "attributes.energy"
+    },
+    "texture": {
+      "src": "icons/svg/target.svg"
+    },
+    "width": 2,
+    "height": 2,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "1f5fa51d3794d940",
+  "_key": "!items!1f5fa51d3794d940",
+  "name": "Посох",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 500,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": 2,
+    "initiative": 2,
+    "damage": 1,
+    "crit": 3,
+    "range": "close",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Длинное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Длинное:</strong> Дальность оружия увеличена: можно атаковать противников на ближней дистанции, а не только в упор.</p>"
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "8343bd955c8463f2",
+  "_key": "!items!8343bd955c8463f2",
+  "name": "Акваланг",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 1500,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Переносной дыхательный аппарат для длительного нахождения под водой.</p>"
+  },
+  "effects": [],
+  "folder": "b28912c46f98fb8c",
+  "sort": 3500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

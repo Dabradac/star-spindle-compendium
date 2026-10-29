@@ -1,0 +1,41 @@
+{
+  "_id": "770434c2e764a030",
+  "_key": "!items!770434c2e764a030",
+  "name": "Серп",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 700,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": 0,
+    "initiative": 2,
+    "damage": 1,
+    "crit": 2,
+    "range": "pointBlank",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Лёгкое, широкое лезвие",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Лёгкое:</strong> Помимо уменьшенного веса, можно держать в руках два оружия с этим свойством и выбирать, каким атаковать, в том числе оружие дальнего боя. Мощный удар таким оружием невозможен.</p><p><strong>Широкое лезвие:</strong> Наносимый урон можно распределить между противниками, стоящими в упор к атакованной цели и в радиусе удара.</p>"
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

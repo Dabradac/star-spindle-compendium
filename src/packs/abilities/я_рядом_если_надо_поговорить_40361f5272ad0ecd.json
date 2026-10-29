@@ -1,0 +1,29 @@
+{
+  "_id": "40361f5272ad0ecd",
+  "_key": "!items!40361f5272ad0ecd",
+  "name": "Я рядом, если надо поговорить",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы можете использовать влияние вместо лидерства для воодушевления.</p><p>Уровень 3. Выбирается вместо «Мастер запугивания».</p>",
+    "skill": "influence",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "ea999bde4789d24a",
+  "sort": 12500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

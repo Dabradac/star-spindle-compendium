@@ -1,0 +1,60 @@
+{
+  "_id": "a983697369832e5d",
+  "_key": "!items!a983697369832e5d",
+  "name": "Травма глаза",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (4); −2 при проверках стрельбы и наблюдательности</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: 3к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "35",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Шок (4); −2 при проверках стрельбы и наблюдательности",
+    "period": "3к6",
+    "strength": 4
+  },
+  "effects": [
+    {
+      "_id": "849a77ab5ae55e0e",
+      "_key": "!items.effects!a983697369832e5d.849a77ab5ae55e0e",
+      "name": "Травма глаза",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.shooting.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.skills.observation.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

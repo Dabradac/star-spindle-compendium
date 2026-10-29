@@ -1,0 +1,28 @@
+{
+  "_id": "016418e8bea41ecd",
+  "_key": "!items!016418e8bea41ecd",
+  "name": "Дезориентация",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (2)</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: — дн.</p>",
+    "code": "12",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Шок (2)",
+    "period": "—",
+    "strength": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

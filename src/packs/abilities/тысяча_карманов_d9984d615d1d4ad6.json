@@ -1,0 +1,29 @@
+{
+  "_id": "d9984d615d1d4ad6",
+  "_key": "!items!d9984d615d1d4ad6",
+  "name": "Тысяча карманов",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>У вас в карманах находится нужный в моменте лёгкий или мелкий инструмент или иной функциональный предмет снаряжения.</p><p>Уровень 5. Выбирается вместо «Золотые руки».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "mechanics",
+    "tier": 5,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "a9886f52b1d9a2d4",
+  "sort": 9800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

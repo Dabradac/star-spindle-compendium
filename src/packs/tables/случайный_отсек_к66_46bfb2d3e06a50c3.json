@@ -1,0 +1,359 @@
+{
+  "_id": "46bfb2d3e06a50c3",
+  "_key": "!tables!46bfb2d3e06a50c3",
+  "name": "Случайный отсек (к66)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Если такого отсека нет, перейдите к ближайшему пункту в сторону увеличения.",
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "ef3754065500b69c",
+      "_key": "!tables.results!46bfb2d3e06a50c3.ef3754065500b69c",
+      "type": "text",
+      "name": "Отсек вне списка",
+      "description": "",
+      "text": "<strong>Отсек вне списка</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        11,
+        12
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5b3309f84c4e24fa",
+      "_key": "!tables.results!46bfb2d3e06a50c3.5b3309f84c4e24fa",
+      "type": "text",
+      "name": "БКО",
+      "description": "",
+      "text": "<strong>БКО</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        13,
+        14
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "af7a55735d79e99a",
+      "_key": "!tables.results!46bfb2d3e06a50c3.af7a55735d79e99a",
+      "type": "text",
+      "name": "Сенсоры дальнего действия",
+      "description": "",
+      "text": "<strong>Сенсоры дальнего действия</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        15,
+        16
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "2848b10e5cc220ca",
+      "_key": "!tables.results!46bfb2d3e06a50c3.2848b10e5cc220ca",
+      "type": "text",
+      "name": "Научная лаборатория",
+      "description": "",
+      "text": "<strong>Научная лаборатория</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        21,
+        22
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "997577194fd9c96c",
+      "_key": "!tables.results!46bfb2d3e06a50c3.997577194fd9c96c",
+      "type": "text",
+      "name": "Ремонтная мастерская",
+      "description": "",
+      "text": "<strong>Ремонтная мастерская</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        23,
+        24
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "1a57246f2dc360a8",
+      "_key": "!tables.results!46bfb2d3e06a50c3.1a57246f2dc360a8",
+      "type": "text",
+      "name": "Корабельное орудие",
+      "description": "",
+      "text": "<strong>Корабельное орудие</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        25,
+        26
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5dc03ab10e2324eb",
+      "_key": "!tables.results!46bfb2d3e06a50c3.5dc03ab10e2324eb",
+      "type": "text",
+      "name": "Минный отсек",
+      "description": "",
+      "text": "<strong>Минный отсек</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        31,
+        32
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "f6c90717c9fd5074",
+      "_key": "!tables.results!46bfb2d3e06a50c3.f6c90717c9fd5074",
+      "type": "text",
+      "name": "Торпедный отсек",
+      "description": "",
+      "text": "<strong>Торпедный отсек</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        33,
+        34
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "42c2f0aff28694cf",
+      "_key": "!tables.results!46bfb2d3e06a50c3.42c2f0aff28694cf",
+      "type": "text",
+      "name": "Ангар",
+      "description": "",
+      "text": "<strong>Ангар</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        35,
+        36
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "1b19857fa795e9d1",
+      "_key": "!tables.results!46bfb2d3e06a50c3.1b19857fa795e9d1",
+      "type": "text",
+      "name": "Спасательные капсулы",
+      "description": "",
+      "text": "<strong>Спасательные капсулы</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        41,
+        42
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "7838e03ef1fa8af1",
+      "_key": "!tables.results!46bfb2d3e06a50c3.7838e03ef1fa8af1",
+      "type": "text",
+      "name": "Грузовой отсек",
+      "description": "",
+      "text": "<strong>Грузовой отсек</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        43,
+        44
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ec4ab42caa3b8ff2",
+      "_key": "!tables.results!46bfb2d3e06a50c3.ec4ab42caa3b8ff2",
+      "type": "text",
+      "name": "Хладоларцы",
+      "description": "",
+      "text": "<strong>Хладоларцы</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        45,
+        46
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "01c54de7cb1ade10",
+      "_key": "!tables.results!46bfb2d3e06a50c3.01c54de7cb1ade10",
+      "type": "text",
+      "name": "Медотсек",
+      "description": "",
+      "text": "<strong>Медотсек</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        51,
+        52
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "a31695b6a9b25bf7",
+      "_key": "!tables.results!46bfb2d3e06a50c3.a31695b6a9b25bf7",
+      "type": "text",
+      "name": "Часовня",
+      "description": "",
+      "text": "<strong>Часовня</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        53,
+        54
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "54b8ed42900988aa",
+      "_key": "!tables.results!46bfb2d3e06a50c3.54b8ed42900988aa",
+      "type": "text",
+      "name": "Жилой модуль",
+      "description": "",
+      "text": "<strong>Жилой модуль</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        55,
+        56
+      ],
+      "weight": 2,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "3acf8c2ecb9509e6",
+      "_key": "!tables.results!46bfb2d3e06a50c3.3acf8c2ecb9509e6",
+      "type": "text",
+      "name": "Хранилище топлива",
+      "description": "",
+      "text": "<strong>Хранилище топлива</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "6689dc68e8fc365c",
+      "_key": "!tables.results!46bfb2d3e06a50c3.6689dc68e8fc365c",
+      "type": "text",
+      "name": "Стыковочный отсек",
+      "description": "",
+      "text": "<strong>Стыковочный отсек</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fa9494b448e6e7d1",
+      "_key": "!tables.results!46bfb2d3e06a50c3.fa9494b448e6e7d1",
+      "type": "text",
+      "name": "Система жизнеобеспечения",
+      "description": "",
+      "text": "<strong>Система жизнеобеспечения</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "39cdfeca009e0225",
+      "_key": "!tables.results!46bfb2d3e06a50c3.39cdfeca009e0225",
+      "type": "text",
+      "name": "Двигатель",
+      "description": "",
+      "text": "<strong>Двигатель</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5daec2db151a8f09",
+      "_key": "!tables.results!46bfb2d3e06a50c3.5daec2db151a8f09",
+      "type": "text",
+      "name": "Реактор",
+      "description": "",
+      "text": "<strong>Реактор</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "efcf92e3f7d5b57f",
+      "_key": "!tables.results!46bfb2d3e06a50c3.efcf92e3f7d5b57f",
+      "type": "text",
+      "name": "Мостик",
+      "description": "",
+      "text": "<strong>Мостик</strong>: ",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

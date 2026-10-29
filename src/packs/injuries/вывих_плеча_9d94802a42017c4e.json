@@ -1,0 +1,60 @@
+{
+  "_id": "9d94802a42017c4e",
+  "_key": "!items!9d94802a42017c4e",
+  "name": "Вывих плеча",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (2); −3 при проверках силы и ближнего боя</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "26",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Шок (2); −3 при проверках силы и ближнего боя",
+    "period": "к6",
+    "strength": 2
+  },
+  "effects": [
+    {
+      "_id": "cd6bfc4ea0a55bc9",
+      "_key": "!items.effects!9d94802a42017c4e.cd6bfc4ea0a55bc9",
+      "name": "Вывих плеча",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.strength.bonus",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        },
+        {
+          "key": "system.skills.melee.bonus",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

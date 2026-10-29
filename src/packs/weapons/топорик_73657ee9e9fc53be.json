@@ -1,0 +1,41 @@
+{
+  "_id": "73657ee9e9fc53be",
+  "_key": "!items!73657ee9e9fc53be",
+  "name": "Топорик",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 900,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": 0,
+    "initiative": 2,
+    "damage": 2,
+    "crit": 2,
+    "range": "pointBlank",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Лёгкое",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Лёгкое:</strong> Помимо уменьшенного веса, можно держать в руках два оружия с этим свойством и выбирать, каким атаковать, в том числе оружие дальнего боя. Мощный удар таким оружием невозможен.</p>"
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

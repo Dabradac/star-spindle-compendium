@@ -1,0 +1,35 @@
+{
+  "_id": "2f5688b730aba643",
+  "_key": "!items!2f5688b730aba643",
+  "name": "Спаренные лазеры",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Структурный и системный урон, автоматический огонь</p>",
+    "modifier": 0,
+    "damage": 1,
+    "crit": 3,
+    "range": "medium",
+    "damageType": "both",
+    "ignoresArmor": false,
+    "location": "bow",
+    "properties": "Структурный и системный урон, автоматический огонь",
+    "price": 50000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "f18e3de6cf114ecc",
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

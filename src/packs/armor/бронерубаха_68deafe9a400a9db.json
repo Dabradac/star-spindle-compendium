@@ -1,0 +1,30 @@
+{
+  "_id": "68deafe9a400a9db",
+  "_key": "!items!68deafe9a400a9db",
+  "name": "Бронерубаха",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 3200,
+    "equipped": false,
+    "stored": false,
+    "defense": 3,
+    "properties": "",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "1e43980159618b9d",
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

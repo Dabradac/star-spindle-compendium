@@ -1,0 +1,29 @@
+{
+  "_id": "e43a6054f0e2bc05",
+  "_key": "!items!e43a6054f0e2bc05",
+  "name": "Самая быстрая рука в Славии",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Достать оружие дальнего боя в начале сражения не требует очков действия. Если оружие уже было готово к бою, вы получаете +4 к инициативе.</p><p>Уровень 1. Выбирается вместо «Добрым словом и пистолетом…».</p>",
+    "skill": "shooting",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "031fd14c68a27b94",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

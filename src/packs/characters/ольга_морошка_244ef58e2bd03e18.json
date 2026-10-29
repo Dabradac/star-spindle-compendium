@@ -1,0 +1,519 @@
+{
+  "_id": "244ef58e2bd03e18",
+  "_key": "!actors!244ef58e2bd03e18",
+  "name": "Ольга Морошка",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 3
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 3
+      },
+      "empathy": {
+        "value": 5
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 0,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 0,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 2,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 0,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 2,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 1,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 3,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 7,
+      "max": 7,
+      "bonus": 0
+    },
+    "will": {
+      "value": 8,
+      "max": 8,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Выросла в глухой деревне консервативных ведунов и сбежала, увлёкшись дарами цивилизации. Харизма позволяет ей блистать в чайных и хороводах, но приходится скрывать сверхъестественные способности — и семья будет пытаться её вернуть.</p>",
+    "injuries": "",
+    "supercredits": 1000,
+    "reputation": -2,
+    "xp": 0,
+    "origin": "",
+    "religion": "",
+    "blessing": 0,
+    "heroTokens": 0,
+    "encumbranceBonus": 0,
+    "resources": {
+      "t1": 0,
+      "t2": 0,
+      "t3": 0,
+      "t4": 0,
+      "t5": 0
+    },
+    "cabin": {
+      "description": "",
+      "storage": ""
+    },
+    "factions": {
+      "demos": 0,
+      "commune": 0,
+      "peddlers": 0,
+      "frontiers": 0,
+      "church": 0,
+      "outcasts": 0
+    },
+    "clans": {
+      "wolf": 0,
+      "eagle": 0,
+      "snake": 0,
+      "ram": 0,
+      "owl": 0,
+      "bear": 0
+    },
+    "appearance": "",
+    "notes": "<p>Роль: Ведунья.</p>"
+  },
+  "items": [
+    {
+      "_id": "7654b3af0d2912f9",
+      "_key": "!actors.items!244ef58e2bd03e18.7654b3af0d2912f9",
+      "name": "Ведун",
+      "type": "specialization",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": "<p>Тронутые Чернобогом отчётливо видят нити Веретена, устилающие их путь. Едва получив эту сверхъестественную силу, вы уже знали, как сплетать с её помощью заклятия. Люди боятся и сторонятся вас. Вы тоже боитесь.</p><h3>Рекомендуемые навыки</h3><p>Ведовство, Скрытность, Проворство</p><h3>Модификатор репутации</h3><p>-1</p><h3>Дополнительный опыт</h3><ul><li>Вы взаимодействовали с сущностями Веретена, и вам удалось извлечь из этого выгоду или выйти победителем — 2 опыта</li><li>Вы сумели скрытно применить свои способности — 2 опыта</li><li>Вы предложили план, который помог в решении сложной задачи группы с помощью навыка ведовства — 2 опыта</li></ul><h3>Примеры положительных черт</h3><ul><li>Ветка ведовства на выбор (Манипулятор, Кинетик, Экзорцист, Ясновидец)</li></ul><h3>Примеры отрицательных черт</h3><ul><li>Кто-то знает о твоих способностях и охотится за тобой</li><li>Ночные кошмары</li><li>Наркомания</li></ul><h3>Стартовое снаряжение на выбор</h3><ul><li>Гримуар или Рельсовый пистолет Куровски</li><li>Малый науз (2) или Свиток с заклятием</li><li>Магический мел или Кожаная броня</li><li>Фальшивый СлавИН или Непримечательный плащ с капюшоном</li></ul>",
+        "variations": "Ведьмак, провидец, беглец",
+        "recommendedSkills": [
+          "witchcraft",
+          "stealth",
+          "dexterity"
+        ],
+        "reputationModifier": -1,
+        "xpActions": "Вы взаимодействовали с сущностями Веретена, и вам удалось извлечь из этого выгоду или выйти победителем — 2 опыта; Вы сумели скрытно применить свои способности — 2 опыта; Вы предложили план, который помог в решении сложной задачи группы с помощью навыка ведовства — 2 опыта",
+        "traitExamples": "Положительные: Ветка ведовства на выбор (Манипулятор, Кинетик, Экзорцист, Ясновидец). Отрицательные: Кто-то знает о твоих способностях и охотится за тобой, Ночные кошмары, Наркомания.",
+        "startingGear": "Гримуар или Рельсовый пистолет Куровски; Малый науз (2) или Свиток с заклятием; Магический мел или Кожаная броня; Фальшивый СлавИН или Непримечательный плащ с капюшоном"
+      },
+      "effects": [],
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.specializations.Item.19410bdddf3cfbde"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "0623d10b0e7d59a3",
+      "_key": "!actors.items!244ef58e2bd03e18.0623d10b0e7d59a3",
+      "name": "Кинетик",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Ветка ведовства: телекинез, фотокинез, силовая волна, силовой барьер, морок.</p><p>Можно выбрать не более двух веток. Практики открываются по уровню навыка ведовства.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 3400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.b5857f03522d3c2f"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "17965c54a556f200",
+      "_key": "!actors.items!244ef58e2bd03e18.17965c54a556f200",
+      "name": "В бегах",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "",
+        "kind": "negative",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 8400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.bc394613bea37bab"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "344e25743789c2f8",
+      "_key": "!actors.items!244ef58e2bd03e18.344e25743789c2f8",
+      "name": "Посох",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 500,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 2,
+        "initiative": 2,
+        "damage": 1,
+        "crit": 3,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Длинное",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p><strong>Длинное:</strong> Дальность оружия увеличена: можно атаковать противников на ближней дистанции, а не только в упор.</p>"
+      },
+      "effects": [],
+      "sort": 1200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.weapons.Item.1f5fa51d3794d940"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "9436e360a9c74d2c",
+      "_key": "!actors.items!244ef58e2bd03e18.9436e360a9c74d2c",
+      "name": "Кожаная броня",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 3300,
+        "equipped": true,
+        "stored": false,
+        "defense": 2,
+        "properties": "Лёгкая",
+        "description": "<p><strong>Лёгкая:</strong> Малый вес; +1 к проверкам проворства и скрытности носителя.</p>"
+      },
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.armor.Item.88f3f2465ff72834"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "5f7fc4bc12af7cef",
+      "_key": "!actors.items!244ef58e2bd03e18.5f7fc4bc12af7cef",
+      "name": "Гримуар",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 800,
+        "equipped": false,
+        "stored": false,
+        "modifier": 1,
+        "bonusTarget": "skill.witchcraft",
+        "conditional": true,
+        "description": "<p>+1 к ведовству при проведении ритуалов.</p>"
+      },
+      "effects": [],
+      "sort": 8900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.1437abd4eb4845d2"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "f9437152310e980f",
+      "_key": "!actors.items!244ef58e2bd03e18.f9437152310e980f",
+      "name": "Науз",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 2,
+        "size": "small",
+        "quality": 0,
+        "price": 500,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Узел-артефакт: единожды даёт от +1 до +3 к «завязанному» навыку, затем теряет силу. Цена 500–2000.</p>"
+      },
+      "effects": [],
+      "sort": 9100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.6cd56993157b6947"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "bc6f378a4b4c233a",
+      "_key": "!actors.items!244ef58e2bd03e18.bc6f378a4b4c233a",
+      "name": "Магический мел",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 200,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Очерчивает зону, в которую нежить лезет очень нехотя.</p>"
+      },
+      "effects": [],
+      "sort": 9000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.d839cd7a9ed00d95"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "cc01606818b8fd5f",
+      "_key": "!actors.items!244ef58e2bd03e18.cc01606818b8fd5f",
+      "name": "Свиток с заклятием",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 1000,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Записанное заклятие. Для применения нужна проверка ведовства; затем свиток сжигают. Мастер получает жетон Чернобога, ведун теряет 1 волю. Цена 1000–6000.</p>"
+      },
+      "effects": [],
+      "sort": 9200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.9083d833f63615ed"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "37172f88e99f9333",
+      "name": "КПК с весёлыми наклейками",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 0,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!244ef58e2bd03e18.37172f88e99f9333"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Ольга Морошка",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

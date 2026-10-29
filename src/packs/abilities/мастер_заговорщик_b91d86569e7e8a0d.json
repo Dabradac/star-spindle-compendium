@@ -1,0 +1,29 @@
+{
+  "_id": "b91d86569e7e8a0d",
+  "_key": "!items!b91d86569e7e8a0d",
+  "name": "Мастер-заговорщик",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+2 к проверкам кибершаманства при создании заговоров.</p><p>Уровень 4. Выбирается вместо «Под присмотром».</p>",
+    "skill": "cybershamanism",
+    "tier": 4,
+    "active": false,
+    "used": false,
+    "modifier": 2,
+    "bonusTarget": "skill.cybershamanism",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "688462003875637e",
+  "sort": 8600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

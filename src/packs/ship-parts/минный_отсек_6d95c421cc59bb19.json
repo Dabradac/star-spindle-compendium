@@ -1,0 +1,25 @@
+{
+  "_id": "6d95c421cc59bb19",
+  "_key": "!items!6d95c421cc59bb19",
+  "name": "Минный отсек",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>До 8 мин, устанавливается на корме. Считается орудием. Критическое повреждение — детонация боезапаса.</p>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 5100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

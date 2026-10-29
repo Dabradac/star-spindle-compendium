@@ -1,0 +1,41 @@
+{
+  "_id": "069ea7fbe8c9a60c",
+  "_key": "!items!069ea7fbe8c9a60c",
+  "name": "«Рычажка»",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 2400,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": 2,
+    "damage": 2,
+    "crit": 2,
+    "range": "medium",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": ""
+  },
+  "effects": [],
+  "folder": "23f5e1b1d0085c66",
+  "sort": 5200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

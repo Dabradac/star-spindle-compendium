@@ -1,0 +1,28 @@
+{
+  "_id": "eb8f7a019b76a917",
+  "_key": "!items!eb8f7a019b76a917",
+  "name": "Сбитое дыхание",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (2)</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: — дн.</p>",
+    "code": "11",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Шок (2)",
+    "period": "—",
+    "strength": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

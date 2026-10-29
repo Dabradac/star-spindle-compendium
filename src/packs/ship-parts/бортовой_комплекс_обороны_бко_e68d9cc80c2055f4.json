@@ -1,0 +1,35 @@
+{
+  "_id": "e68d9cc80c2055f4",
+  "_key": "!items!e68d9cc80c2055f4",
+  "name": "Бортовой комплекс обороны (БКО)",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Только против снарядов и мин, турельного типа</p>",
+    "modifier": 2,
+    "damage": 0,
+    "crit": 0,
+    "range": "close",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "turret",
+    "properties": "Только против снарядов и мин, турельного типа",
+    "price": 20000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "f18e3de6cf114ecc",
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

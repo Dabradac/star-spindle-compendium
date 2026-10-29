@@ -1,0 +1,31 @@
+{
+  "_id": "2128fc4d9518b613",
+  "_key": "!items!2128fc4d9518b613",
+  "name": "Эликсир защиты от огня",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 1900,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>+3 к броне от огня.</p>"
+  },
+  "effects": [],
+  "folder": "862633014ef6b333",
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

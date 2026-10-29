@@ -1,0 +1,28 @@
+{
+  "_id": "273a0daee9d7355d",
+  "_key": "!items!273a0daee9d7355d",
+  "name": "Родная душа",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Вы можете использовать культуру вместо лидерства для воодушевления соратников и получаете +1 к этой проверке.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 3100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

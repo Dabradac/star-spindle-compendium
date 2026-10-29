@@ -1,0 +1,28 @@
+{
+  "_id": "6fa17e3161dc7d93",
+  "_key": "!items!6fa17e3161dc7d93",
+  "name": "Мастер первого впечатления",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+2 к первой проверке влияния с впервые встреченным персонажем.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 2,
+    "bonusTarget": "skill.influence",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

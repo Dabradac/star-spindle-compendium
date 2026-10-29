@@ -1,0 +1,28 @@
+{
+  "_id": "bfcc66367df1c9b0",
+  "_key": "!items!bfcc66367df1c9b0",
+  "name": "Медвежья хватка",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>+2 к ближнему бою при попытках взять противника в захват и удержать его.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 2,
+    "bonusTarget": "skill.melee",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

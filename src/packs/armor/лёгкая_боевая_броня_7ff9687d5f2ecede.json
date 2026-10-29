@@ -1,0 +1,30 @@
+{
+  "_id": "7ff9687d5f2ecede",
+  "_key": "!items!7ff9687d5f2ecede",
+  "name": "Лёгкая боевая броня",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 12000,
+    "equipped": false,
+    "stored": false,
+    "defense": 4,
+    "properties": "Лёгкая",
+    "description": "<p><strong>Лёгкая:</strong> Малый вес; +1 к проверкам проворства и скрытности носителя.</p>"
+  },
+  "effects": [],
+  "folder": "16397a97ecd9b64c",
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

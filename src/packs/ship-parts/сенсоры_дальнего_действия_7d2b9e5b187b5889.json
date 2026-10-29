@@ -1,0 +1,25 @@
+{
+  "_id": "7d2b9e5b187b5889",
+  "_key": "!items!7d2b9e5b187b5889",
+  "name": "Сенсоры дальнего действия",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Сканирование на предельную дистанцию; место дежурства наводчика.</p><h3>Улучшения</h3><ul><li>Улучшение системы наведения (20%): +1 к наблюдательности и науке при сканировании и наведении.</li></ul>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 5800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

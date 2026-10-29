@@ -1,0 +1,41 @@
+{
+  "_id": "fa3f745417048a8f",
+  "_key": "!items!fa3f745417048a8f",
+  "name": "Импровизированное оружие",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": -1,
+    "initiative": 1,
+    "damage": 1,
+    "crit": 3,
+    "range": "pointBlank",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": ""
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

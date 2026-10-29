@@ -1,0 +1,29 @@
+{
+  "_id": "0230e6f3ab8d6aa6",
+  "_key": "!items!0230e6f3ab8d6aa6",
+  "name": "Ты выбрал не ту сторону",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы уговариваете потерявшего волю противника-человека перейти на вашу сторону. Противник восстанавливает половину от максимального значения воли (округляя в большую сторону) и сражается за вас.</p><p>Уровень 5. Выбирается вместо «Не имей сто сверков…».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "influence",
+    "tier": 5,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "ea999bde4789d24a",
+  "sort": 12800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

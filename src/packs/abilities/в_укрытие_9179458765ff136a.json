@@ -1,0 +1,29 @@
+{
+  "_id": "9179458765ff136a",
+  "_key": "!items!9179458765ff136a",
+  "name": "В укрытие!",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы и ваша команда полностью избегаете угрозы и/или получения ситуативного урона от окружающей среды.</p><p>Уровень 4. Выбирается вместо «Я знаю короткий путь».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "survival",
+    "tier": 4,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "bca58880efe9ba18",
+  "sort": 7700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

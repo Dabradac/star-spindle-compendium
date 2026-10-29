@@ -1,0 +1,31 @@
+{
+  "_id": "c16a2f6b331b130b",
+  "_key": "!items!c16a2f6b331b130b",
+  "name": "Экспансивные боеприпасы",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Наносят на 1 больше урона целям без брони.</p><p>Стоимость: 15% от цены оружия.</p>"
+  },
+  "effects": [],
+  "folder": "2ab61ae8a4063f27",
+  "sort": 8400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

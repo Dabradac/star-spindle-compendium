@@ -1,0 +1,41 @@
+{
+  "_id": "0bafb932d972b532",
+  "_key": "!items!0bafb932d972b532",
+  "name": "Коса",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 1500,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": 1,
+    "initiative": 0,
+    "damage": 2,
+    "crit": 3,
+    "range": "close",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Тяжёлое, длинное, широкое лезвие",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Длинное:</strong> Дальность оружия увеличена: можно атаковать противников на ближней дистанции, а не только в упор.</p><p><strong>Тяжёлое:</strong> Оружие имеет увеличенный вес, им невозможно наносить быстрые удары.</p><p><strong>Широкое лезвие:</strong> Наносимый урон можно распределить между противниками, стоящими в упор к атакованной цели и в радиусе удара.</p>"
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

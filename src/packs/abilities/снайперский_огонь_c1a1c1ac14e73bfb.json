@@ -1,0 +1,29 @@
+{
+  "_id": "c1a1c1ac14e73bfb",
+  "_key": "!items!c1a1c1ac14e73bfb",
+  "name": "Снайперский огонь",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Каждый прицельный выстрел по одной и той же цели даёт накапливающийся модификатор +2 на следующий прицельный выстрел. Смена цели, передвижение и получение урона обнуляют накопленный бонус.</p><p>Уровень 5. Выбирается вместо «Целься в голову».</p>",
+    "skill": "shooting",
+    "tier": 5,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "031fd14c68a27b94",
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

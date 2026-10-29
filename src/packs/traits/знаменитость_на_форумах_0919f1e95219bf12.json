@@ -1,0 +1,28 @@
+{
+  "_id": "0919f1e95219bf12",
+  "_key": "!items!0919f1e95219bf12",
+  "name": "Знаменитость на форумах",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Вы знаете многих на форумах, и многие знают вас. Более того, вы знаете, как извлечь из этого выгоду.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

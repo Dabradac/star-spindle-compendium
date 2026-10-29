@@ -1,0 +1,54 @@
+{
+  "_id": "ac2b05b2aa4c0f3c",
+  "_key": "!items!ac2b05b2aa4c0f3c",
+  "name": "Артериальное кровотечение (нога)",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Персонаж теряет сознание на к6 часов; −2 при проверках проворства</p><p>Смерть: Да, −1. Крайний срок помощи: к6 минут. Период излечения: к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "56",
+    "lethal": true,
+    "deadline": "к6 минут",
+    "effect": "Персонаж теряет сознание на к6 часов; −2 при проверках проворства",
+    "period": "к6",
+    "strength": 0
+  },
+  "effects": [
+    {
+      "_id": "0e51574a55151de5",
+      "_key": "!items.effects!ac2b05b2aa4c0f3c.0e51574a55151de5",
+      "name": "Артериальное кровотечение (нога)",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

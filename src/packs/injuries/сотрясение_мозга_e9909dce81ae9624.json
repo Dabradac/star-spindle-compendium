@@ -1,0 +1,96 @@
+{
+  "_id": "e9909dce81ae9624",
+  "_key": "!items!e9909dce81ae9624",
+  "name": "Сотрясение мозга",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (2); −1 при проверках всех профессиональных навыков</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "15",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Шок (2); −1 при проверках всех профессиональных навыков",
+    "period": "к6",
+    "strength": 2
+  },
+  "effects": [
+    {
+      "_id": "c4c066b74ff2c3be",
+      "_key": "!items.effects!e9909dce81ae9624.c4c066b74ff2c3be",
+      "name": "Сотрясение мозга",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.piloting.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.cybershamanism.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.mechanics.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.science.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.healing.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.leadership.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.culture.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.witchcraft.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

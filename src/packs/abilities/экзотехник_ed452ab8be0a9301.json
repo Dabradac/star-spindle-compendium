@@ -1,0 +1,29 @@
+{
+  "_id": "ed452ab8be0a9301",
+  "_key": "!items!ed452ab8be0a9301",
+  "name": "Экзотехник",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Находясь в каком-либо экзоустройстве, вы получаете +2 к проверкам силы и проворства.</p><p>Уровень 2. Выбирается вместо «Привычка к невесомости».</p>",
+    "skill": "mechanics",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "a9886f52b1d9a2d4",
+  "sort": 9300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

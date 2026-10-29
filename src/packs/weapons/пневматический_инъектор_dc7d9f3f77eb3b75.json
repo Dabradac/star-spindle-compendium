@@ -1,0 +1,41 @@
+{
+  "_id": "dc7d9f3f77eb3b75",
+  "_key": "!items!dc7d9f3f77eb3b75",
+  "name": "Пневматический инъектор",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 1100,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 2,
+    "initiative": 2,
+    "damage": 0,
+    "crit": 0,
+    "range": "medium",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Лёгкое, однозарядное, специальные боеприпасы, бесшумное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Бесшумное:</strong> Чтобы услышать выстрел, нужна проверка наблюдательности с штрафом −2 на ближней и средней дистанции, −4 на дальней; на предельной не слышно вовсе.</p><p><strong>Однозарядное:</strong> Оружие нужно перезаряжать после каждого выстрела.</p><p><strong>Специальные боеприпасы:</strong> Стреляет нетипичными боеприпасами. Детали — на усмотрение Мастера.</p>"
+  },
+  "effects": [],
+  "folder": "d4d0f915d1a3dae6",
+  "sort": 7600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

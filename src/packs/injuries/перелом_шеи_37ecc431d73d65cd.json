@@ -1,0 +1,28 @@
+{
+  "_id": "37ecc431d73d65cd",
+  "_key": "!items!37ecc431d73d65cd",
+  "name": "Перелом шеи",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Персонаж теряет сознание на к6 часов; паралич ниже шеи. Без лечения паралич становится постоянным</p><p>Смерть: Да. Крайний срок помощи: к6 часов. Период излечения: 4к6 дн.</p>",
+    "code": "52",
+    "lethal": true,
+    "deadline": "к6 часов",
+    "effect": "Персонаж теряет сознание на к6 часов; паралич ниже шеи. Без лечения паралич становится постоянным",
+    "period": "4к6",
+    "strength": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

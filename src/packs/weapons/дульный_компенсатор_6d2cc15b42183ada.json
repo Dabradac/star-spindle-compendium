@@ -1,0 +1,31 @@
+{
+  "_id": "6d2cc15b42183ada",
+  "_key": "!items!6d2cc15b42183ada",
+  "name": "Дульный компенсатор",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Автоматический огонь с модификатором −1 вместо −2.</p><p>Стоимость: 90% от цены оружия.</p>"
+  },
+  "effects": [],
+  "folder": "2ab61ae8a4063f27",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

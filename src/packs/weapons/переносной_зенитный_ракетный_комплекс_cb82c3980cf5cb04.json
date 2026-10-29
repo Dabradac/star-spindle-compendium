@@ -1,0 +1,41 @@
+{
+  "_id": "cb82c3980cf5cb04",
+  "_key": "!items!cb82c3980cf5cb04",
+  "name": "Переносной зенитный ракетный комплекс",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 8400,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 2,
+    "initiative": -4,
+    "damage": 5,
+    "crit": 2,
+    "range": "extreme",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Тяжёлое, однозарядное, противотранспортное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Однозарядное:</strong> Оружие нужно перезаряжать после каждого выстрела.</p><p><strong>Противотранспортное:</strong> Урон по укреплениям и бронированной технике +2. Единственное оружие, способное пробить броню космолётов.</p>"
+  },
+  "effects": [],
+  "folder": "0a1e4c4e5e48476f",
+  "sort": 6700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

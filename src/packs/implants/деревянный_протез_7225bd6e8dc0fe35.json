@@ -1,0 +1,28 @@
+{
+  "_id": "7225bd6e8dc0fe35",
+  "_key": "!items!7225bd6e8dc0fe35",
+  "name": "Деревянный протез",
+  "type": "implant",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "<p>Дешёвый, устойчивый к ЭМИ. −1 при проверках навыков, связанных с протезом. При повреждении — только полная замена.</p><p>После установки к6 дней проверки, связанные с новой частью тела, получают −2.</p>",
+    "kind": "prosthesis",
+    "illegal": false,
+    "price": 2000,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e83d3a3325eeecdf",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

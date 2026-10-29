@@ -1,0 +1,60 @@
+{
+  "_id": "a2f4cc513e075641",
+  "_key": "!items!a2f4cc513e075641",
+  "name": "Артериальное кровотечение (рука)",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (3); кровотечение (3); −1 при проверках стрельбы и ближнего боя</p><p>Смерть: Да, −1. Крайний срок помощи: к6 минут. Период излечения: к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "55",
+    "lethal": true,
+    "deadline": "к6 минут",
+    "effect": "Шок (3); кровотечение (3); −1 при проверках стрельбы и ближнего боя",
+    "period": "к6",
+    "strength": 3
+  },
+  "effects": [
+    {
+      "_id": "dd83b643da450935",
+      "_key": "!items.effects!a2f4cc513e075641.dd83b643da450935",
+      "name": "Артериальное кровотечение (рука)",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.shooting.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.melee.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

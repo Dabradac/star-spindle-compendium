@@ -1,0 +1,272 @@
+{
+  "_id": "352a4b5efa7324ae",
+  "_key": "!actors!352a4b5efa7324ae",
+  "name": "Гигалис",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 6
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 3
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 1,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 2,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 2,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 2,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 3,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 2,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 10,
+      "max": 10,
+      "bonus": 0
+    },
+    "will": {
+      "value": 6,
+      "max": 6,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 15,
+    "biography": "<p>Грациозный трёх-четырёхметровый лисоподобный хищник с оранжевым или белым мехом и алыми узорами. Когда-то оберегал первых Славов, но из-за охоты ушёл в глубь лесов и сторонится людей.</p><h3>Черты</h3><p><strong>Дитя Авроры</strong> (пасс.): В гармонии с природой, часто в компании других лесных животных.</p><p><strong>Укротить нрав</strong>: Точным ударом лапы оглушает персонажа (СВЗ 6) без урона.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Мегарысь</td><td>Лес, тайга, степь</td><td>Здоровье 8, проворство 4, скорость 20</td></tr><tr><td>Мать-лиса</td><td>Лес, тайга</td><td>Вождь гигалисов: три хвоста, эмпатия 4, здоровье 15, воля 10, ближний бой 5, ведовство 5 (манипулятор), урон +2, иммунитет к травмам</td></tr></table>",
+    "injuries": "",
+    "role": "Местная фауна",
+    "useFormula": false,
+    "danger": 2,
+    "rarity": 1,
+    "actionPoints": 3,
+    "defenses": "Устойчивость к дробящему, режущему и колющему",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "71ee6e0593351e7e",
+      "_key": "!actors.items!352a4b5efa7324ae.71ee6e0593351e7e",
+      "name": "Клыки и когти",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 1,
+        "initiative": 0,
+        "damage": 4,
+        "crit": 2,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "0de1b6116f3fe0aa",
+      "_key": "!actors.items!352a4b5efa7324ae.0de1b6116f3fe0aa",
+      "name": "Мех гигалиса",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "defense": 2,
+        "properties": "Естественная броня",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "4a8710cb7ba4edec",
+      "_key": "!actors.items!352a4b5efa7324ae.4a8710cb7ba4edec",
+      "name": "Дитя Авроры (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>В гармонии с природой, часто в компании других лесных животных.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "4406ecf75b39a798",
+      "_key": "!actors.items!352a4b5efa7324ae.4406ecf75b39a798",
+      "name": "Укротить нрав",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Точным ударом лапы оглушает персонажа (СВЗ 6) без урона.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "28853aeabae95012",
+  "sort": 3200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Гигалис",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

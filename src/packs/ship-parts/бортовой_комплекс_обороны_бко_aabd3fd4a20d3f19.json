@@ -1,0 +1,25 @@
+{
+  "_id": "aabd3fd4a20d3f19",
+  "_key": "!items!aabd3fd4a20d3f19",
+  "name": "Бортовой комплекс обороны (БКО)",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Спаренные зенитные автопушки с обзором 360° против снарядов.</p><h3>Улучшения</h3><ul><li>Тепловая ловушка (15%): Свободным действием: к20 против каждого торпедного снаряда, при успехе снаряд сбивается. Перезарядка — на техобслуживании.</li></ul>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "_id": "4b1fc070025721c9",
+  "_key": "!actors!4b1fc070025721c9",
+  "name": "Аврорский орлан",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 4
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 0
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 2,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 3,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 2,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 2,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 4,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 2,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 10,
+      "max": 10,
+      "bonus": 0
+    },
+    "will": {
+      "value": 5,
+      "max": 5,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 20,
+    "biography": "<p>Крупнейшая хищная птица Авроры с размахом крыльев до 6 метров; когти пробивают тонкий металл. Неагрессивна, но гонит чужаков. Тотем клана Орла.</p><h3>Черты</h3><p><strong>Острые когти</strong> (пасс.): Атаки игнорируют 2 брони.</p><p><strong>Пикирующая атака</strong> (1 жетон): Продолжительным действием пикирует: атака с +2, +2 к урону и игнорированием ещё 2 брони.</p><p><strong>Последнее предупреждение</strong>: Сначала пытается прогнать чужаков; затем оглушающий крик (СВВ 3) на дальнюю дистанцию и +2 к ближнему бою на 3 хода.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Тропическая гарпия</td><td>Тропики</td><td>Скрытность 4, природная маскировка</td></tr><tr><td>Красноградский сокол</td><td>Лес, равнины, холмы</td><td>Здоровье 6, скорость 20, проворство 3</td></tr><tr><td>Тёмный коршун</td><td>Лес, равнины, холмы, болота</td><td>Чёрное оперение, красные глаза, падальщик</td></tr><tr><td>Нитевой ястреб</td><td>Любой</td><td>Здоровье 12, броня 2, атаки вызывают кровотечение (2) и 1 урон воле</td></tr></table>",
+    "injuries": "",
+    "role": "Местная фауна",
+    "useFormula": false,
+    "danger": 2,
+    "rarity": 1,
+    "actionPoints": 3,
+    "defenses": "Устойчивость к режущему",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "5d35e31216b0b9cd",
+      "_key": "!actors.items!4b1fc070025721c9.5d35e31216b0b9cd",
+      "name": "Клюв и когти",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 1,
+        "initiative": 1,
+        "damage": 2,
+        "crit": 2,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Игнорирует 2 брони",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p>Игнорирует 2 брони</p>"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "e6c6d31a4ee77100",
+      "_key": "!actors.items!4b1fc070025721c9.e6c6d31a4ee77100",
+      "name": "Острые когти (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Атаки игнорируют 2 брони.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "d363b7112426ffe4",
+      "_key": "!actors.items!4b1fc070025721c9.d363b7112426ffe4",
+      "name": "Пикирующая атака (1 жетон)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Продолжительным действием пикирует: атака с +2, +2 к урону и игнорированием ещё 2 брони.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "249c644ebc304811",
+      "_key": "!actors.items!4b1fc070025721c9.249c644ebc304811",
+      "name": "Последнее предупреждение",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Сначала пытается прогнать чужаков; затем оглушающий крик (СВВ 3) на дальнюю дистанцию и +2 к ближнему бою на 3 хода.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "28853aeabae95012",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Аврорский орлан",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

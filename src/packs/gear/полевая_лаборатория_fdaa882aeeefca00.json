@@ -1,0 +1,31 @@
+{
+  "_id": "fdaa882aeeefca00",
+  "_key": "!items!fdaa882aeeefca00",
+  "name": "Полевая лаборатория",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 3000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Анализ образцов почвы, воды, воздуха и биоматериалов за 1–2 часа. Требуется топливный элемент.</p>"
+  },
+  "effects": [],
+  "folder": "7b385e7d2e773313",
+  "sort": 6500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

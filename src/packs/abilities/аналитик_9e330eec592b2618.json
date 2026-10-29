@@ -1,0 +1,29 @@
+{
+  "_id": "9e330eec592b2618",
+  "_key": "!items!9e330eec592b2618",
+  "name": "Аналитик",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+1 к проверкам науки при попытках интерпретации данных на научных устройствах.</p><p>Уровень 1. Выбирается вместо «Я возьму образец».</p>",
+    "skill": "science",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 1,
+    "bonusTarget": "skill.science",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "94573f433d44f8a0",
+  "sort": 10100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

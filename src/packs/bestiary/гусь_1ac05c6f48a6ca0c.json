@@ -1,0 +1,148 @@
+{
+  "_id": "1ac05c6f48a6ca0c",
+  "_key": "!actors!1ac05c6f48a6ca0c",
+  "name": "Гусь",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 1
+      },
+      "agility": {
+        "value": 1
+      },
+      "intellect": {
+        "value": 1
+      },
+      "empathy": {
+        "value": 1
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 0,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 0,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 0,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 2,
+      "max": 2,
+      "bonus": 0
+    },
+    "will": {
+      "value": 1,
+      "max": 1,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Сельскохозяйственное животное, завезённое на Аврору со времён падения «Гипербореи».</p>",
+    "injuries": "",
+    "role": "Домашний скот",
+    "useFormula": false,
+    "danger": 0,
+    "rarity": 3,
+    "actionPoints": 3,
+    "defenses": "",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": "f5014d4bf7a00542",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Гусь",
+    "actorLink": false,
+    "disposition": 0,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

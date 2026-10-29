@@ -1,0 +1,216 @@
+{
+  "_id": "cd079699acd9ae90",
+  "_key": "!actors!cd079699acd9ae90",
+  "name": "Звёздный кит",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 8
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 0
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 4,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 5,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 2,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 6,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 12,
+      "max": 12,
+      "bonus": 0
+    },
+    "will": {
+      "value": 8,
+      "max": 8,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Исполинский неагрессивный обитатель туманностей с полупрозрачной кожей в узорах созвездий. Может случайно протаранить корабль. Увидеть его — к удаче.</p><h3>Черты</h3><p><strong>Китовый таран</strong> (пасс.): При таране, начатом китом, сам кит урона не получает.</p><h3>Правила боя с космической фауной</h3><p>Космические существа имеют 4 очка действия в фазе пилотирования и 3 — в фазе экипажа. Инициатива: к20 + проворство + манёвренность. Им недоступны приказы, распределение энергии и большинство действий экипажа, кроме атак. Критические повреждения — по таблице травм. Структурный урон снимает здоровье, системный — волю. Атаки возможны только в пределах эффективной дистанции и считаются атаками турельного типа; урон людям удвоен. Наземное оружие ранит их, только если оно противотранспортное.</p>",
+    "injuries": "",
+    "role": "Космическая фауна",
+    "useFormula": false,
+    "danger": 0,
+    "rarity": 0,
+    "actionPoints": 3,
+    "defenses": "Размер 1, манёвренность 4, заметность −2, броня 6, скорость 3",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "2eae852cb5317c26",
+      "_key": "!actors.items!cd079699acd9ae90.2eae852cb5317c26",
+      "name": "Удар хвостом",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 3,
+        "initiative": 0,
+        "damage": 4,
+        "crit": 2,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Дистанция: нулевая (тот же сегмент)",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p>Дистанция: нулевая (тот же сегмент)</p>"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "814b7f77ba81b8e6",
+      "_key": "!actors.items!cd079699acd9ae90.814b7f77ba81b8e6",
+      "name": "Китовый таран (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>При таране, начатом китом, сам кит урона не получает.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "cb77de7ba65bd102",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Звёздный кит",
+    "actorLink": false,
+    "disposition": 0,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

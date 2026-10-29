@@ -1,0 +1,41 @@
+{
+  "_id": "d05768417352f53e",
+  "_key": "!items!d05768417352f53e",
+  "name": "Кнут",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 700,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": 2,
+    "initiative": 2,
+    "damage": 1,
+    "crit": 4,
+    "range": "pointBlank",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Лёгкое, маленькое, гибкое",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Гибкое:</strong> При попытке взять противника в захват, в дополнение к вашим успехам во встречной проверке ближнего боя, считается, что у вас уже есть 2 успеха до броска кубов.</p><p><strong>Лёгкое:</strong> Помимо уменьшенного веса, можно держать в руках два оружия с этим свойством и выбирать, каким атаковать, в том числе оружие дальнего боя. Мощный удар таким оружием невозможен.</p><p><strong>Маленькое:</strong> Оружие практически не занимает места, его легко скрыть. Все попытки обнаружить это оружие имеют модификатор −2.</p>"
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

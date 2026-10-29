@@ -1,0 +1,28 @@
+{
+  "_id": "bdaec7ece3e2ff6b",
+  "_key": "!items!bdaec7ece3e2ff6b",
+  "name": "Проникающее ранение в сердце",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Сердце персонажа останавливается навсегда. Если вы игрок — можете создавать нового героя</p><p>Смерть: Да. Крайний срок помощи: —. Период излечения: — дн.</p>",
+    "code": "65",
+    "lethal": true,
+    "deadline": "—",
+    "effect": "Сердце персонажа останавливается навсегда. Если вы игрок — можете создавать нового героя",
+    "period": "—",
+    "strength": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

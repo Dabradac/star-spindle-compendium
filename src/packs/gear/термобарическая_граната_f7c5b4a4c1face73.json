@@ -1,0 +1,31 @@
+{
+  "_id": "f7c5b4a4c1face73",
+  "_key": "!items!f7c5b4a4c1face73",
+  "name": "Термобарическая граната",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 3000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Мощность: 9. Урон: 1. Крит.: 1. Дистанция: Ближняя. Воспламеняющая (3), бронебойная.</p><p>Все в эффективном радиусе получают урон, равный половине мощности (с округлением вверх), затем против каждого бросается ситуативный урон с числом кубов, равным мощности. Граната бросается проверкой силы не дальше средней дистанции; установка взрывчатки — проверка механики.</p>"
+  },
+  "effects": [],
+  "folder": "16ffba3ea41f065c",
+  "sort": 9700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

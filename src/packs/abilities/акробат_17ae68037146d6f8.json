@@ -1,0 +1,29 @@
+{
+  "_id": "17ae68037146d6f8",
+  "_key": "!items!17ae68037146d6f8",
+  "name": "Акробат",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы мастерски преодолеваете любое препятствие, требующее проверки проворства. При проведении проверки проворства считается, что у вас уже есть два успеха ещё до броска кубов.</p><p>Уровень 5. Выбирается вместо «Мастер уворотов».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "dexterity",
+    "tier": 5,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "7f8a0879cc3c897f",
+  "sort": 3900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

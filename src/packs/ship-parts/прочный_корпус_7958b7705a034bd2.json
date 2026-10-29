@@ -1,0 +1,23 @@
+{
+  "_id": "7958b7705a034bd2",
+  "_key": "!items!7958b7705a034bd2",
+  "name": "Прочный корпус",
+  "type": "shipUpgrade",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>+1 к прочности. Можно купить трижды.</p><p>Стоимость: 20% от базовой цены корабля.</p>",
+    "costPercent": 20
+  },
+  "effects": [],
+  "folder": "edfb7d0aab2ebf81",
+  "sort": 6600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

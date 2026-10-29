@@ -1,0 +1,41 @@
+{
+  "_id": "28f7b825c4683f2b",
+  "_key": "!items!28f7b825c4683f2b",
+  "name": "Автомат Куровски",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 4000,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 0,
+    "initiative": 0,
+    "damage": 3,
+    "crit": 2,
+    "range": "medium",
+    "armorPiercing": 0,
+    "automatic": true,
+    "properties": "Автоматическое",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Автоматическое:</strong> Из этого оружия можно вести автоматический огонь.</p>"
+  },
+  "effects": [],
+  "folder": "3bb8ef9b57defdc5",
+  "sort": 3600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

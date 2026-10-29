@@ -1,0 +1,41 @@
+{
+  "_id": "68b6d49e062b1232",
+  "_key": "!items!68b6d49e062b1232",
+  "name": "Двуручный меч",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 1800,
+    "equipped": false,
+    "stored": false,
+    "skill": "melee",
+    "modifier": 2,
+    "initiative": -2,
+    "damage": 2,
+    "crit": 2,
+    "range": "close",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Тяжёлое, длинное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Длинное:</strong> Дальность оружия увеличена: можно атаковать противников на ближней дистанции, а не только в упор.</p><p><strong>Тяжёлое:</strong> Оружие имеет увеличенный вес, им невозможно наносить быстрые удары.</p>"
+  },
+  "effects": [],
+  "folder": "057fbd8881f17d9d",
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

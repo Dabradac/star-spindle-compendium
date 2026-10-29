@@ -1,0 +1,31 @@
+{
+  "_id": "e5b6b2e64f403199",
+  "_key": "!items!e5b6b2e64f403199",
+  "name": "Диалектовый декодер",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 400,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Синхронный перевод диалектов древлян и новов.</p>"
+  },
+  "effects": [],
+  "folder": "88285127c974931a",
+  "sort": 7100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

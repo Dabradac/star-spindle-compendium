@@ -1,0 +1,29 @@
+{
+  "_id": "1bd4059c03ecd639",
+  "_key": "!items!1bd4059c03ecd639",
+  "name": "Дистанционный ремонт",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы можете использовать механику вместо пилотирования, управляя различными дронами, роботами и инженерными транспортными средствами.</p><p>Уровень 4. Выбирается вместо «Получай, железяка».</p>",
+    "skill": "mechanics",
+    "tier": 4,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "a9886f52b1d9a2d4",
+  "sort": 9700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

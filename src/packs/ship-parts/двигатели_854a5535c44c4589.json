@@ -1,0 +1,25 @@
+{
+  "_id": "854a5535c44c4589",
+  "_key": "!items!854a5535c44c4589",
+  "name": "Двигатели",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Маршевые, взлётно-посадочные, маневровые и веретенодвигатели.</p><h3>Улучшения</h3><ul><li>Улучшенная автоматика маневровых двигателей (20%): +1 к манёвренности.</li></ul>",
+    "category": "base",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "c1ba78693baaba59",
+  "sort": 2500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "1437abd4eb4845d2",
+  "_key": "!items!1437abd4eb4845d2",
+  "name": "Гримуар",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 800,
+    "equipped": false,
+    "stored": false,
+    "modifier": 1,
+    "bonusTarget": "skill.witchcraft",
+    "conditional": true,
+    "description": "<p>+1 к ведовству при проведении ритуалов.</p>"
+  },
+  "effects": [],
+  "folder": "9b901da20d67dd2c",
+  "sort": 8900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

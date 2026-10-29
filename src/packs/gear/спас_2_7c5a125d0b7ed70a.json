@@ -1,0 +1,31 @@
+{
+  "_id": "7c5a125d0b7ed70a",
+  "_key": "!items!7c5a125d0b7ed70a",
+  "name": "СПАС-2",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 600,
+    "equipped": false,
+    "stored": false,
+    "modifier": 2,
+    "bonusTarget": "skill.healing",
+    "conditional": true,
+    "description": "<p>Модификатор проверки +2, мгновенно восстанавливает 3 здоровья.</p>"
+  },
+  "effects": [],
+  "folder": "164e01d14f2395f7",
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

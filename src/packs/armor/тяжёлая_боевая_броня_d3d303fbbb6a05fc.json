@@ -1,0 +1,30 @@
+{
+  "_id": "d3d303fbbb6a05fc",
+  "_key": "!items!d3d303fbbb6a05fc",
+  "name": "Тяжёлая боевая броня",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 18000,
+    "equipped": false,
+    "stored": false,
+    "defense": 6,
+    "properties": "Тяжёлая",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "854d1277b9e1e7fd",
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

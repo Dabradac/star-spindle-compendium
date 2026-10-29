@@ -1,0 +1,60 @@
+{
+  "_id": "04c5b2e15be20267",
+  "_key": "!items!04c5b2e15be20267",
+  "name": "Ушиб стопы",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Персонаж сбит с ног; −1 при проверках проворства и скрытности</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: 2к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "16",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Персонаж сбит с ног; −1 при проверках проворства и скрытности",
+    "period": "2к6",
+    "strength": 0
+  },
+  "effects": [
+    {
+      "_id": "b08a1a0c4dab3fe9",
+      "_key": "!items.effects!04c5b2e15be20267.b08a1a0c4dab3fe9",
+      "name": "Ушиб стопы",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.stealth.bonus",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

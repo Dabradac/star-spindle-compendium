@@ -1,0 +1,54 @@
+{
+  "_id": "5c6d8220ced267f3",
+  "_key": "!items!5c6d8220ced267f3",
+  "name": "Сквозное ранение лёгкого",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (4); −3 при проверках проворства</p><p>Смерть: Да. Крайний срок помощи: к6 дней. Период излечения: 2к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "36",
+    "lethal": true,
+    "deadline": "к6 дней",
+    "effect": "Шок (4); −3 при проверках проворства",
+    "period": "2к6",
+    "strength": 4
+  },
+  "effects": [
+    {
+      "_id": "de8b3d621f910cf8",
+      "_key": "!items.effects!5c6d8220ced267f3.de8b3d621f910cf8",
+      "name": "Сквозное ранение лёгкого",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

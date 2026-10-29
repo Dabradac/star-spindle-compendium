@@ -1,0 +1,23 @@
+{
+  "_id": "994fe9d3216cef7c",
+  "_key": "!items!994fe9d3216cef7c",
+  "name": "Искусственный интеллект-помощник",
+  "type": "shipUpgrade",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Выполняет любую задачу члена экипажа, кроме капитана (характеристика и навык равны 3); одна функция за раз, 3 очка действия в бою.</p><p>Улучшение модуля «Мостик». Стоимость: 20% от базовой цены корабля.</p>",
+    "costPercent": 20
+  },
+  "effects": [],
+  "folder": "edfb7d0aab2ebf81",
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

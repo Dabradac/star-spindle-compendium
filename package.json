@@ -1,0 +1,13 @@
+{
+  "name": "star-spindle-compendium",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 tools/build.py && node tools/pack.mjs",
+    "pack": "node tools/pack.mjs",
+    "unpack": "node tools/pack.mjs --unpack"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "3.0.5"
+  }
+}

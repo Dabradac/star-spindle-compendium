@@ -1,0 +1,28 @@
+{
+  "_id": "e0648b7c428b1584",
+  "_key": "!items!e0648b7c428b1584",
+  "name": "Чудеса на виражах",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>При управлении любым транспортным средством модификатор сложности проверки пилотирования не может быть меньше нуля.</p>",
+    "kind": "positive",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e81435c4b1080883",
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

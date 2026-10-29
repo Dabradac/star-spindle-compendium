@@ -1,0 +1,283 @@
+{
+  "_id": "e714730d6a05ae8c",
+  "_key": "!actors!e714730d6a05ae8c",
+  "name": "Ревунья",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 2
+      },
+      "agility": {
+        "value": 3
+      },
+      "intellect": {
+        "value": 1
+      },
+      "empathy": {
+        "value": 1
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 3,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 2,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 2,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 4,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 3,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 8,
+      "max": 8,
+      "bonus": 0
+    },
+    "will": {
+      "value": 6,
+      "max": 6,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 15,
+    "biography": "<p>Птицеподобные гуманоиды с вытянутыми конечностями и длинным клювом, оглушающие жертв визгом. Живут племенами у болот в глухих чащах; крылатая ревунья-матрона — смертельная опасность.</p><h3>Черты</h3><p><strong>Высоко сижу, далеко гляжу</strong>: Быстрым действием вытягивается до трёх метров: +1 к модификатору клюва и крит. клюва снижается на 1.</p><p><strong>Оглушающий визг</strong>: Истошный визг: цели в среднем радиусе оглушены (СВЗ 4).</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Ревунья-матрона</td><td>Лес, равнины, холмы</td><td>Крупный размер, разумная, летает, ведовство 2, здоровье 12, воля 8</td></tr><tr><td>Ревунья-лазутчик</td><td>Лес, равнины, холмы</td><td>Здоровье 9, скрытность 4</td></tr><tr><td>Ревунья-знахарь</td><td>Лес, равнины, холмы</td><td>Исцеляет других ревуний на 4 здоровья, здоровье 7, воля 10, знахарство 3</td></tr></table>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 2,
+    "rarity": 0,
+    "actionPoints": 3,
+    "defenses": "Устойчивость к режущему; Устойчивость к яду; Восприимчивость к огнестрельному; Уязвимость к взрывам",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "42648a8ec7d68231",
+      "_key": "!actors.items!e714730d6a05ae8c.42648a8ec7d68231",
+      "name": "Длинный клюв",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 1,
+        "initiative": 1,
+        "damage": 3,
+        "crit": 2,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "ae5049fdbedab502",
+      "_key": "!actors.items!e714730d6a05ae8c.ae5049fdbedab502",
+      "name": "Цепкая лапа",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 2,
+        "initiative": 1,
+        "damage": 1,
+        "crit": 3,
+        "range": "pointBlank",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "6389b49cf82a39f6",
+      "_key": "!actors.items!e714730d6a05ae8c.6389b49cf82a39f6",
+      "name": "Высоко сижу, далеко гляжу",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Быстрым действием вытягивается до трёх метров: +1 к модификатору клюва и крит. клюва снижается на 1.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "d6a104611fb5eabc",
+      "_key": "!actors.items!e714730d6a05ae8c.d6a104611fb5eabc",
+      "name": "Оглушающий визг",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Истошный визг: цели в среднем радиусе оглушены (СВЗ 4).</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 2600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Ревунья",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

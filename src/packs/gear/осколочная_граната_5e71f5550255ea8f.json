@@ -1,0 +1,31 @@
+{
+  "_id": "5e71f5550255ea8f",
+  "_key": "!items!5e71f5550255ea8f",
+  "name": "Осколочная граната",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 900,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Мощность: 5. Урон: 1. Крит.: 1. Дистанция: Ближняя.</p><p>Все в эффективном радиусе получают урон, равный половине мощности (с округлением вверх), затем против каждого бросается ситуативный урон с числом кубов, равным мощности. Граната бросается проверкой силы не дальше средней дистанции; установка взрывчатки — проверка механики.</p>"
+  },
+  "effects": [],
+  "folder": "16ffba3ea41f065c",
+  "sort": 9400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "2995cec9116cf282",
+  "_key": "!items!2995cec9116cf282",
+  "name": "Я внутри",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+1 к проверкам кибершаманства при поиске информации в закрытых источниках, требующих прямого подключения к базе данных.</p><p>Уровень 1. Выбирается вместо «Поиск на форумах».</p>",
+    "skill": "cybershamanism",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 1,
+    "bonusTarget": "skill.cybershamanism",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "688462003875637e",
+  "sort": 8100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

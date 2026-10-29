@@ -1,0 +1,31 @@
+{
+  "_id": "a526594e5618ca39",
+  "_key": "!items!a526594e5618ca39",
+  "name": "КПК",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 500,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Повсеместно распространённое устройство для связи и выхода в сеть. Цена 500–6000.</p>"
+  },
+  "effects": [],
+  "folder": "c885c9a692501330",
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

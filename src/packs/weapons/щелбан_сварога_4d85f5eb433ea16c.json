@@ -1,0 +1,41 @@
+{
+  "_id": "4d85f5eb433ea16c",
+  "_key": "!items!4d85f5eb433ea16c",
+  "name": "«Щелбан Сварога»",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "bulky",
+    "quality": 0,
+    "price": 14000,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 0,
+    "initiative": -6,
+    "damage": 5,
+    "crit": 1,
+    "range": "extreme",
+    "armorPiercing": 2,
+    "automatic": false,
+    "properties": "Громоздкое, однозарядное, бронебойное, длительная перезарядка",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Бронебойное:</strong> Попадание игнорирует 2 пункта класса защиты цели, но если цель не защищена бронёй, урон снижается на 1.</p><p><strong>Громоздкое:</strong> Модификатор −2 к стрельбе не из упора; оружие не получает бонус при стрельбе из упора.</p><p><strong>Длительная перезарядка:</strong> Перезарядка — продолжительное действие вместо стандартного.</p><p><strong>Однозарядное:</strong> Оружие нужно перезаряжать после каждого выстрела.</p>"
+  },
+  "effects": [],
+  "folder": "23f5e1b1d0085c66",
+  "sort": 5400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "fff17d8c4942103d",
+  "_key": "!items!fff17d8c4942103d",
+  "name": "Портативный локатор",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 1800,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Местоположение, эхолокация и карта. Пассивно сканирует на дальнюю дистанцию, активно — на предельную. Требуется топливный элемент.</p>"
+  },
+  "effects": [],
+  "folder": "7b385e7d2e773313",
+  "sort": 6800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

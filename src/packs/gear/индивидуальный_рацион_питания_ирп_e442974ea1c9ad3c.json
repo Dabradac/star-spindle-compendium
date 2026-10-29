@@ -1,0 +1,31 @@
+{
+  "_id": "e442974ea1c9ad3c",
+  "_key": "!items!e442974ea1c9ad3c",
+  "name": "Индивидуальный рацион питания (ИРП)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 200,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Дневной рацион еды и питья на сутки.</p>"
+  },
+  "effects": [],
+  "folder": "c885c9a692501330",
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

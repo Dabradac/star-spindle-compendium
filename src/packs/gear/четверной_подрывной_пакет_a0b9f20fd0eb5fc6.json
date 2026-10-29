@@ -1,0 +1,31 @@
+{
+  "_id": "a0b9f20fd0eb5fc6",
+  "_key": "!items!a0b9f20fd0eb5fc6",
+  "name": "Четверной подрывной пакет",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "bulky",
+    "quality": 0,
+    "price": 2400,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Мощность: 8. Урон: 1. Крит.: 1. Дистанция: Средняя. Громоздкий, противотранспортный.</p><p>Все в эффективном радиусе получают урон, равный половине мощности (с округлением вверх), затем против каждого бросается ситуативный урон с числом кубов, равным мощности. Граната бросается проверкой силы не дальше средней дистанции; установка взрывчатки — проверка механики.</p>"
+  },
+  "effects": [],
+  "folder": "9e4c27fe57b6a661",
+  "sort": 10700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

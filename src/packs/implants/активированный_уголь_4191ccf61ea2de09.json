@@ -1,0 +1,28 @@
+{
+  "_id": "4191ccf61ea2de09",
+  "_key": "!items!4191ccf61ea2de09",
+  "name": "Активированный уголь",
+  "type": "implant",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "<p>Устойчивость к отравлениям пищей и водой.</p><p>После установки к6 дней проверки, связанные с новой частью тела, получают −2.</p><p>Каждый второй установленный киберимплант снижает максимальную волю на 1.</p>",
+    "kind": "cyber",
+    "illegal": false,
+    "price": 0,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "9bb36f2417533652",
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

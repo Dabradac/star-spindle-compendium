@@ -1,0 +1,25 @@
+{
+  "_id": "36c8b924359c6b7e",
+  "_key": "!items!36c8b924359c6b7e",
+  "name": "Корабельное орудие",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>Модуль с орудием и боеприпасами. На IV классе и выше нужен стрелок в отсеке.</p><h3>Улучшения</h3><ul><li>Ускоренная перезарядка / улучшенная система охлаждения (15%): Перезарядка орудия — 1 очко действия вместо 2.</li><li>Улучшенная система подачи боеприпасов (20%): +1 ко всем проверкам стрельбы из этого орудия.</li></ul>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 5200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

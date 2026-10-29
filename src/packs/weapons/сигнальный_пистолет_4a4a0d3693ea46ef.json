@@ -1,0 +1,41 @@
+{
+  "_id": "4a4a0d3693ea46ef",
+  "_key": "!items!4a4a0d3693ea46ef",
+  "name": "Сигнальный пистолет",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 1000,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": -2,
+    "initiative": 2,
+    "damage": 1,
+    "crit": 0,
+    "range": "close",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Лёгкое, однозарядное, воспламеняющее (2), специальные боеприпасы",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Однозарядное:</strong> Оружие нужно перезаряжать после каждого выстрела.</p><p><strong>Специальные боеприпасы:</strong> Стреляет нетипичными боеприпасами. Детали — на усмотрение Мастера.</p>"
+  },
+  "effects": [],
+  "folder": "7b68449d4a8b2aee",
+  "sort": 3500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

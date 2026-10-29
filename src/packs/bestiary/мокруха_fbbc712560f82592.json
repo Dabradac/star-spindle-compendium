@@ -1,0 +1,245 @@
+{
+  "_id": "fbbc712560f82592",
+  "_key": "!actors!fbbc712560f82592",
+  "name": "Мокруха",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 7
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 0
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 1,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 5,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 1,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 2,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 2,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 12,
+      "max": 12,
+      "bonus": 0
+    },
+    "will": {
+      "value": 6,
+      "max": 6,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Тридцатиметровый белый морской змей Беспробудного океана с красными глазами. Утягивает на дно суда, рискнувшие пересечь океан.</p><h3>Черты</h3><p><strong>Кушать подано</strong> (2 жетона): При успешном захвате проглатывает жертву: цель не может действовать и получает 3 урона в начале раунда. Её ещё можно спасти.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Магмовый змей</td><td>Магма</td><td>Покрыт вулканической породой, плюётся огнём, иммунитет к огню</td></tr><tr><td>Туманский червь</td><td>Пещеры</td><td>Гигантский червь, ест кристаллы туманской росы, нападает на поезда, боится света</td></tr><tr><td>Змей-исполин</td><td>Лес, равнины, болота, пещеры</td><td>Огромная сухопутная змея, встречается редко</td></tr></table>",
+    "injuries": "",
+    "role": "Местная фауна",
+    "useFormula": false,
+    "danger": 3,
+    "rarity": -2,
+    "actionPoints": 3,
+    "defenses": "Иммунитет к травмам; Устойчивость к дробящему, колющему и режущему; Уязвимость к электричеству",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "334cb371637856c0",
+      "_key": "!actors.items!fbbc712560f82592.334cb371637856c0",
+      "name": "Широкая пасть",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "skill": "melee",
+        "modifier": 0,
+        "initiative": -2,
+        "damage": 5,
+        "crit": 2,
+        "range": "close",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "aedb1e7452a89705",
+      "_key": "!actors.items!fbbc712560f82592.aedb1e7452a89705",
+      "name": "Крепкая чешуя",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": true,
+        "stored": false,
+        "defense": 4,
+        "properties": "Естественная броня",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "377e7d3fd5f4a34a",
+      "_key": "!actors.items!fbbc712560f82592.377e7d3fd5f4a34a",
+      "name": "Кушать подано (2 жетона)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>При успешном захвате проглатывает жертву: цель не может действовать и получает 3 урона в начале раунда. Её ещё можно спасти.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "28853aeabae95012",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Мокруха",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "bc6d220e84f15554",
+  "_key": "!items!bc6d220e84f15554",
+  "name": "Компас",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 200,
+    "equipped": false,
+    "stored": false,
+    "modifier": 1,
+    "bonusTarget": "skill.survival",
+    "conditional": true,
+    "description": "<p>+1 к проверкам выживания при ориентировании на местности.</p>"
+  },
+  "effects": [],
+  "folder": "b28912c46f98fb8c",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

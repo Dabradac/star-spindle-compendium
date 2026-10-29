@@ -1,0 +1,35 @@
+{
+  "_id": "e028bf35b1e712cf",
+  "_key": "!items!e028bf35b1e712cf",
+  "name": "Тяжёлая рельсовая пушка",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Длительная перезарядка</p>",
+    "modifier": 1,
+    "damage": 2,
+    "crit": 2,
+    "range": "extreme",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "bow",
+    "properties": "Длительная перезарядка",
+    "price": 40000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "f18e3de6cf114ecc",
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "30084cf572a77209",
+  "_key": "!items!30084cf572a77209",
+  "name": "Заговор",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 700,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Программа, срабатывающая по триггеру. Цена 700–6000. Сила эффекта равна успехам проверки кибершаманства.</p>"
+  },
+  "effects": [],
+  "folder": "59189f853748243e",
+  "sort": 7900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

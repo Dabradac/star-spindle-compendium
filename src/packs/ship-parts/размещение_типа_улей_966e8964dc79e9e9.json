@@ -1,0 +1,23 @@
+{
+  "_id": "966e8964dc79e9e9",
+  "_key": "!items!966e8964dc79e9e9",
+  "name": "Размещение типа «Улей»",
+  "type": "shipUpgrade",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>6 × класс корабля хладоларцов.</p><p>Улучшение модуля «Хладоларцы». Стоимость: 15% от базовой цены корабля.</p>",
+    "costPercent": 15
+  },
+  "effects": [],
+  "folder": "edfb7d0aab2ebf81",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

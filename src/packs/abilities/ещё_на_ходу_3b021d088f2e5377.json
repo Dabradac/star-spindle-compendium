@@ -1,0 +1,29 @@
+{
+  "_id": "3b021d088f2e5377",
+  "_key": "!items!3b021d088f2e5377",
+  "name": "Ещё на ходу",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>При падении прочности управляемого вами транспортного средства до нуля вы проходите проверку пилотирования. Вы восстанавливаете прочность, равную количеству успехов, но не менее 1.</p><p>Уровень 5. Выбирается вместо «Рикошет».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "piloting",
+    "tier": 5,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "97724ff2148b3c77",
+  "sort": 5800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

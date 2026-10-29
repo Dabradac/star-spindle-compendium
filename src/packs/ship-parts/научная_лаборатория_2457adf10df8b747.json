@@ -1,0 +1,25 @@
+{
+  "_id": "2457adf10df8b747",
+  "_key": "!items!2457adf10df8b747",
+  "name": "Научная лаборатория",
+  "type": "shipModule",
+  "img": "icons/svg/circle.svg",
+  "system": {
+    "description": "<p>+2 ко всем проверкам науки в отсеке; 1 × класс мест для изучаемой фауны.</p>",
+    "category": "extra",
+    "state": "normal",
+    "upgrades": ""
+  },
+  "effects": [],
+  "folder": "4323865ef0fa4bab",
+  "sort": 5700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "7e41b479f78fd6e8",
+  "_key": "!items!7e41b479f78fd6e8",
+  "name": "Докторский чемодан",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 1000,
+    "equipped": false,
+    "stored": false,
+    "modifier": 1,
+    "bonusTarget": "skill.healing",
+    "conditional": true,
+    "description": "<p>Набор для первой помощи и стабилизации травм. 10 «зарядов», пополнение — 100 сверкредитов. Складывающийся модификатор +1 при первой помощи и лечении травм.</p>"
+  },
+  "effects": [],
+  "folder": "164e01d14f2395f7",
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

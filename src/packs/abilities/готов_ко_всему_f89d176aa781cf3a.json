@@ -1,0 +1,29 @@
+{
+  "_id": "f89d176aa781cf3a",
+  "_key": "!items!f89d176aa781cf3a",
+  "name": "Готов ко всему",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Смена оружия становится свободным действием.</p><p>Уровень 4. Выбирается вместо «Быстрая перезарядка».</p>",
+    "skill": "shooting",
+    "tier": 4,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "031fd14c68a27b94",
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

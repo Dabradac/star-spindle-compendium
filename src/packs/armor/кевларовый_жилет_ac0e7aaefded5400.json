@@ -1,0 +1,30 @@
+{
+  "_id": "ac0e7aaefded5400",
+  "_key": "!items!ac0e7aaefded5400",
+  "name": "Кевларовый жилет",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 5200,
+    "equipped": false,
+    "stored": false,
+    "defense": 3,
+    "properties": "Лёгкая",
+    "description": "<p><strong>Лёгкая:</strong> Малый вес; +1 к проверкам проворства и скрытности носителя.</p>"
+  },
+  "effects": [],
+  "folder": "16397a97ecd9b64c",
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

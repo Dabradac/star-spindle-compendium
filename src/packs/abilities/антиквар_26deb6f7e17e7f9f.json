@@ -1,0 +1,29 @@
+{
+  "_id": "26deb6f7e17e7f9f",
+  "_key": "!items!26deb6f7e17e7f9f",
+  "name": "Антиквар",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+2 к проверкам культуры при попытках идентификации артефактов.</p><p>Уровень 3. Выбирается вместо «Мифолог».</p>",
+    "skill": "culture",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 2,
+    "bonusTarget": "skill.culture",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "078b7902d7443ddd",
+  "sort": 14400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

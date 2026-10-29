@@ -1,0 +1,41 @@
+{
+  "_id": "6eb82b0d5dcb13dc",
+  "_key": "!items!6eb82b0d5dcb13dc",
+  "name": "«Дыхание Морены» (рельсовый пулемёт)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "bulky",
+    "quality": 0,
+    "price": 24000,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": -4,
+    "damage": 3,
+    "crit": 1,
+    "range": "long",
+    "armorPiercing": 2,
+    "automatic": false,
+    "properties": "Бронебойное, громоздкое, вместительный магазин",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Бронебойное:</strong> Попадание игнорирует 2 пункта класса защиты цели, но если цель не защищена бронёй, урон снижается на 1.</p><p><strong>Громоздкое:</strong> Модификатор −2 к стрельбе не из упора; оружие не получает бонус при стрельбе из упора.</p><p><strong>Вместительный магазин:</strong> При автоматическом огне первая неудача на дополнительном кубе игнорируется. Единица всё ещё даёт −2 успеха.</p>"
+  },
+  "effects": [],
+  "folder": "0a1e4c4e5e48476f",
+  "sort": 6800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "c8377da240f80fea",
+  "_key": "!items!c8377da240f80fea",
+  "name": "Эликсир Битвы",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 1800,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>+2 к ближнему бою и стрельбе.</p>"
+  },
+  "effects": [],
+  "folder": "862633014ef6b333",
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

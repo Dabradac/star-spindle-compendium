@@ -1,0 +1,29 @@
+{
+  "_id": "6b06ace7fd405da0",
+  "_key": "!items!6b06ace7fd405da0",
+  "name": "Чертоги разума",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Вы уходите в чертоги разума. Мастер помогает вам сопоставить имеющиеся у вас зацепки и информацию, создавая цельную картину или наводя на нужный путь для решения задачи.</p><p>Уровень 5. Выбирается вместо «Знание — сила».</p><p>Активная способность: −1 Воля, Мастер получает жетон Чернобога, повторно — после длительного отдыха.</p>",
+    "skill": "science",
+    "tier": 5,
+    "active": true,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "94573f433d44f8a0",
+  "sort": 10800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

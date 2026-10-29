@@ -1,0 +1,30 @@
+{
+  "_id": "58a8f3098b858854",
+  "_key": "!items!58a8f3098b858854",
+  "name": "Композитная тяжёлая броня",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "heavy",
+    "quality": 0,
+    "price": 45000,
+    "equipped": false,
+    "stored": false,
+    "defense": 7,
+    "properties": "Тяжёлая",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "854d1277b9e1e7fd",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

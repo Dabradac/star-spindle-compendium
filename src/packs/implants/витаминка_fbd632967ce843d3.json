@@ -1,0 +1,28 @@
+{
+  "_id": "fbd632967ce843d3",
+  "_key": "!items!fbd632967ce843d3",
+  "name": "Витаминка",
+  "type": "implant",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "<p>При падении здоровья или воли до нуля бросьте к20: при успехе персонаж приходит в себя с 1 здоровья или воли. Восстанавливается после еды и длительного отдыха.</p><p>После установки к6 дней проверки, связанные с новой частью тела, получают −2.</p><p>Каждый второй установленный киберимплант снижает максимальную волю на 1.</p>",
+    "kind": "cyber",
+    "illegal": false,
+    "price": 0,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "9bb36f2417533652",
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

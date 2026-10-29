@@ -1,0 +1,29 @@
+{
+  "_id": "bdfef365f6be7337",
+  "_key": "!items!bdfef365f6be7337",
+  "name": "Привычка к невесомости",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Находясь в условиях невесомости, вы получаете +1 ко всем проверкам навыков.</p><p>Уровень 2. Выбирается вместо «Экзотехник».</p>",
+    "skill": "mechanics",
+    "tier": 2,
+    "active": false,
+    "used": false,
+    "modifier": 1,
+    "bonusTarget": "checks",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "a9886f52b1d9a2d4",
+  "sort": 9200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

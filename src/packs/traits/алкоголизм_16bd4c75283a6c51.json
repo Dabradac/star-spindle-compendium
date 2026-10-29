@@ -1,0 +1,28 @@
+{
+  "_id": "16bd4c75283a6c51",
+  "_key": "!items!16bd4c75283a6c51",
+  "name": "Алкоголизм",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "kind": "negative",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "15ebf6e5747d8bbc",
+  "sort": 5200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

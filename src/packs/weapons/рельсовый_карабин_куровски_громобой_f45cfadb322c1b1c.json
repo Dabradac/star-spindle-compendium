@@ -1,0 +1,41 @@
+{
+  "_id": "f45cfadb322c1b1c",
+  "_key": "!items!f45cfadb322c1b1c",
+  "name": "Рельсовый карабин Куровски «Громобой»",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 6800,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": 0,
+    "damage": 3,
+    "crit": 1,
+    "range": "long",
+    "armorPiercing": 2,
+    "automatic": true,
+    "properties": "Автоматическое, бесшумное, бронебойное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Автоматическое:</strong> Из этого оружия можно вести автоматический огонь.</p><p><strong>Бесшумное:</strong> Чтобы услышать выстрел, нужна проверка наблюдательности с штрафом −2 на ближней и средней дистанции, −4 на дальней; на предельной не слышно вовсе.</p><p><strong>Бронебойное:</strong> Попадание игнорирует 2 пункта класса защиты цели, но если цель не защищена бронёй, урон снижается на 1.</p>"
+  },
+  "effects": [],
+  "folder": "3bb8ef9b57defdc5",
+  "sort": 3800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

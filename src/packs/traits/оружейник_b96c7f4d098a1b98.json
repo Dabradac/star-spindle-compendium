@@ -1,0 +1,28 @@
+{
+  "_id": "b96c7f4d098a1b98",
+  "_key": "!items!b96c7f4d098a1b98",
+  "name": "Оружейник",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Ремесло. Нужный навык: стрельба / механика (хотя бы 1).</p><p>Ремесло — положительная черта, улучшаемая до 5 уровня вместо получения новой черты. Добыча: навык + характеристика + уровень ремесла; ресурс уровня N требует N успехов. Производство: навык + характеристика + разница между уровнем ремесла и уровнем предмета.</p>",
+    "kind": "positive",
+    "craft": true,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "ae509fc45d67a2fd",
+  "sort": 3900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

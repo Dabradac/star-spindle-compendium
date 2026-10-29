@@ -1,0 +1,203 @@
+{
+  "_id": "e65cb0570be13b47",
+  "_key": "!actors!e65cb0570be13b47",
+  "name": "Костомах",
+  "type": "npc",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 3
+      },
+      "agility": {
+        "value": 3
+      },
+      "intellect": {
+        "value": 0
+      },
+      "empathy": {
+        "value": 0
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 1,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 1,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 0,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 1,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 6,
+      "max": 6,
+      "bonus": 0
+    },
+    "will": {
+      "value": 0,
+      "max": 0,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Ожившие скелеты, бесцельно бредущие с щёлканьем суставов, иногда в доспехах и с оружием. Разума не осталось — лишь агрессия; сильные ведуны порой подчиняют их для набегов.</p><h3>Черты</h3><p><strong>Нет покоя ушедшим</strong> (пасс.): Когда здоровье опускается до нуля, восстаёт с 1 здоровья. Одноразовая способность.</p><p><strong>Кости да кости</strong> (пасс.): Не получает сопутствующих эффектов травм вроде шока и кровотечения.</p><h3>Подвиды</h3><table><tr><th>Подвид</th><th>Места обитания</th><th>Отличия</th></tr><tr><td>Костомах-верзила</td><td>Любое</td><td>Большой размер, телосложение 5, ближний бой 3</td></tr><tr><td>Костомах-снайпер</td><td>Любое</td><td>Ловкость 5, стрельба 3</td></tr><tr><td>Костомах-ведун</td><td>Любое</td><td>Здоровье 8, воля 8, ведовство 3, ветка «Кинетик»</td></tr></table>",
+    "injuries": "",
+    "role": "Существа Веретена",
+    "useFormula": false,
+    "danger": 1,
+    "rarity": 0,
+    "actionPoints": 3,
+    "defenses": "Любое оружие и броня на выбор; Иммунитет к яду; Устойчивость к колющему; Уязвимость к дробящему",
+    "notes": ""
+  },
+  "items": [
+    {
+      "_id": "ed7a770842da96f4",
+      "_key": "!actors.items!e65cb0570be13b47.ed7a770842da96f4",
+      "name": "Нет покоя ушедшим (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Когда здоровье опускается до нуля, восстаёт с 1 здоровья. Одноразовая способность.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "34a59ed0b2c714c9",
+      "_key": "!actors.items!e65cb0570be13b47.34a59ed0b2c714c9",
+      "name": "Кости да кости (пасс.)",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Не получает сопутствующих эффектов травм вроде шока и кровотечения.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "d7c96231c6961c64",
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Костомах",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/terror.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

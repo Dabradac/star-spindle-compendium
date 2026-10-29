@@ -1,0 +1,41 @@
+{
+  "_id": "fe42e4e93eb7c874",
+  "_key": "!items!fe42e4e93eb7c874",
+  "name": "Стационарный пулемёт",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "bulky",
+    "quality": 0,
+    "price": 24000,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 1,
+    "initiative": -2,
+    "damage": 4,
+    "crit": 2,
+    "range": "long",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Громоздкое, вместительный магазин, стационарное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Громоздкое:</strong> Модификатор −2 к стрельбе не из упора; оружие не получает бонус при стрельбе из упора.</p><p><strong>Стационарное:</strong> Перемещается только транспортом; сложить или разложить в бою — продолжительное действие.</p><p><strong>Вместительный магазин:</strong> При автоматическом огне первая неудача на дополнительном кубе игнорируется. Единица всё ещё даёт −2 успеха.</p>"
+  },
+  "effects": [],
+  "folder": "d4d0f915d1a3dae6",
+  "sort": 6900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

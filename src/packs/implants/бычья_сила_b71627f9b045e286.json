@@ -1,0 +1,54 @@
+{
+  "_id": "b71627f9b045e286",
+  "_key": "!items!b71627f9b045e286",
+  "name": "Бычья сила",
+  "type": "implant",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "<p>Кибернетические руки из композитов: +1 к силе, +1 к урону без оружия.</p><p>После установки к6 дней проверки, связанные с новой частью тела, получают −2.</p><p>Каждый второй установленный киберимплант снижает максимальную волю на 1.</p>",
+    "kind": "cyber",
+    "illegal": false,
+    "price": 0,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [
+    {
+      "_id": "0983e79048faee32",
+      "_key": "!items.effects!b71627f9b045e286.0983e79048faee32",
+      "name": "Бычья сила",
+      "img": "icons/svg/pawprint.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.strength.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": "9bb36f2417533652",
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

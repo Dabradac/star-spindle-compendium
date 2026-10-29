@@ -1,0 +1,23 @@
+{
+  "_id": "279026f42a419815",
+  "_key": "!items!279026f42a419815",
+  "name": "Тяжёлая броня",
+  "type": "shipUpgrade",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>+1 к броне. Можно купить трижды.</p><p>Стоимость: 25% от базовой цены корабля.</p>",
+    "costPercent": 25
+  },
+  "effects": [],
+  "folder": "edfb7d0aab2ebf81",
+  "sort": 6700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

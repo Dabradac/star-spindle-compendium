@@ -1,0 +1,35 @@
+{
+  "_id": "a2d05307e9423b4d",
+  "_key": "!items!a2d05307e9423b4d",
+  "name": "Плазменная торпеда",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>3 сегмента/ход. Попадание снижает броню цели на 1. Цена за одну торпеду</p>",
+    "modifier": 2,
+    "damage": 1,
+    "crit": 2,
+    "range": "long",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "bow",
+    "properties": "3 сегмента/ход. Попадание снижает броню цели на 1. Цена за одну торпеду",
+    "price": 20000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "2bbc5961d37211df",
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

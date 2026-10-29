@@ -1,0 +1,31 @@
+{
+  "_id": "cc2b9bb2b6fb9e22",
+  "_key": "!items!cc2b9bb2b6fb9e22",
+  "name": "Гидростатический гель (улучшение брони)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 0,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>+3 к классу защиты против взрывов и при падении с большой высоты.</p><p>Стоимость установки: 100–150% от стартовой цены брони.</p>"
+  },
+  "effects": [],
+  "folder": "ab525fb847eb947e",
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

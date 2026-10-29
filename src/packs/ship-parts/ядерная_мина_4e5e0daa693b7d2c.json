@@ -1,0 +1,35 @@
+{
+  "_id": "4e5e0daa693b7d2c",
+  "_key": "!items!4e5e0daa693b7d2c",
+  "name": "Ядерная мина",
+  "type": "shipWeapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "description": "<p>Цена за одну мину</p>",
+    "modifier": 0,
+    "damage": 4,
+    "crit": 1,
+    "range": "zero",
+    "damageType": "structural",
+    "ignoresArmor": false,
+    "location": "stern",
+    "properties": "Цена за одну мину",
+    "price": 20000,
+    "ammo": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": "2bbc5961d37211df",
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

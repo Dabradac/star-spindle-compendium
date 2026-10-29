@@ -1,0 +1,29 @@
+{
+  "_id": "4108101f07818a92",
+  "_key": "!items!4108101f07818a92",
+  "name": "Фирменный подшаг",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Короткая перебежка на ближнее расстояние для атаки в ближнем бою не тратит очков действия.</p><p>Уровень 1. Выбирается вместо «Всегда наготове».</p>",
+    "skill": "melee",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "0cbea72f591a84cf",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

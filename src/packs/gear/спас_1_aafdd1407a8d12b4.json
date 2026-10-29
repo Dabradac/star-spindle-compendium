@@ -1,0 +1,31 @@
+{
+  "_id": "aafdd1407a8d12b4",
+  "_key": "!items!aafdd1407a8d12b4",
+  "name": "СПАС-1",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 300,
+    "equipped": false,
+    "stored": false,
+    "modifier": 1,
+    "bonusTarget": "skill.healing",
+    "conditional": true,
+    "description": "<p>Система персональной активной стабилизации. Модификатор проверки +1, мгновенно восстанавливает 2 здоровья. Можно зарядить в пневматический инъектор.</p>"
+  },
+  "effects": [],
+  "folder": "164e01d14f2395f7",
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

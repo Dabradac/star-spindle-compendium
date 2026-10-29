@@ -1,0 +1,522 @@
+{
+  "_id": "45790cbb60fb5a3d",
+  "_key": "!actors!45790cbb60fb5a3d",
+  "name": "Драган Славутич",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 3
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 4
+      },
+      "empathy": {
+        "value": 2
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 0,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 2,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 2,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 0,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 2,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 3,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 3,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 7,
+      "max": 7,
+      "bonus": 0
+    },
+    "will": {
+      "value": 6,
+      "max": 6,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Замкнутый и увлечённый природой отпрыск знатной семьи, счастливый лишь вдали от Кущ Краснограда. Пережив предательство в охоте на клыкунов, он решил найти тех, кому можно доверять.</p>",
+    "injuries": "",
+    "supercredits": 5000,
+    "reputation": 1,
+    "xp": 0,
+    "origin": "",
+    "religion": "",
+    "blessing": 0,
+    "heroTokens": 0,
+    "encumbranceBonus": 0,
+    "resources": {
+      "t1": 0,
+      "t2": 0,
+      "t3": 0,
+      "t4": 0,
+      "t5": 0
+    },
+    "cabin": {
+      "description": "",
+      "storage": ""
+    },
+    "factions": {
+      "demos": 0,
+      "commune": 0,
+      "peddlers": 0,
+      "frontiers": 0,
+      "church": 0,
+      "outcasts": 0
+    },
+    "clans": {
+      "wolf": 0,
+      "eagle": 0,
+      "snake": 0,
+      "ram": 0,
+      "owl": 0,
+      "bear": 0
+    },
+    "appearance": "",
+    "notes": "<p>Роль: Егерь.</p>"
+  },
+  "items": [
+    {
+      "_id": "93ca12ee3f8c4528",
+      "_key": "!actors.items!45790cbb60fb5a3d.93ca12ee3f8c4528",
+      "name": "Следопыт",
+      "type": "specialization",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": "<p>Вы способны выжить и добыть пропитание где угодно. Каждый примятый листок, сломанная ветка, след на пыльном полу станции рассказывают вам свою историю. Ваши глаза всегда на цели.</p><h3>Рекомендуемые навыки</h3><p>Выживание, Наблюдательность, Проворство</p><h3>Модификатор репутации</h3><p>0</p><h3>Дополнительный опыт</h3><ul><li>Вы успешно отследили цель — 2 опыта</li><li>Вам удалось найти пропитание для группы в походе — 2 опыта</li><li>Вы предложили план, который помог в решении сложной задачи группы с помощью навыка выживания — 2 опыта</li></ul><h3>Примеры положительных черт</h3><ul><li>Ручной питомец</li><li>Шестое чувство</li><li>Шаг следопыта</li></ul><h3>Примеры отрицательных черт</h3><ul><li>Клаустрофобия</li><li>Социофобия</li><li>Зоошиза</li></ul><h3>Стартовое снаряжение на выбор</h3><ul><li>Копьё или Нож</li><li>Винтовка Косина или Лук</li><li>Компас или Капкан (2)</li><li>Палатка и спальник или Мультитул «Выживальщик»</li></ul>",
+        "variations": "Проводник, охотник, детектив",
+        "recommendedSkills": [
+          "survival",
+          "observation",
+          "dexterity"
+        ],
+        "reputationModifier": 0,
+        "xpActions": "Вы успешно отследили цель — 2 опыта; Вам удалось найти пропитание для группы в походе — 2 опыта; Вы предложили план, который помог в решении сложной задачи группы с помощью навыка выживания — 2 опыта",
+        "traitExamples": "Положительные: Ручной питомец, Шестое чувство, Шаг следопыта. Отрицательные: Клаустрофобия, Социофобия, Зоошиза.",
+        "startingGear": "Копьё или Нож; Винтовка Косина или Лук; Компас или Капкан (2); Палатка и спальник или Мультитул «Выживальщик»"
+      },
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.specializations.Item.e240e642ec63adf4"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "b220c02af55aa3b5",
+      "_key": "!actors.items!45790cbb60fb5a3d.b220c02af55aa3b5",
+      "name": "Выжить любой ценой",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Срок до смерти от полученных травм увеличен вдвое.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 3200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.b7f5d01ddbd803d6"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "9e359ffa2990d0bd",
+      "_key": "!actors.items!45790cbb60fb5a3d.9e359ffa2990d0bd",
+      "name": "Технофоб",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "",
+        "kind": "negative",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 8300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.3c558ecde2b4a357"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "04e57e98e8188807",
+      "_key": "!actors.items!45790cbb60fb5a3d.04e57e98e8188807",
+      "name": "Лук",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 800,
+        "equipped": true,
+        "stored": false,
+        "skill": "shooting",
+        "modifier": 2,
+        "initiative": 0,
+        "damage": 2,
+        "crit": 3,
+        "range": "medium",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Однозарядное, специальные боеприпасы, бесшумное",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p><strong>Бесшумное:</strong> Чтобы услышать выстрел, нужна проверка наблюдательности с штрафом −2 на ближней и средней дистанции, −4 на дальней; на предельной не слышно вовсе.</p><p><strong>Однозарядное:</strong> Оружие нужно перезаряжать после каждого выстрела.</p><p><strong>Специальные боеприпасы:</strong> Стреляет нетипичными боеприпасами. Детали — на усмотрение Мастера.</p>"
+      },
+      "effects": [],
+      "sort": 7400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.weapons.Item.0f4d6b7e88d9f796"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "9b9fdbf42196ef6d",
+      "_key": "!actors.items!45790cbb60fb5a3d.9b9fdbf42196ef6d",
+      "name": "Бронерубаха",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 3200,
+        "equipped": true,
+        "stored": false,
+        "defense": 3,
+        "properties": "",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.armor.Item.68deafe9a400a9db"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "e21afaf3a842c80e",
+      "_key": "!actors.items!45790cbb60fb5a3d.e21afaf3a842c80e",
+      "name": "Мультитул «Выживальщик»",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 700,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Ножик, шуруповёрт, пила, открывашка и другие приспособления.</p>"
+      },
+      "effects": [],
+      "sort": 4200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.b7a3ea92d7bb1d52"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "ff40e43a62d5d7e9",
+      "_key": "!actors.items!45790cbb60fb5a3d.ff40e43a62d5d7e9",
+      "name": "Верёвка",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 200,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>20-метровая прочная верёвка.</p>"
+      },
+      "effects": [],
+      "sort": 3600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.b1aa253bc7ba5176"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "6fa9cff33ffcde73",
+      "_key": "!actors.items!45790cbb60fb5a3d.6fa9cff33ffcde73",
+      "name": "Компас",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 200,
+        "equipped": false,
+        "stored": false,
+        "modifier": 1,
+        "bonusTarget": "skill.survival",
+        "conditional": true,
+        "description": "<p>+1 к проверкам выживания при ориентировании на местности.</p>"
+      },
+      "effects": [],
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.bc6d220e84f15554"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "3c62e8159d6c63c4",
+      "_key": "!actors.items!45790cbb60fb5a3d.3c62e8159d6c63c4",
+      "name": "Капкан",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 2,
+        "size": "light",
+        "quality": 0,
+        "price": 200,
+        "equipped": false,
+        "stored": false,
+        "modifier": 1,
+        "bonusTarget": "skill.survival",
+        "conditional": true,
+        "description": "<p>+1 к проверкам выживания для добычи пищи.</p>"
+      },
+      "effects": [],
+      "sort": 3900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.fcc6a41b866a1510"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "27b0dda3b01407f8",
+      "_key": "!actors.items!45790cbb60fb5a3d.27b0dda3b01407f8",
+      "name": "Маскировочный халат",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 3000,
+        "equipped": true,
+        "stored": false,
+        "defense": 0,
+        "properties": "Лёгкая, камуфляж",
+        "description": "<p><strong>Лёгкая:</strong> Малый вес; +1 к проверкам проворства и скрытности носителя.</p><p><strong>Камуфляж:</strong> В активном режиме расцветка сливается с окружением: +2 к проверкам скрытности.</p>"
+      },
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.armor.Item.60038c1c0c6dd890"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Драган Славутич",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

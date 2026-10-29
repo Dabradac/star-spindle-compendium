@@ -1,0 +1,28 @@
+{
+  "_id": "017cdd582867d7ef",
+  "_key": "!items!017cdd582867d7ef",
+  "name": "Брезгливость",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "kind": "negative",
+    "craft": false,
+    "level": 1,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "15ebf6e5747d8bbc",
+  "sort": 5700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "249bcb0342a108ec",
+  "_key": "!items!249bcb0342a108ec",
+  "name": "Арбалет",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 1000,
+    "equipped": false,
+    "stored": false,
+    "skill": "shooting",
+    "modifier": 0,
+    "initiative": 0,
+    "damage": 3,
+    "crit": 2,
+    "range": "long",
+    "armorPiercing": 0,
+    "automatic": false,
+    "properties": "Однозарядное, специальные боеприпасы, бесшумное",
+    "ammo": {
+      "value": 0,
+      "max": 0
+    },
+    "description": "<p><strong>Бесшумное:</strong> Чтобы услышать выстрел, нужна проверка наблюдательности с штрафом −2 на ближней и средней дистанции, −4 на дальней; на предельной не слышно вовсе.</p><p><strong>Однозарядное:</strong> Оружие нужно перезаряжать после каждого выстрела.</p><p><strong>Специальные боеприпасы:</strong> Стреляет нетипичными боеприпасами. Детали — на усмотрение Мастера.</p>"
+  },
+  "effects": [],
+  "folder": "d4d0f915d1a3dae6",
+  "sort": 7500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "e3057ab0b9b03338",
+  "_key": "!items!e3057ab0b9b03338",
+  "name": "Контактная мина противопехотная",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "light",
+    "quality": 0,
+    "price": 900,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Мощность: 4. Урон: 1. Крит.: 2. Дистанция: Ближняя. Не требуется детонатор.</p><p>Все в эффективном радиусе получают урон, равный половине мощности (с округлением вверх), затем против каждого бросается ситуативный урон с числом кубов, равным мощности. Граната бросается проверкой силы не дальше средней дистанции; установка взрывчатки — проверка механики.</p>"
+  },
+  "effects": [],
+  "folder": "9e4c27fe57b6a661",
+  "sort": 10200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "74f48a5b7384f721",
+  "_key": "!items!74f48a5b7384f721",
+  "name": "Заговор «Хлопушка»",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "size": "small",
+    "quality": 0,
+    "price": 700,
+    "equipped": false,
+    "stored": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false,
+    "description": "<p>Взрывает X небольших устройств, подключённых к взломанной сети (мощность 2, урон 1, крит. 2, радиус — ближняя дистанция).</p><p>Сила эффекта X равна количеству успехов при проверке кибершаманства. Цена заговора: 700–6000.</p>"
+  },
+  "effects": [],
+  "folder": "1b97bf738e819d1e",
+  "sort": 11400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

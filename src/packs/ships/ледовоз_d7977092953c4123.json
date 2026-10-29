@@ -1,0 +1,823 @@
+{
+  "_id": "d7977092953c4123",
+  "_key": "!actors!d7977092953c4123",
+  "name": "Ледовоз",
+  "type": "ship",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "shipClass": 4,
+    "size": 4,
+    "hull": "Горбунок",
+    "hullBonuses": "Потребляет вполовину меньше топлива, дополнительное свободное место под грузовой отсек.",
+    "flaw": "",
+    "baseCost": 3640000,
+    "lastMaintenance": "",
+    "debt": {
+      "initial": 0,
+      "remaining": 0,
+      "monthly": 0
+    },
+    "attributes": {
+      "durability": {
+        "value": 15,
+        "max": 15
+      },
+      "energy": {
+        "value": 4,
+        "max": 4
+      },
+      "maneuverability": {
+        "value": 1,
+        "max": 1
+      },
+      "signature": {
+        "value": 2,
+        "max": 2
+      },
+      "armor": {
+        "value": 7,
+        "max": 7
+      },
+      "speed": {
+        "value": 1,
+        "max": 1
+      },
+      "fuel": {
+        "value": 24,
+        "max": 24
+      }
+    },
+    "energyAllocation": {
+      "weapons": 0,
+      "engines": 0,
+      "repair": 0,
+      "sensors": 0,
+      "cyber": 0
+    },
+    "batteries": 0,
+    "criticals": "",
+    "cargoMax": 750,
+    "modulesMax": 23,
+    "crew": [],
+    "logbook": "<p>Пример корабля из книги правил. Цена: 3 640 000 сверкредитов.</p>"
+  },
+  "items": [
+    {
+      "_id": "3d6a4c0ea46cd6fc",
+      "_key": "!actors.items!d7977092953c4123.3d6a4c0ea46cd6fc",
+      "name": "Мостик",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Капитанская рубка: посты капитана, штурмана и пилота, управление сенсорами и двигателями.</p><h3>Улучшения</h3><ul><li>Искусственный интеллект-помощник (20%): Выполняет любую задачу члена экипажа, кроме капитана (характеристика и навык равны 3); одна функция за раз, 3 очка действия в бою.</li><li>Аварийная спасательная капсула (15%): Встроенная в мостик капсула вместимостью, равной классу корабля; при критических повреждениях отстреливается с экипажем.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.7f6dc88215ea28ca"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "83bebdea5106950e",
+      "_key": "!actors.items!d7977092953c4123.83bebdea5106950e",
+      "name": "Реактор",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Основной источник энергии; место дежурства бортинженера, распределяющего энергию.</p><h3>Улучшения</h3><ul><li>Улучшенная система охлаждения (20%): +1 к энергии корабля.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.a217f79f13e86ccd"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "c205eac8d47a6ae8",
+      "_key": "!actors.items!d7977092953c4123.c205eac8d47a6ae8",
+      "name": "Двигатели",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Маршевые, взлётно-посадочные, маневровые и веретенодвигатели.</p><h3>Улучшения</h3><ul><li>Улучшенная автоматика маневровых двигателей (20%): +1 к манёвренности.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.854a5535c44c4589"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "44dddd61e32f997e",
+      "_key": "!actors.items!d7977092953c4123.44dddd61e32f997e",
+      "name": "Система жизнеобеспечения",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Очистка воздуха и воды, температура и давление. На I и II классе не занимает отсек. При отказе реактора резерва хватает на 1 × класс дней.</p><h3>Улучшения</h3><ul><li>Дополнительный запас воды и кислорода (15%): Запас на 2 × класс корабля дней.</li><li>Оранжерея (15%): Небольшой сад с неприхотливыми культурами.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 2700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.32d0652fb029f89f"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "377c12b37a127904",
+      "_key": "!actors.items!d7977092953c4123.377c12b37a127904",
+      "name": "Стыковочный отсек",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Люк, тоннель и шлюз для стыковки. На I классе встроен, со II класса — отдельный модуль.</p><h3>Улучшения</h3><ul><li>Укреплённый люк (10%): Попытки взломать или вскрыть люк получают −3.</li></ul>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.e5b369124f2fa33a"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "599adf830c27b6ba",
+      "_key": "!actors.items!d7977092953c4123.599adf830c27b6ba",
+      "name": "Хранилище топлива",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Танк с топливом по таблице базовых значений; на I и II классе под обшивкой. При критическом повреждении — возгорание мощностью, равной классу корабля.</p>",
+        "category": "base",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.a1167174ed1f3a1c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "516609c3b715acc0",
+      "_key": "!actors.items!d7977092953c4123.516609c3b715acc0",
+      "name": "Грузовой отсек",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Вместимость по классу: I — 1 т, II — 5 т, III — 50 т, IV — 250 т, V — 1000 т.</p><h3>Улучшения</h3><ul><li>Потайной грузовой отсек (5%): 20% объёма грузового отсека; найти его — наблюдательность −3.</li><li>Добывающий модуль (20%): Добыча руды, минералов и газов; 70% объёма грузового отсека.</li><li>Демонтажный модуль (20%): Разбор мусора и кораблей на два класса меньше; 70% объёма грузового отсека.</li><li>Торговый модуль (20%): Магазин в космосе со стыковочной торговой зоной; 80% объёма грузового отсека.</li><li>Внешние крепления груза (15%): Груз на обшивке: удвоенная вместимость внутреннего отсека.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 4100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.ef0b8a58befa78e8"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "ac94a6ca3bb2bc37",
+      "_key": "!actors.items!d7977092953c4123.ac94a6ca3bb2bc37",
+      "name": "Грузовой отсек",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Вместимость по классу: I — 1 т, II — 5 т, III — 50 т, IV — 250 т, V — 1000 т.</p><h3>Улучшения</h3><ul><li>Потайной грузовой отсек (5%): 20% объёма грузового отсека; найти его — наблюдательность −3.</li><li>Добывающий модуль (20%): Добыча руды, минералов и газов; 70% объёма грузового отсека.</li><li>Демонтажный модуль (20%): Разбор мусора и кораблей на два класса меньше; 70% объёма грузового отсека.</li><li>Торговый модуль (20%): Магазин в космосе со стыковочной торговой зоной; 80% объёма грузового отсека.</li><li>Внешние крепления груза (15%): Груз на обшивке: удвоенная вместимость внутреннего отсека.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 4100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.ef0b8a58befa78e8"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "008146ff5d4bbd45",
+      "_key": "!actors.items!d7977092953c4123.008146ff5d4bbd45",
+      "name": "Грузовой отсек",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Вместимость по классу: I — 1 т, II — 5 т, III — 50 т, IV — 250 т, V — 1000 т.</p><h3>Улучшения</h3><ul><li>Потайной грузовой отсек (5%): 20% объёма грузового отсека; найти его — наблюдательность −3.</li><li>Добывающий модуль (20%): Добыча руды, минералов и газов; 70% объёма грузового отсека.</li><li>Демонтажный модуль (20%): Разбор мусора и кораблей на два класса меньше; 70% объёма грузового отсека.</li><li>Торговый модуль (20%): Магазин в космосе со стыковочной торговой зоной; 80% объёма грузового отсека.</li><li>Внешние крепления груза (15%): Груз на обшивке: удвоенная вместимость внутреннего отсека.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 4100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.ef0b8a58befa78e8"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "3cad09ade0469686",
+      "_key": "!actors.items!d7977092953c4123.3cad09ade0469686",
+      "name": "Жилой модуль",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Каюты, общие помещения, столовая: класс × 3 кают.</p><h3>Улучшения</h3><ul><li>Многоярусные кровати / места для сидения (10%): Мест для экипажа: класс × 6.</li><li>Каюта-люкс (25%): Полностью оборудованных кают высшего класса: по классу корабля.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.54a1d1540ace1923"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "d284bbd7275fcb90",
+      "_key": "!actors.items!d7977092953c4123.d284bbd7275fcb90",
+      "name": "Жилой модуль",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Каюты, общие помещения, столовая: класс × 3 кают.</p><h3>Улучшения</h3><ul><li>Многоярусные кровати / места для сидения (10%): Мест для экипажа: класс × 6.</li><li>Каюта-люкс (25%): Полностью оборудованных кают высшего класса: по классу корабля.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.54a1d1540ace1923"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "3cc2af896a200e8e",
+      "_key": "!actors.items!d7977092953c4123.3cc2af896a200e8e",
+      "name": "Хладоларцы",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Криосон для экипажа и пассажиров; 3 × класс корабля хладоларцов.</p><h3>Улучшения</h3><ul><li>Размещение типа «Улей» (15%): 6 × класс корабля хладоларцов.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.0e6f508b9b0ebbcc"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "4557ddc4302b3769",
+      "_key": "!actors.items!d7977092953c4123.4557ddc4302b3769",
+      "name": "Хладоларцы",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Криосон для экипажа и пассажиров; 3 × класс корабля хладоларцов.</p><h3>Улучшения</h3><ul><li>Размещение типа «Улей» (15%): 6 × класс корабля хладоларцов.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.0e6f508b9b0ebbcc"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "8165ed41c8cb8085",
+      "_key": "!actors.items!d7977092953c4123.8165ed41c8cb8085",
+      "name": "Медотсек",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>+3 при оказании помощи в отсеке; мест: 1 × класс корабля.</p><h3>Улучшения</h3><ul><li>Реанимационный отсек (20%): +5 при лечении; можно вернуть к жизни умерших не более часа назад (знахарство −3).</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.e963d42b6784311a"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "db64cb1250d2e4f2",
+      "_key": "!actors.items!d7977092953c4123.db64cb1250d2e4f2",
+      "name": "Часовня",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Небольшой храм: после двухчасовой службы +1 при перебросе кубов в следующих трёх молитвах.</p>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 3600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.331909251b34ef1c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "5b6083374a933133",
+      "_key": "!actors.items!d7977092953c4123.5b6083374a933133",
+      "name": "Спасательные капсулы",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Капсулы на 6 человек с запасами на 5 дней; 1 × класс корабля капсул.</p>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 4700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.08ded5bdb98c345c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "1e8d8c7ad3069869",
+      "_key": "!actors.items!d7977092953c4123.1e8d8c7ad3069869",
+      "name": "Сенсоры дальнего действия",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Сканирование на предельную дистанцию; место дежурства наводчика.</p><h3>Улучшения</h3><ul><li>Улучшение системы наведения (20%): +1 к наблюдательности и науке при сканировании и наведении.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 5800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.7d2b9e5b187b5889"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "ed50ad95b028dc8c",
+      "_key": "!actors.items!d7977092953c4123.ed50ad95b028dc8c",
+      "name": "Ремонтная мастерская",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Без неё бортинженер получает −2 к механике при ремонте структурных повреждений и техобслуживании. Здесь можно чинить снаряжение.</p><h3>Улучшения</h3><ul><li>Передовая мастерская (20%): +1 ко всем проверкам механики при ремонте и техобслуживании.</li></ul>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 5500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.3a6a68e15dea47a0"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "b973b848175c0857",
+      "_key": "!actors.items!d7977092953c4123.b973b848175c0857",
+      "name": "Ангар",
+      "type": "shipModule",
+      "img": "icons/svg/circle.svg",
+      "system": {
+        "description": "<p>Для кораблей минимум на два класса легче; каждый лишний класс разницы ×4 к вместимости.</p>",
+        "category": "extra",
+        "state": "normal",
+        "upgrades": ""
+      },
+      "effects": [],
+      "sort": 4800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.dc315dc1370e42b4"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "ecfacd4cb31afc48",
+      "_key": "!actors.items!d7977092953c4123.ecfacd4cb31afc48",
+      "name": "Лазерная пушка",
+      "type": "shipWeapon",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "description": "<p>Структурный и системный урон</p>",
+        "modifier": 1,
+        "damage": 1,
+        "crit": 3,
+        "range": "long",
+        "damageType": "both",
+        "ignoresArmor": false,
+        "location": "bow",
+        "properties": "Структурный и системный урон",
+        "price": 40000,
+        "ammo": {
+          "value": 0,
+          "max": 0
+        }
+      },
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.0daba2fd6150cd6c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "0ff70e9908076bcf",
+      "_key": "!actors.items!d7977092953c4123.0ff70e9908076bcf",
+      "name": "Лазерная пушка",
+      "type": "shipWeapon",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "description": "<p>Структурный и системный урон</p>",
+        "modifier": 1,
+        "damage": 1,
+        "crit": 3,
+        "range": "long",
+        "damageType": "both",
+        "ignoresArmor": false,
+        "location": "starboard",
+        "properties": "Структурный и системный урон",
+        "price": 40000,
+        "ammo": {
+          "value": 0,
+          "max": 0
+        }
+      },
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.0daba2fd6150cd6c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "b4c76c0b4c475f33",
+      "_key": "!actors.items!d7977092953c4123.b4c76c0b4c475f33",
+      "name": "Лазерная пушка",
+      "type": "shipWeapon",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "description": "<p>Структурный и системный урон</p>",
+        "modifier": 1,
+        "damage": 1,
+        "crit": 3,
+        "range": "long",
+        "damageType": "both",
+        "ignoresArmor": false,
+        "location": "port",
+        "properties": "Структурный и системный урон",
+        "price": 40000,
+        "ammo": {
+          "value": 0,
+          "max": 0
+        }
+      },
+      "effects": [],
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.0daba2fd6150cd6c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "421e7937311ebf17",
+      "_key": "!actors.items!d7977092953c4123.421e7937311ebf17",
+      "name": "Внешние крепления груза",
+      "type": "shipUpgrade",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Груз на обшивке: удвоенная вместимость внутреннего отсека.</p><p>Улучшение модуля «Грузовой отсек». Стоимость: 15% от базовой цены корабля.</p>",
+        "costPercent": 15
+      },
+      "effects": [],
+      "sort": 4600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.711e8ea24969f216"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "66740726c1f4fc81",
+      "_key": "!actors.items!d7977092953c4123.66740726c1f4fc81",
+      "name": "Внешние крепления груза",
+      "type": "shipUpgrade",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Груз на обшивке: удвоенная вместимость внутреннего отсека.</p><p>Улучшение модуля «Грузовой отсек». Стоимость: 15% от базовой цены корабля.</p>",
+        "costPercent": 15
+      },
+      "effects": [],
+      "sort": 4600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.711e8ea24969f216"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "c7642abcc2a2de1b",
+      "_key": "!actors.items!d7977092953c4123.c7642abcc2a2de1b",
+      "name": "Добывающий модуль",
+      "type": "shipUpgrade",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Добыча руды, минералов и газов; 70% объёма грузового отсека.</p><p>Улучшение модуля «Грузовой отсек». Стоимость: 20% от базовой цены корабля.</p>",
+        "costPercent": 20
+      },
+      "effects": [],
+      "sort": 4300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.ship-parts.Item.23512d9cb6d7ca5c"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "084ec8d18edce772",
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Ледовоз",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.durability"
+    },
+    "bar2": {
+      "attribute": "attributes.energy"
+    },
+    "texture": {
+      "src": "icons/svg/target.svg"
+    },
+    "width": 4,
+    "height": 4,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

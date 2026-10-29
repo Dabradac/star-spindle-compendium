@@ -1,0 +1,30 @@
+{
+  "_id": "c3f626551cad13ff",
+  "_key": "!items!c3f626551cad13ff",
+  "name": "Средняя боевая броня",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "size": "standard",
+    "quality": 0,
+    "price": 17000,
+    "equipped": false,
+    "stored": false,
+    "defense": 5,
+    "properties": "",
+    "description": ""
+  },
+  "effects": [],
+  "folder": "1e43980159618b9d",
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

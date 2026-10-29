@@ -1,0 +1,507 @@
+{
+  "_id": "8ecc1031efdbb7dd",
+  "_key": "!actors!8ecc1031efdbb7dd",
+  "name": "Казимир Понтски",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 2
+      },
+      "agility": {
+        "value": 4
+      },
+      "intellect": {
+        "value": 3
+      },
+      "empathy": {
+        "value": 4
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 0,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 1,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 1,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 1,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 2,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 0,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 0,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 0,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 0,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 3,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 3,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 1,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 6,
+      "max": 6,
+      "bonus": 0
+    },
+    "will": {
+      "value": 7,
+      "max": 7,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Многие годы на кораблях, путь от обычного матроса до капитана собственного судна, которым он стал год назад. Большой авторитет и подкупающая улыбка выделяют Казимира на фоне других капитанов, а знание двуличной людской природы помогает лавировать между сложностями «вынужденного» нарушения закона.</p>",
+    "injuries": "",
+    "supercredits": 5000,
+    "reputation": 2,
+    "xp": 0,
+    "origin": "",
+    "religion": "",
+    "blessing": 0,
+    "heroTokens": 0,
+    "encumbranceBonus": 0,
+    "resources": {
+      "t1": 0,
+      "t2": 0,
+      "t3": 0,
+      "t4": 0,
+      "t5": 0
+    },
+    "cabin": {
+      "description": "",
+      "storage": ""
+    },
+    "factions": {
+      "demos": 0,
+      "commune": 0,
+      "peddlers": 0,
+      "frontiers": 0,
+      "church": 0,
+      "outcasts": 0
+    },
+    "clans": {
+      "wolf": 0,
+      "eagle": 0,
+      "snake": 0,
+      "ram": 0,
+      "owl": 0,
+      "bear": 0
+    },
+    "appearance": "",
+    "notes": "<p>Роль: Капитан.</p>"
+  },
+  "items": [
+    {
+      "_id": "ff9eee71740cc80d",
+      "_key": "!actors.items!8ecc1031efdbb7dd.ff9eee71740cc80d",
+      "name": "Златоуст",
+      "type": "specialization",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": "<p>Ваш язык подвешен очень высоко. Вы знаете всё о людях и что им нужно сказать, чтобы они сделали то, что нужно вам. Вы — гений переговоров и самый близкий друг половины жителей Славии. По крайней мере, они так думают.</p><h3>Рекомендуемые навыки</h3><p>Влияние, Лидерство, Культура</p><h3>Модификатор репутации</h3><p>+1</p><h3>Дополнительный опыт</h3><ul><li>Ваша репутация сыграла решающую роль в решении проблемы — 2 опыта</li><li>Вы или ваша группа обрели нового союзника с вашей помощью — 2 опыта</li><li>Вы предложили план, который помог в решении сложной задачи группы с помощью переговоров — 2 опыта</li></ul><h3>Примеры положительных черт</h3><ul><li>Богатая семья</li><li>Мастер первого впечатления</li><li>Зычный голос</li></ul><h3>Примеры отрицательных черт</h3><ul><li>Болтливость</li><li>Трусливость</li><li>Завистливость</li></ul><h3>Стартовое снаряжение на выбор</h3><ul><li>Музыкальный инструмент или Набор игральных карт</li><li>Платиновая карта постоянного гостя ресторана в Краснограде или Официальный костюм с броневставками (1 брони, лёгкая)</li><li>КПК последней модели и крутой номер или Нож с гравировкой с вашим именем</li><li>«Сахарок» или 3 пачки сигарет</li></ul>",
+        "variations": "Дипломат, капитан, артист",
+        "recommendedSkills": [
+          "influence",
+          "leadership",
+          "culture"
+        ],
+        "reputationModifier": 1,
+        "xpActions": "Ваша репутация сыграла решающую роль в решении проблемы — 2 опыта; Вы или ваша группа обрели нового союзника с вашей помощью — 2 опыта; Вы предложили план, который помог в решении сложной задачи группы с помощью переговоров — 2 опыта",
+        "traitExamples": "Положительные: Богатая семья, Мастер первого впечатления, Зычный голос. Отрицательные: Болтливость, Трусливость, Завистливость.",
+        "startingGear": "Музыкальный инструмент или Набор игральных карт; Платиновая карта постоянного гостя ресторана в Краснограде или Официальный костюм с броневставками (1 брони, лёгкая); КПК последней модели и крутой номер или Нож с гравировкой с вашим именем; «Сахарок» или 3 пачки сигарет"
+      },
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.specializations.Item.02782df0b44950ab"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "e94cd20b69206888",
+      "_key": "!actors.items!8ecc1031efdbb7dd.e94cd20b69206888",
+      "name": "Богатая семья",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>+2 к влиянию в уместной ситуации.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 2,
+        "bonusTarget": "skill.influence",
+        "conditional": true
+      },
+      "effects": [],
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.1a9a016a3433d3cf"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "ae52dfa246866185",
+      "name": "В розыске у клана Змеи",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "",
+        "kind": "negative",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!8ecc1031efdbb7dd.ae52dfa246866185"
+    },
+    {
+      "_id": "cdc5b1f5da2431c1",
+      "_key": "!actors.items!8ecc1031efdbb7dd.cdc5b1f5da2431c1",
+      "name": "Тяжёлый пистолет Куровски",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 1800,
+        "equipped": true,
+        "stored": false,
+        "skill": "shooting",
+        "modifier": 0,
+        "initiative": 0,
+        "damage": 3,
+        "crit": 2,
+        "range": "medium",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "Надёжное",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": "<p><strong>Надёжное:</strong> Мастер может устроить осечку только за 4 жетона Чернобога, а не за 3.</p>"
+      },
+      "effects": [],
+      "sort": 2500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.weapons.Item.44941688f3cab769"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "45f0bf12eca39b0d",
+      "_key": "!actors.items!8ecc1031efdbb7dd.45f0bf12eca39b0d",
+      "name": "Лётный комбинезон",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 1200,
+        "equipped": true,
+        "stored": false,
+        "defense": 1,
+        "properties": "Лёгкая, огнестойкая (3)",
+        "description": "<p><strong>Лёгкая:</strong> Малый вес; +1 к проверкам проворства и скрытности носителя.</p><p><strong>Огнестойкая:</strong> Дополнительная броня указанной величины против огня.</p>"
+      },
+      "effects": [],
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.armor.Item.544620d558a07ba9"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "0b49ef108b866ce8",
+      "_key": "!actors.items!8ecc1031efdbb7dd.0b49ef108b866ce8",
+      "name": "Бинокль",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 400,
+        "equipped": false,
+        "stored": false,
+        "modifier": 1,
+        "bonusTarget": "skill.observation",
+        "conditional": true,
+        "description": "<p>+1 к проверкам наблюдательности.</p>"
+      },
+      "effects": [],
+      "sort": 5200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.056c0a39719c6d25"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "c90469737214515a",
+      "_key": "!actors.items!8ecc1031efdbb7dd.c90469737214515a",
+      "name": "КПК",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 500,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Повсеместно распространённое устройство для связи и выхода в сеть. Цена 500–6000.</p>"
+      },
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.a526594e5618ca39"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "079d3dc41a55f72d",
+      "name": "Командирский планшет",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "light",
+        "quality": 0,
+        "price": 0,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!8ecc1031efdbb7dd.079d3dc41a55f72d"
+    },
+    {
+      "_id": "ef885fc55bbe8df5",
+      "name": "Скидочная карта сети «Трава у дома»",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 0,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!8ecc1031efdbb7dd.ef885fc55bbe8df5"
+    },
+    {
+      "_id": "d8a247f0a195dc75",
+      "name": "Ключи от корабля",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 0,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": ""
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      },
+      "_key": "!actors.items!8ecc1031efdbb7dd.d8a247f0a195dc75"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Казимир Понтски",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

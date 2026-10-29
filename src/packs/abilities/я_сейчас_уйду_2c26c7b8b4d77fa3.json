@@ -1,0 +1,29 @@
+{
+  "_id": "2c26c7b8b4d77fa3",
+  "_key": "!items!2c26c7b8b4d77fa3",
+  "name": "Я сейчас уйду",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+1 к проверкам влияния при торговле.</p><p>Уровень 1. Выбирается вместо «Это поможет освежить вашу память?».</p>",
+    "skill": "influence",
+    "tier": 1,
+    "active": false,
+    "used": false,
+    "modifier": 1,
+    "bonusTarget": "skill.influence",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "ea999bde4789d24a",
+  "sort": 12100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

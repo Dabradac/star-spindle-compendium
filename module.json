@@ -1,0 +1,234 @@
+{
+  "id": "star-spindle-compendium",
+  "title": "Звёздное Веретено — компендиум",
+  "description": "Компендиумы для системы «Звёздное Веретено»: специализации, особые способности, черты, оружие, броня, снаряжение, импланты, травмы, модули и орудия кораблей, готовые персонажи, примеры кораблей, бестиарий и таблицы к66.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "dabradac"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "star-spindle",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.3.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/init.mjs"
+  ],
+  "packs": [
+    {
+      "name": "specializations",
+      "label": "Специализации",
+      "type": "Item",
+      "path": "packs/specializations",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "abilities",
+      "label": "Особые способности",
+      "type": "Item",
+      "path": "packs/abilities",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "traits",
+      "label": "Черты и ремёсла",
+      "type": "Item",
+      "path": "packs/traits",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "weapons",
+      "label": "Оружие",
+      "type": "Item",
+      "path": "packs/weapons",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "armor",
+      "label": "Броня и щиты",
+      "type": "Item",
+      "path": "packs/armor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "gear",
+      "label": "Снаряжение",
+      "type": "Item",
+      "path": "packs/gear",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "implants",
+      "label": "Импланты и протезы",
+      "type": "Item",
+      "path": "packs/implants",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "injuries",
+      "label": "Травмы",
+      "type": "Item",
+      "path": "packs/injuries",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "ship-parts",
+      "label": "Модули и орудия кораблей",
+      "type": "Item",
+      "path": "packs/ship-parts",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "characters",
+      "label": "Готовые персонажи",
+      "type": "Actor",
+      "path": "packs/characters",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "ships",
+      "label": "Примеры кораблей",
+      "type": "Actor",
+      "path": "packs/ships",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "bestiary",
+      "label": "Бестиарий",
+      "type": "Actor",
+      "path": "packs/bestiary",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "star-spindle"
+    },
+    {
+      "name": "tables",
+      "label": "Таблицы к66",
+      "type": "RollTable",
+      "path": "packs/tables",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "reference",
+      "label": "Справочник",
+      "type": "JournalEntry",
+      "path": "packs/reference",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Звёздное Веретено",
+      "sorting": "m",
+      "color": "#a80d0d",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Персонажи",
+          "sorting": "m",
+          "packs": [
+            "specializations",
+            "abilities",
+            "traits",
+            "characters"
+          ]
+        },
+        {
+          "name": "Снаряжение",
+          "sorting": "m",
+          "packs": [
+            "weapons",
+            "armor",
+            "gear",
+            "implants"
+          ]
+        },
+        {
+          "name": "Корабли",
+          "sorting": "m",
+          "packs": [
+            "ship-parts",
+            "ships"
+          ]
+        },
+        {
+          "name": "Мастеру",
+          "sorting": "m",
+          "packs": [
+            "bestiary",
+            "injuries",
+            "tables",
+            "reference"
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://github.com/dabradac/star-spindle-compendium",
+  "manifest": "https://github.com/dabradac/star-spindle-compendium/releases/latest/download/module.json",
+  "download": "https://github.com/dabradac/star-spindle-compendium/releases/latest/download/star-spindle-compendium.zip"
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "ddf45c3db8682f33",
+  "_key": "!items!ddf45c3db8682f33",
+  "name": "Бионический протез",
+  "type": "implant",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "<p>Выращенные ткани; прижившись, неотличим от обычной части тела. +15000, если добавляет киберфункцию.</p><p>После установки к6 дней проверки, связанные с новой частью тела, получают −2.</p>",
+    "kind": "prosthesis",
+    "illegal": false,
+    "price": 45000,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "e83d3a3325eeecdf",
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

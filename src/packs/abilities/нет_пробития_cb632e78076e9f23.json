@@ -1,0 +1,29 @@
+{
+  "_id": "cb632e78076e9f23",
+  "_key": "!items!cb632e78076e9f23",
+  "name": "Нет пробития",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+2 к броне у управляемого вами транспортного средства.</p><p>Уровень 3. Выбирается вместо «Гонщик».</p>",
+    "skill": "piloting",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 0,
+    "bonusTarget": "",
+    "conditional": false
+  },
+  "effects": [],
+  "folder": "97724ff2148b3c77",
+  "sort": 5500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

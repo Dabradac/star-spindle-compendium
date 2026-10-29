@@ -1,0 +1,54 @@
+{
+  "_id": "3082a89c703fc7de",
+  "_key": "!items!3082a89c703fc7de",
+  "name": "Разрыв уха",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Шок (3); −2 при проверках наблюдательности</p><p>Смерть: Нет. Крайний срок помощи: —. Период излечения: 3к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "34",
+    "lethal": false,
+    "deadline": "—",
+    "effect": "Шок (3); −2 при проверках наблюдательности",
+    "period": "3к6",
+    "strength": 3
+  },
+  "effects": [
+    {
+      "_id": "1b100b062ff730fe",
+      "_key": "!items.effects!3082a89c703fc7de.1b100b062ff730fe",
+      "name": "Разрыв уха",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.observation.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

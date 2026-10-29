@@ -1,0 +1,29 @@
+{
+  "_id": "e9274b159902c03d",
+  "_key": "!items!e9274b159902c03d",
+  "name": "Доктор наук",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Выберите две узкоспециализированных научных темы, в которых вы отлично разбираетесь, и получите +2 при проверках науки, которые связаны с этими темами.</p><p>Уровень 3. Выбирается вместо «Практик».</p>",
+    "skill": "science",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 2,
+    "bonusTarget": "skill.science",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "94573f433d44f8a0",
+  "sort": 10500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

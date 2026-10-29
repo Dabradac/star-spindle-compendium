@@ -1,0 +1,557 @@
+{
+  "_id": "f350631d4d81c366",
+  "_key": "!actors!f350631d4d81c366",
+  "name": "Святополк Чугунков",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "body": {
+        "value": 4
+      },
+      "agility": {
+        "value": 3
+      },
+      "intellect": {
+        "value": 4
+      },
+      "empathy": {
+        "value": 3
+      }
+    },
+    "skills": {
+      "melee": {
+        "value": 0,
+        "bonus": 0
+      },
+      "strength": {
+        "value": 0,
+        "bonus": 0
+      },
+      "shooting": {
+        "value": 1,
+        "bonus": 0
+      },
+      "dexterity": {
+        "value": 0,
+        "bonus": 0
+      },
+      "stealth": {
+        "value": 0,
+        "bonus": 0
+      },
+      "piloting": {
+        "value": 0,
+        "bonus": 0
+      },
+      "observation": {
+        "value": 0,
+        "bonus": 0
+      },
+      "survival": {
+        "value": 2,
+        "bonus": 0
+      },
+      "cybershamanism": {
+        "value": 2,
+        "bonus": 0
+      },
+      "mechanics": {
+        "value": 3,
+        "bonus": 0
+      },
+      "science": {
+        "value": 0,
+        "bonus": 0
+      },
+      "healing": {
+        "value": 2,
+        "bonus": 0
+      },
+      "influence": {
+        "value": 0,
+        "bonus": 0
+      },
+      "leadership": {
+        "value": 0,
+        "bonus": 0
+      },
+      "culture": {
+        "value": 0,
+        "bonus": 0
+      },
+      "witchcraft": {
+        "value": 0,
+        "bonus": 0
+      }
+    },
+    "health": {
+      "value": 7,
+      "max": 7,
+      "bonus": 0
+    },
+    "will": {
+      "value": 7,
+      "max": 7,
+      "bonus": 0
+    },
+    "bonuses": {
+      "checks": 0,
+      "initiative": 0,
+      "armor": 0
+    },
+    "speed": 10,
+    "biography": "<p>Выпускник верховного техникума кораблестроения на Авроре. После того как жена Мирослава из ведунской семьи исчезла, оставив записку, он кочует с корабля на корабль в её поисках, даря капитанам изделия собственной работы.</p>",
+    "injuries": "",
+    "supercredits": 3000,
+    "reputation": 1,
+    "xp": 0,
+    "origin": "",
+    "religion": "",
+    "blessing": 0,
+    "heroTokens": 0,
+    "encumbranceBonus": 0,
+    "resources": {
+      "t1": 0,
+      "t2": 0,
+      "t3": 0,
+      "t4": 0,
+      "t5": 0
+    },
+    "cabin": {
+      "description": "",
+      "storage": ""
+    },
+    "factions": {
+      "demos": 0,
+      "commune": 0,
+      "peddlers": 0,
+      "frontiers": 0,
+      "church": 0,
+      "outcasts": 0
+    },
+    "clans": {
+      "wolf": 0,
+      "eagle": 0,
+      "snake": 0,
+      "ram": 0,
+      "owl": 0,
+      "bear": 0
+    },
+    "appearance": "",
+    "notes": "<p>Роль: Механик.</p>"
+  },
+  "items": [
+    {
+      "_id": "66f7c96883a783cb",
+      "_key": "!actors.items!f350631d4d81c366.66f7c96883a783cb",
+      "name": "Механик",
+      "type": "specialization",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": "<p>Всё металлическое, что скрипит, стучит или тикает, находится в вашем ведении. Корабли, механизмы и сложнейшие автоматизированные системы вы понимаете лучше, чем людей. Все проблемы решаются гаечным ключом, смазкой и, в самых экстренных случаях, синей изолентой.</p><h3>Рекомендуемые навыки</h3><p>Механика, Кибершаманство, Сила</p><h3>Модификатор репутации</h3><p>+1</p><h3>Дополнительный опыт</h3><ul><li>Вы спроектировали и создали уникальное устройство — 2 опыта</li><li>Вы починили поломку, предотвратив серьёзный ущерб — 2 опыта</li><li>Вы предложили план, который помог в решении сложной задачи группы с помощью навыка механики — 2 опыта</li></ul><h3>Примеры положительных черт</h3><ul><li>Мастер на все руки</li><li>Знаток реакторов</li><li>Полевой ремонт</li></ul><h3>Примеры отрицательных черт</h3><ul><li>Болезненная увлечённость механизмами</li><li>Разгильдяйство</li><li>Алкоголизм</li></ul><h3>Стартовое снаряжение на выбор</h3><ul><li>Ремонтный набор или Дуговой резак</li><li>Запчасти (3) или Герметик (3)</li><li>Механическая отмычка или Станционный костюм</li><li>Обрез двустволки или Подрывной пакет (2)</li></ul>",
+        "variations": "Бортинженер, строитель, разнорабочий",
+        "recommendedSkills": [
+          "mechanics",
+          "cybershamanism",
+          "strength"
+        ],
+        "reputationModifier": 1,
+        "xpActions": "Вы спроектировали и создали уникальное устройство — 2 опыта; Вы починили поломку, предотвратив серьёзный ущерб — 2 опыта; Вы предложили план, который помог в решении сложной задачи группы с помощью навыка механики — 2 опыта",
+        "traitExamples": "Положительные: Мастер на все руки, Знаток реакторов, Полевой ремонт. Отрицательные: Болезненная увлечённость механизмами, Разгильдяйство, Алкоголизм.",
+        "startingGear": "Ремонтный набор или Дуговой резак; Запчасти (3) или Герметик (3); Механическая отмычка или Станционный костюм; Обрез двустволки или Подрывной пакет (2)"
+      },
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.specializations.Item.c28ddada985871d7"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "29f811cc6a0601b1",
+      "_key": "!actors.items!f350631d4d81c366.29f811cc6a0601b1",
+      "name": "Мастер на все руки",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Вы можете соорудить из подручных средств и нескольких запчастей любой предмет снаряжения одноразового пользования.</p>",
+        "kind": "positive",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 1400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.de1259eae9d4ef0d"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "2f3b875c2855cd10",
+      "_key": "!actors.items!f350631d4d81c366.2f3b875c2855cd10",
+      "name": "Болезненная увлечённость механизмами",
+      "type": "trait",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "",
+        "kind": "negative",
+        "craft": false,
+        "level": 1,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false
+      },
+      "effects": [],
+      "sort": 6400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.traits.Item.3ef0c231d69c7bb8"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "aa0e1e44aa621e8d",
+      "_key": "!actors.items!f350631d4d81c366.aa0e1e44aa621e8d",
+      "name": "Винтовка Косина",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 2800,
+        "equipped": true,
+        "stored": false,
+        "skill": "shooting",
+        "modifier": 1,
+        "initiative": 0,
+        "damage": 3,
+        "crit": 3,
+        "range": "long",
+        "armorPiercing": 0,
+        "automatic": false,
+        "properties": "",
+        "ammo": {
+          "value": 0,
+          "max": 0
+        },
+        "description": ""
+      },
+      "effects": [],
+      "sort": 5000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.weapons.Item.6fc458d8b668b8e7"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "50a5172f0fcd919b",
+      "_key": "!actors.items!f350631d4d81c366.50a5172f0fcd919b",
+      "name": "Бронерубаха",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 3200,
+        "equipped": true,
+        "stored": false,
+        "defense": 3,
+        "properties": "",
+        "description": ""
+      },
+      "effects": [],
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.armor.Item.68deafe9a400a9db"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "8cb32a7ca8e3908f",
+      "_key": "!actors.items!f350631d4d81c366.8cb32a7ca8e3908f",
+      "name": "Запчасти",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 3,
+        "size": "small",
+        "quality": 0,
+        "price": 100,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Расходный материал для ремонта.</p>"
+      },
+      "effects": [],
+      "sort": 8400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.8cf36ed2342500b5"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "d87e8f856bc1fa30",
+      "_key": "!actors.items!f350631d4d81c366.d87e8f856bc1fa30",
+      "name": "Дуговой резак",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 2500,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Режет металл. После каждого использования нужна замена топливного элемента.</p>"
+      },
+      "effects": [],
+      "sort": 8300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.6d16970f55f5fd47"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "894a9c8bb79de043",
+      "_key": "!actors.items!f350631d4d81c366.894a9c8bb79de043",
+      "name": "Докторский чемодан",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "standard",
+        "quality": 0,
+        "price": 1000,
+        "equipped": false,
+        "stored": false,
+        "modifier": 1,
+        "bonusTarget": "skill.healing",
+        "conditional": true,
+        "description": "<p>Набор для первой помощи и стабилизации травм. 10 «зарядов», пополнение — 100 сверкредитов. Складывающийся модификатор +1 при первой помощи и лечении травм.</p>"
+      },
+      "effects": [],
+      "sort": 1500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.7e41b479f78fd6e8"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "35e180852270388b",
+      "_key": "!actors.items!f350631d4d81c366.35e180852270388b",
+      "name": "СПАС-1",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 5,
+        "size": "small",
+        "quality": 0,
+        "price": 300,
+        "equipped": false,
+        "stored": false,
+        "modifier": 1,
+        "bonusTarget": "skill.healing",
+        "conditional": true,
+        "description": "<p>Система персональной активной стабилизации. Модификатор проверки +1, мгновенно восстанавливает 2 здоровья. Можно зарядить в пневматический инъектор.</p>"
+      },
+      "effects": [],
+      "sort": 2100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.aafdd1407a8d12b4"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "44d42b5526756ea8",
+      "_key": "!actors.items!f350631d4d81c366.44d42b5526756ea8",
+      "name": "Компас",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 200,
+        "equipped": false,
+        "stored": false,
+        "modifier": 1,
+        "bonusTarget": "skill.survival",
+        "conditional": true,
+        "description": "<p>+1 к проверкам выживания при ориентировании на местности.</p>"
+      },
+      "effects": [],
+      "sort": 4000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.bc6d220e84f15554"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    },
+    {
+      "_id": "610eb2c924edf662",
+      "_key": "!actors.items!f350631d4d81c366.610eb2c924edf662",
+      "name": "КПК",
+      "type": "gear",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "quantity": 1,
+        "size": "small",
+        "quality": 0,
+        "price": 500,
+        "equipped": false,
+        "stored": false,
+        "modifier": 0,
+        "bonusTarget": "",
+        "conditional": false,
+        "description": "<p>Повсеместно распространённое устройство для связи и выхода в сеть. Цена 500–6000.</p>"
+      },
+      "effects": [],
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.star-spindle-compendium.gear.Item.a526594e5618ca39"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.345",
+        "systemId": "star-spindle",
+        "systemVersion": "0.3.0"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  },
+  "prototypeToken": {
+    "name": "Святополк Чугунков",
+    "actorLink": true,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "will"
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "width": 1,
+    "height": 1,
+    "sight": {
+      "enabled": true
+    }
+  }
+}

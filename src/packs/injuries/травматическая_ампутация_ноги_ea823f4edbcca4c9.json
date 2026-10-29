@@ -1,0 +1,54 @@
+{
+  "_id": "ea823f4edbcca4c9",
+  "_key": "!items!ea823f4edbcca4c9",
+  "name": "Травматическая ампутация ноги",
+  "type": "injury",
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "description": "<p>Персонаж теряет сознание на к6 часов; −2 при проверках проворства. Лишается ноги, скорость вдвое ниже</p><p>Смерть: Да, −1. Крайний срок помощи: к6 минут. Период излечения: 3к6 дн.</p><p>Штрафы к проверкам уже учтены активным эффектом травмы.</p>",
+    "code": "62",
+    "lethal": true,
+    "deadline": "к6 минут",
+    "effect": "Персонаж теряет сознание на к6 часов; −2 при проверках проворства. Лишается ноги, скорость вдвое ниже",
+    "period": "3к6",
+    "strength": 0
+  },
+  "effects": [
+    {
+      "_id": "3611991ffe21f30a",
+      "_key": "!items.effects!ea823f4edbcca4c9.3611991ffe21f30a",
+      "name": "Травматическая ампутация ноги",
+      "img": "icons/svg/blood.svg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.dexterity.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "duration": {},
+      "origin": null,
+      "statuses": [],
+      "description": "",
+      "tint": "#ffffff",
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 3100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}

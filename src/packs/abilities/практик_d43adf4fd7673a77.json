@@ -1,0 +1,29 @@
+{
+  "_id": "d43adf4fd7673a77",
+  "_key": "!items!d43adf4fd7673a77",
+  "name": "Практик",
+  "type": "ability",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Выберите четыре верхнеуровневых научных темы, в которых вы поверхностно, но хорошо разбираетесь, и получите +1 при проверках науки, которые связаны с этими темами.</p><p>Уровень 3. Выбирается вместо «Доктор наук».</p>",
+    "skill": "science",
+    "tier": 3,
+    "active": false,
+    "used": false,
+    "modifier": 1,
+    "bonusTarget": "skill.science",
+    "conditional": true
+  },
+  "effects": [],
+  "folder": "94573f433d44f8a0",
+  "sort": 10400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "star-spindle",
+    "systemVersion": "0.3.0"
+  }
+}
