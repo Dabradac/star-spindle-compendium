@@ -45,10 +45,6 @@ https://github.com/dabradac/star-spindle-compendium/releases/latest/download/mod
 Либо скачайте `star-spindle-compendium.zip` из релиза и распакуйте в `Data/modules/star-spindle-compendium/`
 (внутри должен лежать `module.json`). Затем включите модуль в мире.
 
-## Релиз
-
-Создайте релиз с тегом вида `v0.1.0` — GitHub Actions подставит версию в `module.json`
-и прикрепит к релизу `module.json` и `star-spindle-compendium.zip`.
 
 ## Сборка
 
